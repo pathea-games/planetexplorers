@@ -1,0 +1,1938 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoPaintDesc regionsMap="terrain_sections.bmp">
+  <!--grassland(0xff29d321)-->
+  <!--forest(0xff1e8419)-->
+  <!--rain forest(0xff1c8294)-->
+  <!--mountain(0xffe39a32)-->
+  <!--redstone(0xffa800ff)-->
+  <!--desert(0xfffffc00)-->
+  <!--swamp(0xff6c6c6c)-->
+  <!--crater(0xffff0000)-->
+  <RegionArray>
+    <!--redstone-->
+    <Region color="0xffa800ff">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="11" perc="30"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="12" perc="50"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="50"/>
+                <VoxelRate type="22" perc="80"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="5"/>
+                <VoxelRate type="22" perc="15"/>
+                <VoxelRate type="27" perc="70"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="30"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="27" perc="90"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="26" perc="70"/>
+                <VoxelRate type="27" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="20"/>
+                <VoxelRate type="22" perc="70"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="10"/>
+                <VoxelRate type="27" perc="40"/>
+                <VoxelRate type="25" perc="50"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="10"/>
+                <VoxelRate type="25" perc="35"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="10"/>
+                <VoxelRate type="12" perc="20"/>
+                <VoxelRate type="22" perc="60"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="5"/>
+                <VoxelRate type="27" perc="20"/>
+                <VoxelRate type="25" perc="30"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="5"/>
+                <VoxelRate type="25" perc="30"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="10"/>
+                <VoxelRate type="22" perc="40"/>
+                <VoxelRate type="27" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="10"/>
+                <VoxelRate type="25" perc="20"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="20"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="20"/>
+                <VoxelRate type="27" perc="35"/>
+                <VoxelRate type="29" perc="60"/>
+                <VoxelRate type="32" perc="75"/>
+                <VoxelRate type="28" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="40"/>
+                <VoxelRate type="28" perc="60"/>
+                <VoxelRate type="32" perc="90"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="50"/>
+                <VoxelRate type="28" perc="80"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="28" perc="10"/>
+                <VoxelRate type="29" perc="20"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="26" perc="5"/>
+                <VoxelRate type="28" perc="20"/>
+                <VoxelRate type="29" perc="30"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+    <!--crater-->
+    <Region color="0xffff0000">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="11" perc="30"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="12" perc="50"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="50"/>
+                <VoxelRate type="22" perc="80"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="5"/>
+                <VoxelRate type="22" perc="15"/>
+                <VoxelRate type="27" perc="70"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="30"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="27" perc="90"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="26" perc="70"/>
+                <VoxelRate type="27" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="20"/>
+                <VoxelRate type="22" perc="70"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="10"/>
+                <VoxelRate type="27" perc="40"/>
+                <VoxelRate type="25" perc="50"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="10"/>
+                <VoxelRate type="25" perc="35"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="10"/>
+                <VoxelRate type="12" perc="20"/>
+                <VoxelRate type="22" perc="60"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="5"/>
+                <VoxelRate type="27" perc="20"/>
+                <VoxelRate type="25" perc="30"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="5"/>
+                <VoxelRate type="25" perc="30"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="10"/>
+                <VoxelRate type="22" perc="40"/>
+                <VoxelRate type="27" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="10"/>
+                <VoxelRate type="25" perc="20"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="20"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="20"/>
+                <VoxelRate type="27" perc="35"/>
+                <VoxelRate type="29" perc="60"/>
+                <VoxelRate type="32" perc="75"/>
+                <VoxelRate type="28" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="40"/>
+                <VoxelRate type="28" perc="60"/>
+                <VoxelRate type="32" perc="90"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="50"/>
+                <VoxelRate type="28" perc="80"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="28" perc="10"/>
+                <VoxelRate type="29" perc="20"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="26" perc="5"/>
+                <VoxelRate type="28" perc="20"/>
+                <VoxelRate type="29" perc="30"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+    <!--grassland-->
+    <Region color="0xff29d321">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="20"/>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="13" perc="30"/>
+                <VoxelRate type="2" perc="40"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="2" perc="30"/>
+                <VoxelRate type="7" perc="50"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="80"/>
+                <VoxelRate type="4" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="10"/>
+                <VoxelRate type="4" perc="15"/>
+                <VoxelRate type="21" perc="70"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="21" perc="50"/>
+                <VoxelRate type="17" perc="60"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="18" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="19" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="70"/>
+                <VoxelRate type="4" perc="85"/>
+                <VoxelRate type="5" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="5"/>
+                <VoxelRate type="4" perc="10"/>
+                <VoxelRate type="21" perc="35"/>
+                <VoxelRate type="18" perc="80"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="50"/>
+                <VoxelRate type="4" perc="60"/>
+                <VoxelRate type="5" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="5"/>
+                <VoxelRate type="4" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="21" perc="90"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="20"/>
+                <VoxelRate type="4" perc="25"/>
+                <VoxelRate type="5" perc="60"/>
+                <VoxelRate type="17" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="5"/>
+                <VoxelRate type="4" perc="10"/>
+                <VoxelRate type="23" perc="70"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="20" perc="90"/>
+                <VoxelRate type="19" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="20"/>
+                <VoxelRate type="24" perc="25"/>
+                <VoxelRate type="32" perc="60"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="5"/>
+                <VoxelRate type="24" perc="10"/>
+                <VoxelRate type="23" perc="60"/>
+                <VoxelRate type="30" perc="90"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="19" perc="10"/>
+                <VoxelRate type="23" perc="70"/>
+                <VoxelRate type="30" perc="80"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="30" perc="10"/>
+                <VoxelRate type="31" perc="30"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="20" perc="5"/>
+                <VoxelRate type="23" perc="10"/>
+                <VoxelRate type="30" perc="20"/>
+                <VoxelRate type="31" perc="40"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+    <!--swamp-->
+    <Region color="0xff6c6c6c">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="20"/>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="13" perc="30"/>
+                <VoxelRate type="2" perc="40"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="2" perc="30"/>
+                <VoxelRate type="7" perc="50"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="80"/>
+                <VoxelRate type="37" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="10"/>
+                <VoxelRate type="37" perc="15"/>
+                <VoxelRate type="21" perc="70"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="21" perc="50"/>
+                <VoxelRate type="17" perc="60"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="18" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="19" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="70"/>
+                <VoxelRate type="37" perc="85"/>
+                <VoxelRate type="38" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="5"/>
+                <VoxelRate type="37" perc="10"/>
+                <VoxelRate type="21" perc="35"/>
+                <VoxelRate type="18" perc="80"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="50"/>
+                <VoxelRate type="37" perc="60"/>
+                <VoxelRate type="38" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="5"/>
+                <VoxelRate type="37" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="21" perc="90"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="20"/>
+                <VoxelRate type="37" perc="25"/>
+                <VoxelRate type="38" perc="60"/>
+                <VoxelRate type="17" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="5"/>
+                <VoxelRate type="37" perc="10"/>
+                <VoxelRate type="23" perc="70"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="20" perc="90"/>
+                <VoxelRate type="19" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="20"/>
+                <VoxelRate type="24" perc="25"/>
+                <VoxelRate type="32" perc="60"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="36" perc="5"/>
+                <VoxelRate type="24" perc="10"/>
+                <VoxelRate type="23" perc="60"/>
+                <VoxelRate type="30" perc="90"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="19" perc="10"/>
+                <VoxelRate type="23" perc="70"/>
+                <VoxelRate type="30" perc="80"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="30" perc="10"/>
+                <VoxelRate type="31" perc="30"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="20" perc="5"/>
+                <VoxelRate type="23" perc="10"/>
+                <VoxelRate type="30" perc="20"/>
+                <VoxelRate type="31" perc="40"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+    <!--desert-->
+    <Region color="0xfffffc00">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="13" perc="70"/>
+                <VoxelRate type="11" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="30"/>
+                <VoxelRate type="14" perc="50"/>
+                <VoxelRate type="12" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="90"/>
+                <VoxelRate type="11" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="5"/>
+                <VoxelRate type="14" perc="10"/>
+                <VoxelRate type="12" perc="70"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="30"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="27" perc="90"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="10"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="70"/>
+                <VoxelRate type="14" perc="85"/>
+                <VoxelRate type="15" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="5"/>
+                <VoxelRate type="15" perc="10"/>
+                <VoxelRate type="12" perc="35"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="10"/>
+                <VoxelRate type="12" perc="40"/>
+                <VoxelRate type="26" perc="70"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="50"/>
+                <VoxelRate type="14" perc="60"/>
+                <VoxelRate type="15" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="15" perc="5"/>
+                <VoxelRate type="14" perc="10"/>
+                <VoxelRate type="12" perc="80"/>
+                <VoxelRate type="26" perc="90"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="10"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="20"/>
+                <VoxelRate type="14" perc="25"/>
+                <VoxelRate type="15" perc="60"/>
+                <VoxelRate type="12" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="5"/>
+                <VoxelRate type="15" perc="10"/>
+                <VoxelRate type="12" perc="70"/>
+                <VoxelRate type="26" perc="90"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="10"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="20"/>
+                <VoxelRate type="15" perc="25"/>
+                <VoxelRate type="32" perc="60"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="5"/>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="60"/>
+                <VoxelRate type="30" perc="90"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="70"/>
+                <VoxelRate type="30" perc="80"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="90"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="30" perc="20"/>
+                <VoxelRate type="31" perc="40"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="5"/>
+                <VoxelRate type="26" perc="10"/>
+                <VoxelRate type="30" perc="30"/>
+                <VoxelRate type="31" perc="50"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+    <!--forest-->
+    <Region color="0xff1e8419">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="20"/>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="30"/>
+                <VoxelRate type="13" perc="80"/>
+                <VoxelRate type="8" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="30"/>
+                <VoxelRate type="7" perc="50"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="10"/>
+                <VoxelRate type="8" perc="70"/>
+                <VoxelRate type="9" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="10"/>
+                <VoxelRate type="9" perc="15"/>
+                <VoxelRate type="17" perc="70"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="17" perc="50"/>
+                <VoxelRate type="21" perc="60"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="18" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="19" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="70"/>
+                <VoxelRate type="9" perc="85"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="5"/>
+                <VoxelRate type="9" perc="10"/>
+                <VoxelRate type="17" perc="35"/>
+                <VoxelRate type="18" perc="80"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="50"/>
+                <VoxelRate type="9" perc="70"/>
+                <VoxelRate type="7" perc="80"/>
+                <VoxelRate type="5" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="5"/>
+                <VoxelRate type="9" perc="10"/>
+                <VoxelRate type="23" perc="70"/>
+                <VoxelRate type="17" perc="90"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="20"/>
+                <VoxelRate type="17" perc="25"/>
+                <VoxelRate type="32" perc="60"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="5"/>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="40"/>
+                <VoxelRate type="30" perc="50"/>
+                <VoxelRate type="31" perc="70"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="50"/>
+                <VoxelRate type="30" perc="60"/>
+                <VoxelRate type="31" perc="80"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="30" perc="10"/>
+                <VoxelRate type="31" perc="20"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="5"/>
+                <VoxelRate type="23" perc="10"/>
+                <VoxelRate type="30" perc="20"/>
+                <VoxelRate type="31" perc="40"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+    <!--mountains-->
+    <Region color="0xffe39a32">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="11" perc="30"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="12" perc="50"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="50"/>
+                <VoxelRate type="22" perc="80"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="5"/>
+                <VoxelRate type="22" perc="15"/>
+                <VoxelRate type="27" perc="70"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="30"/>
+                <VoxelRate type="26" perc="80"/>
+                <VoxelRate type="27" perc="90"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="26" perc="70"/>
+                <VoxelRate type="27" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="20"/>
+                <VoxelRate type="22" perc="70"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="10"/>
+                <VoxelRate type="27" perc="40"/>
+                <VoxelRate type="25" perc="50"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="10"/>
+                <VoxelRate type="25" perc="35"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="10"/>
+                <VoxelRate type="12" perc="20"/>
+                <VoxelRate type="22" perc="60"/>
+                <VoxelRate type="27" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="5"/>
+                <VoxelRate type="27" perc="20"/>
+                <VoxelRate type="25" perc="30"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="5"/>
+                <VoxelRate type="25" perc="30"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="10"/>
+                <VoxelRate type="22" perc="40"/>
+                <VoxelRate type="27" perc="80"/>
+                <VoxelRate type="25" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="27" perc="10"/>
+                <VoxelRate type="25" perc="20"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="20"/>
+                <VoxelRate type="26" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="22" perc="20"/>
+                <VoxelRate type="27" perc="35"/>
+                <VoxelRate type="29" perc="60"/>
+                <VoxelRate type="32" perc="75"/>
+                <VoxelRate type="28" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="40"/>
+                <VoxelRate type="28" perc="60"/>
+                <VoxelRate type="32" perc="90"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="25" perc="10"/>
+                <VoxelRate type="26" perc="50"/>
+                <VoxelRate type="28" perc="80"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="29" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="28" perc="10"/>
+                <VoxelRate type="29" perc="20"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="26" perc="5"/>
+                <VoxelRate type="28" perc="20"/>
+                <VoxelRate type="29" perc="30"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+    <!--rain forest-->
+    <Region color="0xff1c8294">
+      <HeightDescArray>
+        <HeightDesc start="0" end="93">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="90"/>
+                <VoxelRate type="2" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="93" end="94">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="30"/>
+                <VoxelRate type="10" perc="90"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="94" end="97">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="1" perc="20"/>
+                <VoxelRate type="10" perc="70"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="97" end="102">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="40"/>
+                <VoxelRate type="13" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="102" end="103">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="20"/>
+                <VoxelRate type="13" perc="30"/>
+                <VoxelRate type="2" perc="40"/>
+                <VoxelRate type="3" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="2" perc="30"/>
+                <VoxelRate type="7" perc="50"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="103" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="10"/>
+                <VoxelRate type="33" perc="70"/>
+                <VoxelRate type="34" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="33" perc="10"/>
+                <VoxelRate type="34" perc="15"/>
+                <VoxelRate type="17" perc="70"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="17" perc="50"/>
+                <VoxelRate type="21" perc="60"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="18" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="19" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="400">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="33" perc="70"/>
+                <VoxelRate type="34" perc="85"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="33" perc="5"/>
+                <VoxelRate type="34" perc="10"/>
+                <VoxelRate type="17" perc="35"/>
+                <VoxelRate type="18" perc="80"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="400" end="550">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="33" perc="50"/>
+                <VoxelRate type="34" perc="70"/>
+                <VoxelRate type="7" perc="80"/>
+                <VoxelRate type="5" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="33" perc="5"/>
+                <VoxelRate type="34" perc="10"/>
+                <VoxelRate type="23" perc="70"/>
+                <VoxelRate type="17" perc="90"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="80"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="20" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="550" end="600">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="33" perc="10"/>
+                <VoxelRate type="17" perc="25"/>
+                <VoxelRate type="32" perc="60"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="5"/>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="60"/>
+                <VoxelRate type="30" perc="90"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="18" perc="10"/>
+                <VoxelRate type="23" perc="70"/>
+                <VoxelRate type="30" perc="80"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="600" end="3000">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="30" perc="10"/>
+                <VoxelRate type="31" perc="20"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="20" perc="5"/>
+                <VoxelRate type="23" perc="10"/>
+                <VoxelRate type="30" perc="25"/>
+                <VoxelRate type="31" perc="40"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+    </Region>
+  </RegionArray>
+</AutoPaintDesc>

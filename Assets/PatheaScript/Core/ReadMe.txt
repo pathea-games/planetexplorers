@@ -1,0 +1,5 @@
+每个Script里包含一个或多个Trigger。
+每个Trigger下面包含一个或多个Event，一个或多个Condition,一个或多个Action。
+每个Condition包含一个或多个Group。Group之间是OR关系，Group内部是AND关系。
+每个Action包含一个或多个Group。每次执行，所有Group都要执行，Group内部的Action是按顺序执行。
+每个Trigger里面包含一个或多个Event，每个Event带一个优先级序号。Trigger里的任意一个Event发生，都会执行Trigger。Event是Script范围的，不同的Trigger下面的相同Event，通过其优先级序号来决定出发顺序。
