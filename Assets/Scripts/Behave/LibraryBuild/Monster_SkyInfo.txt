@@ -1,0 +1,81 @@
+Library class:
+BLMonster_Sky
+
+Trees:
+	AutoAfraid (1)
+	AutoCombatStressReaction (2)
+	AutoEscape (3)
+	AutoInBody (4)
+	AutoLeisure (5)
+	AutoLeisureSky (6)
+	AutoMoveAway (7)
+	AutoRagdoll (8)
+	AutoRequest (9)
+	AutoSkyMonsterCombat (10)
+	AutoSurround (11)
+	AutoThreat (12)
+	MBlueDragon (13)
+	MCaelumRex (14)
+	MHarpiaWarbird (15)
+	MMarigull (16)
+	MOskra (17)
+	MRedKorona (18)
+	MRedLancea (19)
+	MSagitta (20)
+	MSorasi (21)
+	MSpheniscidaePenguin (22)
+	MUnaala (23)
+	Unknown (24)
+
+Records:
+	Unknown (25)
+
+Collections:
+	Unknown (26)
+
+Contexts:
+	Unknown (27)
+
+Branch priority groups:
+	Unknown (28)
+
+Actions:
+	CastSkill (29)
+	CheckTime (30)
+	Escape (31)
+	FlyAndLand (32)
+	HasEnemy (33)
+	Idle (34)
+	IsCarrierAndSky (35)
+	IsEscape (36)
+	IsMemberSurround (37)
+	IsTargetMelee (38)
+	IsThreat (39)
+	MoveAnimator (40)
+	MoveAway (41)
+	MoveDirection (42)
+	MoveFlee (43)
+	MoveRange (44)
+	MoveSurround (45)
+	Patrol (46)
+	Probability (47)
+	RFollowPath (48)
+	RFollowTarget (49)
+	RHasRequest (50)
+	RIdle (51)
+	RMoveToPoint (52)
+	RotateToTarget (53)
+	Succeed (54)
+	TargetAngle (55)
+	TargetHover (56)
+	TargetInBody (57)
+	TargetRagdoll (58)
+	TargetRange (59)
+	Threat (60)
+	TowerDefence (61)
+	Unknown (62)
+
+Decorators:
+	Unknown (63)
+
+Agent classes:

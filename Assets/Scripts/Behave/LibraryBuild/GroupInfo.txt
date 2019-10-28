@@ -1,0 +1,34 @@
+Library class:
+BLGroup
+
+Trees:
+	GroupSpheniscidaePenguin (1)
+	Test (2)
+	Unknown (3)
+
+Records:
+	Unknown (4)
+
+Collections:
+	Unknown (5)
+
+Contexts:
+	Unknown (6)
+
+Branch priority groups:
+	Unknown (7)
+
+Actions:
+	AttackGroup (8)
+	EscapeGroup (9)
+	FlyAndLandGroup (10)
+	HasEnemyGroup (11)
+	HasEscapeGroup (12)
+	IdleGroup (13)
+	PatrolGroup (14)
+	Unknown (15)
+
+Decorators:
+	Unknown (16)
+
+Agent classes:

@@ -1,0 +1,30 @@
+using UnityEditor;
+using UnityEngine;
+using System.IO;
+
+
+class Behave1AssetExporter
+{
+	[MenuItem ("Assets/Behave/Export asset...")]
+	static void Export ()
+	{
+		BehaveAsset asset = (BehaveAsset)Selection.activeObject;
+
+		File.WriteAllBytes (
+			EditorUtility.SaveFilePanel (
+				"Export asset",
+				Application.dataPath,
+				Path.GetFileNameWithoutExtension (AssetDatabase.GetAssetPath (asset)) + ".behave",
+				"behave"
+			),
+			asset.Data
+		);
+	}
+
+
+	[MenuItem ("Assets/Behave/Export asset...", true)]
+	static bool CanExport ()
+	{
+		return Selection.activeObject is BehaveAsset;
+	}
+}

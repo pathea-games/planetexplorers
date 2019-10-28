@@ -1,0 +1,61 @@
+Library class:
+BLMonster
+
+Trees:
+	Patrol
+	Test
+	Unknown
+
+Contexts:
+	Unknown (1)
+
+Branch priority groups:
+	Unknown
+
+Actions:
+	AnimWait (1)
+	CoolDown (2)
+	CoolDown0 (3)
+	CoolDown1 (4)
+	CoolDown2 (5)
+	Failure (6)
+	HasTarget (7)
+	Idle (8)
+	IsAttackIdle (9)
+	IsJointRange (10)
+	IsRagdoll (11)
+	IsTargetAngle (12)
+	IsTargetRange (13)
+	Melee0 (14)
+	Melee1 (15)
+	Melee10 (16)
+	Melee11 (17)
+	Melee12 (18)
+	Melee13 (19)
+	Melee2 (20)
+	Melee3 (21)
+	Melee4 (22)
+	Melee5 (23)
+	Melee6 (24)
+	Melee7 (25)
+	Melee8 (26)
+	Melee9 (27)
+	MoveAnim (28)
+	MoveAway (29)
+	MoveEffect1 (30)
+	MoveEffect2 (31)
+	MoveEffect3 (32)
+	MoveToJoint (33)
+	MoveToTarget (34)
+	Patrol (35)
+	Probability (36)
+	RotateToJoint (37)
+	StopMove (38)
+	Succeed (39)
+	Threaten (40)
+	Unknown (41)
+
+Decorators:
+	Unknown (42)
+
+Agent classes:

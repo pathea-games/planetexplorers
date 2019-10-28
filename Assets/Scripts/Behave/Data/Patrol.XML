@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<BTData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <libraryName>MonsterBuild</libraryName>
+  <treeName>Patrol</treeName>
+  <actions>
+    <BTAction xsi:type="BTIdle">
+      <probality>0.36</probality>
+      <minIdleTime>2</minIdleTime>
+      <maxIdleTime>6</maxIdleTime>
+    </BTAction>
+    <BTAction xsi:type="BTPatrol">
+      <probality>0.4</probality>
+      <maxPatrolTime>15</maxPatrolTime>
+      <minPatrolRadius>10</minPatrolRadius>
+      <maxPatrolRadius>50</maxPatrolRadius>
+      <minPatrolHeight>0</minPatrolHeight>
+      <maxPatrolHeight>0</maxPatrolHeight>
+      <stopRadius>0.5</stopRadius>
+      <groundPatrol>true</groundPatrol>
+      <spawnCenter>false</spawnCenter>
+    </BTAction>
+  </actions>
+</BTData>

@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 997fb19626c6247d88b58a27e9e0be82
+labels:
+- Robot
+- Tree
+- Ai
+- Artificial
+- Intelligence
+- Behaviour
+- Behavior
+- Logic
+- Graph
+- Visual
+- Bot
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

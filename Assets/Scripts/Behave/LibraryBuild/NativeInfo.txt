@@ -1,0 +1,86 @@
+Library class:
+BLNative
+
+Trees:
+	AutoAfraid (1)
+	AutoCombatStressReaction (2)
+	AutoEscape (3)
+	AutoLeisure (4)
+	AutoRequest (5)
+	AutoThreat (6)
+	NativePuja (7)
+	PujaBodyguardCombat (8)
+	PujaBodyguardLeisure (9)
+	PujaCivilianCombat (10)
+	PujaCivilianLeisure (11)
+	PujaDoctorCombat (12)
+	PujaDoctorLeisure (13)
+	PujaGeneralCombat (14)
+	PujaGeneralLeisure (15)
+	PujaGuardCombat (16)
+	PujaGuardLeisure (17)
+	PujaMerchantCombat (18)
+	PujaMerchantLeisure (19)
+	PujaScoutCombat (20)
+	PujaScoutLeisure (21)
+	PujaSentryCombat (22)
+	PujaSentryLeisure (23)
+	PujaSoliderCombat (24)
+	PujaSoliderLeisure (25)
+	Unknown (26)
+
+Records:
+	Unknown (27)
+
+Collections:
+	Unknown (28)
+
+Contexts:
+	Unknown (29)
+
+Branch priority groups:
+	Unknown (30)
+
+Actions:
+	AttackWeapon (31)
+	CallHelp (32)
+	Chat (33)
+	CheckTime (34)
+	Doubt (35)
+	Elude (36)
+	Escape (37)
+	Guard (38)
+	HasEnemy (39)
+	HasTreat (40)
+	Idle (41)
+	IdleWeapon (42)
+	Injured (43)
+	Inspire (44)
+	IsEscape (45)
+	IsTargetMelee (46)
+	IsThreat (47)
+	MoveAnimator (48)
+	MoveWeapon (49)
+	Patrol (50)
+	Probability (51)
+	Profession (52)
+	RDialogue (53)
+	Reputation (54)
+	RFollowPath (55)
+	RFollowTarget (56)
+	RHasRequest (57)
+	RIdle (58)
+	RMoveToPoint (59)
+	RotateToTarget (60)
+	Sneak (61)
+	Succeed (62)
+	TargetAngle (63)
+	Threat (64)
+	TowerDefence (65)
+	Treat (66)
+	Unknown (67)
+
+Decorators:
+	Unknown (68)
+
+Agent classes:

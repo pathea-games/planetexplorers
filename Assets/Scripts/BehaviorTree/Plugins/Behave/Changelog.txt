@@ -1,0 +1,350 @@
+Changelist:
+
+
+2.5.4:
+ - Address Unity 5 compatibility issue with the home screen.
+
+
+2.5.3:
+ - Fix issue with home screen not closing.
+
+
+2.5.2:
+ - Play nice on Unity free again.
+
+
+2.5.1:
+ - More rigid network code for setting up the debugger.
+ - Upgraded protobuf-net distribution to r668, Unity, full.
+ - Drowned out debug logging accidentally included in 2.5.0.
+
+
+2.5:
+ - Optional text serialisation.
+     - Switch between text and binary serialisation in library settings.
+     - Full and partial exports to text or binary file.
+     - NOTE: Libraries opened in this version of Behave will be upgraded and are afterwards not backwards compatible.
+ - Compiler upgrade.
+     - Added lots of little CPU and memory optimisations.
+     - Added tree analysis leading to larger memory saves on references when possible.
+     - Improved handling of circular references.
+     - Improved error reporting.
+     - Changed name validation.
+         - Underscores are no longer allowed in names - in order to avoid name clashes with pathed assets.
+         - Fixed previously allowing leading numbers in names.
+ - Runtime API.
+     - Added library.ReflectForwards (ICollection, object).
+     - Added library.SupportedRecords (ICollection).
+     - Added blueprint.SupportedTrees.
+     - Added Library.DidInstantiate (ICollection / Tree).
+     - Changed generated enums to be valued continuously.
+     - Changed get calls for unhandled records to now return -1.
+ - Editor polish.
+     - Improved debugger view.
+         - Improved control bar layout.
+         - Improved rendering of active referenced trees.
+         - Fixes to follow-focus.
+         - Debug view no longer re-crops to current visible tree area, preventing the previous behaviour of the view jumping around even without follow-focus enabled.
+         - Improved sidebar listing of available- and connected runtimes.
+         - Improved handling of disconnecting runtimes.
+         - Improved tracking of available runtimes. No more need for refreshing.
+         - Improved UI for adding debugger overrides.
+         - Added "Add overrides enabled" setting (on by default).
+     - Library vertical scrollbar replaced by standalone scroll buttons top / bottom when relevant - reducing visual noise.
+     - Smaller tweaks and fixes.
+ - Improved internal test coverage.
+
+
+2.4.2:
+ - Fixed some issues related to handling priority selectors in the recently update debugger.
+
+
+2.4.1:
+ - Fix corner case when restructuring library assets.
+
+
+2.4:
+ - Introducing “records”.
+     - Float fields stored in “collections” - essentially ‘smart tables’.
+     - Blackboard fields.
+     - Utility curves.
+     - Utility graphs.
+     - Behaviour Tree integration.
+          - “Tester” component.
+          - “Writer” component.
+          - Record mode for Priority Selector component.
+ - Editor behavioural change: Deleting a tree no longer deletes reference nodes targeting that tree from other trees. Their target is merely cleared.
+ - Editor behavioural change: The Reference node is only available in the component bar if the library contains more than one tree. Same behaviour for Tester and Writer with records.
+ - Behavioural change: Invert flag is now properly applied by the Priority Selector.
+ - Debugger connection stability improvement.
+ - Connection disabling has been removed. This confusing feature caused more harm than good.
+ - Video player now displays video title and description.
+
+
+2.3.5:
+ - Fix home screen video player.
+
+
+2.3.4:
+ - Better error messages in case of insufficient file access privileges (OHAI Perforce).
+ - Added simple version check to the home screen.
+ - New icons for Priority Selector and "form new tree".
+ - Smaller, embedded, JSON library.
+ - Fix annoying behaviour with tree renaming where text fields would keep last entry.
+ - Fix similar behaviour with component text fields on tree selection change.
+ - Unity 5 compatibility fixes (tested on beta 2).
+
+
+2.3.3:
+ - Fix focus handling issue with auto-complete.
+ - Parametrisation is now correctly applied for reset handler calls.
+
+
+2.3.2:
+ - Fix sidebar item duplication and deletion only functional during rename.
+
+
+2.3.1:
+ - Fix GUI error being logged on tree selection.
+ - Proper handling of currently edited library asset being deleted.
+
+
+2.3:
+ - Added support for instant repeaters.
+ - Added support for mandatory contexts.
+ - Added optional target parameter to Tree.ResetForwards.
+ - Added Tree.TickWrapping method.
+ - Added debugger auto-launch settings to library build options.
+ - Added home screen - shown on launch or via the Help menu, full of resources.
+ - Behavioural change: Decorators no longer forward the instant flag of their child node.
+ - Behaviour of decorators receiving a Running signal from their control connection is now defined.
+ - Dependencies now shipped as separate (replaceable) files for minimal project impact.
+ - Editor polish.
+     - Added support for running multiple editor debugging instances on one machine.
+     - Added focus-follow for debugger and canvas.
+     - Added both scrollwheel/pad and drag-to-scroll support to all canvas views.
+     - Drag connection to occupied input slot to replace.
+     - Directly drag-drop trees from the sidebar onto the canvas as reference nodes.
+     - Instant flag doesn't show on nodes connected to parents ignoring the flag.
+     - "Last edited library" now tracked per project.
+     - Last selected tree is now also restored between sessions and playmode transitions.
+     - A bunch of minor adjustments and improvements.
+     - Performance + memory + disk space optimisations.
+     - Minor bugfixes.
+ - New documentation layout and enhancements (already released as available).
+ - Reshuffling of code to make way for exciting new things down the road.
+
+
+2.2.2:
+ - Addressed protobuf issue causing Parallel component completion setting to not get stored correctly.
+
+
+2.2.1:
+ - Fixed issue causing parallel components to fail compilation.
+
+
+2.2:
+ - Behavioural change: Support for multiple different action handler signatures is discontinued effective immediately.
+    - Generated agent blueprint as well as accepted reflected signatures are now only:
+        - public BehaveResult [Tick/Init][Name]Action (Tree sender);
+        - public void Reset[Name]Action (Tree sender);
+ - Added Tree class accessors - all valid only during an active init/tick/reset handler call:
+    - string ActiveStringParameter
+    - float ActiveFloatParameter
+    - IAgent ActiveAgent
+    - object ActiveData
+ - Rather than waiting for the Unity bugfix, the built-in compiler API is now bypassed in favour of direct compiler binary execution.
+    - An additional system-level mono SDK install is no longer needed to work around this Unity bug.
+ - Tree.SetForward now returns boolean success value rather than logging error when passed unused action.
+ - Full-library export now also available from the library settings in stead of menu-only access.
+ - Even more UI polish: Better word-wrap, more contrasts for emphasis, instant flag hidden in unaffected scenarios and much more.
+ - "Form new tree" nicely moves the new subtree up around the root socket rather than retaining the old position.
+ - Default frame-rate of DebugUpdater now set to 20 fps rather than every frame. Gun safety and all that.
+ - Massive codegen size save for larger libraries - from optimisation of tree-agent introspection codegen. Compile-time win.
+ - More rigid parameter evaluation (remove needless occasional extra codegen).
+ - Fixed copy and duplication procedures incorrectly not copying parameter values.
+ - Force Unity to write serialised data before compiling.
+
+
+2.1.1:
+ - Fixed issue with tree paramterisation breaking debugger visualisation.
+
+
+2.1:
+ - Added autocomplete on action names, string parameters and component contexts.
+ - Added mandatory actions (present in library regardless of use in trees).
+ - Added partial library export and library merging / import-to-library.
+ - Added Behave stripping - leave behind only a very lean Behave runtime, for redistribution or super slim deploy.
+ - Added parameterised trees - get even more re-use out of your trees by overriding context and variables per reference.
+ - Behavioural change: Tree.Reset will now delay resetting tree variables until after complete component reset.
+ - Behavioural change: Tree.Tick will no longer automatically reset the tree upon completion. This plays very well with:
+ - Added Tree.TickContinuously (int iterationCap = 1024) - ticks tree till completion or iteration cap is reached.
+ - Added BehaveResult Tree.Result (bool value) utility function to side with Tree.Invert (BehaveResult value).
+ - Added int Debugging.Local.ConnectionCount property - facilitating debug behaviour dependent on Behave debugger presence.
+ - Moved default install path from Assets/Behave to Assets/Plugins/Behave.
+    - WARNING: See Readme.txt upgrade guide.
+ - Fixed decorator control node removal resulting in detached control connection.
+ - Fixed decorator incorrectly not forwarding the instant status of its child node.
+ - Fixed scenario where agent classes would get reflected for handlers even if blueprint derived.
+ - Fixed unexpected corner cases of bad library configuration failing compiles (now causing warnings or simply being ignored).
+ - Fixed Behave window breaking down when exiting play mode after having been active there.
+ - Fixes to context getting incorrectly reset in some scenarios.
+ - Fixed copy / paste functionality missing in some text fields.
+ - Lots of UI polish and minor fixes.
+
+
+2.0:
+ - New editor.
+    - Unified all controls into one window.
+    - Completely customised look - compatible with both Unity light and dark skin.
+    - Keyboard authoring interface in addition to drag & drop.
+ - Debugger upgrade.
+    - Remote debugging.
+    - Tick and reset.
+    - "Unplug" for debugger-only control.
+    - Breakpoints.
+    - Action overrides - override the return values of specified actions.
+ - Decorator rewrite.
+    - Deprecated old decorator.
+       - Still compiles, but cannot be added.
+    - Decorators are now control-type components.
+       - No specific decorator handlers on agents.
+       - Control is achieved via third connection socket.
+    - Two initial decorator types: Repeater and Interrupter.
+ - Asset restructuring.
+ 	- No more collections - for nesting, use paths in tree names.
+ 	- New serialization format - see Readme.txt for upgrade instructions.
+    - Collections are gone. Use Unix-style path names for tree organisation.
+ - IAgent.Tick (Tree, bool) changed to IAgent.Tick (Tree)
+	- Init calls can now only be handled explicitly
+ - Full coverage online documentation and other community resources.
+ - Countless fixes and polish items.
+
+1.5:
+ - Added Tree.TickActive - indicating if a tree is currently executing a tick or if it has completed evaluation.
+ - In-tick tree reset requests now result in a reset at the end of tree evaluation rather than an immediate one.
+ - Removed the legacy compatibility assembly (for compatibility with pre-1.2 assets) from the default distribution.
+ - Fixed "X must be instantiated using the ScriptableObject.CreateInstance method instead of new X" warnings.
+
+1.4:
+ - Fixed decorator incorrectly initializing on every returning tick when tick handler returned Running.
+ - Fixed debugger view dependency on active tree editor - causing reported null reference exception.
+ - Fixed missing scrollbars on browser window.
+ - Reduced logging noise from debug builds.
+ - Agent blueprints can now be MonoBehaviour based.
+ - Clarified wording on "library not loaded".
+ - Now handling reset a bit cleverer - potential performance boost.
+ - Changed the default success criteria of Parallel components from SuccessOrFailure to Success.
+ - Added "instant" flag to components. Components marked instant will affect sequences and selectors when moving between child nodes. When a child node marked "instant" completes, rather than waiting for the next tree tick to tick the following child node, the sequence or selector does it immediately.
+ - The compiler progress bar returns.
+ - Editing a Behave asset now focuses the asset browser last instead of the tree editor.
+ - Behave can now be installed in any subfolder of Assets - provided its internal folder structure remains intact.
+ - Compilation speed improvements.
+ - Enabled references across collection borders.
+ - Added Tree.DataSize - returning the number of bytes used by a tree instance. This is also displayed in the debugger window.
+
+1.3:
+ - Fixed priority selector init flag resetting.
+ - Fixed reference handling on tree renaming and deletion.
+ - Fixed references still pointing at old collection post collection duplication.
+ - Fixed compilation of actions and decorators with non-integral float parameters.
+ - Fixed GUI list behaviours.
+ - Fixed passing context back and forth between referenced trees and referrer.
+ - Fixed reordering connections not causing save state to be set.
+ - Various GUI tweaks.
+ - Runtime optimisations.
+ - Enabled scrolling of the tree list in the debugger window.
+ - Exposed Tree.ReflectForwards.
+ - Added Tree.ResetForwards.
+ - Added agent blueprints - connecting to agent handlers through virtual methods rather than reflected handlers.
+ - Made connections selectable in the tree editor via the connection nub.
+ - Moved connection managing from the inspector to the tree editor, where it is more visible and handy.
+ - Added support for disabling connections - for faster, less destructive debugging.
+ - Double-click reference component to jump to referenced tree.
+ - Changed "Cannot update unregistered tree" handling from an exception to an error message. Still need more info.
+ - Now showing string and float parameters in the tree editor if either is set.
+
+1.2:
+ - Fixed release building.
+ - Added the priority selector, introducing the API points:
+    - int IAgent.SelectTopPriority (Tree sender, params int[] IDs);
+    - enum BL[LibraryName].PriorityType { PriorityName, ..., Unknown };
+ - Added support for branch contexts, introducing the API points:
+    - enum BL[LibraryName].ContextType { ContextName, ..., Unknown };
+    - int Tree.ActiveContext { get; }
+ - Changed IAgent interface:
+    - Tick (bool init, Tree sender) -> Tick (Tree sender, bool init)
+ - Added "Select asset" button to the standard inspector.
+ - Interface polish.
+
+1.1:
+ - Made compatible with Unity 3.0 - including ensuring that the 2.5-2.6.1 bug preventing compilation on Windows is fixed on the Unity side.
+ - UI tweaks and polish.
+ - Added the option to have return values of nodes be inverted.
+ - Fixed compiler bug when facing sequence or selector with only one child node.
+ - Renamed Library.Tree -> Library.InstantiateTree.
+ - Added Tree.Tick () and Tree.Reset () methods using the IAgent instance given at instantiation of the tree.
+ - Removed the abstract Library class.
+ - Changed generated library class:
+    - Trees -> TreeType.
+    - Actions -> ActionType.
+    - Decorators -> DecoratorType.
+    - Tree InstantiateTree (int, IAgent) -> static Tree InstantiateTree (TreeType, IAgent)
+    - int TreeID (Tree) -> static TreeType Type (Tree)
+    - bool IsAction (int) -> static bool IsAction (int)
+    - bool IsDecorator (int) -> static bool IsDecorator (int)
+ - Upped editor performance.
+ - New asset structure change with automatic import of Behave 1.0 assets.
+ - Changed action and decorator handlers. These are now the handlers mapped:
+    - public BehaveResult Init[Name][Action/Decorator] (Tree sender, string stringParameter, float floatParameter, IAgent agent, object data);
+    - public BehaveResult Tick[Name][Action/Decorator] (Tree sender, string stringParameter, float floatParameter, IAgent agent, object data);
+    - public void Reset[Name][Action/Decorator] (Tree sender, string stringParameter, float floatParameter, IAgent agent, object data);
+    - public BehaveResult Init[Name][Action/Decorator] (Tree sender);
+    - public BehaveResult Tick[Name][Action/Decorator] (Tree sender);
+    - public void Reset[Name][Action/Decorator] (Tree sender);
+    - public BehaveResult [Name][Action/Decorator] {get; set;}
+ - Added support for collection duplication.
+ - Moved debug rendering into the editor with its own dedicated debugger window, including actor listing.
+ - Debugger now renders active sub-trees as well.
+
+1.0:
+ - Lots o fixes for Unity 2.5 compatibility.
+ - Closer editor integration with new UI.
+    - Component bar.
+    - Node inspection.
+ - Runtime tree debugging.
+ - Direct mapping of action and delegate handlers via reflection.
+ - Kitty demo.
+
+0.3b:
+ - Various tweaks to the editor UI.
+ - Optimised the compiler.
+ - Fixed the following editor bugs from the bug list:
+    - When the editor scrips are recompiled and when the user enters and exits play mode, running editors will loose references, causing undetermined behaviour.
+    - When a compile fails, the Behave compiler is locked and unusable – requiring a unity relaunch.
+ - Implemented the following wishlist items:
+    - Behaviour tree decorators.
+    - Stand-alone edition of the Behave editor.
+    - Behaviour tree debugging features.
+
+0.2b:
+ - Made the demo project a whole lot more interesting.
+ - Implemented the editor wish list item: Ability to move trees between collections.
+ - Various tweaks to the editor UI.
+ - Fixed a ton of bugs in the compiler.
+ - Fixed the following editor bugs from the bug list:
+    - Not able to delete collections from library.
+    - Not able to delete trees from library.
+    - Not able to rename collections from library.
+    - Not able to rename trees from library.
+    - Missing "tree has been changed, save changes?" dialog.
+
+0.1b:
+ - Some documentation is available.
+ - Compiler is now creating sensible output.
+ - A simple test tree and script using it is provided with the demo.
+ - Documentation is linked directly from the unity help menu.
+ - Less spamming of the log with debug information.
+
+Pre-release:
+ - Magic happened. Behave was born.

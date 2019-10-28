@@ -1,0 +1,93 @@
+Library class:
+BLMonstersadd
+
+Trees:
+	AutoAfraid (1)
+	AutoCombatStressReaction (2)
+	AutoEscape (3)
+	AutoInBody (4)
+	AutoLeisure (5)
+	AutoLeisureWater (6)
+	AutoMoveAway (7)
+	AutoRagdoll (8)
+	AutoRequest (9)
+	AutoThreat (10)
+	MBlindatillo (11)
+	MBlindatilloCombat (12)
+	MBlindatilloLeisure (13)
+	MCamelusCamel (14)
+	MCamelusCamelCombat (15)
+	MCamelusCamelLeisure (16)
+	MHellratAdult (17)
+	MHellratAdultCombat (18)
+	MHellratAdultLeisure (19)
+	MHellratChild (20)
+	MHellratChildCombat (21)
+	MHellratChildLeisure (22)
+	MMarishu (23)
+	MMarishuCombat (24)
+	MMarishuLeisure (25)
+	MPelosoGibbon (26)
+	MPelosoGibbonCombat (27)
+	MPelosoGibbonLeisure (28)
+	MStaurozoaHexocrab (29)
+	MStaurozoaHexocrabCombat (30)
+	MStaurozoaHexocrabLeisure (31)
+	MStonecrusher (32)
+	MStonecrusherCombat (33)
+	MStonecrusherLeisure (34)
+	Unknown (35)
+
+Records:
+	Unknown (36)
+
+Collections:
+	Unknown (37)
+
+Contexts:
+	Unknown (38)
+
+Branch priority groups:
+	Unknown (39)
+
+Actions:
+	AttackRanged (40)
+	CheckTime (41)
+	Escape (42)
+	Follow (43)
+	HasEnemy (44)
+	Idle (45)
+	IsEscape (46)
+	IsTargetMelee (47)
+	IsThreat (48)
+	Melee (49)
+	MeleeAttack (50)
+	MoveAnimator (51)
+	MoveAway (52)
+	MoveDirection (53)
+	MoveFlee (54)
+	MoveToTarget (55)
+	Patrol (56)
+	Pounce (57)
+	Probability (58)
+	RFollowPath (59)
+	RFollowTarget (60)
+	RHasRequest (61)
+	RIdle (62)
+	RMoveToPoint (63)
+	RotateToTarget (64)
+	Sprint (65)
+	Succeed (66)
+	TargetAngle (67)
+	TargetInBody (68)
+	TargetRagdoll (69)
+	TargetRange (70)
+	Threat (71)
+	TowerDefence (72)
+	TurnOnSpot (73)
+	Unknown (74)
+
+Decorators:
+	Unknown (75)
+
+Agent classes:

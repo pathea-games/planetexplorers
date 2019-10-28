@@ -1,0 +1,74 @@
+Library class:
+BLMonster_Robot
+
+Trees:
+	AlienRobot01 (1)
+	AlienRobot01Combat (2)
+	AlienRobot02 (3)
+	AlienRobot02Combat (4)
+	AutoLeisureSky (5)
+	AutoLeisureWater (6)
+	AutoRobotUnfold (7)
+	PajaHumanRobot (8)
+	PajaHumanRobotCombat (9)
+	PajaHumanRobotLeisure (10)
+	PajaSeaRobot01 (11)
+	PajaSeaRobot01Combat (12)
+	PujaFlyingRobot03 (13)
+	PujaFlyingRobot03Combat (14)
+	PujaFlyingRobot04 (15)
+	PujaFlyingRobot04Combat (16)
+	Unknown (17)
+
+Records:
+	Unknown (18)
+
+Collections:
+	Unknown (19)
+
+Contexts:
+	Unknown (20)
+
+Branch priority groups:
+	Unknown (21)
+
+Actions:
+	AttackBone (22)
+	AttackRanged (23)
+	AttackSuicide (24)
+	AttackSummon (25)
+	Blink (26)
+	CastSkill (27)
+	CheckTime (28)
+	Crouch (29)
+	EnergyShield (30)
+	FlyAndLand (31)
+	Follow (32)
+	HasEnemy (33)
+	Idle (34)
+	IdleAnimation (35)
+	IsCarrierAndSky (36)
+	IsFly (37)
+	IsHpPercent (38)
+	Melee (39)
+	MeleeAttack (40)
+	MeleeRotate (41)
+	MoveAround (42)
+	MoveArroundSuccess (43)
+	MoveToTarget (44)
+	Patrol (45)
+	Probability (46)
+	Return (47)
+	RotatingLightsaber (48)
+	Strike (49)
+	StrikeTerrain (50)
+	Succeed (51)
+	SwitchStateSky (52)
+	TargetRange (53)
+	Unfold (54)
+	Unknown (55)
+
+Decorators:
+	Unknown (56)
+
+Agent classes:

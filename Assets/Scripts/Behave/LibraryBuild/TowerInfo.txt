@@ -1,0 +1,28 @@
+Library class:
+BLTower
+
+Trees:
+	Tower (1)
+	Unknown (2)
+
+Records:
+	Unknown (3)
+
+Collections:
+	Unknown (4)
+
+Contexts:
+	Unknown (5)
+
+Branch priority groups:
+	Unknown (6)
+
+Actions:
+	HasEnemy (7)
+	TowerAttack (8)
+	Unknown (9)
+
+Decorators:
+	Unknown (10)
+
+Agent classes:
