@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ShaderPairsTbl>
+<ShaderPairs>
+	<Pair ShellShader="Standard" EntityShader="Standard"/>
+	<Pair ShellShader="StdShell" EntityShader="Standard"/>
+	<Pair ShellShader="AvatarStdShell" EntityShader="AvatarStdEntity"/>
+	<Pair ShellShader="DoubleSideStdShell" EntityShader="DoubleSideStdEntity"/>
+</ShaderPairs>
+</ShaderPairsTbl>

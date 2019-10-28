@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAssetBundleDesc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<AssetBundleDesc PathName="Prefab/Item/Scene/emergencyKit0" campName="GerdyCamp">
+    <Pos X="12235" Y="116.6" Z="6072" RotX="0.08699048" RotY="0.3107565" RotZ="0.242593169" RotW="0.9148835" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>	
+  <AssetBundleDesc PathName="Prefab/Item/Scene/emergencyKit1" campName="CarterCamp">
+    <Pos X="12246" Y="193" Z="6533" RotX="0" RotY="0.614091158" RotZ="0" RotW="-0.7892352" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>		
+  <AssetBundleDesc PathName="Item/scene_Lifeboat01.unity3d">
+    <Pos X="12238.8" Y="120.14917" Z="6091.7085" RotX="-0.06289573" RotY="-0.120753862" RotZ="0.0111881783" RotW="0.990624845" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7944.062" Y="94.41806" Z="6527.868" RotX="-0.115968138" RotY="0.249774933" RotZ="0.0301458072" RotW="0.9608617" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_grassland_gianttree.unity3d">
+    <Pos X="11720.8047" Y="104.397446" Z="7982.36035" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1.5" ScaleX="1.5" ScaleY="1.5" ScaleZ="1.5" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_grassland_rock_formation.unity3d">
+    <Pos X="10664.56" Y="150.5" Z="7148.37646" RotX="0.08895647" RotY="0.005061272" RotZ="0.0660713762" RotW="0.993828833" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_MeteoriteCrater_grassland.unity3d">
+    <Pos X="11411.4238" Y="169.006531" Z="6885.111" RotX="-0.00810442" RotY="-0.6081801" RotZ="0.0642399862" RotW="0.791153967" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_healing_tube.unity3d">
+    <Pos X="12246.2979" Y="193.140015" Z="6528.724" RotX="-0.7071068" RotY="0" RotZ="0" RotW="0.7071068" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Lifeboat.unity3d">
+    <Pos X="9810.478" Y="118.39624" Z="7367.375" RotX="-0.00118854013" RotY="-0.239665568" RotZ="-0.0413474478" RotW="0.9699739" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12276.9268" Y="187.9223" Z="6525.66357" RotX="0.0870288461" RotY="0.004416212" RotZ="-0.05048624" RotW="0.994915962" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7669.24951" Y="249.611282" Z="7729.15967" RotX="0.0172806773" RotY="-0.0132791745" RotZ="-0.0126075065" RotW="0.9996831" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="8573.007" Y="305.999084" Z="8555.5" RotX="0.0100131091" RotY="-0.366526783" RotZ="-0.0201394148" RotW="0.930135667" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="9922.343" Y="251.807831" Z="9590.843" RotX="0.0790744945" RotY="0.111888416" RotZ="0.0166001935" RotW="0.990430534" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7920.543" Y="392.42215" Z="11379.8535" RotX="-0.0135599608" RotY="-0.208197713" RotZ="-0.006135148" RotW="0.9779735" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_plaza_03_grassland.unity3d">
+    <Pos X="11518.3779" Y="136.871719" Z="8738.243" RotX="0" RotY="0.101264179" RotZ="0" RotW="0.994859636" ScaleX="1.3" ScaleY="1.3" ScaleZ="1.3" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_plaza_02_grassland.unity3d">
+    <Pos X="11499.1035" Y="134.975372" Z="8671.641" RotX="0" RotY="0.999902248" RotZ="0" RotW="0.013981916" ScaleX="1.3" ScaleY="1.3" ScaleZ="1.3" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_plaza_01_grassland.unity3d">
+    <Pos X="11528.3389" Y="133.373154" Z="8622.668" RotX="0" RotY="0.991552651" RotZ="0" RotW="0.129705146" ScaleX="1.3" ScaleY="1.3" ScaleZ="1.3" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_StoneCave_grassland.unity3d">
+    <Pos X="10849.915" Y="185.103348" Z="8249.388" RotX="0.026317697" RotY="0.939230561" RotZ="-0.03617274" RotW="0.340360045" ScaleX="1.5" ScaleY="1.5" ScaleZ="1.5" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent02.unity3d">
+    <Pos X="12086.1416" Y="167.24472" Z="9158.606" RotX="9.576294E-09" RotY="-0.898896933" RotZ="-1.96460164E-08" RotW="0.438160181" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12038.5918" Y="167.2241" Z="9203.637" RotX="3.195298E-09" RotY="-0.98925513" RotZ="-2.1620858E-08" RotW="0.1461998" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12023.83" Y="167.2966" Z="9205.507" RotX="1.33556458E-10" RotY="0.9999814" RotZ="2.18552856E-08" RotW="0.006110834" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10079.1494" Y="218.271652" Z="8853.52051" RotX="2.05722337E-08" RotY="-0.337639" RotZ="-7.379334E-09" RotW="0.941275656" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10035.4346" Y="218.6906" Z="8878.029" RotX="7.978295E-09" RotY="0.9309902" RotZ="2.03474375E-08" RotW="0.365044236" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10989.6924" Y="226.396469" Z="9217.645" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11002.7979" Y="226.447388" Z="9218.188" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent01.unity3d">
+    <Pos X="12020.42" Y="167.5" Z="9154.737" RotX="2.1049166E-08" RotY="-0.2691525" RotZ="-5.882514E-09" RotW="0.9630976" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11993.5889" Y="167.309311" Z="9154.051" RotX="1.97116758E-08" RotY="0.431942552" RotZ="9.440405E-09" RotW="0.9019012" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10056.0635" Y="218.614273" Z="8848.998" RotX="2.13410623E-08" RotY="-0.2157297" RotZ="-4.714924E-09" RotW="0.9764532" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11019.127" Y="226.190247" Z="9218.495" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent03.unity3d">
+    <Pos X="12059.9072" Y="167.182724" Z="9138.924" RotX="7.04401826E-09" RotY="-0.946638763" RotZ="-2.06894484E-08" RotW="0.322296739" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10086.0205" Y="218.43457" Z="8833.046" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11000.0215" Y="226.337067" Z="9276.569" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Human_light01.unity3d">
+    <Pos X="12263.6" Y="191.789886" Z="6511.75439" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12247.4766" Y="193.316025" Z="6526.586" RotX="1.78057356E-08" RotY="-0.579889059" RotZ="-1.26738771E-08" RotW="0.814695537" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12248.0674" Y="192.987228" Z="6541.066" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12271.2021" Y="187.08493" Z="6539.161" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7679.32373" Y="249.42363" Z="7730.94336" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7708.28" Y="250.273376" Z="7687.306" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7700.107" Y="249.5345" Z="7700.34229" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7711.125" Y="249.600555" Z="7700.591" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7704.41" Y="249.632858" Z="7676.04" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7697.481" Y="249.516479" Z="7671.305" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="8598.373" Y="305.4706" Z="8518.2" RotX="5.00538055E-09" RotY="-0.9734219" RotZ="-2.127481E-08" RotW="0.229019538" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="8578.062" Y="305.459351" Z="8541.115" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="8602.306" Y="305.633728" Z="8530.979" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="8608.81" Y="305.279175" Z="8517.193" RotX="1.62607581E-08" RotY="0.6681734" RotZ="1.46033914E-08" RotW="0.7440056" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="8615.58" Y="305.341217" Z="8521.734" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="8613.93" Y="305.255127" Z="8529.721" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2079.47852" Y="248.622238" Z="8524.967" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7947.21143" Y="388.1247" Z="11336.3027" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7953.25635" Y="388.743683" Z="11350.9346" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7942.014" Y="389.936737" Z="11368.9326" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Human_base_tent01.unity3d">
+    <Pos X="12240.1533" Y="192.633911" Z="6545.107" RotX="1.87396587E-08" RotY="0.514605939" RotZ="1.124707E-08" RotW="0.8574269" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7697.565" Y="249.548752" Z="7692.247" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7707.03125" Y="249.472168" Z="7709.59131" RotX="1.384232E-08" RotY="0.7738649" RotZ="1.691335E-08" RotW="0.63335073" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7956.498" Y="388.64563" Z="11344.5117" RotX="5.48768053E-09" RotY="-0.9679646" RotZ="-2.11555378E-08" RotW="0.25108698" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="7952.37646" Y="389.034882" Z="11360.7207" RotX="1.092362E-08" RotY="0.8661371" RotZ="1.89300273E-08" RotW="0.499806583" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Human_base_tent03.unity3d">
+    <Pos X="7700.597" Y="249.323074" Z="7666.731" RotX="-1.545431E-08" RotY="0.7071068" RotZ="-1.545431E-08" RotW="-0.7071068" ScaleX="1.3862" ScaleY="1.3862" ScaleZ="1.3862" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Lifeboat02.unity3d">
+    <Pos X="6797.852" Y="329.02298" Z="7161.83936" RotX="0.115032919" RotY="0.732196867" RotZ="-0.060376" RotW="0.668588042" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Human_base_tent02.unity3d">
+    <Pos X="8618.972" Y="305.387817" Z="8518.355" RotX="2.18556924E-08" RotY="0" RotZ="0" RotW="1" ScaleX="0.5" ScaleY="0.5" ScaleZ="0.5" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Human_base_tent01C.unity3d">
+    <Pos X="8605.092" Y="305.382416" Z="8510.6875" RotX="-1.545431E-08" RotY="0.7071068" RotZ="-1.545431E-08" RotW="-0.7071068" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Human_base_tent01A.unity3d">
+    <Pos X="8622.258" Y="305.325836" Z="8526.069" RotX="-9.553426E-16" RotY="1" RotZ="-2.18556924E-08" RotW="-4.371139E-08" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent05A.unity3d">
+    <Pos X="10062.6338" Y="219.090714" Z="8865.893" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10038.5576" Y="219.167511" Z="8866.106" RotX="1.96723668E-08" RotY="0.435678035" RotZ="9.522046E-09" RotW="0.9001026" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10072.5684" Y="219.131943" Z="8832.16" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10057.2324" Y="218.981216" Z="8868.198" RotX="1.90898088E-08" RotY="0.486917824" RotZ="1.06419273E-08" RotW="0.873447835" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10056.0264" Y="219.06456" Z="8874.154" RotX="1.75011312E-08" RotY="-0.5989875" RotZ="-1.30912872E-08" RotW="0.8007584" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10034.832" Y="219.953033" Z="8850.52" RotX="2.07042952E-08" RotY="0.3202943" RotZ="7.000254E-09" RotW="0.947318137" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10033.5068" Y="220.187164" Z="8853.322" RotX="1.58853073E-08" RotY="-0.686820745" RotZ="-1.50109454E-08" RotW="0.7268269" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10037.1367" Y="219.6115" Z="8857.993" RotX="2.12383E-08" RotY="-0.236007333" RotZ="-5.158104E-09" RotW="0.971751332" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12102.9385" Y="167.92868" Z="9163.403" RotX="2.09483524E-08" RotY="-0.285143435" RotZ="-6.232008E-09" RotW="0.9584849" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12097.8828" Y="167.996262" Z="9159.813" RotX="2.12542712E-08" RotY="-0.232977971" RotZ="-5.09189535E-09" RotW="0.9724821" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11989.3408" Y="170.44278" Z="9212.097" RotX="1.79189055E-08" RotY="0.572544754" RotZ="1.25133628E-08" RotW="0.8198736" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11986.5811" Y="170.802856" Z="9217.41" RotX="2.12156834E-08" RotY="0.240228027" RotZ="5.25035038E-09" RotW="0.970716536" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12012.9287" Y="167.997391" Z="9203.797" RotX="2.16564189E-08" RotY="-0.134730652" RotZ="-2.944632E-09" RotW="0.9908823" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12023.2432" Y="168.047089" Z="9223.659" RotX="2.17052349E-08" RotY="-0.1171368" RotZ="-2.56010613E-09" RotW="0.993115842" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12026.2617" Y="168.052032" Z="9224.534" RotX="2.17356053E-08" RotY="-0.104685545" RotZ="-2.28797514E-09" RotW="0.9945054" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12032.3525" Y="168.063782" Z="9225.235" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11964.9082" Y="168.163208" Z="9245.027" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11967.8428" Y="168.09053" Z="9244.034" RotX="2.09251425E-08" RotY="0.2886891" RotZ="6.309501E-09" RotW="0.9574229" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11953.0205" Y="168.429825" Z="9201.5" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10980.3291" Y="227.201172" Z="9243.088" RotX="-1.545431E-08" RotY="0.7071068" RotZ="-1.545431E-08" RotW="-0.7071068" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10979.85" Y="227.6242" Z="9249.211" RotX="-1.50731889E-08" RotY="0.7071068" RotZ="1.582625E-08" RotW="-0.7071068" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10985.1074" Y="227.740173" Z="9250.062" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10987.9814" Y="227.816147" Z="9250.072" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10984.0586" Y="227.336731" Z="9270.65" RotX="1.66078458E-08" RotY="-0.6500559" RotZ="-1.42074219E-08" RotW="0.7598865" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10984.6865" Y="227.261429" Z="9273.681" RotX="1.72748891E-08" RotY="-0.612582445" RotZ="-1.3388413E-08" RotW="0.790406764" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11022.1924" Y="227.090073" Z="9238.932" RotX="1.98365324E-08" RotY="0.419806153" RotZ="9.175155E-09" RotW="0.9076138" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11023.9893" Y="227.074722" Z="9236.592" RotX="1.90818383E-08" RotY="0.487571537" RotZ="1.06562146E-08" RotW="0.873083055" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11019.3105" Y="226.972046" Z="9252.033" RotX="2.17781544E-08" RotY="-0.08416115" RotZ="-1.8394003E-09" RotW="0.996452153" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11024.9531" Y="227.03714" Z="9254.429" RotX="2.066052E-08" RotY="-0.3261584" RotZ="-7.1284183E-09" RotW="0.9453152" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12085.0527" Y="167.99646" Z="9133.279" RotX="1.81218045E-08" RotY="0.559015751" RotZ="1.22176766E-08" RotW="0.8291571" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11989.0459" Y="167.881516" Z="9178.701" RotX="1.6826025E-08" RotY="0.6382018" RotZ="1.39483429E-08" RotW="0.7698692" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12034.0313" Y="168.0586" Z="9172.1" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12049.3945" Y="168.163666" Z="9157.527" RotX="1.88960652E-08" RotY="0.5024899" RotZ="1.09822658E-08" RotW="0.864583135" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12051.5518" Y="168.051743" Z="9151.778" RotX="1.68566068E-08" RotY="0.6365101" RotZ="1.391137E-08" RotW="0.7712684" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent06B.unity3d">
+    <Pos X="10023.2646" Y="219.87326" Z="8850.643" RotX="0" RotY="-0.8487088" RotZ="0" RotW="0.52886045" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent05B.unity3d">
+    <Pos X="10065.6807" Y="219.358673" Z="8865.922" RotX="2.17888658E-08" RotY="-0.07814098" RotZ="-1.70782521E-09" RotW="0.996942341" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10035.6973" Y="220.44162" Z="8843.332" RotX="1.57584132E-08" RotY="-0.692913353" RotZ="-1.51441029E-08" RotW="0.721020937" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10036.1494" Y="220.31813" Z="8846.307" RotX="1.71450285E-08" RotY="-0.620173156" RotZ="-1.3554315E-08" RotW="0.784465" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10037.3154" Y="219.235733" Z="8868.772" RotX="1.523363E-08" RotY="-0.717061758" RotZ="-1.56718833E-08" RotW="0.6970096" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10067.0371" Y="219.429672" Z="8829.85449" RotX="2.06099546E-08" RotY="-0.332788318" RotZ="-7.27331928E-09" RotW="0.9430016" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10069.709" Y="219.054108" Z="8831.286" RotX="2.17547651E-08" RotY="-0.09599305" RotZ="-2.09799467E-09" RotW="0.9953821" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10059.5635" Y="218.9903" Z="8866.269" RotX="2.165553E-08" RotY="0.135031328" RotZ="2.95120262E-09" RotW="0.9908414" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10056.043" Y="219.148972" Z="8870.882" RotX="1.72984489E-08" RotY="0.611188948" RotZ="1.33579592E-08" RotW="0.7914848" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10034.5967" Y="219.773438" Z="8856.197" RotX="2.03253876E-08" RotY="-0.3676066" RotZ="-8.034298E-09" RotW="0.9299814" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12100.4551" Y="168.0454" Z="9161.484" RotX="2.119235E-08" RotY="-0.244501859" RotZ="-5.343758E-09" RotW="0.969648838" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11988.6318" Y="170.7226" Z="9215.144" RotX="1.91402965E-08" RotY="0.482750684" RotZ="1.05508509E-08" RotW="0.8757579" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11983.6152" Y="170.8326" Z="9218.083" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12015.9678" Y="168.023544" Z="9204.409" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12020.2871" Y="168.07254" Z="9222.828" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12029.2969" Y="167.94725" Z="9224.888" RotX="2.18411671E-08" RotY="-0.0364534" RotZ="-7.967143E-10" RotW="0.999335349" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11970.1084" Y="167.997055" Z="9241.979" RotX="1.95750331E-08" RotY="0.444761485" RotZ="9.720571E-09" RotW="0.8956491" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11947.0938" Y="168.219284" Z="9200.534" RotX="2.17087361E-08" RotY="-0.115770437" RotZ="-2.53024313E-09" RotW="0.993276" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11950.0137" Y="168.449326" Z="9201.5" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10980.0225" Y="227.502243" Z="9246.18" RotX="-1.545431E-08" RotY="0.7071068" RotZ="-1.545431E-08" RotW="-0.7071068" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10982.166" Y="227.6989" Z="9250.0625" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10985.6533" Y="227.209549" Z="9276.596" RotX="1.80611934E-08" RotY="-0.5631071" RotZ="-1.23070958E-08" RotW="0.826383948" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11025.4922" Y="226.990723" Z="9233.915" RotX="1.91592218E-08" RotY="0.481176466" RotZ="1.05164464E-08" RotW="0.8766238" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11016.17" Y="227.116333" Z="9251.986" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11022.2988" Y="226.974182" Z="9252.823" RotX="2.10808E-08" RotY="-0.2639186" RotZ="-5.76812464E-09" RotW="0.964545" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12082.62" Y="167.90683" Z="9138.937" RotX="1.80048776E-08" RotY="0.566870153" RotZ="1.23893411E-08" RotW="0.82380724" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12083.7373" Y="167.890579" Z="9136.133" RotX="1.78521518E-08" RotY="0.5768937" RotZ="1.26084121E-08" RotW="0.816819251" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11988.6553" Y="168.032043" Z="9181.641" RotX="1.75206623E-08" RotY="0.5977911" RotZ="1.30651392E-08" RotW="0.801652" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12037.0947" Y="168.096939" Z="9171.989" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12030.9746" Y="168.089142" Z="9171.98" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12050.833" Y="168.169662" Z="9154.771" RotX="1.73190084E-08" RotY="0.609968841" RotZ="1.33312925E-08" RotW="0.7924254" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent06C.unity3d">
+    <Pos X="10019.6865" Y="220.650665" Z="8866.668" RotX="1.41746526E-08" RotY="-0.7611666" RotZ="-1.66358234E-08" RotW="0.6485565" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10051.1055" Y="219.079285" Z="8890.39" RotX="2.16166054E-08" RotY="0.147509664" RotZ="3.22392624E-09" RotW="0.98906064" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10036.0391" Y="218.9935" Z="8889.563" RotX="2.14515268E-08" RotY="-0.1914238" RotZ="-4.1837E-09" RotW="0.9815075" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10023.9863" Y="220.506989" Z="8880.412" RotX="2.0021325E-08" RotY="-0.401020736" RotZ="-8.764586E-09" RotW="0.916069031" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10101.6816" Y="218.699814" Z="8839.797" RotX="1.61668154E-08" RotY="0.6729289" RotZ="1.47073287E-08" RotW="0.739707232" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10098.6572" Y="218.717285" Z="8824.663" RotX="-1.12207506E-08" RotY="-0.8581484" RotZ="-1.875543E-08" RotW="-0.513401747" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10086.8057" Y="219.295334" Z="8817.783" RotX="-3.92447241E-10" RotY="-0.9998388" RotZ="-2.18521734E-08" RotW="-0.01795629" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10066.09" Y="219.466675" Z="8821.212" RotX="4.80893325E-09" RotY="-0.9754929" RotZ="-2.13200746E-08" RotW="0.220031142" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10051.93" Y="219.30957" Z="8828.691" RotX="5.77552761E-09" RotY="-0.964452267" RotZ="-2.10787761E-08" RotW="0.264257371" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10029.874" Y="219.898834" Z="8841.743" RotX="0" RotY="0.9110539" RotZ="0" RotW="-0.4122874" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent06A.unity3d">
+    <Pos X="10021.31" Y="219.942825" Z="8855.916" RotX="1.40208565E-08" RotY="-0.7671066" RotZ="-1.67656484E-08" RotW="0.641519666" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10100.4072" Y="218.374252" Z="8850.348" RotX="1.74628845E-08" RotY="0.6013199" RotZ="1.31422642E-08" RotW="0.7990084" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10076.09" Y="219.305023" Z="8817.575" RotX="6.07004946E-10" RotY="-0.999614239" RotZ="-2.18472636E-08" RotW="0.02777331" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10042.8535" Y="220.579285" Z="8834.083" RotX="6.10618045E-09" RotY="-0.9601788" RotZ="-2.09853734E-08" RotW="0.279386252" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10037.9277" Y="220.550751" Z="8835.67" RotX="6.40960063E-10" RotY="-0.999569952" RotZ="-2.18462954E-08" RotW="0.0293269157" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_lamppost_01.unity3d">
+    <Pos X="10040.3076" Y="218.447891" Z="8864.2" RotX="8.671928E-09" RotY="-0.917913258" RotZ="-2.006163E-08" RotW="0.396781176" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10066.4766" Y="218.498123" Z="8826.344" RotX="2.14322018E-08" RotY="-0.1959034" RotZ="-4.281605E-09" RotW="0.980623245" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10020.2217" Y="219.504013" Z="8844.365" RotX="1.86495477E-08" RotY="-0.521414161" RotZ="-1.13958682E-08" RotW="0.8533038" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10068.7227" Y="218.354172" Z="8866.792" RotX="2.05609965E-08" RotY="-0.3390692" RotZ="-7.410592E-09" RotW="0.9407615" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11968.7158" Y="167.544769" Z="9238.135" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12027.5889" Y="167.486786" Z="9240.562" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12114.6338" Y="166.826447" Z="9148.8125" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_stove_01.unity3d">
+    <Pos X="10071.5459" Y="218.5464" Z="8843.398" RotX="1.66964877E-08" RotY="-0.645284653" RotZ="-1.41031444E-08" RotW="0.763942242" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10047.8936" Y="218.841934" Z="8866.434" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12006.252" Y="167.5" Z="9170.528" RotX="2.01076666E-08" RotY="0.3918725" RotZ="8.564645E-09" RotW="0.920019567" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12073.7012" Y="167.442322" Z="9143.912" RotX="2.109321E-08" RotY="-0.2618345" RotZ="-5.722575E-09" RotW="0.9651128" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12030.3076" Y="167.415634" Z="9183.168" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10997.8359" Y="226.5" Z="9237.325" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_watchtower01.unity3d">
+    <Pos X="12062.1553" Y="167.012146" Z="9118.664" RotX="7.33781747E-18" RotY="0.9912249" RotZ="-5.502403E-17" RotW="0.132186383" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11943.1572" Y="166.85054" Z="9181.854" RotX="0" RotY="0.7311041" RotZ="0" RotW="-0.682265937" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="12006.3613" Y="166.855026" Z="9215.223" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11990.6357" Y="166.923431" Z="9123.333" RotX="-1.2230652E-09" RotY="-0.998433" RotZ="-2.1821446E-08" RotW="-0.05596094" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="10971.3662" Y="226.15593" Z="9246.771" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="0" Y="0" Z="0" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="0" ScaleY="0" ScaleZ="0" />
+    <Pos X="0" Y="0" Z="0" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="0" ScaleY="0" ScaleZ="0" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Alien_base_tent04.unity3d">
+    <Pos X="11956.82" Y="167.5" Z="9168.803" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="11972.0488" Y="167.5" Z="9156.496" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_cage_01A.unity3d">
+    <Pos X="10049.5039" Y="218.40155" Z="8881.324" RotX="1.6418241E-08" RotY="0.6600622" RotZ="1.44261172E-08" RotW="0.751211047" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/puja_signal_tower01.unity3d">
+    <Pos X="11000.8584" Y="226.432129" Z="9250.938" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/puja_signal_tower02.unity3d">
+    <Pos X="12019.1455" Y="167.4843" Z="9185.847" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_dam01.unity3d">
+    <Pos X="4356.21533" Y="133.0173" Z="7274.96973" RotX="0" RotY="0.970566" RotZ="0" RotW="-0.240835667" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_build_electricpole.unity3d">
+    <Pos X="4465.4834" Y="276.666077" Z="7341.01172" RotX="-0.13517724" RotY="0.8894478" RotZ="0.0655989349" RotW="0.431632251" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4524.89844" Y="290.688049" Z="7256.387" RotX="-0.0364313275" RotY="0.363289654" RotZ="0.142580092" RotW="0.919980645" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4547.872" Y="325.318085" Z="7113.089" RotX="0.00235491479" RotY="-0.299285531" RotZ="0.00169497356" RotW="0.9541592" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4520.43359" Y="292.990051" Z="7140.58936" RotX="0.0491519868" RotY="-0.8920223" RotZ="-0.100040607" RotW="-0.43803215" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4441.22754" Y="251.549774" Z="7155.11133" RotX="0.0549442247" RotY="-0.842778563" RotZ="0.0348342024" RotW="0.534314632" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4283.4043" Y="189.941727" Z="7113.77637" RotX="-0.16213277" RotY="-0.6360788" RotZ="-0.139096648" RotW="0.7414641" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4292.061" Y="176.4768" Z="7140.41064" RotX="-0.28132686" RotY="-0.701729834" RotZ="-0.243565977" RotW="0.6075411" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4371.582" Y="166.55423" Z="7142.066" RotX="-0.215241671" RotY="0.574926" RotZ="0.21371305" RotW="0.75990653" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4321.953" Y="209.788513" Z="7331.214" RotX="0.07097439" RotY="0.7873139" RotZ="-0.0923567" RotW="0.6054501" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4305.405" Y="183.1958" Z="7221.677" RotX="0.08653246" RotY="0.84378624" RotZ="-0.0540135577" RotW="0.5268962" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4423.44629" Y="227.103455" Z="7250.99072" RotX="0.005768038" RotY="-0.736526" RotZ="0.00529691158" RotW="0.676363945" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4372.12646" Y="160.001678" Z="7021.57568" RotX="-0.166925028" RotY="0.640741348" RotZ="0.188924238" RotW="0.725185633" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4406.55127" Y="183.3722" Z="7129.34229" RotX="0.150426447" RotY="-0.7098073" RotZ="0.142667323" RotW="0.673195064" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4404.701" Y="197.170273" Z="7170.69873" RotX="0.104794644" RotY="-0.7196976" RotZ="0.0988936052" RotW="0.679171264" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="4380.967" Y="198.805511" Z="7203.76074" RotX="-0.04731388" RotY="0.6695905" RotZ="0.0522451662" RotW="0.739378452" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_paja_hq_building_D.unity3d">
+    <Pos X="2083.56445" Y="155.825089" Z="8529.961" RotX="2.18556924E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1.5" ScaleY="1.5" ScaleZ="1.5" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_main_interference_tower.unity3d">
+    <Pos X="1664.83984" Y="144.654083" Z="8352.135" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="1591.17053" Y="215.4703" Z="8777.54" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2053.04248" Y="227.714554" Z="9205.861" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_probe_michelson01.unity3d">
+    <Pos X="3454.192" Y="522.0975" Z="9539.955" RotX="-0.2935978" RotY="-0.907623" RotZ="-0.173907" RotW="-0.2444938" ScaleX="3" ScaleY="3" ScaleZ="3" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Road06.unity3d">
+    <Pos X="1997.11816" Y="180.623627" Z="8620.714" RotX="-1.111026E-08" RotY="-0.8611528" RotZ="1.88210887E-08" RotW="-0.5083462" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Road07.unity3d">
+    <Pos X="2659.26929" Y="191.221069" Z="8711.674" RotX="0" RotY="-0.0919231549" RotZ="0" RotW="0.995766163" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Road05.unity3d">
+    <Pos X="2250.91919" Y="165.009048" Z="8077.34863" RotX="0" RotY="0.04687905" RotZ="0" RotW="0.9989006" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Road02.unity3d">
+    <Pos X="1860.30786" Y="191.347549" Z="8794.439" RotX="0" RotY="0.07391794" RotZ="0" RotW="0.9972644" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Road01.unity3d">
+    <Pos X="2218.434" Y="186.618454" Z="8911.455" RotX="0" RotY="0.711683035" RotZ="0" RotW="0.7025007" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Road03.unity3d">
+    <Pos X="2439.62915" Y="166.083344" Z="8753.373" RotX="1.41108547E-08" RotY="0.76364404" RotZ="-1.668997E-08" RotW="0.645637453" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuilding41_01.unity3d">
+    <Pos X="2052.968" Y="182.23877" Z="8792.61" RotX="3.76185749E-09" RotY="0.985075653" RotZ="-2.15295231E-08" RotW="0.172122285" ScaleX="9" ScaleY="9" ScaleZ="9" />
+    <Pos X="2190.851" Y="159.549835" Z="8375.501" RotX="8.088205E-09" RotY="0.9290027" RotZ="-2.03039932E-08" RotW="0.370072931" ScaleX="9" ScaleY="9" ScaleZ="9" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_b01A.unity3d">
+    <Pos X="2043.29321" Y="148.347031" Z="8278.531" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_paja_hq_building02A.unity3d">
+    <Pos X="1947.85437" Y="207.157578" Z="8985.993" RotX="1.6751315E-08" RotY="0.642302752" RotZ="-1.40379788E-08" RotW="0.7664511" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2253.10278" Y="175.495529" Z="8755.195" RotX="-4.027218E-10" RotY="0.999830246" RotZ="-2.18520082E-08" RotW="-0.0184259284" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2015.539" Y="175.026611" Z="8671.909" RotX="1.99304591E-08" RotY="0.4103874" RotZ="-8.969304E-09" RotW="0.9119113" ScaleX="1.5" ScaleY="1.5" ScaleZ="1.5" />
+    <Pos X="2301.14819" Y="161.273773" Z="8295.768" RotX="1.95608774E-08" RotY="-0.446065336" RotZ="9.749082E-09" RotW="0.895000458" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_paja_hq_building02C.unity3d">
+    <Pos X="1872.16772" Y="161.563354" Z="8362.404" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Road04.unity3d">
+    <Pos X="2498.149" Y="181.323837" Z="9257.96" RotX="0" RotY="0.7663045" RotZ="0" RotW="0.6424776" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_b01D.unity3d">
+    <Pos X="2186.108" Y="163.114441" Z="8492.682" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_b02A.unity3d">
+    <Pos X="2194.69287" Y="148.4455" Z="8247.428" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_b0402.unity3d">
+    <Pos X="2306.13281" Y="177.685776" Z="8587.963" RotX="1.545431E-08" RotY="0.7071068" RotZ="-1.545431E-08" RotW="0.7071068" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_b0401.unity3d">
+    <Pos X="2405.29883" Y="179.292816" Z="8481.102" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_pillar09.unity3d">
+    <Pos X="2261.51221" Y="169.88089" Z="8512.627" RotX="1.47629295E-08" RotY="0.737385035" RotZ="-1.61160667E-08" RotW="0.675472736" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuilding02.unity3d">
+    <Pos X="2317.48022" Y="167.89296" Z="8448.648" RotX="2.10405133E-08" RotY="-0.270566" RotZ="5.91340932E-09" RotW="0.96270144" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_b05.unity3d">
+    <Pos X="1978.91846" Y="153.9823" Z="8457.741" RotX="-1.513605E-08" RotY="0.721374869" RotZ="-1.57661635E-08" RotW="-0.6925449" ScaleX="1.5" ScaleY="1.5" ScaleZ="1.5" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_oldbuild_b06.unity3d">
+    <Pos X="2224.8855" Y="174.5271" Z="8586.89551" RotX="2.18556924E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_vehicle03.unity3d">
+    <Pos X="2143.22583" Y="181.582489" Z="8745.841" RotX="1.87802449E-08" RotY="0.5114993" RotZ="-1.1179174E-08" RotW="0.859283745" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2269.852" Y="160.275925" Z="8373.345" RotX="2.18556941E-08" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_vehicle02.unity3d">
+    <Pos X="1977.53833" Y="163.95076" Z="8543.989" RotX="0.04576353" RotY="-0.9079743" RotZ="-0.102955095" RotW="0.403594524" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2326.833" Y="163.25444" Z="8347.818" RotX="-0.129616141" RotY="0.864501655" RotZ="0.07200655" RotW="0.480262041" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_vehicle01.unity3d">
+    <Pos X="2149.68481" Y="167.613037" Z="8529.181" RotX="-0.07253086" RotY="0.304783881" RotZ="-0.2198544" RotW="0.923856139" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2357.51123" Y="178.609863" Z="8508.129" RotX="0.0484579578" RotY="0.384898573" RotZ="-0.11512953" RotW="0.914467156" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_vehicle04.unity3d">
+    <Pos X="2108.919" Y="157.679047" Z="8452.97949" RotX="-0.114577226" RotY="-0.034866292" RotZ="-0.02576909" RotW="0.9924679" ScaleX="1" ScaleY="1" ScaleZ="1" />
+    <Pos X="2305.35059" Y="162.349823" Z="8256.1875" RotX="2.058427E-08" RotY="0.33610028" RotZ="-7.345706E-09" RotW="0.9418263" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_vehicle06.unity3d">
+    <Pos X="2218.862" Y="168.699249" Z="8654.062" RotX="-0.0247689784" RotY="-1.74791964E-07" RotZ="4.330744E-09" RotW="0.9996933" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_vehicle05.unity3d">
+    <Pos X="2275.27124" Y="175.2324" Z="8668.207" RotX="-0.1379657" RotY="0" RotZ="0" RotW="0.990437031" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Computer03.unity3d">
+    <Pos X="2076.536" Y="248.622223" Z="8527.153" RotX="0" RotY="0.9934075" RotZ="0" RotW="0.114637241" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Computer02.unity3d">
+    <Pos X="2089.465" Y="248.576859" Z="8526.169" RotX="0" RotY="-0.444720268" RotZ="0" RotW="0.8956696" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_puja_Computer01.unity3d">
+    <Pos X="2083.30518" Y="248.539856" Z="8522.083" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_Lair.unity3d">
+    <Pos X="9755.078" Y="115.066734" Z="7404.16943" RotX="1.700486E-08" RotY="0.6282006" RotZ="-1.37297613E-08" RotW="0.7780515" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_robot_part02.unity3d">
+    <Pos X="1616.78235" Y="146.048767" Z="8311.532" RotX="-0.07378365" RotY="0.897078037" RotZ="0.403599441" RotW="0.164056316" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_alien_robot_part01.unity3d">
+    <Pos X="1637.7782" Y="150.747925" Z="8325.294" RotX="-0.0113795837" RotY="0.172855318" RotZ="-0.06471571" RotW="0.982753" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/scene_h_transport_s01_01.unity3d">
+    <Pos X="9953.014" Y="254.109039" Z="9552.852" RotX="0" RotY="0.96989125" RotZ="0" RotW="-0.243538588" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+  <AssetBundleDesc PathName="Item/campfire.unity3d">
+    <Pos X="7943.22168" Y="388.344177" Z="11350.5283" RotX="0" RotY="0" RotZ="0" RotW="1" ScaleX="1" ScaleY="1" ScaleZ="1" />
+  </AssetBundleDesc>
+</ArrayOfAssetBundleDesc>
