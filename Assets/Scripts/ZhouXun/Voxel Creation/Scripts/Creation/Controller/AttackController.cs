@@ -1,0 +1,7 @@
+﻿
+namespace WhiteCat
+{
+	class AttackController
+	{
+	}
+}

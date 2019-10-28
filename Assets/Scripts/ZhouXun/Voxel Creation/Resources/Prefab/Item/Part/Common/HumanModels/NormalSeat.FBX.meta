@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: d573f33020cf4ad4ea1f093e5d52dfce
+timeCreated: 1474274311
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Footsteps
+    100004: Bip01 Head
+    100006: Bip01 HeadNub
+    100008: Bip01 L Calf
+    100010: Bip01 L Clavicle
+    100012: Bip01 L Finger0
+    100014: Bip01 L Finger01
+    100016: Bip01 L Finger0Nub
+    100018: Bip01 L Finger1
+    100020: Bip01 L Finger11
+    100022: Bip01 L Finger1Nub
+    100024: Bip01 L Finger2
+    100026: Bip01 L Finger21
+    100028: Bip01 L Finger2Nub
+    100030: Bip01 L Foot
+    100032: Bip01 L Forearm
+    100034: Bip01 L Hand
+    100036: Bip01 L Thigh
+    100038: Bip01 L Toe0
+    100040: Bip01 L Toe0Nub
+    100042: Bip01 L UpperArm
+    100044: Bip01 Mouth
+    100046: Bip01 Neck
+    100048: Bip01 Pelvis
+    100050: Bip01 Ponytail1Nub
+    100052: Bip01 R Calf
+    100054: Bip01 R Clavicle
+    100056: Bip01 R Finger0
+    100058: Bip01 R Finger01
+    100060: Bip01 R Finger0Nub
+    100062: Bip01 R Finger1
+    100064: Bip01 R Finger11
+    100066: Bip01 R Finger1Nub
+    100068: Bip01 R Finger2
+    100070: Bip01 R Finger21
+    100072: Bip01 R Finger2Nub
+    100074: Bip01 R Foot
+    100076: Bip01 R Forearm
+    100078: Bip01 R Hand
+    100080: Bip01 R Thigh
+    100082: Bip01 R Toe0
+    100084: Bip01 R Toe0Nub
+    100086: Bip01 R UpperArm
+    100088: Bip01 Spine
+    100090: Bip01 Spine1
+    100092: Bip01 Spine2
+    100094: Bip01 Spine3
+    100096: Bone Eyelid
+    100098: Bone L Forearm
+    100100: Bone R Forearm
+    100102: Bow
+    100104: Bow_box
+    100106: feet_0
+    100108: hair_0A
+    100110: hair_0B
+    100112: hair_0C
+    100114: hands_0
+    100116: head_0
+    100118: legs_0
+    100120: Long_Gun
+    100122: mountBack
+    100124: mountMain
+    100126: mountOff1
+    100128: mountShied
+    100130: //RootNode
+    100132: Particle View 01
+    100134: Pistol
+    100136: torso_0
+    100138: torso_1
+    400000: Bip01
+    400002: Bip01 Footsteps
+    400004: Bip01 Head
+    400006: Bip01 HeadNub
+    400008: Bip01 L Calf
+    400010: Bip01 L Clavicle
+    400012: Bip01 L Finger0
+    400014: Bip01 L Finger01
+    400016: Bip01 L Finger0Nub
+    400018: Bip01 L Finger1
+    400020: Bip01 L Finger11
+    400022: Bip01 L Finger1Nub
+    400024: Bip01 L Finger2
+    400026: Bip01 L Finger21
+    400028: Bip01 L Finger2Nub
+    400030: Bip01 L Foot
+    400032: Bip01 L Forearm
+    400034: Bip01 L Hand
+    400036: Bip01 L Thigh
+    400038: Bip01 L Toe0
+    400040: Bip01 L Toe0Nub
+    400042: Bip01 L UpperArm
+    400044: Bip01 Mouth
+    400046: Bip01 Neck
+    400048: Bip01 Pelvis
+    400050: Bip01 Ponytail1Nub
+    400052: Bip01 R Calf
+    400054: Bip01 R Clavicle
+    400056: Bip01 R Finger0
+    400058: Bip01 R Finger01
+    400060: Bip01 R Finger0Nub
+    400062: Bip01 R Finger1
+    400064: Bip01 R Finger11
+    400066: Bip01 R Finger1Nub
+    400068: Bip01 R Finger2
+    400070: Bip01 R Finger21
+    400072: Bip01 R Finger2Nub
+    400074: Bip01 R Foot
+    400076: Bip01 R Forearm
+    400078: Bip01 R Hand
+    400080: Bip01 R Thigh
+    400082: Bip01 R Toe0
+    400084: Bip01 R Toe0Nub
+    400086: Bip01 R UpperArm
+    400088: Bip01 Spine
+    400090: Bip01 Spine1
+    400092: Bip01 Spine2
+    400094: Bip01 Spine3
+    400096: Bone Eyelid
+    400098: Bone L Forearm
+    400100: Bone R Forearm
+    400102: Bow
+    400104: Bow_box
+    400106: feet_0
+    400108: hair_0A
+    400110: hair_0B
+    400112: hair_0C
+    400114: hands_0
+    400116: head_0
+    400118: legs_0
+    400120: Long_Gun
+    400122: mountBack
+    400124: mountMain
+    400126: mountOff1
+    400128: mountShied
+    400130: //RootNode
+    400132: Particle View 01
+    400134: Pistol
+    400136: torso_0
+    400138: torso_1
+    2300000: feet_0
+    2300002: hair_0A
+    2300004: hair_0B
+    2300006: hair_0C
+    2300008: hands_0
+    2300010: head_0
+    2300012: legs_0
+    2300014: torso_0
+    2300016: torso_1
+    3300000: feet_0
+    3300002: hair_0A
+    3300004: hair_0B
+    3300006: hair_0C
+    3300008: hands_0
+    3300010: head_0
+    3300012: legs_0
+    3300014: torso_0
+    3300016: torso_1
+    4300000: feet_0
+    4300002: legs_0
+    4300004: hands_0
+    4300006: hair_0A
+    4300008: torso_0
+    4300010: head_0
+    4300012: hair_0C
+    4300014: hair_0B
+    4300016: torso_1
+    9500000: //RootNode
+    13700000: feet_0
+    13700002: hair_0A
+    13700004: hair_0B
+    13700006: hair_0C
+    13700008: hands_0
+    13700010: head_0
+    13700012: legs_0
+    13700014: torso_0
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
