@@ -1,0 +1,21 @@
+<MISSION id="300" name="missing%20mom" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F85" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F85" text="Are%20you%20new%20here%3F%20Did%20you%20see%20my%20mum%20on%20your%20way%20to%20this%20base%3F%20She%20is%20out%20for%20a%20long%20time." time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="7" text="I%20haven%E2%80%99t%20see%20your%20mum.%20(Being%20honest.)" />
+                <STMT stmt="ADD CHOICE" id="8" text="Yes%2C%20I%20saw%20her.%20She%20is%20on%20her%20way%20back.%20(Lie%20to%20a%20worried%20little%20girl.)" />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

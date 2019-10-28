@@ -1,0 +1,17 @@
+<MISSION id="502" name="chose10" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="10" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F86" text="I%20was%20attracted%20by%20the%20buildings%20on%20this%20ruin%20just%20like%20you%20did.%20been%20hurt%20by%20that%20giant%20monster." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

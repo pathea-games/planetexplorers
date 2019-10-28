@@ -1,0 +1,19 @@
+<MISSION id="303" name="chose%208" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="8" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F85" text="It%E2%80%99s%20so%20nice%20to%20know%20she%20is%20still%20alive.%20Thank%20you%20for%20the%20news.%20%20" time="0" />
+                <STMT stmt="SHOW TIP" text="Your%20words%20just%20brings%20hope." />
+                <STMT stmt="RUN MISSION" mission="304" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

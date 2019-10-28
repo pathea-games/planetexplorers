@@ -1,0 +1,121 @@
+<MISSION id="403" name="fishermans%20friend" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F89" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="What%20did%20you%20get%3F" time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="5" text="I%20want%20to%20be%20stronger!%EF%BC%88HPMax%2B50%EF%BC%89" />
+                <STMT stmt="ADD CHOICE" id="6" text="I%20want%20to%20swim%20like%20fishes.%EF%BC%88OxygenMax%2B50%EF%BC%89" />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="5" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="6" count="1" item="I%3A%2F39%2F1253" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="Looks%20like%20you%20don%E2%80%99t%20go%20fishing." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="6" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="6" count="1" item="I%3A%2F39%2F1254" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="Looks%20like%20you%20don%E2%80%99t%20go%20fishing." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="5" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="COMPARE" lhs="%25a%25" compare="3" rhs="5" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="You%20are%20strong%20enough.%20You%20don%E2%80%99t%20need%20me%20to%20improve%20your%20skills." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="6" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="COMPARE" lhs="%25b%25" compare="3" rhs="5" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="You%20can%20swim%20like%20a%20shark%20now.%20You%20don%E2%80%99t%20need%20me%20to%20improve%20your%20skills." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="5" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="5" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="2" count="1" item="I%3A%2F39%2F1253" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="AH-BU-DALA-SHI-LIBA!" time="0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F39%2F1253" func="2" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY STAT" object="P%3A%2F-1%2F0" stat="0" func="1" amount="50" range="-1" />
+                <STMT stmt="SET VARIABLE" var="%25a%25" scope="0" func="1" value="1" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20feel%20full%20of%20energy%20now!" time="0" />
+                <STMT stmt="SHOW TIP" text="A%20mysterious%20power%20flows%20into%20your%20body%20and%20you%20get%20your%20max%20HP%20improved." />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="5" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="6" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="2" count="1" item="I%3A%2F39%2F1254" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="DO-LA-SHI-KA-BOO!" time="0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F39%2F1254" func="2" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY STAT" object="P%3A%2F-1%2F0" stat="11" func="1" amount="50" range="-1" />
+                <STMT stmt="SET VARIABLE" var="%25b%25" scope="0" func="1" value="1" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20can%20feel%20the%20power%20through%20breathing.%20" time="0" />
+                <STMT stmt="SHOW TIP" text="A%20mysterious%20power%20flows%20into%20your%20body%20and%20you%20get%20your%20max%20Oxygen%20improved.%20%20" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

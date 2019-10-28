@@ -1,0 +1,22 @@
+<MISSION id="1" name="Play%20with%20water" type="1" can_abort="False" objective="Play%20with%20the%20water%20physics%20and%20drown%20Ben%20Yin" begin_npc="None" end_npc="0%7C1" award="It's%20just%20for%20fun..">
+    <TRIGGER name="Give%20Item" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="WAIT" amount="10" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F6%2F19" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F3%2F65" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F3%2F228" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="SET BOOL GOAL" id="1" text="Dig%20terrain%20to%20trigger%20the%20water%20physics" mission="0" bool="0" />
+                <STMT stmt="SHOW TIP" text="Dig%20terrain%20to%20trigger%20the%20water%20physics!" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

@@ -1,0 +1,19 @@
+<MISSION id="201" name="peace" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F90" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="Are%20you%20the%20one%20who%20enlightened%20the%20light%20of%20guardian%3F%20Please%20accept%20my%20deepest%20gratitude.%20I%20was%20the%20guard%20of%20this%20temple%20for%20many%20decades%2C%20since%20then%20I%20started%20to%20fight%20against%20these%20evil%20bird.%20A%20couple%20of%20days%20ago%2C%20someone%20stole%20the%20light%20of%20guardian.%20I%20thought%20it%20was%20you.%20Please%20forgive%20me.%20" time="0" />
+                <STMT stmt="RUN MISSION" mission="202" player="P%3A%2F-1%2F0" />
+                <STMT stmt="END MISSION" mission="0" player="P%3A%2F-1%2F0" result="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

@@ -1,0 +1,19 @@
+<MISSION id="507" name="Swans%20reward" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F86" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F86" text="It%E2%80%99s%20so%20nice%20to%20see%20you%20are%20safe.%20I%E2%80%99ve%20been%20worried%20since%20our%20last%20meet.%20Here%20is%20the%20gift%20I%20promised.%20And%20this%20gun%2C%20I%20won%E2%80%99t%20need%20it%20any%20more.%20I%E2%80%99m%20be%20my%20Jessie%E2%80%99s%20side%20from%20now%20on." time="0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F2%2F59" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="508" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

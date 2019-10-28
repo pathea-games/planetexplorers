@@ -1,0 +1,117 @@
+<MISSION id="999" name="Test%20Mission" type="2" can_abort="True" objective="Keep%20the%20number%20between%200%20to%2030%2C%20and%20see%20how%20many%20clicks%20can%20you%20play%20%3F" begin_npc="None" end_npc="None" award="269%3A50%7C270%3A50">
+    <TRIGGER name="GUI%20Drawing" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CUSTOM UI" order="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="CUSTOM UI COLOR" uicolor="%23FFFF00" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="3" rect="30%2C%2030%2C%20300%2C%20200" anchor="7" uitext="%20" uistyle="0" uievent="%20" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="1" rect="40%2C%2040%2C%20280%2C%2020" anchor="7" uitext="This%20is%20the%20test%20mission" uistyle="0" uievent="%20" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="2" rect="40%2C%2070%2C%20120%2C%2030" anchor="7" uitext="Add%20number" uistyle="0" uievent="%25OnPlayClick%25" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="1" rect="40%2C%20110%2C%20280%2C%2020" anchor="7" uitext="%E6%93%8D%E4%BD%9C%E6%95%B0%EF%BC%9A" uistyle="0" uievent="%20" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="1" rect="130%2C%20110%2C%20280%2C%2020" anchor="7" uitext="%25a%25" uistyle="0" uievent="%20" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="1" rect="40%2C%20140%2C%20280%2C%2020" anchor="7" uitext="%E7%82%B9%E5%87%BB%E6%95%B0%EF%BC%9A" uistyle="0" uievent="%20" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="1" rect="130%2C%20140%2C%20280%2C%2020" anchor="7" uitext="%25hit%25" uistyle="0" uievent="%20" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="1" rect="40%2C%20170%2C%20280%2C%2020" anchor="7" uitext="%E6%93%8D%E4%BD%9C%E6%95%B0%E4%B8%8D%E8%83%BD%E5%B0%8F%E4%BA%8E0%EF%BC%8C%E4%B9%9F%E4%B8%8D%E8%83%BD%E5%A4%A7%E4%BA%8E30%EF%BC%81" uistyle="0" uievent="%20" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="Add%20A" repeat="-1" multi_threaded="True" owner="-">
+        <EVENTS>
+            <STMT stmt="CUSTOM UI EVENT" order="0" eventname="%25OnPlayClick%25" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="COMPARE" lhs="%25lose%25" compare="4" rhs="true" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="SET VARIABLE" var="%25a%25" scope="1" func="1" value="5" />
+                <STMT stmt="SET VARIABLE" var="%25hit%25" scope="1" func="1" value="1" />
+                <STMT stmt="WAIT" amount="3" />
+                <STMT stmt="SET VARIABLE" var="%25a%25" scope="1" func="2" value="3" />
+            </GROUP>
+            <GROUP index="1">
+                <STMT stmt="WAIT" amount="6" />
+                <STMT stmt="SET VARIABLE" var="%25a%25" scope="1" func="2" value="2" />
+            </GROUP>
+            <GROUP index="2">
+                <STMT stmt="WAIT" amount="9" />
+                <STMT stmt="SET VARIABLE" var="%25a%25" scope="1" func="2" value="1" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="Lose%20check" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="TICK CYCLE" order="0" n="1" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="COMPARE" lhs="%25a%25" compare="1" rhs="30" />
+            </GROUP>
+            <GROUP index="1">
+                <STMT stmt="COMPARE" lhs="%25a%25" compare="6" rhs="0" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="SET VARIABLE" var="%25lose%25" scope="1" func="0" value="true" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="Init" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="SET VARIABLE" var="%25lose%25" scope="1" func="0" value="true" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="GUI%20Drawing%202" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CUSTOM UI" order="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="COMPARE" lhs="%25lose%25" compare="3" rhs="true" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="CUSTOM UI COLOR" uicolor="%23FF0000" />
+                <STMT stmt="CUSTOM UI STANDARD" uitype="2" rect="170%2C%2070%2C%20120%2C%2030" anchor="7" uitext="Start" uistyle="0" uievent="%25OnStartClick%25" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="Begin%20to%20play" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CUSTOM UI EVENT" order="0" eventname="%25OnStartClick%25" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="COMPARE" lhs="%25lose%25" compare="3" rhs="true" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="SET VARIABLE" var="%25hit%25" scope="1" func="0" value="0" />
+                <STMT stmt="SET VARIABLE" var="%25a%25" scope="1" func="0" value="10" />
+                <STMT stmt="SET VARIABLE" var="%25lose%25" scope="1" func="0" value="false" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

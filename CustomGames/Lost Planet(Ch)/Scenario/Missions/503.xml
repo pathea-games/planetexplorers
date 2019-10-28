@@ -1,0 +1,18 @@
+<MISSION id="503" name="chose11" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="11" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="RUN MISSION" mission="504" player="P%3A%2F-1%2F0" />
+                <STMT stmt="END MISSION" mission="500" player="P%3A%2F-1%2F0" result="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

@@ -1,0 +1,19 @@
+<MISSION id="401" name="find%20fisherman" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F89" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="Oh%E2%80%A6%20I%20haven%E2%80%99t%20seen%20a%20living%20person%20for%20a%20long%20time.%20It%E2%80%99s%20so%20unbelievable%20that%20you%20survived%20from%20the%20killer%20fish.%20" time="0" />
+                <STMT stmt="RUN MISSION" mission="402" player="P%3A%2F-1%2F0" />
+                <STMT stmt="END MISSION" mission="0" player="P%3A%2F-1%2F0" result="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

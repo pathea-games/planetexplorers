@@ -1,0 +1,17 @@
+<MISSION id="100" name="Find%20Hierarch" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="Tip600" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="TICK CYCLE" order="0" n="600" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="SHOW TIP" text="%E5%AF%BB%E6%89%BE%E6%95%99%E4%B8%BB" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

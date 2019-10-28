@@ -1,0 +1,17 @@
+<MISSION id="601" name="Allen%EF%BC%9F" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F84" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F84" text="Hey%2C%20get%20away%20from%20Jessie.%20You%20don%E2%80%99t%20have%20my%20trust.%20" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

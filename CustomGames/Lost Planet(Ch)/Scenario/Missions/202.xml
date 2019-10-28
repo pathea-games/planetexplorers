@@ -1,0 +1,69 @@
+<MISSION id="202" name="dam%20Up" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F90" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="%E5%90%BE%E5%8F%AF%E5%B0%86%E4%B9%A0%E5%BE%97%E6%AD%A6%E8%89%BA%E4%BC%A0%E6%8E%88%E4%BA%8E%E4%BD%A0%EF%BC%8C%E4%BB%A5%E8%A1%A8%E6%84%9F%E6%BF%80%E3%80%82" time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="16" text="%E5%AD%A6%E4%B9%A0%E6%AD%A6%E8%89%BA%E3%80%82%EF%BC%88%E4%BD%BF%E7%94%A81%E5%9D%97%E6%96%B9%E8%A7%A3%E7%9F%B3%E6%8F%90%E5%8D%8710%E7%82%B9%E6%94%BB%E5%87%BB%E5%8A%9B%EF%BC%89" />
+                <STMT stmt="ADD CHOICE" id="17" text="%E6%9A%82%E6%97%B6%E8%BF%98%E4%B8%8D%E6%9B%BE%E6%83%B3%E5%AD%A6%E4%B9%A0%E6%AD%A6%E8%89%BA%E3%80%82" />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="16" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="2" count="1" item="I%3A%2F30%2F1022" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F30%2F1022" func="2" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY STAT" object="P%3A%2F-1%2F0" stat="25" func="1" amount="10" range="-1" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="%E6%88%91%E7%9A%84%E6%8B%B3%E8%84%9A%E6%9B%B4%E7%81%B5%E6%B4%BB%E4%BA%86%EF%BC%81" time="0" />
+                <STMT stmt="SHOW TIP" text="%E4%B9%A0%E5%BE%97%E6%AD%A6%E8%89%BA%EF%BC%8C%E4%BD%A0%E7%9A%84%E6%94%BB%E5%87%BB%E5%8A%9B%E5%BE%97%E4%BB%A5%E6%8F%90%E5%8D%87%E3%80%82" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="16" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="6" count="1" item="I%3A%2F30%2F1023" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="%E6%B1%9D%E4%BF%AE%E4%B8%BA%E4%B8%8D%E5%A4%9F%EF%BC%8C%E6%81%95%E5%90%BE%E8%BE%88%E6%97%A0%E8%83%BD%E4%B8%BA%E5%8A%9B%E3%80%82" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="17" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="%E5%90%BE%E8%BE%88%E5%9C%A8%E6%AD%A4%E5%9C%B0%E6%81%AD%E5%80%99%E3%80%82" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

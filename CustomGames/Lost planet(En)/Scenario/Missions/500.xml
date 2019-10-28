@@ -1,0 +1,22 @@
+<MISSION id="500" name="go%20home" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F86" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F86" text="Who%E2%80%99s%20there%3F%20Ah%2C%20just%20a%20lost%20person%2C%20I%20thought%E2%80%A6keke%E2%80%A6%20I%20thought%20you%20are%20that%20giant%20worm." time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="9" text="Are%20you%20Jessica%E2%80%99s%20mother%3F" />
+                <STMT stmt="ADD CHOICE" id="10" text="What%20giant%20worm%3F%20What%20are%20you%20doing%20here%3F" />
+                <STMT stmt="ADD CHOICE" id="11" text="It%20looks%20like%20you%20are%20badly%20injured.%20You%20need%20medicine." />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

@@ -1,0 +1,17 @@
+<MISSION id="105" name="loot%20" type="1" can_abort="False" objective="There%20are%20plenty%20of%20calcites%2C%20which%20is%20a%20kind%20of%20precious%20and%20rare%20gem.%20Now%20collect%2050%20unites%20of%20calcites" begin_npc="0%7C87" end_npc="0%7C87" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="SET ITEM GOAL" id="1" text="collect%2050%20unites%20of%20calcites." mission="0" item="I%3A%2F30%2F1022" compare="2" amount="50" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

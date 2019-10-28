@@ -1,0 +1,18 @@
+<MISSION id="200" name="basaker" type="0" can_abort="False" objective="" begin_npc="0%7C90" end_npc="0%7C90" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F90" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="Who%20are%20you%3F%20How%20dare%20you%20stepping%20into%20my%20place!Die%20now!" time="0" />
+                <STMT stmt="KILL" object="P%3A%2F-1%2F0" range="-1" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

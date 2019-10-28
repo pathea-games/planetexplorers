@@ -1,0 +1,43 @@
+<MISSION id="100" name="Catherine" type="0" can_abort="False" objective="talk%20with%20Catherine" begin_npc="0%7C87" end_npc="0%7C87" award="">
+    <TRIGGER name="choice%20begin" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F87" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Captain%2C%20my%20dear%20captain.%20Oh%20god%2C%20you%20are%20finally%20awake.%20" time="0" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="What%20the%20hell%20is%20this%20place%3F%20Who%20are%20you%3F%20Why%20you%20call%20me%20the%20captain%3F%20Damn%2C%20my%20head%20hurts%E2%80%A6" time="0" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Looks%20like%20your%20head%20was%20hit%20badly%20that%20you%20lost%20all%20the%20memories%20for%20this%20moment.%20You%20are%20the%20captain%20of%20the%20airship%20Huangjiao.%20I%E2%80%99m%20your%20assistant%20Catherine.%20We%20have%20detected%20a%20plenty%20of%20gems%20on%20this%20planet%20when%20we%20passing%20by.%20You%20made%20the%20decision%20to%20land%20on%20this%20planet%2C%20but%20our%20airship%20crashed%20and%20you%20passed%20out." time="0" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="Ah%2C%20I%20remembered.%20We%20were%20just%20about%20to%20land%2C%20when%20a%20huge%20strange%20bird%20showed%20up%20in%20front%20of%20the%20airship.%20Then%20I%20blacked%20out%20and%20lost%20my%20consciousness.%20" time="0" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="I%20don%E2%80%99t%20recall%20any%20strange%20birds.%20All%20I%20remember%20is%20your%20screaming.%20Then%20our%20airship%20was%20crashed%20on%20the%20beach%20over%20there.%20Well%2C%20this%20planet%20is%20indeed%20very%20strange.%20The%20unique%20animals%20and%20plants%2C%20and%20these%20ancient%20but%20exotic%20buildings.%20They%20just%20indicate%20the%20existence%20of%20some%20unknown%20high%20intelligent%20creatures." time="0" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20don%E2%80%99t%20care%20about%20any%20alien%20culture%20Catherine%2C%20or%20any%20intelligent%20creatures.%20All%20I%20care%20is%20the%20gems.%20We%20are%20gonna%20be%20rich%20after%20having%20these%20gems." time="0" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Then%20you%20should%20be%20more%20careful%20when%20you%20explore%20this%20planet.%20Cause%20we%20don%E2%80%99t%20know%20if%20there%E2%80%99s%20any%20danger%20waiting%20for%20us.%20This%20is%20your%20equipment%20package.%20Bring%20it%20with%20you.%20%20" time="0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F2%2F3" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F14%2F100" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F14%2F118" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F15%2F136" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F15%2F154" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F17%2F171" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F17%2F182" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F18%2F197" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F18%2F215" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F3%2F228" func="0" count="2" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F3%2F72" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F8%2F77" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F8%2F88" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F11%2F58" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="104" player="P%3A%2F-1%2F0" />
+                <STMT stmt="WAIT" amount="5" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Oh%20one%20more%20thing%2C%20if%20you%20fall%20off%20the%20cliff%2C%20get%20mugged%20by%20aliens%2C%20or%20some%20emergency%20happens%2C%20you%20can%20use%20this%20flare%20gun%20to%20transfer%20back%20here.%20Remember%2C%20don%E2%80%99t%20mess%20with%20those%20monsters.%20Here%20are%205%20bandages.%20Hope%20you%20are%20not%20gonna%20use%20them." time="0" />
+                <STMT stmt="SHOW TIP" text="Oh%20one%20more%20thing%2C%20if%20you%20fall%20off%20the%20cliff%2C%20get%20mugged%20by%20aliens%2C%20or%20some%20emergency%20happens%2C%20you%20can%20use%20this%20flare%20gun%20to%20transfer%20back%20here.%20Remember%2C%20don%E2%80%99t%20mess%20with%20those%20monsters.%20Here%20are%205%20bandages.%20Hope%20you%20are%20not%20gonna%20use%20them." />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F28%2F924" func="1" count="5" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="105" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

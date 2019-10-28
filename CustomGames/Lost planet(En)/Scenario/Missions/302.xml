@@ -1,0 +1,19 @@
+<MISSION id="302" name="chose%207" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="7" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F85" text="No%3F%20Oh%20my%20god.%20Is%20my%20mum%E2%80%A6%3F%20Oh%E2%80%A6no%E2%80%A6that%E2%80%99s%20not%20happening." time="0" />
+                <STMT stmt="SHOW TIP" text="This%20little%20girl%20is%20even%20more%20concerned.%20She%20almost%20cries%20out." />
+                <STMT stmt="RUN MISSION" mission="304" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

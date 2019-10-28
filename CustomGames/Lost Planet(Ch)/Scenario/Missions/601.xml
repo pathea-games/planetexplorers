@@ -1,0 +1,17 @@
+<MISSION id="601" name="Allen%EF%BC%9F" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F84" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F84" text="%E7%A6%BBJessie%E8%BF%9C%E7%82%B9%EF%BC%8C%E6%88%91%E4%B8%8D%E4%BF%A1%E4%BB%BB%E4%BD%A0%E8%BF%99%E6%80%AA%E5%AE%B6%E4%BC%99%E3%80%82" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

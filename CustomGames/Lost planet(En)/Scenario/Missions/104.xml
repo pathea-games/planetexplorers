@@ -1,0 +1,18 @@
+<MISSION id="104" name="talk%20to%20cc" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F87" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Have%20you%20noticed%20shadows%20on%20that%20island%3F%20They%E2%80%99re%20in%20the%20center%20of%20the%20sea%20area%20around%20Huangjiao%E2%80%99s%20crash%20site%3F%20Maybe%20they%E2%80%99re%20just%20my%20illusion.%20But%20I%20think%20you%20should%20be%20away%20from%20that%20area.%20Who%20knows%20they%20are%20friends%20or%20enemies.%20" time="0" />
+                <STMT stmt="SHOW TIP" text="Have%20you%20noticed%20shadows%20on%20that%20island%3F%20They%E2%80%99re%20in%20the%20center%20of%20the%20sea%20area%20around%20Huangjiao%E2%80%99s%20crash%20site%3F%20Maybe%20they%E2%80%99re%20just%20my%20illusion.%20But%20I%20think%20you%20should%20be%20away%20from%20that%20area.%20Who%20knows%20they%20are%20friends%20or%20enemies.%20" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

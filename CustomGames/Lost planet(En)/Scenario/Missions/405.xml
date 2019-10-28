@@ -1,0 +1,17 @@
+<MISSION id="405" name="find%20him" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F89" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="Mayby%20i%20am%20stuck%20in%20this%20island%20just%20like%20that%20maniac." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

@@ -1,0 +1,69 @@
+<MISSION id="202" name="dam%20Up" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F90" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="I%20can%20teach%20you%20what%20I%20have%20learned%20for%20thanks." time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="16" text="Learn%20the%20new%20skill.%20(Use%201%20calcite%20to%20improve%2010%20attacking%20level)" />
+                <STMT stmt="ADD CHOICE" id="17" text="I%20don%E2%80%99t%20want%20to%20learn%20any%20new%20skills." />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="16" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="2" count="1" item="I%3A%2F30%2F1022" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F30%2F1022" func="2" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY STAT" object="P%3A%2F-1%2F0" stat="25" func="1" amount="10" range="-1" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20feel%20much%20stronger%EF%BC%81" time="0" />
+                <STMT stmt="SHOW TIP" text="Learned%20the%20new%20skill%2C%20and%20you%20get%20your%20attacking%20level%20improved." />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="16" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="6" count="1" item="I%3A%2F30%2F1023" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="Sorry%2C%20I%20cant%20help%20you." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="17" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="Find%20me%20if%20you%20change%20your%20mind." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

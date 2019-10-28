@@ -1,0 +1,51 @@
+<MISSION id="101" name="TP" type="0" can_abort="False" objective="" begin_npc="0%7C87" end_npc="0%7C87" award="">
+    <TRIGGER name="Tp" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="USE ITEM" order="0" item="I%3A%2F11%2F58" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="%E7%A1%AE%E8%AE%A4%E8%A6%81%E4%BC%A0%E9%80%81%E5%9B%9E%E6%9D%A5%E4%B9%88%EF%BC%9F%E8%88%B9%E9%95%BF" time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="1" text="%E6%8A%8A%E6%88%91%E9%80%81%E5%9B%9E%E5%8E%BB%E5%90%A7%EF%BC%81" />
+                <STMT stmt="ADD CHOICE" id="2" text="%E5%BE%85%E4%BC%9A%E5%86%8D%E8%AF%B4%E3%80%82" />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="Y" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="1" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="FAST TRAVEL" id="0" point="499%2C%2098%2C%20499" euler="0%2C%200%2C%200" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="N" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="2" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="MAYBE" p="50" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="%E9%82%A3%E7%AD%89%E4%BD%A0%E9%9C%80%E8%A6%81%E6%97%B6%E5%86%8D%E8%AF%B4%E5%90%A7" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

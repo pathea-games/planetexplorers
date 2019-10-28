@@ -1,0 +1,17 @@
+<MISSION id="106" name="loot%20achieve" type="0" can_abort="False" objective="" begin_npc="0%7C87" end_npc="0%7C87" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="GOAL ACHIEVE" order="0" id="1" mission="105" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Captain%2C%20my%20dear%20captain.%20We%20did%20it." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

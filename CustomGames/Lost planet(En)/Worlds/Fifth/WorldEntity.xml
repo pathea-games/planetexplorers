@@ -1,0 +1,224 @@
+<WORLDDATA>
+	<ENTITIES>
+		<DOODAD ID="2" prt="26" name="scene_alien_stove_01" istar="False" sclx="5.698" scly="5.307" sclz="5.065" posx="753.27" posy="170.41" posz="820.45" />
+		<DOODAD ID="3" prt="72" name="scene_puja_oldbuilding_thing01B" istar="False" sclx="1.452" scly="1" sclz="2.098" posx="806" posy="170.5" posz="812" />
+		<DOODAD ID="4" prt="71" name="scene_puja_oldbuilding_thing01A" istar="False" posx="806" posy="170.5" posz="810" />
+		<DOODAD ID="5" prt="78" name="scene_puja_oldbuilding_thing03A" istar="False" posx="820" posy="170.5" posz="837" />
+		<DOODAD ID="6" prt="90" name="scene_puja_oldbuilding_thing39C" istar="False" rotx="0" roty="0.9952784" rotz="0" rotw="-0.09706181" sclx="1.581" scly="1.339" sclz="1.535" posx="853.82" posy="170.5" posz="776.51" />
+		<DOODAD ID="14" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="812" posy="170.5" posz="818" />
+		<DOODAD ID="15" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="801" posy="170.5" posz="828" />
+		<DOODAD ID="16" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="815" posy="170.5" posz="829" />
+		<DOODAD ID="18" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="800" posy="170.5" posz="788" />
+		<DOODAD ID="19" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="815" posy="170.5" posz="795" />
+		<DOODAD ID="20" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="819" posy="170.5" posz="811" />
+		<DOODAD ID="21" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="806" posy="170.5" posz="800" />
+		<DOODAD ID="22" prt="84" name="scene_puja_oldbuilding_thing04C" istar="False" posx="805" posy="170.5" posz="820" />
+		<DOODAD ID="23" prt="88" name="scene_puja_oldbuilding_thing39A" istar="False" posx="828" posy="170.5" posz="913" />
+		<DOODAD ID="31" prt="85" name="scene_puja_oldbuilding_thing06A" istar="False" posx="740" posy="170.5" posz="862" />
+		<DOODAD ID="32" prt="95" name="scene_puja_oldbuild_b01B" istar="False" posx="741" posy="170.5" posz="862" />
+		<DOODAD ID="52" prt="82" name="scene_puja_oldbuilding_thing04A" istar="False" posx="757" posy="170.5" posz="867" />
+		<DOODAD ID="56" prt="133" name="scene_StoneCave_grassland" istar="False" rotx="0.002104058" roty="0.7091371" rotz="-0.002091974" rotw="-0.7050644" sclx="1.16" scly="1.176" sclz="1.26" posx="889.71" posy="170.83" posz="842.52" />
+		<DOODAD ID="58" prt="42" name="scene_Human_base_tent01" istar="False" posx="696" posy="170.5" posz="801" />
+		<DOODAD ID="59" prt="48" name="scene_Human_light01" istar="False" posx="704.13" posy="170.5" posz="797" />
+		<DOODAD ID="61" prt="27" name="scene_alien_table_01" istar="False" posx="897.85" posy="170.5" posz="796" />
+		<DOODAD ID="74" prt="58" name="scene_paja_hq_building02B" istar="False" rotx="0" roty="0.9211515" rotz="0" rotw="0.3892043" sclx="1" scly="0.932" sclz="1" posx="753" posy="128.33" posz="650" />
+		<DOODAD ID="75" prt="88" name="scene_puja_oldbuilding_thing39A" istar="False" rotx="0" roty="0.999819" rotz="0" rotw="0.01902306" sclx="1.305" scly="1.288" sclz="1.34" posx="811" posy="172.5" posz="771" />
+		<DOODAD ID="76" prt="72" name="scene_puja_oldbuilding_thing01B" istar="False" rotx="0" roty="0.708894" rotz="0" rotw="0.7053151" sclx="2.184" scly="2.819" sclz="7.349" posx="833.4" posy="172.5" posz="773.76" />
+		<DOODAD ID="77" prt="102" name="scene_puja_oldbuild_b02B" istar="False" posx="502" posy="97.5" posz="494" />
+		<DOODAD ID="78" prt="52" name="scene_Lifeboat" istar="False" rotx="0.2193338" roty="0.01103584" rotz="-0.2254279" rotw="0.9491856" posx="529.23" posy="101.5" posz="425" />
+		<DOODAD ID="79" prt="66" name="scene_puja_Computer01" istar="False" posx="501.96" posy="97.5" posz="494" />
+		<DOODAD ID="81" prt="59" name="scene_paja_hq_building02C" istar="False" posx="810" posy="150.5" posz="670" />
+		<DOODAD ID="82" prt="39" name="scene_grassland_gianttree" istar="False" posx="148.5" posy="105" posz="449" />
+		<DOODAD ID="83" prt="42" name="scene_Human_base_tent01" istar="False" posx="136.3" posy="102.5" posz="475" />
+		<DOODAD ID="193" prt="63" name="scene_plaza_03_grassland" istar="False" posx="253" posy="103.5" posz="43.4" />
+		<DOODAD ID="239" prt="72" name="scene_puja_oldbuilding_thing01B" istar="False" posx="113" posy="66.5" posz="595" />
+		<DOODAD ID="240" prt="86" name="scene_puja_oldbuilding_thing06B" istar="False" posx="288" posy="64.5" posz="436" />
+		<DOODAD ID="241" prt="131" name="scene_puja_Road_pillar18" istar="False" posx="96" posy="62.5" posz="309" />
+		<DOODAD ID="242" prt="111" name="scene_puja_oldbuild_b0408" istar="False" posx="162.5" posy="65" posz="303" />
+		<DOODAD ID="243" prt="119" name="scene_puja_oldbuild_pillar05" istar="False" posx="136" posy="61.5" posz="316" />
+		<DOODAD ID="244" prt="121" name="scene_puja_oldbuild_pillar07" istar="False" posx="172" posy="69.5" posz="773" />
+		<DOODAD ID="245" prt="116" name="scene_puja_oldbuild_pillar01" istar="False" posx="173" posy="68" posz="773.5" />
+		<DOODAD ID="246" prt="35" name="scene_campfire_burntout" istar="False" posx="701" posy="170.5" posz="810" />
+		<DOODAD ID="247" prt="35" name="scene_campfire_burntout" istar="False" posx="868" posy="170.5" posz="793" />
+		<DOODAD ID="248" prt="35" name="scene_campfire_burntout" istar="False" rotx="-0.1253034" roty="-0.01263952" rotz="0.09956302" rotw="-0.9870291" posx="174" posy="100.06" posz="475" />
+		<DOODAD ID="285" prt="146" name="PowerPlanetSolar" istar="False" rotx="0" roty="0.3464445" rotz="0" rotw="-0.9380705" posx="708" posy="170.5" posz="779.47" />
+		<DOODAD ID="286" prt="146" name="PowerPlanetSolar" istar="False" rotx="0.2392715" roty="0.2978809" rotz="-0.0773979" rotw="0.9208831" posx="174" posy="95.32999" posz="479" />
+		<DOODAD ID="287" prt="34" name="scene_aline_spikes_01" istar="False" rotx="0" roty="0.07236785" rotz="0" rotw="0.9973781" sclx="1.715" scly="1" sclz="1" posx="694.38" posy="170.5" posz="818.08" />
+		<DOODAD ID="288" prt="34" name="scene_aline_spikes_01" istar="False" rotx="0" roty="0.6391035" rotz="0" rotw="0.7691208" sclx="1.344" scly="1" sclz="1" posx="714.09" posy="170.5" posz="795.92" />
+		<DOODAD ID="290" prt="91" name="scene_puja_oldbuilding_thing40_01" istar="False" posx="897.37" posy="170.5" posz="840" />
+		<DOODAD ID="291" prt="91" name="scene_puja_oldbuilding_thing40_01" istar="False" posx="887.43" posy="170.5" posz="853" />
+		<MONSTER ID="99" prt="46" name="umbrawolf" player="3" istar="True" posx="718" posy="170.5" posz="853" />
+		<MONSTER ID="100" prt="46" name="umbrawolf" player="3" istar="True" posx="721" posy="170.5" posz="854" />
+		<MONSTER ID="101" prt="46" name="umbrawolf" player="3" istar="True" posx="723" posy="170.5" posz="848" />
+		<MONSTER ID="102" prt="46" name="umbrawolf" player="3" istar="True" posx="737" posy="170.5" posz="848" />
+		<MONSTER ID="104" prt="46" name="umbrawolf" player="3" istar="True" posx="735" posy="170.5" posz="872" />
+		<MONSTER ID="106" prt="46" name="umbrawolf" player="3" istar="True" posx="745" posy="170.5" posz="885" />
+		<MONSTER ID="107" prt="46" name="umbrawolf" player="3" istar="True" posx="736" posy="170.5" posz="884" />
+		<MONSTER ID="108" prt="46" name="umbrawolf" player="3" istar="True" posx="743" posy="170.5" posz="884" />
+		<MONSTER ID="109" prt="62" name="ambulator" player="3" istar="True" posx="740" posy="170.5" posz="862" />
+		<MONSTER ID="110" prt="17" name="ursus%20bear" player="3" istar="True" posx="808" posy="170.5" posz="800" />
+		<MONSTER ID="111" prt="17" name="ursus%20bear" player="3" istar="True" posx="817" posy="170.5" posz="811" />
+		<MONSTER ID="112" prt="17" name="ursus%20bear" player="3" istar="True" posx="807" posy="170.5" posz="821" />
+		<MONSTER ID="113" prt="70" name="blindatillo" player="3" istar="True" posx="891" posy="170.5" posz="800" />
+		<MONSTER ID="114" prt="61" name="hellrat%20adult" player="3" istar="True" posx="907" posy="170.5" posz="883" />
+		<MONSTER ID="115" prt="61" name="hellrat%20adult" player="3" istar="True" posx="907" posy="170.5" posz="885" />
+		<MONSTER ID="116" prt="61" name="hellrat%20adult" player="3" istar="True" posx="882" posy="170.5" posz="894" />
+		<MONSTER ID="117" prt="61" name="hellrat%20adult" player="3" istar="True" posx="874" posy="170.5" posz="897" />
+		<MONSTER ID="118" prt="61" name="hellrat%20adult" player="3" istar="True" posx="876" posy="170.5" posz="898" />
+		<MONSTER ID="119" prt="61" name="hellrat%20adult" player="3" istar="True" posx="872" posy="170.5" posz="904" />
+		<MONSTER ID="120" prt="61" name="hellrat%20adult" player="3" istar="True" posx="877" posy="170.5" posz="906" />
+		<MONSTER ID="121" prt="61" name="hellrat%20adult" player="3" istar="True" posx="874" posy="170.5" posz="883" />
+		<MONSTER ID="122" prt="61" name="hellrat%20adult" player="3" istar="True" posx="871" posy="170.5" posz="882" />
+		<MONSTER ID="123" prt="61" name="hellrat%20adult" player="3" istar="True" posx="874" posy="170.5" posz="889" />
+		<MONSTER ID="124" prt="61" name="hellrat%20adult" player="3" istar="True" posx="877" posy="170.5" posz="885" />
+		<MONSTER ID="125" prt="61" name="hellrat%20adult" player="3" istar="True" posx="889" posy="170.5" posz="883" />
+		<MONSTER ID="126" prt="61" name="hellrat%20adult" player="3" istar="True" posx="887" posy="170.5" posz="880" />
+		<MONSTER ID="127" prt="61" name="hellrat%20adult" player="3" istar="True" posx="893" posy="170.5" posz="879" />
+		<MONSTER ID="128" prt="61" name="hellrat%20adult" player="3" istar="True" posx="880" posy="170.5" posz="871" />
+		<MONSTER ID="129" prt="60" name="hellrat%20child" player="3" istar="True" posx="901" posy="170.5" posz="809" />
+		<MONSTER ID="130" prt="60" name="hellrat%20child" player="3" istar="True" posx="897" posy="170.5" posz="810" />
+		<MONSTER ID="131" prt="60" name="hellrat%20child" player="3" istar="True" posx="899" posy="170.5" posz="815" />
+		<MONSTER ID="132" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="795" posy="170.5" posz="875" />
+		<MONSTER ID="133" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="797" posy="170.5" posz="887" />
+		<MONSTER ID="134" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="804" posy="170.5" posz="870" />
+		<MONSTER ID="135" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="821" posy="170.5" posz="882" />
+		<MONSTER ID="136" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="779" posy="170.5" posz="890" />
+		<MONSTER ID="137" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="691" posy="170.5" posz="856" />
+		<MONSTER ID="138" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="696" posy="170.5" posz="858" />
+		<MONSTER ID="139" prt="28" name="peloso%20gibbon" player="3" istar="True" posx="694" posy="170.5" posz="872" />
+		<MONSTER ID="141" prt="25" name="tappeto" player="3" istar="True" posx="880" posy="170.5" posz="832" />
+		<MONSTER ID="143" prt="25" name="tappeto" player="3" istar="True" posx="863" posy="170.5" posz="899" />
+		<MONSTER ID="144" prt="47" name="domaca%20monkey" player="3" istar="True" posx="756" posy="170.5" posz="806" />
+		<MONSTER ID="145" prt="40" name="unaala" player="3" istar="True" posx="787.14" posy="225.06" posz="539" />
+		<MONSTER ID="146" prt="40" name="unaala" player="3" istar="True" posx="795" posy="219.99" posz="488.35" />
+		<MONSTER ID="147" prt="40" name="unaala" player="3" istar="True" posx="760" posy="216.06" posz="483.86" />
+		<MONSTER ID="150" prt="69" name="red%20korona" player="3" istar="True" posx="757.26" posy="229.82" posz="533" />
+		<MONSTER ID="151" prt="23" name="coelodonta%20rhino%20uredklad" player="3" istar="True" posx="784" posy="139.5" posz="513" />
+		<MONSTER ID="152" prt="35" name="marishu" player="3" istar="True" posx="857" posy="145.5" posz="534" />
+		<MONSTER ID="153" prt="35" name="marishu" player="3" istar="True" posx="861" posy="146.21" posz="534" />
+		<MONSTER ID="159" prt="35" name="marishu" player="3" istar="True" posx="860" posy="145.5" posz="538" />
+		<MONSTER ID="160" prt="35" name="marishu" player="3" istar="True" posx="863" posy="145.85" posz="537" />
+		<MONSTER ID="162" prt="35" name="marishu" player="3" istar="True" posx="856" posy="145.5" posz="538" />
+		<MONSTER ID="163" prt="55" name="hvitthar" player="3" istar="True" posx="455" posy="102.5" posz="554" />
+		<MONSTER ID="166" prt="55" name="hvitthar" player="3" istar="True" posx="402" posy="97.5" posz="586" />
+		<MONSTER ID="167" prt="55" name="hvitthar" player="3" istar="True" posx="364" posy="109.5" posz="650" />
+		<MONSTER ID="168" prt="55" name="hvitthar" player="3" istar="True" posx="467" posy="108.5" posz="641" />
+		<MONSTER ID="169" prt="55" name="hvitthar" player="3" istar="True" posx="600" posy="107.5" posz="494" />
+		<MONSTER ID="170" prt="55" name="hvitthar" player="3" istar="True" posx="710" posy="96.5" posz="286" />
+		<MONSTER ID="171" prt="55" name="hvitthar" player="3" istar="True" posx="778" posy="107.5" posz="140" />
+		<MONSTER ID="172" prt="55" name="hvitthar" player="3" istar="True" posx="698" posy="97.5" posz="89" />
+		<MONSTER ID="173" prt="55" name="hvitthar" player="3" istar="True" posx="707" posy="97.5" posz="88" />
+		<MONSTER ID="174" prt="55" name="hvitthar" player="3" istar="True" posx="888" posy="114.5" posz="147" />
+		<MONSTER ID="175" prt="58" name="unihorn%20yak" player="3" istar="True" posx="802" posy="108.5" posz="79" />
+		<MONSTER ID="176" prt="58" name="unihorn%20yak" player="3" istar="True" posx="927" posy="108.5" posz="86" />
+		<MONSTER ID="177" prt="58" name="unihorn%20yak" player="3" istar="True" posx="805" posy="118.5" posz="217" />
+		<MONSTER ID="178" prt="58" name="unihorn%20yak" player="3" istar="True" posx="644" posy="106.5" posz="357" />
+		<MONSTER ID="179" prt="58" name="unihorn%20yak" player="3" istar="True" posx="544" posy="102.5" posz="509" />
+		<MONSTER ID="180" prt="58" name="unihorn%20yak" player="3" istar="True" posx="485" posy="125.5" posz="696" />
+		<MONSTER ID="181" prt="3" name="cervidae%20stag" player="3" istar="True" posx="451" posy="102.5" posz="526" />
+		<MONSTER ID="182" prt="3" name="cervidae%20stag" player="3" istar="True" posx="434" posy="100.5" posz="535" />
+		<MONSTER ID="183" prt="3" name="cervidae%20stag" player="3" istar="True" posx="427" posy="99.5" posz="532" />
+		<MONSTER ID="184" prt="3" name="cervidae%20stag" player="3" istar="True" posx="433" posy="100.5" posz="531" />
+		<MONSTER ID="185" prt="3" name="cervidae%20stag" player="3" istar="True" posx="435" posy="100.5" posz="526" />
+		<MONSTER ID="186" prt="3" name="cervidae%20stag" player="3" istar="True" posx="439" posy="101.5" posz="527" />
+		<MONSTER ID="187" prt="4" name="coelodonta%20rhino" player="3" istar="True" posx="406" posy="96.5" posz="547" />
+		<MONSTER ID="188" prt="10" name="spheniscidae%20penguin" player="3" istar="True" posx="371" posy="109.99" posz="515" />
+		<MONSTER ID="189" prt="10" name="spheniscidae%20penguin" player="3" istar="True" posx="372" posy="109.79" posz="512" />
+		<MONSTER ID="190" prt="10" name="spheniscidae%20penguin" player="3" istar="True" posx="374" posy="107.98" posz="508" />
+		<MONSTER ID="191" prt="10" name="spheniscidae%20penguin" player="3" istar="True" posx="371" posy="107.73" posz="509" />
+		<MONSTER ID="192" prt="10" name="spheniscidae%20penguin" player="3" istar="True" posx="375" posy="106.88" posz="504.5" />
+		<MONSTER ID="194" prt="65" name="pantano%20croc" player="3" istar="True" posx="216" posy="105.5" posz="50" />
+		<MONSTER ID="195" prt="63" name="ceru" player="3" istar="True" posx="283" posy="104.5" posz="43" />
+		<MONSTER ID="196" prt="63" name="ceru" player="3" istar="True" posx="278.96" posy="103.45" posz="43" />
+		<MONSTER ID="197" prt="63" name="ceru" player="3" istar="True" posx="282" posy="103.5" posz="46.85" />
+		<MONSTER ID="198" prt="68" name="testudo%20turtle" player="3" istar="True" posx="325" posy="109.5" posz="38" />
+		<MONSTER ID="199" prt="58" name="unihorn%20yak" player="3" istar="True" posx="628" posy="97.5" posz="112" />
+		<MONSTER ID="200" prt="17" name="ursus%20bear" player="3" istar="True" posx="641" posy="101.5" posz="53" />
+		<MONSTER ID="201" prt="17" name="ursus%20bear" player="3" istar="True" posx="644.5" posy="101" posz="49" />
+		<MONSTER ID="202" prt="17" name="ursus%20bear" player="3" istar="True" posx="647.5" posy="100" posz="51" />
+		<MONSTER ID="203" prt="15" name="coelodonta%20rhino%20wolf" player="3" istar="True" posx="778" posy="105.5" posz="100" />
+		<MONSTER ID="204" prt="42" name="veiderun" player="3" istar="True" posx="462" posy="100.5" posz="598" />
+		<MONSTER ID="205" prt="42" name="veiderun" player="3" istar="True" posx="607.5" posy="108" posz="424" />
+		<MONSTER ID="206" prt="42" name="veiderun" player="3" istar="True" posx="729" posy="101.5" posz="307" />
+		<MONSTER ID="207" prt="42" name="veiderun" player="3" istar="True" posx="791" posy="119.5" posz="190" />
+		<MONSTER ID="208" prt="42" name="veiderun" player="3" istar="True" posx="868.5" posy="122" posz="31" />
+		<MONSTER ID="209" prt="42" name="veiderun" player="3" istar="True" posx="958" posy="103.5" posz="191" />
+		<MONSTER ID="210" prt="25" name="tappeto" player="3" istar="True" rotx="0.09601948" roty="0" rotz="0" rotw="0.9953794" posx="556" posy="107.04" posz="183" />
+		<MONSTER ID="211" prt="25" name="tappeto" player="3" istar="True" posx="549" posy="108.5" posz="177" />
+		<MONSTER ID="212" prt="25" name="tappeto" player="3" istar="True" posx="553" posy="108.5" posz="177" />
+		<MONSTER ID="213" prt="25" name="tappeto" player="3" istar="True" posx="548" posy="108.5" posz="181" />
+		<MONSTER ID="214" prt="25" name="tappeto" player="3" istar="True" rotx="-0.1208565" roty="-0.06580251" rotz="0.06693777" rotw="-0.9882222" posx="551" posy="107.13" posz="186" />
+		<MONSTER ID="216" prt="25" name="tappeto" player="3" istar="True" rotx="0.09141473" roty="0" rotz="0" rotw="0.995813" posx="554" posy="106.85" posz="185" />
+		<MONSTER ID="217" prt="54" name="dayu" player="3" istar="True" posx="101" posy="92.46" posz="391" />
+		<MONSTER ID="218" prt="54" name="dayu" player="3" istar="True" posx="73" posy="86.27" posz="447" />
+		<MONSTER ID="219" prt="54" name="dayu" player="3" istar="True" posx="207" posy="74.77" posz="532" />
+		<MONSTER ID="220" prt="54" name="dayu" player="3" istar="True" posx="245" posy="79.88" posz="458" />
+		<MONSTER ID="221" prt="54" name="dayu" player="3" istar="True" posx="191" posy="85.62" posz="507" />
+		<MONSTER ID="222" prt="51" name="maria%20catfish" player="3" istar="True" posx="167" posy="96.84" posz="264" />
+		<MONSTER ID="223" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="164" posy="63.5" posz="273" />
+		<MONSTER ID="224" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="131" posy="82.23" posz="553" />
+		<MONSTER ID="225" prt="54" name="dayu" player="3" istar="True" posx="142" posy="70.31" posz="582" />
+		<MONSTER ID="226" prt="54" name="dayu" player="3" istar="True" posx="247.5" posy="72.56" posz="499.54" />
+		<MONSTER ID="227" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="97" posy="71.3" posz="567.5" />
+		<MONSTER ID="228" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="98" posy="70.3" posz="569" />
+		<MONSTER ID="229" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="97" posy="70.33" posz="571" />
+		<MONSTER ID="230" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="100" posy="70.48" posz="572" />
+		<MONSTER ID="231" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="98" posy="69" posz="570.5" />
+		<MONSTER ID="232" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="99" posy="69.5" posz="570" />
+		<MONSTER ID="233" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="99" posy="70.07" posz="570.5" />
+		<MONSTER ID="234" prt="50" name="sawnose%20cuttlefish" player="3" istar="True" posx="98.81" posy="70.67" posz="573" />
+		<MONSTER ID="235" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="86" posy="73.79" posz="605" />
+		<MONSTER ID="236" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="87.87" posy="72.41" posz="608" />
+		<MONSTER ID="237" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="86" posy="73.31" posz="614" />
+		<MONSTER ID="238" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="90" posy="73.83" posz="617" />
+		<MONSTER ID="249" prt="53" name="sandworm" player="3" istar="True" posx="289" posy="64.5" posz="418" />
+		<MONSTER ID="250" prt="53" name="sandworm" player="3" istar="True" posx="286.5" posy="65" posz="418" />
+		<MONSTER ID="251" prt="53" name="sandworm" player="3" istar="True" posx="291" posy="64.46" posz="418" />
+		<MONSTER ID="252" prt="53" name="sandworm" player="3" istar="True" posx="288.5" posy="64" posz="415" />
+		<MONSTER ID="253" prt="53" name="sandworm" player="3" istar="True" posx="285" posy="64.5" posz="411" />
+		<MONSTER ID="254" prt="53" name="sandworm" player="3" istar="True" posx="289" posy="64.76" posz="409" />
+		<MONSTER ID="255" prt="53" name="sandworm" player="3" istar="True" posx="292" posy="64.41" posz="412" />
+		<MONSTER ID="256" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="282" posy="65.5" posz="412" />
+		<MONSTER ID="257" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="284" posy="65.5" posz="413" />
+		<MONSTER ID="258" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="284" posy="65.5" posz="415" />
+		<MONSTER ID="259" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="285.5" posy="65" posz="415" />
+		<MONSTER ID="260" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="287" posy="65.5" posz="444" />
+		<MONSTER ID="261" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="288" posy="65.5" posz="445" />
+		<MONSTER ID="262" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="289" posy="64.5" posz="444" />
+		<MONSTER ID="263" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="291" posy="65.21" posz="444" />
+		<MONSTER ID="264" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="293" posy="64.5" posz="443" />
+		<MONSTER ID="265" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="289" posy="64.5" posz="434" />
+		<MONSTER ID="266" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="289" posy="64.5" posz="434" />
+		<MONSTER ID="267" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="289" posy="64.5" posz="436" />
+		<MONSTER ID="268" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="290" posy="64.5" posz="435" />
+		<MONSTER ID="269" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="291" posy="64.5" posz="434" />
+		<MONSTER ID="270" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="135" posy="63.5" posz="303" />
+		<MONSTER ID="271" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="136" posy="63.5" posz="302" />
+		<MONSTER ID="272" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="135" posy="63.5" posz="300" />
+		<MONSTER ID="273" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="132" posy="62.5" posz="303" />
+		<MONSTER ID="274" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="134" posy="63.54" posz="305" />
+		<MONSTER ID="275" prt="43" name="purple%20beerbelly" player="3" istar="True" posx="133" posy="63.5" posz="301" />
+		<MONSTER ID="276" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="150" posy="64.5" posz="298" />
+		<MONSTER ID="277" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="152" posy="64.5" posz="299" />
+		<MONSTER ID="278" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="155" posy="64.5" posz="300" />
+		<MONSTER ID="279" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="154" posy="64.5" posz="302" />
+		<MONSTER ID="280" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="153" posy="64.5" posz="301" />
+		<MONSTER ID="281" prt="49" name="redhooded%20hexapus" player="3" istar="True" posx="151" posy="64.5" posz="300" />
+		<MONSTER ID="282" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="149" posy="64.5" posz="314" />
+		<MONSTER ID="283" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="151.5" posy="65" posz="315" />
+		<MONSTER ID="284" prt="52" name="harpactorinae%20insect" player="3" istar="True" posx="152" posy="65.5" posz="313" />
+		<MONSTER ID="294" prt="23" name="coelodonta%20rhino%20uredklad" player="3" istar="True" rotx="0" roty="0.4027467" rotz="0" rotw="0.9153115" posx="763.12" posy="138.3" posz="496.26" />
+		<MONSTER ID="295" prt="31" name="andhera%20male" player="3" istar="True" posx="886" posy="149" posz="828.5" />
+		<MONSTER ID="296" prt="27" name="andhera%20worker" player="3" istar="True" posx="867.5" posy="151" posz="820" />
+		<MONSTER ID="297" prt="27" name="andhera%20worker" player="3" istar="True" posx="875" posy="149.5" posz="816" />
+		<MONSTER ID="298" prt="31" name="andhera%20male" player="3" istar="True" posx="900" posy="150.5" posz="802" />
+		<MONSTER ID="299" prt="27" name="andhera%20worker" player="3" istar="True" posx="930" posy="153.5" posz="832" />
+		<NPC ID="84" prt="9" name="HuaTuo" istar="True" posx="704" posy="170.5" posz="798" />
+		<NPC ID="85" prt="24" name="Jessica" istar="True" rotx="0" roty="0.633786" rotz="0" rotw="-0.7735085" sclx="0.798" scly="0.767" sclz="0.541" posx="706" posy="170.46" posz="798" />
+		<NPC ID="86" prt="36" name="Swan" istar="True" posx="875" posy="170.5" posz="788" />
+		<NPC ID="87" prt="30" name="Catherine" istar="True" posx="497.61" posy="98.5" posz="494.17" />
+		<NPC ID="89" prt="10" name="Santiago" istar="True" rotx="0" roty="0.6985402" rotz="0" rotw="0.7155709" posx="172.04" posy="100.25" posz="476.63" />
+		<NPC ID="90" prt="40" name="Basaker" istar="True" posx="771" posy="216.03" posz="513" />
+		<ITEM ID="1" prt="286" name="large%20gate" istar="False" sclx="6.313" scly="5.039" sclz="1" posx="813.18" posy="170.63" posz="909.5" />
+	</ENTITIES>
+</WORLDDATA>

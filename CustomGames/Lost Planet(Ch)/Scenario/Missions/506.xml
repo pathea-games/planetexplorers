@@ -1,0 +1,17 @@
+<MISSION id="506" name="chose13" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="13" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F86" text="%E9%9A%BE%E9%81%93%E6%88%91%E5%B0%B1%E8%A6%81%E5%9C%A8%E8%BF%99%E9%87%8C%E7%BB%93%E6%9D%9F%E4%BA%86%E4%B9%88%EF%BC%9FJessie%EF%BC%8C%E6%88%91%E7%9A%84%E5%A5%B3%E5%84%BF..." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

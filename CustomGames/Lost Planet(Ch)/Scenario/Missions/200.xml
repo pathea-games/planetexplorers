@@ -1,0 +1,18 @@
+<MISSION id="200" name="basaker" type="0" can_abort="False" objective="" begin_npc="0%7C90" end_npc="0%7C90" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F90" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="%E6%B1%9D%E6%98%AF%E4%BD%95%E4%BA%BA%EF%BC%8C%E8%83%86%E6%95%A2%E5%86%92%E7%8A%AF%E6%AD%A4%E5%9C%B0%EF%BC%81%E5%8F%97%E6%AD%BB%E5%90%A7%EF%BC%81" time="0" />
+                <STMT stmt="KILL" object="P%3A%2F-1%2F0" range="-1" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

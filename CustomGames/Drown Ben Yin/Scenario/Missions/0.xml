@@ -1,0 +1,17 @@
+<MISSION id="0" name="Core%20Mission" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="Run%20mission" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="RUN MISSION" mission="1" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

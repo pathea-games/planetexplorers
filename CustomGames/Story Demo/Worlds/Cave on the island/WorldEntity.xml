@@ -1,0 +1,75 @@
+<WORLDDATA>
+	<ENTITIES>
+		<DOODAD ID="84" prt="42" name="scene_Human_base_tent01" istar="False" rotx="0.06828357" roty="-0.9194138" rotz="0.0745845" rotw="-0.3800695" posx="385.25" posy="99.4" posz="407.33" />
+		<DOODAD ID="57" prt="7" name="scene_Alien_base_tent06A" istar="False" rotx="0" roty="0.9280314" rotz="0" rotw="-0.3725019" posx="118.33" posy="119.73" posz="258.22" />
+		<DOODAD ID="58" prt="7" name="scene_Alien_base_tent06A" istar="False" rotx="0" roty="0.780103" rotz="0" rotw="-0.6256512" posx="120.98" posy="119.28" posz="254.05" />
+		<DOODAD ID="59" prt="7" name="scene_Alien_base_tent06A" istar="False" rotx="0" roty="0.4504102" rotz="0" rotw="-0.8928217" posx="119.85" posy="119.13" posz="249.41" />
+		<DOODAD ID="65" prt="9" name="scene_Alien_base_tent06C" istar="False" rotx="0" roty="0.3842953" rotz="0" rotw="0.9232103" posx="28.27" posy="55.5" posz="324.65" />
+		<DOODAD ID="66" prt="9" name="scene_Alien_base_tent06C" istar="False" rotx="0" roty="0.2355662" rotz="0" rotw="0.9718583" posx="40.81" posy="55.45" posz="315.33" />
+		<DOODAD ID="83" prt="43" name="scene_Human_base_tent01A" istar="False" posx="108.55" posy="121.5" posz="253" />
+		<DOODAD ID="86" prt="7" name="scene_Alien_base_tent06A" istar="False" rotx="0" roty="0.4728584" rotz="0" rotw="0.8811385" posx="372.92" posy="98.5" posz="412.12" />
+		<DOODAD ID="87" prt="7" name="scene_Alien_base_tent06A" istar="False" rotx="0" roty="0.4728584" rotz="0" rotw="0.8811385" posx="375.52" posy="98.09" posz="407.64" />
+		<DOODAD ID="88" prt="7" name="scene_Alien_base_tent06A" istar="False" rotx="0" roty="0.3271354" rotz="0" rotw="0.9449775" posx="381.58" posy="97.5" posz="399.09" />
+		<DOODAD ID="89" prt="7" name="scene_Alien_base_tent06A" istar="False" posx="386.33" posy="97.5" posz="397.19" />
+		<DOODAD ID="93" prt="7" name="scene_Alien_base_tent06A" istar="False" posx="391.7" posy="97.87" posz="397.1" />
+		<DOODAD ID="94" prt="7" name="scene_Alien_base_tent06A" istar="False" rotx="0" roty="0.4728584" rotz="0" rotw="0.8811385" posx="378.23" posy="96.71" posz="403.17" />
+		<MONSTER ID="69" prt="3" name="cervidae%20stag" player="3" istar="True" area="True" sclx="38.484" scly="4" sclz="40.984" rotx="0" roty="0" rotz="0.03428923" rotw="-0.9994119" spawnAmount="16" amountPerSocial="8" isSocial="True" posx="289.7" posy="28.13" posz="200.84" />
+		<MONSTER ID="70" prt="3" name="cervidae%20stag" player="3" istar="True" area="True" sclx="21.092" scly="4" sclz="31.627" spawnAmount="6" amountPerSocial="6" isSocial="True" posx="107" posy="32.91" posz="358.83" />
+		<MONSTER ID="71" prt="13" name="lepus%20hare" player="3" istar="True" posx="146" posy="34.5" posz="299" />
+		<MONSTER ID="72" prt="13" name="lepus%20hare" player="3" istar="True" posx="134" posy="33.5" posz="295" />
+		<MONSTER ID="73" prt="13" name="lepus%20hare" player="3" istar="True" posx="129" posy="33.5" posz="296" />
+		<MONSTER ID="74" prt="13" name="lepus%20hare" player="3" istar="True" posx="139" posy="36.5" posz="285" />
+		<MONSTER ID="75" prt="13" name="lepus%20hare" player="3" istar="True" posx="114" posy="30.5" posz="319" />
+		<MONSTER ID="76" prt="13" name="lepus%20hare" player="3" istar="True" posx="427" posy="32.5" posz="198" />
+		<MONSTER ID="77" prt="13" name="lepus%20hare" player="3" istar="True" posx="432" posy="29.5" posz="139" />
+		<MONSTER ID="78" prt="4" name="coelodonta%20rhino" player="3" istar="True" posx="286" posy="354.88" posz="254" />
+		<MONSTER ID="79" prt="13" name="lepus%20hare" player="3" istar="True" posx="385" posy="24" posz="77.5" />
+		<MONSTER ID="80" prt="13" name="lepus%20hare" player="3" istar="True" posx="162.5" posy="28" posz="392" />
+		<NPC ID="55" prt="31" name="Salee" player="2" istar="True" rotx="0" roty="0.5079895" rotz="0" rotw="0.8613633" posx="119.66" posy="121.04" posz="253.78" />
+		<NPC ID="63" prt="40" name="Hierarch" player="2" istar="True" posx="169" posy="32.5" posz="235" />
+		<NPC ID="82" prt="7" name="X" player="2" istar="True" rotx="0" roty="0.7369826" rotz="0" rotw="-0.6759118" posx="379.84" posy="99.93" posz="412.76" />
+		<NPC ID="81" prt="25" name="Lao%20Yu" player="2" istar="True" posx="37" posy="55.82" posz="321" />
+		<ITEM ID="62" prt="343" name="Crystal" istar="False" posx="95" posy="447" posz="417.14" />
+		<ITEM ID="68" prt="330" name="flower%20pot" istar="False" posx="53.2" posy="92.55" posz="334.98" />
+		<ITEM ID="95" prt="283" name="wood%20bed" istar="False" rotx="0" roty="0.2223994" rotz="0" rotw="0.9749557" posx="30.11" posy="56.5" posz="331.49" />
+		<ITEM ID="96" prt="342" name="ornamental%20shrub" istar="False" posx="140" posy="15.16" posz="219" />
+		<ITEM ID="97" prt="342" name="ornamental%20shrub" istar="False" posx="142" posy="15.16" posz="219" />
+		<ITEM ID="99" prt="342" name="ornamental%20shrub" istar="False" posx="140" posy="15.16" posz="217" />
+		<ITEM ID="100" prt="342" name="ornamental%20shrub" istar="False" posx="142" posy="15.16" posz="217" />
+		<EFFECT ID="1" prt="8" name="water_fall" posx="337.74" posy="100.31" posz="207.04" />
+		<EFFECT ID="8" prt="9" name="water_fall_big" posx="378.28" posy="332.17" posz="323.95" />
+		<EFFECT ID="3" prt="8" name="water_fall" posx="229" posy="148.5" posz="326" />
+		<EFFECT ID="6" prt="8" name="water_fall" posx="143.03" posy="110.68" posz="216" />
+		<EFFECT ID="9" prt="2" name="FX_driftingDust_03" posx="412" posy="214.5" posz="292" />
+		<EFFECT ID="10" prt="2" name="FX_driftingDust_03" posx="411.5" posy="214" posz="287" />
+		<EFFECT ID="11" prt="2" name="FX_driftingDust_03" posx="415.5" posy="213" posz="284" />
+		<EFFECT ID="12" prt="2" name="FX_driftingDust_03" posx="423" posy="215.5" posz="287" />
+		<EFFECT ID="13" prt="2" name="FX_driftingDust_03" posx="422" posy="213.5" posz="291" />
+		<EFFECT ID="14" prt="2" name="FX_driftingDust_03" posx="417" posy="213" posz="294.5" />
+		<EFFECT ID="15" prt="5" name="FX_insects_01" posx="329" posy="23.5" posz="254" />
+		<EFFECT ID="16" prt="5" name="FX_insects_01" posx="328" posy="23.5" posz="251" />
+		<EFFECT ID="17" prt="5" name="FX_insects_01" posx="327" posy="23.5" posz="248" />
+		<EFFECT ID="18" prt="5" name="FX_insects_01" posx="326" posy="23.5" posz="244" />
+		<EFFECT ID="19" prt="5" name="FX_insects_01" posx="326" posy="23.5" posz="241" />
+		<EFFECT ID="20" prt="5" name="FX_insects_01" posx="326" posy="23.5" posz="237" />
+		<EFFECT ID="21" prt="5" name="FX_insects_01" posx="325" posy="23.5" posz="233" />
+		<EFFECT ID="22" prt="6" name="FX_underwater_bubbles" posx="332.5" posy="12" posz="200" />
+		<EFFECT ID="23" prt="6" name="FX_underwater_bubbles" posx="334" posy="11.5" posz="203" />
+		<EFFECT ID="24" prt="6" name="FX_underwater_bubbles" posx="338" posy="10.5" posz="207" />
+		<EFFECT ID="25" prt="6" name="FX_underwater_bubbles" posx="343" posy="9.5" posz="207" />
+		<EFFECT ID="26" prt="6" name="FX_underwater_bubbles" posx="339" posy="9.5" posz="203" />
+		<EFFECT ID="27" prt="6" name="FX_underwater_bubbles" posx="337" posy="9.5" posz="202" />
+		<EFFECT ID="28" prt="6" name="FX_underwater_bubbles" posx="338" posy="10.5" posz="205" />
+		<EFFECT ID="29" prt="6" name="FX_underwater_bubbles" posx="340" posy="10.5" posz="208" />
+		<EFFECT ID="30" prt="6" name="FX_underwater_bubbles" posx="339" posy="8.5" posz="202" />
+		<EFFECT ID="31" prt="6" name="FX_underwater_bubbles" posx="342" posy="8.5" posz="203" />
+		<EFFECT ID="32" prt="6" name="FX_underwater_bubbles" posx="339" posy="10.5" posz="208" />
+		<EFFECT ID="33" prt="6" name="FX_underwater_bubbles" posx="336" posy="11" posz="205.5" />
+		<EFFECT ID="34" prt="6" name="FX_underwater_bubbles" posx="337" posy="9.5" posz="202" />
+		<EFFECT ID="35" prt="6" name="FX_underwater_bubbles" posx="340" posy="7.5" posz="200" />
+		<EFFECT ID="36" prt="6" name="FX_underwater_bubbles" posx="343" posy="8.5" posz="202" />
+		<EFFECT ID="37" prt="6" name="FX_underwater_bubbles" posx="336.5" posy="11" posz="206" />
+		<EFFECT ID="38" prt="6" name="FX_underwater_bubbles" posx="335" posy="11.5" posz="205" />
+		<EFFECT ID="39" prt="6" name="FX_underwater_bubbles" posx="337" posy="10.5" posz="204" />
+	</ENTITIES>
+</WORLDDATA>

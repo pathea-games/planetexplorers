@@ -1,0 +1,40 @@
+<MISSION id="505" name="chose12" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="12" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="2" count="1" item="I%3A%2F28%2F924" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F28%2F924" func="2" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F86" text="I%20feel%20much%20better.%20Thanks%20for%20your%20help.%20Now%20I%E2%80%99m%20heading%20back%20to%20the%20camp%20now.%20Jessie%20must%20be%20so%20worried.%20Please%20do%20find%20me%20in%20the%20camp%2C%20I%20wanna%20thank%20you%20for%20saving%20my%20life.%20And%2C%20please%20don%E2%80%99t%20walk%20any%20further.%20This%20maze%20is%20full%20of%20monsters.%20Please%20be%20more%20careful%20when%20you%20wander.%20%20" time="0" />
+                <STMT stmt="SET POSE" object="W%3A%2F0%2F86" funcp="0" point="688%2C%20170%2C%20792" funcr="0" euler="0%2C%200%2C%200" />
+                <STMT stmt="END MISSION" mission="300" player="P%3A%2F-1%2F0" result="0" />
+                <STMT stmt="RUN MISSION" mission="301" player="P%3A%2F-1%2F0" />
+                <STMT stmt="END MISSION" mission="504" player="P%3A%2F-1%2F0" result="0" />
+                <STMT stmt="RUN MISSION" mission="507" player="P%3A%2F-1%2F0" />
+                <STMT stmt="END MISSION" mission="601" player="P%3A%2F-1%2F0" result="0" />
+                <STMT stmt="RUN MISSION" mission="602" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="12" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="6" count="1" item="I%3A%2F28%2F924" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F86" text="%E6%88%91%E5%B0%B1%E8%A6%81%E5%9C%A8%E8%BF%99%E9%87%8C%E7%BB%93%E6%9D%9F%E4%BA%86%E4%B9%88%EF%BC%9FJessie%EF%BC%8C%E6%88%91%E7%9A%84%E5%A5%B3%E5%84%BF..." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

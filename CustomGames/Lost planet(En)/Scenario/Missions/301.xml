@@ -1,0 +1,21 @@
+<MISSION id="301" name="thanks" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F85" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F85" text="Thanks%20to%20you%2C%20my%20mum%20can%20be%20back%20home%20safely.%20Please%20take%20this.%20I%20found%20it%20in%20that%20temple.%20It%20is%20nothing%20precious%20though%2C%20maybe%20you%E2%80%99ll%20need%20it%20somewhere.%20" time="0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F26%2F376" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="SHOW TIP" text="You%20just%20get%20a%20mysterious%20gift%20with%20the%20glorious%20light.%20You%20feel%20like%20being%20baptized." />
+                <STMT stmt="END MISSION" mission="0" player="P%3A%2F-1%2F0" result="0" />
+                <STMT stmt="RUN MISSION" mission="305" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

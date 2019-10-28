@@ -1,0 +1,103 @@
+<MISSION id="0" name="Core%20Mission" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="link" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="RUN MISSION" mission="100" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="101" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="200" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="500" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="103" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="300" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="600" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="404" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="401" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="302" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="303" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="501" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="502" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="503" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="505" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="506" player="P%3A%2F-1%2F0" />
+                <STMT stmt="RUN MISSION" mission="106" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="%E7%BD%AE0" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="SET VARIABLE" var="%25a%25" scope="0" func="0" value="0" />
+                <STMT stmt="SET VARIABLE" var="%25b%25" scope="0" func="0" value="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="%E8%A1%80%E9%87%8F%E4%BD%8E" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+            <STMT stmt="TICK CYCLE" order="0" n="15" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="STAT" object="P%3A%2F-1%2F0" stat="1" compare="6" amount="100" />
+                <STMT stmt="MAYBE" p="50" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20am%20badly%20injured." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="npc%20stat" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="MODIFY STAT" object="W%3A%2F0%2F84" stat="27" func="0" amount="1000000" range="-1" />
+                <STMT stmt="MODIFY STAT" object="W%3A%2F0%2F85" stat="27" func="0" amount="1000000" range="-1" />
+                <STMT stmt="MODIFY STAT" object="W%3A%2F0%2F86" stat="27" func="0" amount="1000000" range="-1" />
+                <STMT stmt="MODIFY STAT" object="W%3A%2F0%2F87" stat="27" func="0" amount="1000000" range="-1" />
+                <STMT stmt="MODIFY STAT" object="W%3A%2F0%2F89" stat="27" func="0" amount="1000000" range="-1" />
+                <STMT stmt="MODIFY STAT" object="W%3A%2F0%2F90" stat="27" func="0" amount="1000000" range="-1" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="%E5%AE%88%E6%8A%A4%E4%B9%8B%E5%85%89%E5%BC%80%E5%90%AF" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="PUT OUT ITEM" order="0" item="I%3A%2F26%2F376" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F90" text="When%20the%20light%20of%20guardian%20rise%20up%20again%2C%20the%20loss%20shall%20find%20their%20way." time="0" />
+                <STMT stmt="END MISSION" mission="200" player="P%3A%2F-1%2F0" result="0" />
+                <STMT stmt="RUN MISSION" mission="202" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

@@ -1,0 +1,19 @@
+<MISSION id="404" name="end%20talk%20fisherman" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="0" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="COMPARE" lhs="%25a%25" compare="3" rhs="5" />
+                <STMT stmt="COMPARE" lhs="%25b%25" compare="3" rhs="5" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="RUN MISSION" mission="405" player="P%3A%2F-1%2F0" />
+                <STMT stmt="END MISSION" mission="403" player="P%3A%2F-1%2F0" result="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

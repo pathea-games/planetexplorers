@@ -1,0 +1,45 @@
+<ForceSetting>
+	<Force>
+		<ForceDesc ID="1" Name="Player Force">
+			<Color>237,28,36,255</Color>
+			<Ally>1</Ally>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<JoinLocation>0|0,0,0</JoinLocation>
+			<PublicInventory>true</PublicInventory>
+			<ItemUseShare>true</ItemUseShare>
+			<ItemShare>true</ItemShare>
+			<InternalConflict>false</InternalConflict>
+			<AllyConflict>false</AllyConflict>
+			<EnemyConflict>true</EnemyConflict>
+		</ForceDesc>
+		<ForceDesc ID="2" Name="Monster Force">
+			<Color>63,72,204,255</Color>
+			<Ally>2</Ally>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<JoinLocation>0|0,0,0</JoinLocation>
+			<PublicInventory>true</PublicInventory>
+			<ItemUseShare>true</ItemUseShare>
+			<ItemShare>true</ItemShare>
+			<InternalConflict>false</InternalConflict>
+			<AllyConflict>false</AllyConflict>
+			<EnemyConflict>true</EnemyConflict>
+		</ForceDesc>
+		<ForceDesc ID="3" Name="Neutral Force">
+			<Color>192,192,192,255</Color>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<JoinLocation>0|0,0,0</JoinLocation>
+			<PublicInventory>false</PublicInventory>
+			<ItemUseShare>false</ItemUseShare>
+			<ItemShare>false</ItemShare>
+			<InternalConflict>false</InternalConflict>
+			<AllyConflict>false</AllyConflict>
+			<EnemyConflict>false</EnemyConflict>
+		</ForceDesc>
+	</Force>
+	<Player>
+		<PlayerDesc ID="0" Name="Neutral Player" Force="3" Type="Neutral" Start="0|0,0,0" />
+		<PlayerDesc ID="1" Name="Player" Force="1" Type="Human" Start="0|81,123,152" />
+		<PlayerDesc ID="2" Name="NPCs" Force="1" Type="Computer" Start="0|0,0,0" />
+		<PlayerDesc ID="3" Name="Monster" Force="2" Type="Computer" Start="0|0,0,0" />
+	</Player>
+</ForceSetting>

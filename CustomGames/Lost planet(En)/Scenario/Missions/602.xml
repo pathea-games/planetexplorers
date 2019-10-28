@@ -1,0 +1,21 @@
+<MISSION id="602" name="apologize" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F84" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F84" text="I%E2%80%99ve%20been%20wrong%20about%20you.%20You%20are%20not%20as%20bad%20as%20you%20look%20like.%20You%20did%20a%20very%20brave%20thing%20to%20bring%20back%20Swan.%20Even%20I%20don%E2%80%99t%20have%20that%20courage%20to%20step%20near%20that%20cemetery.%20Now%20you%20are%20Jessie%E2%80%99s%20hero.%20" time="0" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20just%20did%20something%20I%20should%20do.%20You%20are%20a%20hero%20to%20them.%20They%20need%20your%20protection%2C%20Allen%2C%20oh%20I%20mean%20Dr.%20Hua%20Tuo.%20" time="0" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F84" text="I%E2%80%99m%20just%20a%20doctor%20who%20cure%20people.%20If%20you%20need%20anything%2C%20please%20feel%20free%20to%20find%20me.%20" time="0" />
+                <STMT stmt="END MISSION" mission="0" player="P%3A%2F-1%2F0" result="0" />
+                <STMT stmt="RUN MISSION" mission="603" player="P%3A%2F-1%2F0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

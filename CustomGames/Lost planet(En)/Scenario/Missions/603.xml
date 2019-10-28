@@ -1,0 +1,85 @@
+<MISSION id="603" name="heal%20me" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="New%20Trigger" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F84" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F84" text="What%20I%20can%20do%20for%20you%2C%20my%20friend%3F" time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="14" text="I%20need%20some%20revival%20shots.%20(1%20calcites%20for%201%20revival%20shots.)" />
+                <STMT stmt="ADD CHOICE" id="15" text="I%20need%20some%20medical%20items%20to%20recover.%20(100%20pieces%20of%20meat%20for%205%20bandages.)" />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="chose%2014" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="14" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="2" count="1" item="I%3A%2F30%2F1022" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F30%2F1022" func="2" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F28%2F937" func="1" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="%E6%88%91%E5%BE%97%E5%88%B0%E4%BA%861%E4%B8%AA%E5%A4%8D%E6%B4%BB%E9%92%88%E5%89%82" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="chose%2014" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="14" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="6" count="1" item="I%3A%2F30%2F1022" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F84" text="Oh%20my%20friend.%20I%20can%E2%80%99t%20help%20you%20with%20that.%20" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="chose%2015" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="15" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="2" count="100" item="I%3A%2F19%2F229" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F19%2F229" func="2" count="100" player="P%3A%2F-1%2F0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F28%2F924" func="1" count="5" player="P%3A%2F-1%2F0" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20get%205%20bandages." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="chose%2015" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="15" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="OWN ITEM" player="P%3A%2F-1%2F0" compare="6" count="10" item="I%3A%2F19%2F229" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F84" text="Oh%20my%20friend.%20I%20can%E2%80%99t%20help%20you%20with%20that.%20" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

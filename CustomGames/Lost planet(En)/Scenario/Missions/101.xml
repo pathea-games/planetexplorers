@@ -1,0 +1,51 @@
+<MISSION id="101" name="TP" type="0" can_abort="False" objective="" begin_npc="0%7C87" end_npc="0%7C87" award="">
+    <TRIGGER name="Tp" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="USE ITEM" order="0" item="I%3A%2F11%2F58" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Captain%2C%20you%20sure%20you%20want%20me%20to%20transfer%20you%20back%3F" time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="1" text="Yes%20please." />
+                <STMT stmt="ADD CHOICE" id="2" text="Wait%2C%20let%E2%80%99s%20do%20it%20later." />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="Y" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="1" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="FAST TRAVEL" id="0" point="499%2C%2098%2C%20499" euler="0%2C%200%2C%200" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="N" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="2" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="MAYBE" p="50" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F87" text="Ok%2C%20whenever%20you%20need." time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

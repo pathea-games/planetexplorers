@@ -1,0 +1,5 @@
+<WORLDDATA>
+	<ENTITIES>
+		<DOODAD ID="7" prt="141" istar="False" name="scene_TrainingRoom" rotx="0" roty="0.7071068" rotz="0" rotw="-0.7071068" posx="12" posy="1.5" posz="12" />
+	</ENTITIES>
+</WORLDDATA>

@@ -1,0 +1,60 @@
+<MISSION id="402" name="talk%20to%20fisherman" type="0" can_abort="False" objective="" begin_npc="" end_npc="" award="">
+    <TRIGGER name="%E7%96%AF%E8%80%81%E5%A4%B4" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="INTERACTION" order="0" object="W%3A%2F0%2F89" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="Wow%2C%20there%20are%20people%20living%20on%20this%20barren%20island!" time="0" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="Yes%2C%20you%20are%20right.%20I%E2%80%99m%20not%20an%20alien%20or%20a%20monster.%20You%20can%20put%20your%20weapon%20away.%20" time="0" />
+                <STMT stmt="BEGIN CHOICE GROUP" />
+                <STMT stmt="ADD CHOICE" id="3" text="Did%20you%20just%20say%20the%20little%20green%20fish%20in%20that%20water%3F%20I%20killed%20some%20when%20I%20swam%20over." />
+                <STMT stmt="ADD CHOICE" id="4" text="You%20crazy%20old%20man.%20What%20are%20you%20doing%20on%20this%20island%3F" />
+                <STMT stmt="END CHOICE GROUP" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="chose1" repeat="-1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="3" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="Look%20what%20these%20fishes%20did%20to%20my%20right%20arm.%20Now%20I%20have%20killed%20hundreds%20of%20them%20by%20using%20this%20iron%20right%20arm.%20But%20they%20are%20just%20can%E2%80%99t%20be%20killed%20out.%20" time="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+    <TRIGGER name="chose%202" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="CHOOSE" order="0" id="4" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="I%E2%80%99m%20not%20crazy.%20I%20am%20just%20the%20one%20who%20fight%20against%20these%20hateful%20fishes.%20Speaking%20of%20who%E2%80%99s%20crazy.%20I%20know%20one%20who%20lives%20in%20that%20temple.%20There%E2%80%99s%20never%20a%20day%20he%20stops%20screaming.%20" time="0" />
+                <STMT stmt="PLAY SPEECH" object="P%3A%2F-1%2F0" text="I%20want%20to%20see%20this%20maniac.%20But%20that%20temple%20is%20too%20high%2C%20I%20can%E2%80%99t%20reach%20there.%20" time="0" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="If%20you%20really%20want%20to%20pay%20a%20visit%20to%20my%20noisy%20neighbor%2C%20take%20my%20aircraft%20with%20you.%20I%E2%80%99ve%20kept%20it%20aside%20for%20many%20years.%20You%20can%20fly%20to%20anywhere%20by%20using%20it%2C%20no%20mention%20to%20this%20temple.%20When%20you%20get%20there%2C%20say%20hello%20to%20that%20maniac%20for%20me.%20" time="0" />
+                <STMT stmt="MODIFY PACKAGE" item="I%3A%2F3%2F65" func="0" count="1" player="P%3A%2F-1%2F0" />
+                <STMT stmt="WAIT" amount="2" />
+                <STMT stmt="PLAY SPEECH" object="W%3A%2F0%2F89" text="Hey%2C%20if%20you%20ever%20hunt%20these%20fishes%20again%2C%20please%20help%20me%20collect%20their%20scales%20and%20bones.%20In%20return%2C%20I%20can%20help%20you%20improve%20your%20skills.%20" time="0" />
+                <STMT stmt="SHOW TIP" text="Hey%2C%20if%20you%20ever%20hunt%20these%20fishes%20again%2C%20please%20help%20me%20collect%20their%20scales%20and%20bones.%20In%20return%2C%20I%20can%20help%20you%20improve%20your%20skills.%20" />
+                <STMT stmt="RUN MISSION" mission="403" player="P%3A%2F-1%2F0" />
+                <STMT stmt="END MISSION" mission="0" player="P%3A%2F-1%2F0" result="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

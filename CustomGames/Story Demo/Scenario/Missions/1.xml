@@ -1,0 +1,17 @@
+<MISSION id="1" name="Initialization" type="0" can_abort="False" objective="%E8%AF%A5%E4%BB%BB%E5%8A%A1%E6%8F%90%E7%A4%BA" begin_npc="" end_npc="" award="">
+    <TRIGGER name="Exit" repeat="1" multi_threaded="False" owner="-">
+        <EVENTS>
+            <STMT stmt="MISSION BEGIN" order="99" mission="0" />
+        </EVENTS>
+        <CONDITIONS>
+            <GROUP index="0">
+                <STMT stmt="ALWAYS" />
+            </GROUP>
+        </CONDITIONS>
+        <ACTIONS>
+            <GROUP index="0">
+                <STMT stmt="END MISSION" mission="0" player="P%3A%2F-1%2F0" result="0" />
+            </GROUP>
+        </ACTIONS>
+    </TRIGGER>
+</MISSION>

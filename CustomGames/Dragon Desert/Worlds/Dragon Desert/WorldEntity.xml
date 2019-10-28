@@ -1,0 +1,88 @@
+<WORLDDATA>
+	<ENTITIES>
+		<DOODAD ID="1" prt="158" name="town2_dwelling01" istar="False" rotx="0" roty="1" rotz="0" rotw="-4.371139E-08" posx="210.37" posy="101.34" posz="220.5" />
+		<DOODAD ID="2" prt="138" name="scene_HumanBuilding05" istar="False" rotx="0" roty="-0.9807854" rotz="0" rotw="-0.1950901" posx="189" posy="101.5" posz="220" />
+		<DOODAD ID="3" prt="137" name="scene_HumanBuilding04" istar="False" rotx="0" roty="0" rotz="0.02355993" rotw="-0.9997224" posx="183" posy="103.5" posz="164" />
+		<DOODAD ID="4" prt="136" name="scene_HumanBuilding03" istar="False" rotx="0" roty="0.5555703" rotz="0" rotw="0.8314696" posx="222" posy="101.5" posz="219" />
+		<DOODAD ID="5" prt="158" name="town2_dwelling01" istar="False" rotx="0" roty="0.3826833" rotz="0" rotw="-0.9238796" posx="194" posy="101.5" posz="256" />
+		<DOODAD ID="6" prt="159" name="town2_store01" istar="False" rotx="0" roty="0.1950903" rotz="0" rotw="0.9807853" posx="230" posy="101.5" posz="228" />
+		<DOODAD ID="7" prt="159" name="town2_store01" istar="False" rotx="0" roty="0.1950902" rotz="0" rotw="-0.9807853" posx="214" posy="101.5" posz="264" />
+		<DOODAD ID="9" prt="44" name="scene_Human_base_tent01C" istar="False" rotx="0.08114022" roty="0.9952912" rotz="-0.004283359" rotw="0.05285304" posx="300" posy="122.06" posz="430" />
+		<DOODAD ID="10" prt="42" name="scene_Human_base_tent01" istar="False" rotx="0.01753971" roty="0" rotz="0" rotw="-0.9998462" posx="80" posy="123.5" posz="143" />
+		<DOODAD ID="11" prt="46" name="scene_Human_base_tent03" istar="False" rotx="0" roty="0.5746483" rotz="0" rotw="0.8184005" posx="278" posy="104.83" posz="212" />
+		<DOODAD ID="12" prt="26" name="scene_alien_stove_01" istar="False" posx="198" posy="101.5" posz="213" />
+		<DOODAD ID="13" prt="34" name="scene_aline_spikes_01" istar="False" rotx="0.06672528" roty="0.3394704" rotz="0.08526132" rotw="-0.9343651" posx="197.19" posy="106.9" posz="307.98" />
+		<DOODAD ID="14" prt="34" name="scene_aline_spikes_01" istar="False" rotx="-0.08049908" roty="-0.4317688" rotz="-0.03872424" rotw="0.89755" posx="184.78" posy="107.03" posz="293.59" />
+		<DOODAD ID="15" prt="34" name="scene_aline_spikes_01" istar="False" rotx="-0.08710545" roty="-0.3809788" rotz="-0.03608026" rotw="0.9197642" posx="171.85" posy="106.5" posz="277.97" />
+		<DOODAD ID="16" prt="34" name="scene_aline_spikes_01" istar="False" rotx="-0.002225834" roty="0.4078022" rotz="-0.0241183" rotw="-0.912749" posx="159" posy="105.3" posz="263" />
+		<DOODAD ID="17" prt="34" name="scene_aline_spikes_01" istar="False" rotx="-0.1340159" roty="-0.6963258" rotz="-0.08111914" rotw="0.7004212" posx="153.09" posy="105.26" posz="245.16" />
+		<DOODAD ID="18" prt="34" name="scene_aline_spikes_01" istar="False" rotx="-0.048083" roty="-0.8283498" rotz="-0.07196131" rotw="0.5534856" posx="155.5" posy="105" posz="226" />
+		<DOODAD ID="19" prt="34" name="scene_aline_spikes_01" istar="False" rotx="-0.06530025" roty="-0.8257063" rotz="-0.09772874" rotw="0.5517192" posx="162.91" posy="104.92" posz="208.96" />
+		<DOODAD ID="20" prt="34" name="scene_aline_spikes_01" istar="False" rotx="-0.048083" roty="-0.8283498" rotz="-0.07196131" rotw="0.5534856" posx="170.5" posy="104.25" posz="190" />
+		<DOODAD ID="21" prt="34" name="scene_aline_spikes_01" istar="False" rotx="0.04706381" roty="-0.3821866" rotz="-0.01949447" rotw="-0.92268" posx="227.52" posy="103.5" posz="295.99" />
+		<DOODAD ID="22" prt="34" name="scene_aline_spikes_01" istar="False" rotx="0.0445481" roty="-0.4341305" rotz="-0.03974039" rotw="-0.8988698" posx="240.57" posy="104.16" posz="282.31" />
+		<DOODAD ID="23" prt="34" name="scene_aline_spikes_01" istar="False" rotx="0.04858728" roty="-0.5546209" rotz="-0.03246498" rotw="-0.8300488" posx="248.93" posy="103.78" posz="265.83" />
+		<DOODAD ID="24" prt="34" name="scene_aline_spikes_01" istar="False" rotx="0.06046119" roty="-0.5540995" rotz="-0.04039888" rotw="-0.8292685" posx="255" posy="103.68" posz="248" />
+		<DOODAD ID="28" prt="27" name="scene_alien_table_01" istar="False" posx="199" posy="101.5" posz="228" />
+		<DOODAD ID="29" prt="27" name="scene_alien_table_01" istar="False" posx="234" posy="101.5" posz="236" />
+		<DOODAD ID="30" prt="26" name="scene_alien_stove_01" istar="False" posx="283" posy="105.5" posz="214" />
+		<DOODAD ID="42" prt="119" name="scene_puja_oldbuild_pillar05" istar="False" posx="168" posy="115.97" posz="365" />
+		<DOODAD ID="32" prt="26" name="scene_alien_stove_01" istar="False" posx="221.22" posy="103.5" posz="307.99" />
+		<DOODAD ID="33" prt="26" name="scene_alien_stove_01" istar="False" posx="210.21" posy="105.1" posz="313.07" />
+		<DOODAD ID="38" prt="42" name="scene_Human_base_tent01" istar="False" rotx="-0.03025556" roty="0.00348314" rotz="-0.113121" rotw="0.9931144" posx="326" posy="98.99" posz="205" />
+		<DOODAD ID="40" prt="116" name="scene_puja_oldbuild_pillar01" istar="False" rotx="0" roty="0.2616839" rotz="0" rotw="0.9651536" posx="217.34" posy="104.64" posz="312.22" />
+		<DOODAD ID="41" prt="113" name="scene_puja_oldbuild_b0410" istar="False" rotx="0" roty="0.1950903" rotz="0" rotw="0.9807853" posx="161" posy="115.68" posz="370" />
+		<DOODAD ID="43" prt="111" name="scene_puja_oldbuild_b0408" istar="False" posx="189" posy="116.96" posz="393" />
+		<DOODAD ID="44" prt="112" name="scene_puja_oldbuild_b0409" istar="False" posx="179" posy="113.37" posz="372" />
+		<DOODAD ID="46" prt="104" name="scene_puja_oldbuild_b0401" istar="False" rotx="0.05008568" roty="0.03693821" rotz="0.1181034" rotw="-0.9910492" posx="84.72" posy="122.48" posz="322.22" />
+		<DOODAD ID="47" prt="106" name="scene_puja_oldbuild_b0403" istar="False" posx="132" posy="112.89" posz="301" />
+		<DOODAD ID="48" prt="105" name="scene_puja_oldbuild_b0402" istar="False" rotx="0.05545472" roty="-0.04273519" rotz="-0.07193172" rotw="-0.9949494" posx="105" posy="117.6" posz="262" />
+		<DOODAD ID="49" prt="100" name="scene_puja_oldbuild_b01_04" istar="False" posx="70" posy="127.5" posz="274" />
+		<DOODAD ID="50" prt="109" name="scene_puja_oldbuild_b0406" istar="False" posx="55" posy="147.08" posz="456" />
+		<DOODAD ID="51" prt="96" name="scene_puja_oldbuild_b01C" istar="False" rotx="0.09728017" roty="-0.6619892" rotz="0.1382735" rotw="-0.7301968" posx="150" posy="127.96" posz="415" />
+		<DOODAD ID="52" prt="93" name="scene_puja_oldbuilding_thing41" istar="False" posx="138" posy="113.5" posz="307" />
+		<DOODAD ID="53" prt="107" name="scene_puja_oldbuild_b0404" istar="False" posx="122" posy="117.28" posz="329" />
+		<DOODAD ID="54" prt="108" name="scene_puja_oldbuild_b0405" istar="False" posx="216" posy="115.95" posz="380" />
+		<DOODAD ID="55" prt="106" name="scene_puja_oldbuild_b0403" istar="False" posx="96" posy="119.9" posz="275" />
+		<DOODAD ID="56" prt="27" name="scene_alien_table_01" istar="False" rotx="0" roty="0" rotz="0.07854628" rotw="-0.9969105" posx="329" posy="98.63" posz="196" />
+		<DOODAD ID="57" prt="164" name="town_board01" istar="False" rotx="0" roty="0.5555702" rotz="0" rotw="-0.8314697" posx="252" posy="103.38" posz="228" />
+		<DOODAD ID="58" prt="160" name="town2_conferencehall01" istar="False" rotx="0" roty="0.8314697" rotz="0" rotw="0.5555702" posx="211" posy="101.42" posz="242" />
+		<DOODAD ID="59" prt="162" name="town_hotel01" istar="False" rotx="0" roty="0.1950903" rotz="0" rotw="-0.9807853" posx="229" posy="102.96" posz="195" />
+		<DOODAD ID="60" prt="157" name="town1_warehouse01" istar="False" rotx="0" roty="0.7071068" rotz="0" rotw="0.7071068" posx="283" posy="121.5" posz="328" />
+		<DOODAD ID="61" prt="151" name="scene_camp_food" istar="False" rotx="0" roty="-1.639128E-07" rotz="0" rotw="-1" posx="220" posy="102.5" posz="198" />
+		<DOODAD ID="62" prt="161" name="town_dwelling01" istar="False" rotx="0" roty="0.4909797" rotz="0" rotw="-0.871171" posx="183.44" posy="101.5" posz="244.16" />
+		<DOODAD ID="63" prt="162" name="town_hotel01" istar="False" rotx="0" roty="-0.1950905" rotz="0" rotw="-0.9807853" posx="211" posy="101.5" posz="279" />
+		<DOODAD ID="64" prt="145" name="RepairMachine_Static" istar="False" rotx="0" roty="0.7071068" rotz="0" rotw="0.7071068" posx="206" posy="101.5" posz="267" />
+		<DOODAD ID="65" prt="146" name="PowerPlanetSolar" istar="False" posx="207" posy="101.5" posz="265" />
+		<DOODAD ID="66" prt="136" name="scene_HumanBuilding03" istar="False" rotx="0" roty="0.9238796" rotz="0" rotw="0.3826833" posx="203" posy="101.5" posz="272" />
+		<DOODAD ID="67" prt="158" name="town2_dwelling01" istar="False" rotx="0" roty="0.1324294" rotz="0" rotw="-0.9911925" posx="226.34" posy="101.5" posz="248.46" />
+		<DOODAD ID="68" prt="163" name="town_store01" istar="False" posx="175.11" posy="101.5" posz="233.18" />
+		<DOODAD ID="69" prt="164" name="town_board01" istar="False" rotx="0" roty="0.7071066" rotz="0" rotw="-0.7071069" posx="188" posy="101.5" posz="234" />
+		<DOODAD ID="70" prt="35" name="scene_campfire_burntout" istar="False" posx="218" posy="101.5" posz="252" />
+		<DOODAD ID="71" prt="151" name="scene_camp_food" istar="False" posx="230" posy="101.5" posz="260" />
+		<DOODAD ID="72" prt="164" name="town_board01" istar="False" rotx="0" roty="0.3826835" rotz="0" rotw="0.9238795" posx="218" posy="101.5" posz="270" />
+		<DOODAD ID="74" prt="153" name="town1_dwelling01" istar="False" rotx="0" roty="0.3826833" rotz="0" rotw="-0.9238796" posx="317" posy="100.5" posz="164" />
+		<DOODAD ID="75" prt="43" name="scene_Human_base_tent01A" istar="False" rotx="0" roty="0" rotz="0.08341714" rotw="-0.9965147" posx="330" posy="98.52" posz="176" />
+		<DOODAD ID="76" prt="161" name="town_dwelling01" istar="False" rotx="0" roty="-0.3826836" rotz="0" rotw="-0.9238794" posx="249" posy="103.5" posz="211" />
+		<DOODAD ID="77" prt="163" name="town_store01" istar="False" posx="204.2" posy="102.18" posz="189.03" />
+		<DOODAD ID="78" prt="136" name="scene_HumanBuilding03" istar="False" posx="232" posy="102.39" posz="185" />
+		<NPC ID="79" prt="5" name="Moric%20Gahn" player="2" istar="True" rotx="0" roty="0.9807853" rotz="0" rotw="0.1950902" posx="185" posy="101.5" posz="212" />
+		<NPC ID="80" prt="6" name="Vera%20Novikova" player="2" istar="True" rotx="0" roty="1" rotz="0" rotw="-1.341105E-07" posx="202" posy="101.5" posz="218" />
+		<NPC ID="81" prt="8" name="Gerdy%20Hooke" player="2" istar="True" rotx="0" roty="0.9807853" rotz="0" rotw="-0.1950905" posx="214" posy="101.5" posz="214" />
+		<NPC ID="82" prt="12" name="Peter%20Asimov" player="2" istar="True" rotx="0" roty="0.9807853" rotz="0" rotw="0.1950902" posx="221" posy="101.5" posz="226" />
+		<NPC ID="83" prt="17" name="Sara%20Peterson" player="2" istar="True" rotx="0" roty="0.5555703" rotz="0" rotw="0.8314696" posx="228" posy="101.5" posz="257" />
+		<NPC ID="84" prt="16" name="Nan%20Yang" player="2" istar="True" rotx="0" roty="0.9238796" rotz="0" rotw="0.3826833" posx="234" posy="101.5" posz="242" />
+		<NPC ID="85" prt="28" name="Koh%20Ironstand" player="2" istar="True" rotx="0" roty="0.5555703" rotz="0" rotw="0.8314696" posx="222" posy="101.5" posz="266" />
+		<NPC ID="86" prt="25" name="Ronaldo%20Sanchez" player="2" istar="True" posx="214" posy="101.65" posz="283" />
+		<NPC ID="87" prt="23" name="Hyun-Su%20Ryong" player="2" istar="True" posx="202" posy="101.5" posz="265" />
+		<NPC ID="88" prt="37" name="David%20Aslanov" player="2" istar="True" posx="214" posy="101.5" posz="234" />
+		<NPC ID="89" prt="22" name="Nanda%20Yadav" player="2" istar="True" posx="183" posy="101.5" posz="256" />
+		<NPC ID="90" prt="31" name="Viola%20Strand" player="2" istar="True" rotx="0" roty="0.5555702" rotz="0" rotw="-0.8314697" posx="195.85" posy="101.5" posz="245.54" />
+		<NPC ID="91" prt="1" name="Agnes%20Copperfield" player="2" istar="True" posx="236" posy="102.5" posz="200" />
+		<NPC ID="93" prt="40" name="Ben%20Yin" player="2" istar="True" rotx="0" roty="0.9238796" rotz="0" rotw="0.3826833" posx="287" posy="120.5" posz="344" />
+		<NPC ID="94" prt="32" name="Tank%20Parson" player="2" istar="True" rotx="0" roty="0.8314697" rotz="0" rotw="0.5555702" posx="329" posy="99.5" posz="160" />
+		<ITEM ID="25" prt="309" name="campfire" istar="False" posx="178.21" posy="101.5" posz="227.36" />
+		<ITEM ID="26" prt="309" name="campfire" istar="False" posx="196.37" posy="101.5" posz="267.66" />
+		<ITEM ID="27" prt="309" name="campfire" istar="False" posx="190" posy="103.5" posz="157" />
+	</ENTITIES>
+</WORLDDATA>
