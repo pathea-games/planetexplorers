@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 78277960e1e95144f917a665e83243fe
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - m_UnderwaterShader: {fileID: 4800000, guid: 25b0e0b288a82864d8a1acd8860338ca,
+      type: 1}
+  executionOrder: 0
+  icon: {instanceID: 0}

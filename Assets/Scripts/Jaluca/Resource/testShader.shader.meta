@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: a0003c70346270a4eac8f8df8a66e54d
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _Star: {fileID: 2800000, guid: 804a52c3bf297c14293f304387891313, type: 3}
+  - _NoiseMap: {fileID: 2800000, guid: 5af2f883a4a587a4684b27b15bbdce69, type: 3}
+  userData: 

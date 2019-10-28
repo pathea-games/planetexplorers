@@ -1,0 +1,8 @@
+fileFormatVersion: 2
+guid: 0b1a17dcca823bd4c8573adee3963deb
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _Disturb: {fileID: 2800000, guid: e11a032fb3e82ba43a3dd5c19be448f8, type: 3}
+  - _Honeycomb: {fileID: 2800000, guid: 4ceb21e5279b71a42af09c7af41cf631, type: 3}
+  userData: 

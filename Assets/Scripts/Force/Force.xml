@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ForceSetting>
+  <Force>
+    <ForceDesc ID="4564" Name="fiashi">
+      <Color>3,50,2,112</Color>
+      <Ally>54</Ally>
+      <Ally>4</Ally>
+      <JoinablePlayerCount>80</JoinablePlayerCount>
+      <PublicInventory>true</PublicInventory>
+      <ItemUseShare>false</ItemUseShare>
+      <ItemShare>false</ItemShare>
+      <InternalConflict>true</InternalConflict>
+      <AllyConflict>false</AllyConflict>
+      <EnemyConflict>true</EnemyConflict>
+  </ForceDesc>
+    <ForceDesc ID="4564" Name="fiashi">
+      <Color>3,50,2,112</Color>
+      <Ally>54</Ally>
+      <Ally>4</Ally>
+      <JoinablePlayerCount>80</JoinablePlayerCount>
+      <PublicInventory>true</PublicInventory>
+      <ItemUseShare>false</ItemUseShare>
+      <ItemShare>false</ItemShare>
+      <InternalConflict>true</InternalConflict>
+      <AllyConflict>false</AllyConflict>
+      <EnemyConflict>true</EnemyConflict>
+    </ForceDesc>
+  </Force>
+  <Player>
+    <PlayerDesc ID="464" Name="fdsaf" Force="5" Type="Neutral" />
+    <PlayerDesc ID="527" Name="fdsfsd" Force="4" Type="Human" />
+  </Player>
+</ForceSetting>
