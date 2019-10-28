@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="PajaSeaRobot01">
+<!-- ======================== LeisureState_PajaSeaRobot01 ===================== --><!-- //////////////// -->
+	<Action Type="TowerDefence"></Action>
+	<Action Type="Patrol">
+		<Data Name="LW_Patrol" prob="0.4" minTime="4" maxTime="8" minRadius="5" maxRadius="10" minHeight="3" maxHeight="7" spawnCenter="true" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LW_Idle" idle="normalwater_leisureidle" prob="0.4" minTime="8" maxTime="12" relaxProb="0.1" relaxTime="12" relax="normalwater_leisure0,normalwater_leisure1" ></Data>
+    </Action>
+	<Action Type="Follow"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_PajaSeaRobot01 ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="Succeed" />
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+  <Action Type="SwitchWaterState">
+    <Data Name="SWS" downHeight="2" upHeight="4" downAnim="normal_jumpinto" upAnim="normal_outtohover"></Data>
+  </Action>
+	<Action Type="MeleeAttack">
+		<Data Name="M4" prob="0.3" cdTime="30.00" minRange="0.0" maxRange="55" minAngle="0" maxAngle="360" minHpPercent="0" maxHpPercent="0.4" skillStr="30100433" ></Data><!--水中攻击_电击（漏电）-->
+	</Action>
+	<Action Type="Melee">
+		<Data Name="M0" prob="0.50" cdTime="0.5" minRange="1.0" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100429" ></Data><!--水中攻击_嘴部蓄力发射激光-->
+		<Data Name="M1" prob="0.50" cdTime="0.5" minRange="1.0" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100430" ></Data><!--水中攻击_两眼发射激光-->
+		<Data Name="M2" prob="0.65" cdTime="0.5" minRange="1.0" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100431" ></Data><!--水中攻击_两翼发射散弹-->
+		<Data Name="M3" prob="0.40" cdTime="12.0" minRange="1.00" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100432" ></Data><!--水中攻击_两翼发射飞弹-->
+		<Data Name="M5" prob="0.50" cdTime="0.5" minRange="1.00" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100434" ></Data><!--悬停攻击_嘴部蓄力发射激光-->
+		<Data Name="M6" prob="0.50" cdTime="0.5" minRange="1.00" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100435" ></Data><!--悬停攻击_两眼发射激光-->
+		<Data Name="M7" prob="0.65" cdTime="0.5" minRange="1.00" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100436" ></Data><!--悬停攻击_两翼发射散弹-->
+		<Data Name="M8" prob="0.40" cdTime="12.0" minRange="1.00" maxRange="50" minHeight="-1.0" maxHeight="1.0" minAngle="-10" maxAngle="10" skillStr="30100437" ></Data><!--悬停攻击_两翼发射飞弹-->		
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>

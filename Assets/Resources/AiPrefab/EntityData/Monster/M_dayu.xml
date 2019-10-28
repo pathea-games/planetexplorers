@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Water" Tree="MDayu">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+	<Action Type ="RAnimation"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== LeisureState_AutoLeisureWater ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>	
+	<Action Type="Patrol">
+		<Data Name="LW_Patrol" prob="0.6" minTime="10" maxTime="15" minRadius="18" maxRadius="36" minHeight="1.0" maxHeight="2.0" spawnCenter="true" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LW_Idle" idle="normalwater_leisureidle" prob="0.15" minTime="3" maxTime="5" relaxProb="1.0" relaxTime="1" relax="normalwater_leisure0,normalwater_leisure1,normalwater_leisure2" ></Data>
+    </Action>
+	<Action Type="Follow">
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_AotoWaterMonsterCombat ======================= --><!-- ///////////////// -->
+  <Action Type="HasEnemy"></Action>
+  <Action Type="Succeed"></Action>
+  <Action Type="Probability">
+    <Data Name="P0" prob="0.5"></Data>
+    <Data Name="P1" prob="1.0"></Data>
+	<Data Name="MA_P0" prob="0.3"></Data>
+  </Action>
+  <Action Type="MoveAround">
+    <Data Name="MA0" minRange="8.0" maxRange="15.0" minHeight="-3.0" maxHeight="3.0" minTime="3.0" maxTime="6.0"></Data>
+  </Action>
+  <Action Type="MoveRange">
+    <Data Name="MR0" minRange="4.0" maxRange="6.0" minHeight="-0.8" maxHeight="-1.5" angle="3"></Data>
+    <Data Name="MR1" minRange="4.5" maxRange="6.5" minHeight="-0.8" maxHeight="-1.5" angle="3"></Data>
+  </Action>
+  <Action Type="CastSkill">
+    <Data Name="CS0" skillID="30100298"></Data>
+    <Data Name="CS1" skillID="30100299"></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="PujaFlyingRobot05">
+<!-- ======================== AutoLeisureSky_PujaFlyingRobot05 ===================== --><!-- //////没有目标落下展开///// -->
+	<Action Type="TowerDefence"></Action>
+	<Action Type="Patrol">
+		<Data Name="LS_Patrol" prob="0.1" minTime="30" maxTime="70" minRadius="40" maxRadius="70" minHeight="10.0" maxHeight="35.0" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LS_Idle" idle="normalsky_leisureidle" prob="0.9" minTime="8" maxTime="15" relaxProb="0.0" relaxTime="0" relax="" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_PujaFlyingRobot05 ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="Succeed" />
+	<Action Type="CalculateAttackMode" />
+	<Action Type="MoveToTarget" />
+
+	<Action Type="Melee">
+		<Data Name="M0" prob="0.4" cdTime="0.5" minRange="20.0" maxRange="40" minAngle="-15" maxAngle="15" skillStr="30100708" ></Data><!--头部发射激光(一次)-->
+		<Data Name="M1" prob="0.3" cdTime="0.5" minRange="20.0" maxRange="40" minAngle="-15" maxAngle="15" skillStr="30100709" ></Data><!--头部发射激光(散射)-->
+	</Action>
+	<Action Type="LaserIrradiation">
+		<Data Name="M2" prob="0.4" cdTime="3" minRange="15.0" maxRange="30.0" minAngle="-15" maxAngle="15" minTime="2.0" maxTime="3.0" speed="15.0" skillID="30100710" ></Data><!--头部发射激光(直线移动)-->
+	</Action>
+  <Action Type="AttackTop">
+		<Data Name="M3" prob="0.8" cdTime="3" minRange="0.0" maxRange="5" minHeight="5.0" maxHeight="40.0" angle="45" skillID="30100711" ></Data><!--中间发射激光束-->
+		<Data Name="M4" prob="0.8" cdTime="3" minRange="0.0" maxRange="5" minHeight="5.0" maxHeight="40.0" angle="45" skillID="30100712" ></Data><!--底盘6发射激光束-->
+	</Action>
+	<Action Type="MeleeAttack">
+		<Data Name="M5" prob="0.6" cdTime="10.0" minRange="0.0" maxRange="3.0" minAngle="0" maxAngle="360" skillStr="30100713" ></Data> <!--全身遍布能量电-->
+		<Data Name="M6" prob="0.6" cdTime="10.0" minRange="0.0" maxRange="3.0" minAngle="0" maxAngle="360" skillStr="30100723" ></Data>   <!--翻转自身-->
+	</Action>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+</Tree>

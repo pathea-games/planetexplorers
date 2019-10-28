@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Water" Tree="MBlueSoka">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+    <Action Type ="IsEscape"></Action>
+	<Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="200" maxDistance="3000" interval="100" prob="0" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MBlueSoka ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type="Patrol">
+		<Data Name="LW_Patrol" prob="0.8" minTime="5" maxTime="15" minRadius="5" maxRadius="15" minHeight="2" maxHeight="12" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LW_Idle" idle="idle" prob="0.1" minTime="6" maxTime="8" relaxProb="0.0" relaxTime="0" relax="" ></Data>
+    </Action>
+	<Action Type="Follow">
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= CombatState_MBlueSoka ======================= --><!-- ///////////////// -->
+
+	
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Native" Tree="NativePaja">
+<!-- ======================== N_paja_general ======================== -->
+<!-- ======================== AutoRequest ======================== --><!-- /////////////  请求  //////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+	<Action Type ="RDialogue">
+		<Data Name="Dialogue" anims="" ></Data><!-- 对话 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== Profession ===================== --><!-- /////////////  职业选择  //////////// -->
+	<Action Type ="Profession">
+		<Data Name="General" profession="General" ></Data><!-- 将军 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== AutoEscape ===================== --><!-- ///////////////  逃跑  ////////////// -->
+	<Action Type ="IsEscape"></Action>
+	<Action Type ="Injured">
+		<Data Name="Injured" cancelHpPercent="0.9" anim="Injured" ></Data><!-- 濒死状态：退出条件-->
+	</Action>
+	<Action Type="Probability">
+		<Data Name="Esc_Pnormal"  prob="0.4"></Data> <!-- 普通逃跑概率 -->
+		<Data Name="Esc_Pfrantic" prob="0.0"></Data> <!-- 慌乱逃跑概率 -->
+	</Action>
+	<Action Type ="Escape">
+    	<Data Name="Escape_normal"  cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" anim=""></Data>                <!-- 普通逃跑 -->
+		<Data Name="Escape_frantic" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" anim="Fluster_Escape" ></Data> <!-- 慌乱逃跑 -->
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= PajaGeneralCombat ======================= --><!-- /////////  攻击模式  ///////// -->
+	<Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type ="AttackWeapon"></Action>
+	<Action Type="CheckTime">
+		<Data Name="CT3" checkTime="3.0" ></Data>
+	</Action>
+	<Action Type ="CallHelp">
+		<Data Name="CH100" anim=""            hpPercent="1.0" prob="0.5" cdTime="600.0" radius="10" ></Data><!-- 100%血量呼救 -->
+		<Data Name="CH20"  anim=""            hpPercent="0.2" prob="0.5" cdTime="600.0" radius="10" ></Data><!-- 20% 血量呼救 -->
+	</Action>
+	<Action Type="Inspire">
+		<Data Name="Inspire" prob="0.5" cdTime="90.0" radius="10" skillId="0" anim = "general_encourage" ></Data><!-- 鼓舞士气：‘’‘’‘’‘’‘’差技能‘’‘’‘’‘’‘’ -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= PajaGeneralLeisure ======================= --><!-- /////////  休闲模式  ///////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type="Guard"></Action>
+	<Action Type ="Reputation"><!-- 目标声望等级 -->
+		<Data Name="Neu" type="doubt" minReputation="Neutral" maxReputation="Neutral" ></Data><!-- 中立以上 -->
+	</Action>
+	<Action Type ="Doubt"><!-- 疑惑 -->
+		<Data Name="Doubt" prob="0.5" cdTime="30.0" doubts="normal_doubt0,normal_doubt1,normal_doubt2" ></Data><!-- 疑惑目标 -->
+	</Action>
+	<Action Type="Idle">
+		<Data Name="Idle_stand" idle="normal_leisureidle" prob="0.5" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="3" relax="general_leisure0,general_leisure1" ></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+</Tree>
+<!-- ================================================================================================================================================================================ -->

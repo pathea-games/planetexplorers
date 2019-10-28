@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monsters" Tree="MTappeto">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== LeisureState_MTappeto ===================== --><!-- //////////////// -->
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="1.0" minTime="6" maxTime="8" relaxProb="0.05" relaxTime="10" relax="normal_leisure0" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_MTappeto ======================= --><!-- ///////////////// -->
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MeleeAttack">
+		<Data Name="M0" prob="1.0" cdTime="2" minRange="0" maxRange="0.3" minAngle="-180" maxAngle="180" skillStr="30100044" ></Data>
+	</Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>	
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

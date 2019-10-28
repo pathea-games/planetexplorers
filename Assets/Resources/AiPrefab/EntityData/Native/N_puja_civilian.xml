@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Native" Tree="NativePuja">
+<!-- ======================== N_puja_civilian ======================== -->
+<!-- ======================== AutoRequest ======================== --><!-- /////////////  请求  //////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+	<Action Type ="RDialogue">
+		<Data Name="Dialogue" anims="" ></Data><!-- 对话 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Profession ===================== --><!-- /////////////  职业选择  //////////// -->
+	<Action Type ="Profession">
+		<Data Name="Civilian" profession="Civilian" ></Data><!-- 平民 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== AutoEscape ===================== --><!-- ///////////////  逃跑  ////////////// -->
+	<Action Type ="IsEscape"></Action>
+	<Action Type ="Injured">
+		<Data Name="Injured" cancelHpPercent="0.9" anim="Injured" ></Data><!-- 濒死状态：退出条件-->
+	</Action>
+	<Action Type="Probability">
+		<Data Name="Esc_Pnormal"  prob="0.5"></Data> <!-- 普通逃跑概率 -->
+		<Data Name="Esc_Pfrantic" prob="1.0"></Data> <!-- 慌乱逃跑概率 -->
+	</Action>
+	<Action Type ="Escape">
+    	<Data Name="Escape_normal"  cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" anim=""></Data>                <!-- 普通逃跑 -->
+		<Data Name="Escape_frantic" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" anim="Fluster_Escape" ></Data> <!-- 慌乱逃跑 -->
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= PujaCivilianCombat ======================= --><!-- /////////  攻击模式  ///////// -->
+	<Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CheckTime">
+		<Data Name="CT3" checkTime="3.0" ></Data>
+	</Action>
+	<Action Type ="CallHelp">
+		<Data Name="CH100" anim=""            hpPercent="1.0" prob="0.5" cdTime="600.0" radius="10" ></Data><!-- 100%血量呼救 -->
+	</Action>
+	<Action Type="Elude"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= PujaCivilianLeisure ======================= --><!-- /////////  休闲模式  ///////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Reputation"><!-- 目标声望等级 -->
+		<Data Name="Neu" type="doubt" minReputation="Neutral" maxReputation="Neutral" ></Data><!-- 中立以上 -->
+	</Action>
+	<Action Type ="Doubt"><!-- 疑惑 -->
+		<Data Name="Doubt" prob="0.5" cdTime="10.0" doubts="normal_doubt0,normal_doubt1,normal_doubt2" ></Data><!-- 疑惑目标 -->
+	</Action>
+	<Action Type="CheckTime">
+		<Data Name="CT2" checkTime="2.0" ></Data>
+	</Action>
+	<Action Type ="Chat"><!-- 聊天 -->
+		<Data Name="Chat" prob="0.1" cdTime="30.0" radius="5.0" chatRadius="3.0" minTime="4.0" maxTime="8.0" minChatTime="2.0" maxChatTime="4.0" chats="normal_chat0,normal_chat1,normal_chat2" ></Data><!-- 聊天对话 -->
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="Patrol" prob="0.6" minTime="8" maxTime="18" minRadius="20" maxRadius="30" spawnCenter="true" ></Data>
+	</Action>
+	<Action Type="Idle">
+		<Data Name="Idle_stand" idle="normal_leisureidle" prob="0.2" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="3" relax="normal_leisure0,normal_leisure1" ></Data>
+		<Data Name="Idle_sit"   idle="normal_sitting"     prob="0.1" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="3" relax="normal_sittingleisure0,normal_sittingleisure1" ></Data>
+	</Action>	
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+</Tree>
+<!-- ================================================================================================================================================================================ -->

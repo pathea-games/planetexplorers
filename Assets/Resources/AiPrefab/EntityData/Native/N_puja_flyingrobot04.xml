@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="PujaFlyingRobot04">
+<!-- ======================== AutoSwitchStateSky_PujaFlyingRobot04 ===================== --><!-- //////没有目标落下展开///// -->
+	<Action Type="TowerDefence"></Action>
+	<Action Type="SwitchStateSky">
+		<Data Name="SS0"  height="10.0"></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_PujaFlyingRobot04 ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="IsFly" />
+	<Action Type="Succeed" />
+	<Action Type="CalculateAttackMode" />
+	<Action Type="MoveToTarget" />
+	<Action Type="MoveAround">
+		<Data Name="MA0" minRange="5.0" maxRange="25.0" minHeight="5.0" maxHeight="25.0" minTime="3" maxTime="6"></Data>
+	</Action>
+	<Action Type="Probability">
+		<Data Name="P40" prob="0.4" ></Data>
+	</Action>
+	<Action Type="Melee">
+		<Data Name="attack0" prob="0.4" cdTime="1.0" minRange="0.0" maxRange="20" minAngle="0" maxAngle="360" skillStr="30100292" ></Data><!--头部发射激光-->
+	</Action>
+	<Action Type="MeleeAttack">
+		<Data Name="attack1" prob="0.6" cdTime="4.0" minRange="5.0" maxRange="20.0" minAngle="30" maxAngle="150" skillStr="30100293" ></Data> <!--底部散射激光-->
+		<Data Name="attack2" prob="0.3" cdTime="15.0" minRange="0.0" maxRange="30.0" minAngle="0" maxAngle="360"   skillStr="30100294" ></Data> <!--发射追踪导弹-->	
+	</Action>
+	<Action Type="StrikeTerrain">
+		<Data Name="attack4" anim="Strick_Terrain" prob="0.6" cdTime="3" radius="15" skillID="30100426"></Data><!--震地-->
+	</Action>
+	<Action Type="TargetRange">
+		<Data Name="TR0"  minRange="0" maxRange="15"></Data>
+	</Action>
+	<Action Type="FlyAndLand">
+		<Data Name="false" fly="false"></Data>
+		<Data Name="true"  fly="true"></Data>
+	</Action>
+	<Action Type="CastSkill">
+		<Data Name="CS_M0"  skillID="30100297"></Data><!-- 着落之后底部散射激光 -->
+	</Action>
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>

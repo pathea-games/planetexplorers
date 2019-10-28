@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Sky" Tree="MMarigull">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="IsEscape"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="100" maxDistance="250" interval="100" prob="0.0" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_AutoLeisureSky ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>	
+	<Action Type="Patrol">
+		<Data Name="LS_Patrol" prob="0.8" minTime="30" maxTime="70" minRadius="40" maxRadius="70" minHeight="10.0" maxHeight="35.0" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LS_Idle" idle="normalsky_leisureidle" prob="0.10" minTime="3" maxTime="5" relaxProb="1.0" relaxTime="1" relax="normalsky_leisure0,normalsky_leisure1" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_AotoSkyMonsterCombat ======================= --><!-- ///////////////// -->
+
+
+	
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

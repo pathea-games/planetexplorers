@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Sky" Tree="MOskra">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="IsEscape"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="30" maxDistance="150" interval="10" prob="0.1" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_AutoLeisureSky ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>	
+	<Action Type="Patrol">
+		<Data Name="LS_Patrol" prob="0.7" minTime="30" maxTime="70" minRadius="40" maxRadius="70" minHeight="10.0" maxHeight="35.0" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LS_Idle" idle="normalsky_leisureidle" prob="0.15" minTime="3" maxTime="5" relaxProb="1.0" relaxTime="1" relax="normalsky_leisure0,normalsky_leisure1,normalsky_leisure2" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_AotoSkyMonsterCombat ======================= --><!-- ///////////////// -->
+	<!-- ============= Auto_AutoSurround ============= --><!-- ///////////////// -->
+	<Action Type="Succeed"></Action>
+	<Action Type="IsMemberSurround"></Action>
+	<Action Type="MoveSurround">
+		<Data Name="AS_MS" minRange="10" maxRange="15"></Data>
+	</Action>
+	<Action Type="Threat">
+		<Data Name="AS_Threat" prob="1" cdTime="5" threatStr="fight_fightingthreat0"></Data>
+	</Action>
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type="HasEnemy"></Action>
+  <Action Type="Succeed"></Action>
+  <Action Type="MoveToTarget">
+	<Data Name="MTT0" minRange="1.0" maxRange="5.0" ></Data>
+  </Action>
+  <Action Type="Probability">
+    <Data Name="P0" prob="1.0"></Data>
+	<Data Name="TH_P0" prob="0.4"></Data>
+  </Action>
+  <Action Type="TargetHover">
+    <Data Name="TH0" minRange="9.0" maxRange="16.0" minHeight="5.0" maxHeight="8.0" minTime="2.0" maxTime="5.0"></Data>
+  </Action>
+  <Action Type="MoveRange">
+    <Data Name="MR0" minRange="7.0" maxRange="8.0" minHeight="4.0" maxHeight="4.5" angle="5"></Data>
+  </Action>
+  <Action Type="CastSkill">
+    <Data Name="CS0" skillID="30100233"></Data>
+  </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monsters" Tree="MUrsusBear">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="IsEscape"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MUrsusBear ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Sleep">
+		<Data Name="Sleep" prob="0.5" cdTime="500" checkTime="60" ></Data>
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.6" minTime="10" maxTime="20" minRadius="15" maxRadius="35" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.25" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="1" relax="normal_leisure0,normal_leisure1,normal_leisure2" ></Data>
+    </Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ============= Auto_CombatStressReaction ============= --><!-- ///////////////// -->
+		<Action Type ="IsTargetMelee"></Action>
+		<Action Type="Probability">
+			<Data Name="CSR_P_MA_B" prob="1.00" ></Data>
+		</Action>
+		<Action Type="MoveAnimator"><!--  前：0,0,1  前左：-1,0,1  前右：1,0,1  后：0,0,-1  后左：-1,0,-1   后右：1,0,-1  -->
+			<Data Name="CSR_MA_B"  anim="move_afterjumpback"    prob="1.0" cdTime="10" startTime="0.433" endTime="0.966" time="1.800" speed="8.0" startSkill="0" endSkill="0" anchor="0,0,-1" ></Data>
+		</Action>	
+		<Action Type="TargetAngle">
+            <Data Name="CSR_TA" minAngle="-45" maxAngle="45" ></Data>
+		</Action>
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+	<!-- ============= Auto_Ragdoll ============= --><!-- ///////////////// -->
+		<Action Type="TargetRagdoll"></Action>
+		<Action Type="Succeed"></Action>
+		<Action Type="Probability">
+			<Data Name="R_P_Threat0" prob="0.4" ></Data>
+			<Data Name="R_P_Threat1" prob="0.5" ></Data>
+			<Data Name="R_P_MF"     prob="0.35" ></Data>
+			<Data Name="R_P_MA_F"   prob="0.4" ></Data>
+			<Data Name="R_P_MA_FL"  prob="0.0" ></Data>
+			<Data Name="R_P_MA_FR"  prob="0.0" ></Data>
+			<Data Name="R_P_MA_B"   prob="1.0" ></Data>
+			<Data Name="R_P_MA_BL"  prob="0.0" ></Data>
+			<Data Name="R_P_MA_BR"  prob="0.0" ></Data>
+		</Action>
+		<Action Type="RotateToTarget">
+			<Data Name="RTT-10_10" minAngle="-10" maxAngle="10" ></Data>
+		</Action>
+		<Action Type="TargetRange">
+			<Data Name="TR0_5" minRange="0" maxRange="5"></Data>
+		</Action>
+		<Action Type="Threat">
+			<Data Name="R_Threat" prob="1" cdTime="5" threatStr="normal_fightbeforethreat0,fight_fightingthreat1"></Data>
+		</Action>
+		<Action Type="MoveFlee"><!-- 踌躇不前 -->
+			<Data Name="R_MF" time="5" prob="1" cdTime="5" forwardSpeed="0" backSpeed="0"></Data>
+		</Action>
+		<Action Type="MoveAnimator"><!--  前：0,0,1  前左：-1,0,1  前右：1,0,1  后：0,0,-1  后左：-1,0,-1   后右：1,0,-1  -->
+			<Data Name="R_MA_F"  anim="move_beforejumpfront"  prob="1.0" cdTime="10" startTime="0.233" endTime="0.933" time="1.866" speed="8.0" startSkill="0" endSkill="0" anchor="0,0,1" ></Data> 
+			<Data Name="R_MA_FL" anim="move_beforejumpleft"   prob="0.0" cdTime="10" startTime="0" endTime="0" time="0" speed="0.0" startSkill="0" endSkill="0" anchor="-1,0,1" ></Data>
+			<Data Name="R_MA_FR" anim="move_beforejumpright"  prob="0.0" cdTime="10" startTime="0" endTime="0" time="0" speed="0.0" startSkill="0" endSkill="0" anchor="1,0,1" ></Data>
+			<Data Name="R_MA_B"  anim="move_afterjumpback"    prob="1.0" cdTime="10" startTime="0.433" endTime="0.966" time="1.800" speed="8.0" startSkill="0" endSkill="0" anchor="0,0,-1" ></Data>
+			<Data Name="R_MA_BL" anim="move_afterjumpleft"    prob="0.0" cdTime="10" startTime="0" endTime="0" time="0" speed="0.0" startSkill="0" endSkill="0" anchor="-1,0,-1" ></Data>
+			<Data Name="R_MA_BR" anim="move_afterjumpright"   prob="0.0" cdTime="10" startTime="0" endTime="0" time="0" speed="0.0" startSkill="0" endSkill="0" anchor="1,0,-1" ></Data>
+		</Action>
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+	<!-- ============= Auto_MoveAway ============= --><!-- ///////////////// -->
+	<Action Type="Succeed"></Action>
+	<Action Type="CheckTime">
+		<Data Name="CT" checkTime="2.0" ></Data>
+	</Action>
+	<Action Type="MoveAway">
+	     <Data Name="MA_MoveAway" prob="0.3" angle="40" distance="3" minTime="2" maxTime="4" ></Data><!--目标不在这个角度的正负范围内+++++在这个距离内触发-->
+	</Action>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+	<Action Type="MoveAround">
+		<Data Name="MA0" prob="0.15" minRange="5.0" maxRange="25.0" minHeight="0.0" maxHeight="0.0" minTime="3" maxTime="6"></Data>
+	</Action>
+	<Action Type="Pounce"><!--  前扑  -->
+		<Data Name="Pounce"  pounce="attack5"  prob="0.5" cdTime="4" minRange="1.0" maxRange="4.0" minAngle="-30" maxAngle="30" startTime="0.5" endTime="1.2" stopTime="2.167" skillID="30100036" ></Data>
+	</Action>	
+	<Action Type="AttackRanged">
+		<Data Name="AR_SF0" prob="0.8" cdTime="0.5" isBlock="true" minRange="4.0" maxRange="18" angle="10" pitchAngle="35" boneName="attack6_point" pivot="0,0,1" skillID="30100037" ></Data><!-- 火球 -->
+		<Data Name="AR_SF1" prob="0.5" cdTime="5" isBlock="true" minRange="0.0" maxRange="2"  angle="10" pitchAngle="35" boneName="attack6_point" pivot="0,0,1" skillID="30100038" ></Data><!-- 持续喷火 -->
+	</Action>
+	<Action Type="Melee"><!-- 面向敌人攻击，自动转面向 -->
+		<Data Name="M0_1_2_4" prob="0.5" cdTime="1" minRange="0.0" maxRange="0.5" minAngle="-10" maxAngle="10" skillStr="30100031,30100032,30100033,30100035" ></Data>
+		<Data Name="M_HHG0" prob="0.5" cdTime="8" minRange="0.0" maxRange="1.5" minAngle="0" maxAngle="360" skillStr="30100034" ></Data> <!-- 震地 -->	
+	</Action>
+    <Action Type="MeleeAttack">	<!-- 先满足角度再攻击 -->
+	    <Data Name="M8" prob="0.0" cdTime="1" minRange="0.0" maxRange="0.0" minAngle="-80" maxAngle="10" skillStr="30100039" ></Data><!-- 左侧攻击 -->
+		<Data Name="M9" prob="0.0" cdTime="1" minRange="0.0" maxRange="0.0" minAngle="-10" maxAngle="80" skillStr="30100040" ></Data><!-- 右侧攻击 -->
+		<Data Name="M10" prob="0.5" cdTime="8" minRange="1.0" maxRange="5.0" minAngle="-10" maxAngle="80" skillStr="30100041" ></Data><!-- 位移扑击攻击 -->
+	</Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\AutoWait\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="AW_MS" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="AW_T" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

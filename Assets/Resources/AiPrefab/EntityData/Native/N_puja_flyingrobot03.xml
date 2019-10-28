@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="PujaFlyingRobot03">
+<!-- ======================== AutoSwitchStateSky_PujaFlyingRobot03 ===================== --><!-- //////没有目标落下展开///// -->
+	<Action Type="TowerDefence"></Action>
+	<Action Type="SwitchStateSky">
+		<Data Name="SS0"  height="10.0"></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_PujaFlyingRobot03 ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="IsFly" />
+	<Action Type="Succeed" />
+	<Action Type="IsCarrierAndSky" />
+	<Action Type="CalculateAttackMode" />
+	<Action Type="MoveToTarget" />
+	<Action Type="MoveAround">
+		<Data Name="MA0" minRange="5.0" maxRange="25.0" minHeight="5.0" maxHeight="25.0" minTime="3" maxTime="6"></Data>
+	</Action>
+	<Action Type="Probability">
+		<Data Name="P40" prob="0.4" ></Data>
+	</Action>
+	<Action Type="Melee">
+		<Data Name="attack0" prob="0.5" cdTime="0.5" minRange="0.0" maxRange="20" minAngle="0" maxAngle="360" skillStr="30100285" ></Data><!--头部发射激光-->
+		<Data Name="attack2" prob="0.3" cdTime="0.5" minRange="5.0" maxRange="20" minAngle="0" maxAngle="360" skillStr="30100287" ></Data><!--全身散射激光-->
+	</Action>
+	<Action Type="MeleeAttack">
+		<Data Name="attack1" prob="0.6" cdTime="2.0" minRange="0.0" maxRange="20.0" minAngle="150" maxAngle="210" skillStr="30100286" ></Data> <!--底部散射激光-->
+		<Data Name="attack3" prob="0.3" cdTime="15.0" minRange="0.0" maxRange="30.0" minAngle="0" maxAngle="360" skillStr="30100288" ></Data>   <!--发射追踪导弹-->
+	</Action>
+	<Action Type="Strike">
+		<Data Name="attack6" anim="Strick" prob="0.6" cdTime="5" minRange="5" maxRange="35" speed="15.0" skillID="30100291" ></Data><!--遍身雷电撞击空中物体-->
+	</Action>
+	<Action Type="StrikeTerrain">
+		<Data Name="attack5" anim="Strick_Terrain" prob="0.6" cdTime="6" radius="15" skillID="30100421"></Data><!--震地-->
+	</Action>
+	<Action Type="RotatingLightsaber">
+		<Data Name="attack4" anim="Laser_Sward" prob="0.6" cdTime="3" minRange="15.0" maxRange="35.0" minAngle="-8" maxAngle="8" skillID="30100289"></Data><!--光剑循环旋转攻击-->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+</Tree>

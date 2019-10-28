@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monstersadd" Tree="MGunimu">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="IsEscape"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MGunimu ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Sleep">
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.6" minTime="10" maxTime="20" minRadius="15" maxRadius="35" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.25" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="1" relax="normal_leisure0,normal_leisure1,normal_leisure2" ></Data>
+    </Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= CombatState_MGunimu ======================= --><!-- ///////////////// -->
+	<!-- ============= Auto_MoveAway ============= --><!-- ///////////////// -->
+	<Action Type="Succeed"></Action>
+	<Action Type="CheckTime">
+		<Data Name="CT" checkTime="4.0" ></Data>
+	</Action>
+	<Action Type="MoveAway">
+	    <Data Name="MA_MoveAway" prob="0.3" angle="40" distance="3" minTime="2" maxTime="4" ></Data><!--目标不在这个角度的正负范围内+++++在这个距离内触发-->
+	</Action>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+	<Action Type="MoveAround">
+		<Data Name="MA0" minRange="5.0" maxRange="25.0" minHeight="0.0" maxHeight="0.0" minTime="3" maxTime="6"></Data>
+	</Action>
+	<Action Type="Probability">
+		<Data Name="PMA" prob="0.2" ></Data>
+	</Action>
+	<Action Type="Pounce"><!--  前扑  -->
+		<Data Name="M3"  pounce="attack3"  prob="0.5" cdTime="5" minRange="4.0" maxRange="6.0" minAngle="-5" maxAngle="5" startTime="1.35" endTime="1.935" stopTime="2.467" skillID="30100643" ></Data>
+	</Action>
+	<Action Type="AttackRanged">
+		<Data Name="M0" prob="0.2" cdTime="5" minRange="2.0" maxRange="3.5" angle="10" pitchAngle="45" boneName="attack_point0" pivot="0,0,1" skillID="30100640" ></Data>
+	</Action>
+	<Action Type="Melee"><!-- 面向敌人攻击，自动转面向 -->
+		<Data Name="M2" prob="0.5" cdTime="1" minRange="1.0" maxRange="2.0" minAngle="-10" maxAngle="10" skillStr="30100642" ></Data>
+	</Action>
+    <Action Type="MeleeAttack">	<!-- 先满足角度再攻击 -->
+		<Data Name="M1" prob="0.5" cdTime="10" minRange="0.5" maxRange="3.0" minAngle="-180" maxAngle="180" skillStr="30100641" ></Data> <!-- 震地 -->
+		<Data Name="M4" prob="0.5" cdTime="3" minRange="0.5" maxRange="1.2" minAngle="-90" maxAngle="-30" skillStr="30100644" ></Data><!--旋转攻击：左-->
+		<Data Name="M5" prob="0.5" cdTime="3" minRange="0.5" maxRange="1.2" minAngle="30" maxAngle="90" skillStr="30100645" ></Data><!--旋转攻击：右-->
+	</Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\AutoWait\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="AW_MS" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="AW_T" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

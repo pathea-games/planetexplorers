@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monsters" Tree="MAndheraQueenChild">
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="Photophobia"></Action>
+	<Action Type ="IsEscape"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MAndheraQueenChild ===================== --><!-- //////////////// -->
+	<Action Type ="Dark"></Action>
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Sleep">
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.6" minTime="10" maxTime="15" minRadius="15" maxRadius="30" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.25" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="1" relax="normal_leisure0,normal_leisure1" ></Data>
+    </Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_MAndheraQueenChild ======================= --><!-- ///////////////// -->
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+
+	<Action Type="Death">
+		<Data Name="D0" deathTime="150" ></Data>
+	</Action>
+	<Action Type="Pounce"><!--  前扑  -->
+		<Data Name="Pounce" pounce="attack2"  prob="0.7" cdTime="5" minRange="0.0" maxRange="2.5" minAngle="-5" maxAngle="5" startTime="0.170" endTime="1.030" stopTime="1.667" skillID="30100454" ></Data>
+	</Action>	
+	<Action Type="Melee">
+		<Data Name="M0_3" prob="0.5" cdTime="0.5" minRange="0.0" maxRange="1" minAngle="-10" maxAngle="10" skillStr="30100452,30100455" ></Data>
+	</Action>	
+
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

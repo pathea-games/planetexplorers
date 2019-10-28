@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Native" Tree="NpcMonster">
+<!-- ======================== Npc_NpcMonster ======================== -->
+<!-- ======================== AutoRequest ======================== --><!-- /////////////  请求  //////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+
+<!-- ======================= NpcMonsterCombat ======================= --><!-- /////////  攻击模式  ///////// -->
+	<Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type ="MoveWeapon"></Action>
+	<Action Type ="AttackWeapon"></Action>
+	<Action Type="CheckTime">
+		<Data Name="CT3" checkTime="3.0" ></Data>
+	</Action>
+	<Action Type ="CallHelp">
+		<Data Name="CH100" anim=""            hpPercent="1.0" prob="0.5" cdTime="600.0" radius="10" ></Data><!-- 100%血量呼救 -->
+		<Data Name="CH20"  anim=""            hpPercent="0.2" prob="0.5" cdTime="600.0" radius="10" ></Data><!-- 20% 血量呼救 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= NpcMonsterLeisure ======================= --><!-- /////////  休闲模式  ///////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Chat"><!-- 聊天 -->
+		<Data Name="Chat" prob="0.1" cdTime="30.0" radius="5.0" chatRadius="3.0" minTime="4.0" maxTime="8.0" minChatTime="2.0" maxChatTime="4.0" chats="Talk0,Talk1" ></Data><!-- 聊天对话 -->
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="Patrol" prob="0.6" minTime="8" maxTime="18" minRadius="20" maxRadius="30" spawnCenter="true" ></Data>
+	</Action>
+	<Action Type="Idle">
+		<Data Name="Idle_stand" idle="normal_leisureidle" prob="0.2" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="3" relax="Leisure1,Leisure2,Leisure3,Leisure4,Leisure5,Leisure6" ></Data>
+	</Action>	
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="wms" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="wt" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+</Tree>
+<!-- ================================================================================================================================================================================ -->

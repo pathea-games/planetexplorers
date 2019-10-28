@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="PajaHumanRobot">
+<!-- ======================== Crouch_PajaHumanRobotLeisure ===================== --><!-- //////////////// -->
+  <Action Type="Crouch"></Action>
+  <Action Type="IsCrouchReady"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_PajaHumanRobotLeisure ===================== --><!-- //////////////// -->
+	<Action Type="TowerDefence"></Action>
+	<Action Type="Return">
+		<Data Name="RT0" arriveRadius="1.0" returnRadius="50.0" ></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_PajaHumanRobotCombat ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="Succeed" />
+	<Action Type="TargetInBody" />
+	<Action Type="CalculateAttackMode" />
+	<Action Type="MoveToTarget" />
+	<Action Type="EnergyShield">
+	</Action>
+	<Action Type="MeleeAttack">
+		<Data Name="M7" prob="0.2" cdTime="25.0" minRange="15.0" maxRange="50" minAngle="0" maxAngle="360" skillStr="30100271" ></Data><!--导弹-->
+		<Data Name="M9" prob="1.0" cdTime="1" minRange="0.0" maxRange="9.0" minAngle="0" maxAngle="360" skillStr="30100273" ></Data><!--脚步震地-->
+	</Action>
+	<Action Type="AttackRanged">
+	</Action>
+	<Action Type="Melee">
+		<Data Name="M0" prob="0.8" cdTime="0.5" minRange="10.0" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100264" ></Data><!--持续攻击一点激光-->
+		<Data Name="M1" prob="0.5" cdTime="0.5" minRange="10.0" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100265" ></Data><!--跟踪激光-->
+		<Data Name="M2" prob="0.3" cdTime="0.5" minRange="10.0" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100266" ></Data><!--中间头部蓄力强激光-->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>

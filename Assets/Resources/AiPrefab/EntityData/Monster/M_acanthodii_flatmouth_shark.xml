@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Water" Tree="MAcanthodiiFlatmouthShark">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+    <Action Type ="IsEscape"></Action>
+	<Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="200" maxDistance="3000" interval="100" prob="0" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MAcanthodiiFlatmouthShark ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type="Patrol">
+		<Data Name="LW_Patrol" prob="0.7" minTime="5" maxTime="15" minRadius="5" maxRadius="15" minHeight="2" maxHeight="12" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LW_Idle" idle="normalwater_leisureidle" prob="0.15" minTime="3" maxTime="5" relaxProb="1.0" relaxTime="1" relax="normalwater_leisure0,normalwater_leisure1" ></Data>
+    </Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= CombatState_MAcanthodiiFlatmouthShark ======================= --><!-- ///////////////// -->
+
+	<Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+  <Action Type="Probability">
+    <Data Name="P0" prob="1.0"></Data>
+	<Data Name="MA_P0" prob="0.1"></Data>
+  </Action>
+  <Action Type="MoveAround">
+    <Data Name="MA0" minRange="8.0" maxRange="15.0" minHeight="-3.0" maxHeight="3.0" minTime="3.0" maxTime="6.0"></Data>
+  </Action>
+  <Action Type="MoveRange">
+    <Data Name="MR0" minRange="0.0" maxRange="0.8"  angle="3"></Data>
+  </Action>
+  <Action Type="CastSkill">
+    <Data Name="CS0" skillID="30100446"></Data>
+  </Action>		
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

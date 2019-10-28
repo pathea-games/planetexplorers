@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tree Library="Npc" Tree="NpcRobot">
+
+<Action Type="HasEnemy"></Action>
+<Action Type="Succeed"></Action>
+
+ 	<Action Type="FollowAround">
+		<Data Name="FA0" minRange="3.0" maxRange="5.0" minHeight="2.0" maxHeight="3.0" minTime="3" maxTime="6" targetID = "9011"></Data>
+	</Action>
+	
+	 <Action Type="MoveRange">
+    <Data Name="MR0" minRange="7.0" maxRange="8.0" minHeight="2.0" maxHeight="4.5" angle="5" ></Data>
+  </Action>
+  <Action Type="SkyRobotAttack">
+    <Data Name="SRA0" skillID="30100329"  targetID = "9011" minR="7.0" maxR="12.0" minH="2.0" maxH="4.0"></Data>
+  </Action>
+  
+</Tree>

@@ -1,0 +1,98 @@
+<!---------------------------------------------------------------------------------->
+<Action Type="CheckTime">
+	<Data Name="XXXXXX" checkTime="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="Probability">
+	<Data Name="XXXXXX" prob="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="AnimatorBool">
+	<Data Name="XXXXXX" anim="......" time="......" value="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="MoveAnimator">
+	<Data Name="XXXXXX" anim="......" prob="......" cdTime="......" startTime="......" endTime="......" time="......" speed="......" startSkill="......" endSkill="......" anchor="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="MoveDirection">
+	<Data Name="XXXXXX" time="......" prob="......" cdTime="......" speed="......" anchor="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="Idle">
+	<Data Name="XXXXXX" idle="......" prob="......" minTime="......" maxTime="......" relaxProb="......" relaxTime="......" relax="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="Patrol">
+	<Data Name="XXXXXX" prob="......" maxTime="......" minRadius="......" maxRadius="......" minHeight="......" maxHeight="......" speed="......" spawnCenter="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="TargetRange">
+	<Data Name="XXXXXX" minRange="......" maxRange="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="TargetAngle">
+	<Data Name="XXXXXX" minAngle="......" maxAngle="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="TargetWatch">
+	<Data Name="XXXXXX" isWatch="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="RotateToTarget">
+	<Data Name="XXXXXX" minAngle="......" maxAngle="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="TurnOnSpot">
+	<Data Name="XXXXXX" turn="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="MoveToTarget">
+	<Data Name="XXXXXX" minRange="......" maxRange="......" moveRadius="......" chaseRange="......"></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="MoveFlee">
+	<Data Name="XXXXXX" time="......" prob="......" cdTime="......" forwardSpeed="......" backSpeed ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="CastSkill">
+	<Data Name="XXXXXX" skillID="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="Melee">
+	<Data Name="XXXXXX" prob="......" cdTime="......" minRange="......" maxRange="......" minAngle="......" maxAngle="......" skillID="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+<Action Type="Sprint">
+	<Data Name="XXXXXX" prob="......" cdTime="......" sprint="......" minRange="......" maxRange="......" minAngle="......" maxAngle="......" startTime="......" endTime="......" stopTime="......" speed="......" skillID="......" auto="......" ></Data>
+</Action>
+<!---------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

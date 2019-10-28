@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monstersadd" Tree="MPufftail">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="IsEscape"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MPufftail ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Sleep">
+		<Data Name="Sleep" prob="0.5" cdTime="500" checkTime="60" ></Data>
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.6" minTime="10" maxTime="20" minRadius="15" maxRadius="35" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.25" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="1" relax="normal_leisure0,normal_leisure1,normal_leisure2" ></Data>
+    </Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= CombatState_MPufftail ======================= --><!-- ///////////////// -->
+
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+	<Action Type="MoveAround">
+		<Data Name="MA0" minRange="5.0" maxRange="25.0" minHeight="0.0" maxHeight="0.0" minTime="3" maxTime="6"></Data>
+	</Action>
+	<Action Type="Probability">
+		<Data Name="PMA" prob="0.2" ></Data>
+	</Action>
+	<Action Type="Pounce"><!--  前扑  -->
+		<Data Name="M2"  pounce="attack2"  prob="0.5" cdTime="5" minRange="2" maxRange="4.0" minAngle="-5" maxAngle="5" startTime="0.333" endTime="0.7" stopTime="1.133" skillID="30100582" ></Data>
+	</Action>
+	<Action Type="Melee"><!-- 面向敌人攻击，自动转面向 -->
+		<Data Name="M0_1_3" prob="0.5" cdTime="1" minRange="0" maxRange="1.0" minAngle="-10" maxAngle="10" skillStr="30100580,30100581,30100583" ></Data>
+	</Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\AutoWait\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="AW_MS" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="AW_T" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

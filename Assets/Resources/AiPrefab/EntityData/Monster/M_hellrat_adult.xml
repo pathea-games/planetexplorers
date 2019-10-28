@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monstersadd" Tree="MHellratAdult">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== LeisureState_MDhalacav ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Sleep">
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.3" minTime="8" maxTime="15" minRadius="8" maxRadius="16" spawnCenter="true" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.6" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="1" relax="normal_leisure0,normal_leisure1" ></Data>
+    </Action>
+	<Action Type="Follow">
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_MHellratAdult ======================= --><!-- ///////////////// -->
+	<!-- ============= Auto_CombatStressReaction ============= --><!-- ///////////////// -->
+	<Action Type ="IsTargetMelee"></Action>
+	<Action Type="Probability">
+		<Data Name="CSR_P_MA_B" prob="1.00" ></Data>
+	</Action>
+	<Action Type="MoveAnimator"><!--  前：0,0,1  前左：-1,0,1  前右：1,0,1  后：0,0,-1  后左：-1,0,-1   后右：1,0,-1  -->
+		<Data Name="CSR_MA_B"  anim="move_afterjumpback"    prob="1.0" cdTime="10" startTime="0.333" endTime="0.900" time="1.333" speed="4.0" startSkill="0" endSkill="0" anchor="0,0,-1" ></Data>
+	</Action>	
+	<Action Type="TargetAngle">
+        <Data Name="CSR_TA" minAngle="-60" maxAngle="60" ></Data>
+	</Action>
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>		
+	<Action Type="Melee">
+		<Data Name="M0_1_2" prob="1" cdTime="0.3" minRange="0.0" maxRange="0.2" minAngle="-10" maxAngle="10" skillStr="30100197,30100198,30100199" ></Data>
+	</Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\AutoWait\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="AW_MS" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="AW_T" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

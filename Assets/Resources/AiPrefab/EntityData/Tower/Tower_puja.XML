@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Tower" Tree="Tower">
+  <Action Type ="HasEnemy"></Action>
+  <Action Type ="TowerAttack">
+    <Data Name="TowerAttack" prob="1.0" cdTime="5.0" minRange="0.0" maxRange="200.0" minAngle="-180" maxAngle="180" isPitch="true"></Data>
+  </Action>
+</Tree>

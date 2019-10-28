@@ -1,0 +1,28 @@
+<AchievementData>
+  <Achievements>
+    <!-- 成就：APIname = steamAPI， staID：对应统计量的Ｉｄ-->
+    <!-- TriggerData:触发式成就不需要统计量-->
+    <TriggerData achID = "0" staID ="0" APIname ="mission1" AchieveDesc ="老弱病残" MissionID ="18" AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "1" staID ="0" APIname ="mission2" AchieveDesc ="森林" MissionID ="91" AccomplishOrGet ="1" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "2" staID ="0" APIname ="mission3" AchieveDesc ="死者安息" MissionID ="242"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "3" staID ="0" APIname ="mission4" AchieveDesc ="荒凉之地" MissionID ="345"  AccomplishOrGet ="1" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "4" staID ="0" APIname ="mission5" AchieveDesc ="建立属于你的基地" MissionID ="716"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "5" staID ="0" APIname ="mission6" AchieveDesc ="世界核平" MissionID ="835"  AccomplishOrGet ="1" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "6" staID ="0" APIname ="mission7" AchieveDesc ="牛顿大陆" MissionID ="917"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "7" staID ="0" APIname ="mission8" AchieveDesc ="活下来了" MissionID ="974"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "8" staID ="0" APIname ="mission9" AchieveDesc ="起飞！" MissionID ="314"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "9" staID ="0" APIname ="Other1" AchieveDesc ="富可敌国" MissionID ="0"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "10" staID ="0" APIname ="Other2" AchieveDesc ="怪物骑士！" MissionID ="0"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "11" staID ="0" APIname ="Other3" AchieveDesc ="小伙伴" MissionID ="0"  AccomplishOrGet ="0" ItemProtoId ="0"></TriggerData>
+    <TriggerData achID = "12" staID ="1" APIname ="Other4" AchieveDesc ="屎壳郎" MissionID ="0"  AccomplishOrGet ="0" ItemProtoId ="995"></TriggerData>
+    <TriggerData achID = "13" staID ="0" APIname ="ALL" AchieveDesc ="Planet Explorer" MissionID ="0"  AccomplishOrGet ="0"></TriggerData>
+    <TriggerData achID = "14" staID ="0" APIname ="TEST0" AchieveDesc ="测试" MissionID ="0"  AccomplishOrGet ="0"></TriggerData>
+    <TriggerData achID = "15" staID ="0" APIname ="mission10" AchieveDesc ="灭绝一切" MissionID ="9139"  AccomplishOrGet ="1"></TriggerData>
+    <TriggerData achID = "16" staID ="0" APIname ="mission11" AchieveDesc ="和平使者" MissionID ="9140"  AccomplishOrGet ="1"></TriggerData>
+  </Achievements>
+
+  <Stats>  <!-- 统计量： Num0＝steamAPI goal :目标量--> 
+    <Data  ID ="1"  achID = "12"  StatName ="ShitNum" InitNum ="0" Goal ="50"> </Data>
+  </Stats>
+
+</AchievementData>

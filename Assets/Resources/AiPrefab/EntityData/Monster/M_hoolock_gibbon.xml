@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monsters" Tree="MHoolockGibbon">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="HasTarget"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MHoolockGibbon ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Sleep">
+		<Data Name="Sleep" prob="0.5" cdTime="500" checkTime="60" ></Data>
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.6" minTime="10" maxTime="20" minRadius="15" maxRadius="35" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.25" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="1" relax="normal_leisure0,normal_leisure1,normal_leisure2" ></Data>
+    </Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= CombatState_MHoolockGibbon ======================= --><!-- ///////////////// -->
+	<!-- ============= Auto_AutoSurround ============= --><!-- ///////////////// -->
+	<Action Type="Succeed"></Action>
+	<Action Type="IsMemberSurround"></Action>
+	<Action Type="MoveSurround">
+		<Data Name="AS_MS" minRange="10" maxRange="15"></Data>
+	</Action>
+	<Action Type="Threat">
+		<Data Name="AS_Threat" prob="1" cdTime="5" threatStr="fight_fightingthreat0"></Data>
+	</Action>
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+	<Action Type="MoveAround">
+		<Data Name="MA0" prob="0.2" minRange="5.0" maxRange="25.0" minHeight="0.0" maxHeight="0.0" minTime="3" maxTime="6"></Data>
+	</Action>	
+	<Action Type="Pounce"><!--  前扑  -->
+		<Data Name="Pounce"  pounce="attack4"  prob="0.5" cdTime="3" minRange="2.0" maxRange="4.0" minAngle="-5" maxAngle="5" startTime="0.933" endTime="1.266" stopTime="2.0" skillID="30100052" ></Data>
+	</Action>
+	<Action Type="AttackRanged">
+		<Data Name="AR0" prob="1.0" cdTime="0.8" minRange="2" maxRange="18" angle="10" pitchAngle="60" boneName="attack3_point" pivot="0,0,1" skillID="30100050" ></Data>
+	</Action>
+	<Action Type="Melee">
+		<Data Name="M0_1" prob="0.5" cdTime="0.5" minRange="0.0" maxRange="1" minAngle="-10" maxAngle="10" skillStr="30100048,30100049" ></Data>
+	</Action>	
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\AutoWait\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="AW_MS" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="AW_T" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

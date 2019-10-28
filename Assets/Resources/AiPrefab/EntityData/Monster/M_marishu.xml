@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monstersadd" Tree="MMarishu">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Auto_Escape ======================== --><!-- //////////////////////////// -->
+	<Action Type ="HasTarget"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.0" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_MMarishu ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type ="Sleep">
+		<Data Name="Sleep" prob="0.5" cdTime="500" checkTime="60" ></Data>
+	</Action>
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.6" minTime="10" maxTime="20" minRadius="15" maxRadius="35" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.25" minTime="6" maxTime="8" relaxProb="0.8" relaxTime="1" relax="normal_leisure0,normal_leisure1,normal_leisure2" ></Data>
+    </Action>
+	<Action Type="Follow">
+		<Data Name="Follow" prob="1.0" minTime="6" maxTime="12" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_MMarishu ======================= --><!-- ///////////////// -->
+<!-- ============= Auto_CombatStressReaction ============= --><!-- ///////////////// -->
+	<!-- ============= Auto_AutoSurround ============= --><!-- ///////////////// -->
+	<Action Type="Succeed"></Action>
+	<Action Type="IsMemberSurround"></Action>
+	<Action Type="MoveSurround">
+		<Data Name="AS_MS" minRange="10" maxRange="15"></Data>
+	</Action>
+	<Action Type="Threat">
+		<Data Name="AS_Threat" prob="1" cdTime="5" threatStr="fight_fightingthreat0,fight_fightingthreat1"></Data>
+	</Action>
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+	<Action Type ="IsTargetMelee"></Action>
+	<Action Type="Probability">
+		<Data Name="CSR_P_MA_B" prob="1.00" ></Data>
+	</Action>
+	<Action Type="MoveAnimator"><!--  前：0,0,1  前左：-1,0,1  前右：1,0,1  后：0,0,-1  后左：-1,0,-1   后右：1,0,-1  -->
+		<Data Name="CSR_MA_B"  anim="move_afterjumpback"    prob="1.0" cdTime="10" startTime="0.367" endTime="1.133" time="1.700" speed="4.0" startSkill="0" endSkill="0" anchor="0,0,-1" ></Data>
+	</Action>	
+	<Action Type="TargetAngle">
+        <Data Name="CSR_TA" minAngle="-45" maxAngle="45" ></Data>
+	</Action>
+    <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+    <Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+	<Action Type="MoveAround">
+		<Data Name="MA0" minRange="5.0" maxRange="25.0" minHeight="0.0" maxHeight="0.0" minTime="3" maxTime="6"></Data>
+	</Action>
+	<Action Type="Probability">
+		<Data Name="PMA" prob="0.2" ></Data>
+	</Action>
+	<Action Type="Pounce"><!--  前扑  -->
+		<Data Name="Pounce"  pounce="attack1"  prob="0.5" cdTime="4" minRange="2.0" maxRange="4.0" minAngle="-5" maxAngle="5" startTime="0.467" endTime="0.933" stopTime="1.467" skillID="30100201" ></Data>
+	</Action>
+	<Action Type="Melee">
+		<Data Name="M0" prob="0.5" cdTime="0.5" minRange="0.0" maxRange="0.3" minAngle="-10" maxAngle="10" skillStr="30100200" ></Data>
+	</Action>	
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\AutoWait\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="AW_MS" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="AW_T" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

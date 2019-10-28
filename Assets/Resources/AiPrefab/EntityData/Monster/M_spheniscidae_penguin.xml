@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Sky" Tree="MSpheniscidaePenguin">
+<!-- ======================== AutoChangeState_SpheniscidaePenguin ======================== --><!-- ////////////切换空中陆地状态/////////// -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== AutoSky_SpheniscidaePenguin ======================== --><!-- //////////////////////////// -->
+	<Action Type="FlyAndLand">
+		<Data Name="true"  fly="true"></Data>
+	</Action>
+	<Action Type ="IsEscape"></Action>
+    <Action Type ="Escape">
+    	<Data Name="E_Escape" cdTime="30" maxTime="200" maxDistance="3000" interval="100" prob="0" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== AutoLand_SpheniscidaePenguin ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>	
+	<Action Type="Patrol">
+		<Data Name="L_Patrol" prob="0.2" minTime="2" maxTime="4" minRadius="2" maxRadius="4" spawnCenter="true" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="L_Idle" idle="normal_leisureidle" prob="0.6" minTime="3" maxTime="5" relaxProb="1.0" relaxTime="2" relax="normal_leisure0,normal_leisure1,normal_leisure2" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

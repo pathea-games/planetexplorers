@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Sky" Tree="MUnaala">
+<!-- ======================== Auto_Request ======================== --><!-- //////////////////////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== LeisureState_AutoLeisureSky ===================== --><!-- //////////////// -->
+	<Action Type ="TowerDefence"></Action>	
+	<Action Type="Patrol">
+		<Data Name="LS_Patrol" prob="0.7" minTime="30" maxTime="70" minRadius="40" maxRadius="70" minHeight="20.0" maxHeight="40.0" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LS_Idle" idle="normalsky_leisureidle" prob="0.15" minTime="3" maxTime="5" relaxProb="1.0" relaxTime="1" relax="normalsky_leisure0,normalsky_leisure1,normalsky_leisure2" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_AotoSkyMonsterCombat ======================= --><!-- ///////////////// -->
+	<!-- ============= Auto_AutoSurround ============= --><!-- ///////////////// -->
+	<Action Type="Succeed"></Action>
+	<Action Type="IsMemberSurround"></Action>
+	<Action Type="MoveSurround">
+	</Action>
+	<Action Type="Threat">
+	</Action>
+	<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type="HasEnemy"></Action>
+  <Action Type="Succeed"></Action>
+  <Action Type="IsCarrierAndSky"></Action>
+  <Action Type="MoveToTarget">
+	<Data Name="MTT0" minRange="1.0" maxRange="5.0" ></Data>
+  </Action>
+  <Action Type="Probability">
+    <Data Name="P0" prob="0.2"></Data> <!-- 0.2 -->
+    <Data Name="P1" prob="0.26"></Data> <!-- 0.26 -->
+    <Data Name="P2" prob="0.4"></Data> <!-- 0.4 -->
+	<Data Name="P3" prob="0.8"></Data> <!-- 0.8 --> 
+	<Data Name="P4" prob="0.3"></Data> <!-- 0.3 -->
+	<Data Name="P5" prob="1.0"></Data> <!-- 1.0 -->
+	<Data Name="TH_P0" prob="0.4"></Data> <!-- 0.4 -->
+  </Action>
+  <Action Type="TargetHover">
+    <Data Name="TH0" minRange="30.0" maxRange="35.0" minHeight="12.0" maxHeight="18.0" minTime="3.0" maxTime="6.0"></Data>
+  </Action>
+  <Action Type="MoveRange">
+    <Data Name="MR0" minRange="16.5" maxRange="17.5" minHeight="14.5" maxHeight="15.5" angle="3"></Data>
+    <Data Name="MR1" minRange="13.5" maxRange="14.5" minHeight="13.0" maxHeight="14.0" angle="3"></Data>
+    <Data Name="MR2" minRange="25.0" maxRange="26.0" minHeight="18.0" maxHeight="19.0" angle="3"></Data>
+	<Data Name="MR3" minRange="15.5" maxRange="16.5" minHeight="14.5" maxHeight="15.5" angle="3"></Data>
+	<Data Name="MR4" minRange="8.00" maxRange="10.00" minHeight="2.00" maxHeight="3.00" angle="3"></Data>
+	<Data Name="MR5" minRange="4.00" maxRange="6.00" minHeight="2.00" maxHeight="3.00" angle="3"></Data>
+  </Action>
+  <Action Type="CastSkill">
+    <Data Name="CS0" skillID="30100254"></Data>
+    <Data Name="CS1" skillID="30100255"></Data>
+    <Data Name="CS2" skillID="30100256"></Data>
+    <Data Name="CS3" skillID="30100257"></Data>
+    <Data Name="CS4" skillID="30100258"></Data>
+    <Data Name="CS5" skillID="30100259"></Data>
+    <Data Name="CS6" skillID="30100260"></Data>
+    <Data Name="CS7" skillID="30100261"></Data>
+	<Data Name="CS8" skillID="30100262"></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

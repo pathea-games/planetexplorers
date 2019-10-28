@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="AlienRobot02">
+<!-- ======================== AutoLeisureSky_AlienRobot02 ===================== --><!-- //////////////// -->
+	<Action Type="Patrol">
+		<Data Name="LS_Patrol" prob="0.6" minTime="5" maxTime="10" minRadius="5" maxRadius="8" minHeight="0.5" maxHeight="2.0" spawnCenter="false" ></Data>
+    </Action>
+    <Action Type="Idle">
+		<Data Name="LS_Idle" idle="normalsky_leisureidle" prob="0.3" minTime="3" maxTime="5" relaxProb="1.0" relaxTime="1" relax="normalsky_leisure0,normalsky_leisure1,normalsky_leisure2" ></Data>
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_AlienRobot02 ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="Succeed" />
+	<Action Type="CalculateAttackMode"></Action>
+	<Action Type="MoveToTarget"></Action>
+	
+	<Action Type="MoveAround">
+		<Data Name="MA0" minRange="2.0" maxRange="5.0" minHeight="1.0" maxHeight="4.0" minTime="2" maxTime="5"></Data>
+	</Action>
+	<Action Type="Probability">
+		<Data Name="P30" prob="0.3"></Data> <!-- 0.3 -->
+	</Action>
+	<Action Type="Blink">
+		<Data Name="B0" prob="0.05" radius="2" ></Data><!--瞬移-->
+	</Action>
+	<Action Type="Melee">
+		<Data Name="attack0" prob="0.6" cdTime="0.5" isBlock="true" minRange="0.0" maxRange="20" minAngle="-5" maxAngle="5" skillStr="30100282" ></Data><!--头部发射激光-->
+		<Data Name="attack1" prob="0.5" cdTime="0.5" isBlock="true" minRange="0.0" maxRange="20" minAngle="-5" maxAngle="5" skillStr="30100283" ></Data><!--头部蓄力发射激光-->
+	</Action>
+	<Action Type="AttackSuicide">
+		<Data Name="AS0" hpPercent="0.1" prob="0.8" time="4.0" radius="0.5" skillID="30100284"></Data><!--自杀性小机器人-->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>

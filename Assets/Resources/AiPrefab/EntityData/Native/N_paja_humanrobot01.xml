@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="PajaHumanRobot">
+<!-- ======================== Crouch_PajaHumanRobotLeisure ===================== --><!-- //////////////// -->
+  <Action Type="Crouch"></Action>
+  <Action Type="IsCrouchReady"></Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== LeisureState_PajaHumanRobot ===================== --><!-- //////////////// -->
+	<Action Type="TowerDefence"></Action>
+	<Action Type="Return">
+		<Data Name="RT0" arriveRadius="1.0" returnRadius="50.0" ></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_PajaHumanRobot ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="Succeed" />
+	<Action Type="TargetInBody" />
+	<Action Type="CalculateAttackMode" />
+	<Action Type="MoveToTarget" />
+	<Action Type="EnergyShield">
+		<Data Name="M6" hpPercent="0.2" time="120" animName="attack6" ></Data><!--能源盾-->
+	</Action>
+	<Action Type="MeleeAttack">
+		<Data Name="M7"  prob="0.2"  cdTime="25.0" minRange="5.0" maxRange="50" minAngle="0" maxAngle="360" skillStr="30100271" ></Data><!--导弹-->
+		<Data Name="M8"  prob="1.0"  cdTime="1" minRange="0.0" maxRange="8.0" minAngle="0" maxAngle="360" skillStr="30100272" ></Data><!--蒸汽-->
+		<Data Name="M9"  prob="0.5"  cdTime="1" minRange="0.0" maxRange="10.0" minAngle="0" maxAngle="360" skillStr="30100273" ></Data><!--脚步震地-->
+		<Data Name="M10" prob="0.5" cdTime="1" minRange="0.0" maxRange="10.0" minAngle="0" maxAngle="360" skillStr="30100274" ></Data><!--手臂震地-->
+	</Action>
+	<Action Type="AttackRanged">
+		<Data Name="M5" prob="0.5" cdTime="6" minRange="2" maxRange="18" angle="15" pitchAngle="30" boneName="attack4_point" pivot="0,0,1" skillID="30100269" ></Data><!--迫击炮-->
+	</Action>
+	<Action Type="Melee">
+		<Data Name="M0" prob="0.8" cdTime="0.5" minRange="10.0" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100264" ></Data><!--持续攻击一点激光-->
+		<Data Name="M1" prob="0.5" cdTime="0.5" minRange="10.0" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100265" ></Data><!--跟踪激光-->
+		<Data Name="M2" prob="0.3" cdTime="0.5" minRange="10.0" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100266" ></Data><!--中间头部蓄力强激光-->
+		<Data Name="M3" prob="0.3" cdTime="0.5" minRange="5.00" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100267" ></Data><!--左手散弹-->
+		<Data Name="M4" prob="0.3" cdTime="0.5" minRange="8.00" maxRange="50" minAngle="-10" maxAngle="10" skillStr="30100268" ></Data><!--右手离子弹-->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Native" Tree="NativePaja">
+<!-- ======================== N_paja_sentry ======================== -->
+<!-- ======================== AutoRequest ======================== --><!-- /////////////  请求  //////////// -->
+	<Action Type ="RHasRequest"></Action>
+    <Action Type ="RIdle"></Action>
+	<Action Type ="RFollowTarget"></Action>
+	<Action Type ="RFollowPath"></Action>		    
+	<Action Type ="RMoveToPoint"></Action>
+	<Action Type ="RDialogue">
+		<Data Name="Dialogue" anims="" ></Data><!-- 对话 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== Profession ===================== --><!-- /////////////  职业选择  //////////// -->
+	<Action Type ="Profession">
+		<Data Name="Sentry" profession="Sentry" ></Data><!-- 哨兵 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== AutoEscape ===================== --><!-- ///////////////  逃跑  ////////////// -->
+	<Action Type ="IsEscape"></Action>
+	<Action Type ="Injured">
+		<Data Name="Injured" cancelHpPercent="0.9" anim="Injured" ></Data><!-- 濒死状态：退出条件-->
+	</Action>
+	<Action Type="Probability">
+		<Data Name="Esc_Pnormal"  prob="0.0"></Data> <!-- 普通逃跑概率 -->
+		<Data Name="Esc_Pfrantic" prob="0.0"></Data> <!-- 慌乱逃跑概率 -->
+	</Action>
+	<Action Type ="Escape">
+    	<Data Name="Escape_normal"  cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" anim=""></Data>                <!-- 普通逃跑 -->
+		<Data Name="Escape_frantic" cdTime="30" maxTime="30" maxDistance="200" interval="10" prob="0.1" anim="Fluster_Escape" ></Data> <!-- 慌乱逃跑 -->
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= PajaSentryCombat ======================= --><!-- /////////  攻击模式  ///////// -->
+	<Action Type="HasEnemy"></Action>
+	<Action Type="Succeed"></Action>
+	<Action Type ="AttackWeapon"></Action>
+	<Action Type="CheckTime">
+		<Data Name="CT3" checkTime="3.0" ></Data>
+	</Action>
+	<Action Type ="CallHelp">
+		<Data Name="CH100" anim=""            hpPercent="1.0" prob="0.5" cdTime="600.0" radius="10" ></Data><!-- 100%血量呼救 -->
+		<Data Name="CH20"  anim=""            hpPercent="0.2" prob="0.5" cdTime="600.0" radius="10" ></Data><!-- 20% 血量呼救 -->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================= PajaSentryLeisure ======================= --><!-- /////////  休闲模式  ///////// -->
+	<Action Type ="TowerDefence"></Action>
+	<Action Type="Guard"></Action>
+	<Action Type="Idle">
+		<Data Name="Idle_stand" idle="normal_leisureidle" prob="0.3" minTime="6" maxTime="8" relaxProb="0.5" relaxTime="3" relax="normal_leisure0,normal_leisure1" ></Data>
+	</Action>
+	<Action Type="IdleWeapon">
+		<Data Name="IdleWeapon" prob="0.1" minTime="6" maxTime="8" relaxProb="0.9" relaxTime="3" ></Data>
+	</Action>	
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+  <Action Type ="IsMemberSurround"></Action>
+  <Action Type="MoveSurround">
+    <Data Name="wms" prob="1" minRange="10" maxRange="15" ></Data>
+  </Action>
+  <Action Type="Threat">
+    <Data Name="wt" prob="1" cdTime="6" threatStr=""></Data>
+  </Action>
+  <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+</Tree>
+<!-- ================================================================================================================================================================================ -->

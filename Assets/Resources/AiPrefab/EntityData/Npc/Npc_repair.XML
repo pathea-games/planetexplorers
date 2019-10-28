@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Npc" Tree="NpcCampRepair">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <Action Type="RHasRequest"></Action>
+  <Action Type="RMoveToPoint"></Action>
+  <Action Type="RTalkMove"></Action>
+  <Action Type="RFollowPath"></Action>
+  <Action Type="RAnimation"></Action>
+  <Action Type="RTranslate"></Action>
+  <Action Type="RRotate"></Action>
+  <Action Type="RDialogue">
+    <Data Name="Dialogue" anims=""></Data>
+  </Action>
+  <Action Type="RSalvation">
+    <Data Name="Salvation" animName="Carry" startCarryUpTime="0.0" carryUpTime="1.75" startCarryDownTime="0.5" carryDownTime="1.4"></Data>
+  </Action>
+  <Action Type="RFollowTarget">
+    <Data Name="Follow" firRadius="4.0" sndRadius="16.0" thdRadius="32.0" relax=""></Data>
+  </Action>
+  <Action Type ="SkillAround"></Action>
+  <Action Type="RIdle">
+    <Data Name="Idle"          Type ="0" idle=""             startTime="0.0" endTime="0.0" minTime="2" maxTime="10" relax=""></Data>
+    <Data Name="Injured"       Type ="1" idle="InjuredSit"   startTime="0.0" endTime="0.0" minTime="2" maxTime="10" relax=""></Data>
+    <Data Name="Rest"          Type ="2" idle="InjuredRest"  startTime="0.0" endTime="3.0" minTime="2" maxTime="10" relax=""></Data>
+    <Data Name="BeCarry"       Type ="3" idle="BeCarry"      startTime="0.0" endTime="0.0" minTime="2" maxTime="10" relax=""></Data>
+    <Data Name="InjuredSitEX"  Type ="4" idle="InjuredSitEX" startTime="0.0" endTime="5.0" minTime="2" maxTime="10" relax=""></Data>
+  </Action>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- 仆从行为\\\\\\\\\ -->
+  <Action Type="IsNpcFollower"></Action>
+  <Action Type="NpcFollowerWork"></Action>
+  <Action Type ="NpcFollowerEat">
+    <Data   Name="FollowerEat" eatAnim ="Eat"></Data>
+  </Action>
+  <Action Type="NpcFollower">
+    <Data Name="NpcFollower" firRadius="4.0" sndRadius="16.0" thdRadius="32.0" relax="" GatherTime="1.0,5.0" LootTime="1.0,5.0"  normalPatrolRadiu ="2.0"  specialPatrolRadiu="6.0"></Data>
+  </Action>
+  <Action Type="NpcFollowerCut"></Action>
+  <Action Type="NpcFollowerGather">
+    <!-- 采药-->
+    <Data Name="Gather" GatherRadius="18.0" Probability="0.6"></Data>
+  </Action>
+  <Action Type="NpcFollowerLoot">
+    <!-- 捡尸体-->
+    <Data Name="Loot" LootRadius="10.0"></Data>
+  </Action>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- 仆从攻击行为-->
+  <Action Type="HasSelectEnemy"></Action>
+  <Action Type="hasAttackEnemy"></Action>
+  <Action Type="hasHatredEnemies"></Action>
+  <Action Type="EnemyDamageValue">
+    <Data Name="Value" DamageValuePer="0.4"></Data>
+  </Action>
+
+  <Action Type="OwnBlood">
+    <Data Name="OwnBlood" minHpPercent="0.2"></Data>
+  </Action>
+
+  <Action Type="IsEnemyValid"></Action>
+  <Action Type="ChoiceWeapons">
+    <Data Name="ChoiceWeapons" maxEnemyDis="15.0" minFollowerHpPer="0.3" compareHpPer="0.5" ></Data>
+  </Action>
+  <Action Type="IsSelectEquipRange"></Action>
+  <Action Type="IsSelectEquipclose"></Action>
+  <Action Type="IsOnlyGloves"></Action>
+  <Action Type="Weaponry"></Action>
+  <Action Type="AttackEnemyIsAttacking"></Action>
+  <Action Type="ChoiceAction"></Action>
+
+
+  <Action Type="RunawayFromEnemy">
+    <Data Name="run"  RunRadius="32.0"  minHpPercent="0.2" ></Data>
+  </Action>
+
+<Action Type="RunawayFromSkyEnemy">
+    <Data Name="sky"  RunRadius="10.0"  minHpPercent="0.2" ></Data>
+  </Action>
+
+  <Action Type="CheckEnemy">
+    <Data Name="Sky" Type ="1"  ></Data>
+  </Action>
+  
+  <Action Type="RadiusStep">
+    <Data Name="Radius"  minRadius="3.0"></Data>
+  </Action>
+
+  <Action Type="Equip">
+    <!-- EqCombat:装备战斗装  EqRange 选择远程 EqMelee 选择近战 EqSheild 选择盾 EqTool 选择工具 EqEnergySheild 选择能源盾 EqEnergy 选择电池-->
+    <!-- All-->
+    <Data Name="All"  EqCombat="1" EqRange ="1" EqMelee ="1" EqSheild ="1" EqTool ="0" EqEnergySheild ="1" EqEnergy ="1"></Data>
+    <!-- 仅远程-->
+    <Data Name="Range"  EqCombat="1" EqRange ="1" EqMelee ="0" EqSheild ="0" EqTool ="0" EqEnergySheild ="1" EqEnergy ="1"></Data>
+    <!-- 仅近战-->
+    <Data Name="Melee"  EqCombat="1" EqRange ="0" EqMelee ="1" EqSheild ="1" EqTool ="0" EqEnergySheild ="1" EqEnergy ="1"></Data>
+    <!-- 仅防御-->
+    <Data Name="Sheild"  EqCombat="0" EqRange ="0" EqMelee ="1" EqSheild ="1" EqTool ="0" EqEnergySheild ="1" EqEnergy ="1"></Data>
+    <!-- 仅工具-->
+    <Data Name="Tool"  EqCombat="0" EqRange ="0" EqMelee ="0" EqSheild ="0" EqTool ="1" EqEnergySheild ="1" EqEnergy ="1"></Data>
+  </Action>
+
+  <Action Type="CheckEquips">
+    <!-- AttackType : 0_近战 1_远程  EqType :EeqSelect-->
+    <Data Name="Melee" EqType ="1"  AttackType="0"></Data>
+    <Data Name="Range" EqType ="1"  AttackType="1"></Data>
+  </Action>
+  
+  <Action Type="Defend"></Action>
+  <Action Type="Assist0"></Action>
+  <Action Type="ChoiceEnemy"></Action>
+  <Action Type="SelectAttackWeapon"></Action>
+
+  <Action Type="CheckProfession">
+    <!-- EquipType : 1_T 2_ADC 3_AD -->
+    <Data Name="T"  Profession="1"></Data>
+    <Data Name="ADC"  Profession="2"></Data>
+    <Data Name="AD"  Profession="3"></Data>
+  </Action>
+  <Action Type="IsUnSuitable"></Action>
+  <Action Type="AttcakingAway">
+    <Data Name="away"  awayTime="5.0" awayRadiu="10.0" ></Data>
+  </Action>
+
+
+  <Action Type="ConfirmAttackMode"></Action>
+  <Action Type="NpcThreat"></Action>
+  <Action Type="NpcAttack"></Action>
+  <Action Type="ThreatRunAway">
+    <Data Name="run"  RunRadius="32.0"  minHpPercent="0.2" ></Data>
+  </Action>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <Action Type="Succeed"></Action>
+  <Action Type="HasEnemy"></Action>
+  <Action Type="Probability">
+    <Data Name="pro20" prob="0.2" ></Data>
+    <Data Name="pro30" prob="0.3" ></Data>
+    <Data Name="pro40" prob="0.4" ></Data>
+    <Data Name="pro50" prob="0.5" ></Data>
+    <Data Name="pro60" prob="0.6" ></Data>
+  </Action>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- 营地行为\\\\\\\\\ -->
+  <Action Type ="IsNpcCampsite"></Action>
+  <Action Type ="NpcWander">
+    <!-- 随机走几步-->
+    <Data Name="W1" WanderRadius="4.8" Probability="0.5"></Data>
+  </Action>
+  
+  <Action Type ="NpcCampsiteSleep">
+    <Data Name="sleep" sleepId="30200055" sleepAnim="Sleep" sleepTimeSlots="23.5_6.5" ></Data>
+  </Action>
+  
+  <Action Type ="NpcCampsiteEat">
+    <Data Name="CampsiteEat" EatHour="13_13.5,19_19.5" AnimName="0_Eat,Sitdown_SitEat" PlayTime="3.0"></Data>
+  </Action>
+  <Action Type ="NpcCampsiteTalk">
+    <Data Name="T1" PlayState="Move" AnimName="Talk0,Talk1" TalkRadius="5.0" TargetAngle="20" Probability="1.0" TalkTime="10.0"></Data>
+  </Action>
+  <Action Type="FixedPatrol">
+    <!-- 巡逻NPC数据\\\\\\\\\ -->
+    <Data Name="P1" PlayState="Move" PlayAnim="Alert,Alert2" PlayTimes="1,2" IntervalTime="5" MinTime="60" MaxTime="120" TriggerTimes="1,2" Probability="0.5"></Data>
+    <Data Name="P2" PlayState="Move" PlayAnim="Leisure1,Leisure2,Leisure3,Leisure4" minTime="15" maxTime="25" PlayTimes="1,2" ></Data>
+  </Action>
+  <Action Type="PlayLoopAnimation">
+    <!--飞机\\\\\\\\\ -->
+    <Data Name="repair" PlayState="FixLifeboat" PlayAnim="FixLifeboat" PlayTimes="1,2" IntervalTime="5.0" MinTime="80" MaxTime="200"></Data>
+    <!-- 修飞机 -->
+  </Action>
+  <Action Type="NpcBattleFear">
+    <!-- 害怕躲避 -->
+    <Data Name="fear" PlayState="Fear" PlayAnim="Fear" IntervalTime="4.0"></Data>
+    <!-- 害怕躲避 -->
+  </Action>
+  <Action Type="CheckPostion">
+    <!-- 检查地点\\\\\\\\\ -->
+    <Data Name="repair" Type="2" Probability="0.7" Speed="1" AttackBreak="1"></Data>
+    <!-- 修飞机\\\\\\\\ -->
+  </Action>
+  <Action Type="Probability">
+    <!-- 概率 -->
+    <Data Name="fear" prob="1" ></Data>
+  </Action>
+  <Action Type="CheckPlayerPos">
+    <!-- 检查玩家位置 -->
+    <Data Name="R1" Radius="5" ></Data>
+  </Action>
+  <!-- 营地行为\\\\\\\\\ -->
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  <!-- 攻击行为\\\\\\\\\ -->
+  <Action Type="FollowUp">
+    <Data Name="FollowUp" minRange="1.0" maxRange="3.0" radius="2.0"></Data>
+  </Action>
+  <Action Type="SelfDefense"></Action>
+  <Action Type="Assist"></Action>
+  <Action Type="Recourse"></Action>
+  <Action Type="Dodge"></Action>
+  <Action Type="Block"></Action>
+
+  <Action Type="AttackCheck"></Action>
+  <Action Type="RunAway">
+    <Data Name="Away" Radius="3.0" RunAwayTime="2.0" ></Data>
+  </Action>
+  <Action Type="RunRoll">
+    <Data Name="Roll" Radius="3.0" RunAwayTime="2.0" ></Data>
+  </Action>
+  <!--  <Action Type="RunJump">
+    <Data Name="Jump" Radius="3.0" RunAwayTime="2.0" ></Data>
+  </Action>-->
+
+  <Action Type="AttackWeapon"></Action>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+ 
+
+
+  <!-- 野外NPC动作数据\\\\\\\\\ -->
+  <Action Type="PatrolNPC">
+    <Data Name="PatrolNPC" prob="0.0" minTime="10.0" maxTime="15.0" minRadius="7.0" maxRadius="12.0" spawnCenter="true"></Data>
+  </Action>
+
+  <Action Type="FixedPoint">
+    <Data Name="FixedPoint" prob="2.0" minTime="10.0" maxTime="15.0" minRadius="5.0" maxRadius="10.0"></Data>
+  </Action>
+
+  <Action Type="IsField"></Action>
+
+  <Action Type="Idle">
+    <!-- 休闲动作数据\\\\\\\\\ -->
+    <Data Name="Idle" idle="NormalIdle" prob="0.5" minTime="2" maxTime="10" relaxProb="1" relaxTime="3" relax="Leisure3,Leisure4"></Data>
+    <Data Name="wanderIdle" idle="NormalIdle" prob="0.7" minTime="30" maxTime="40" relaxProb="0.7" relaxTime="9" relax="Leisure4,Leisure6,Leisure8"></Data>
+  </Action>
+
+  <Action Type="CheckStandPos">
+    <Data Name="R" Radius="0.3" ></Data>
+  </Action>
+  <Action Type="MoveAvoid">
+    <Data Name="R" Radius="0.3"   firAvoid = "1.0" sndAvoid ="8.0" trdAvoid = "16.0" ></Data>
+  </Action>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- 基地行为\\\\\\\\\ -->
+  <Action Type="NpcIsBase"></Action>
+  <Action Type="NpcBasePatrol"></Action>
+  <Action Type ="NpcBaseCollect"></Action>
+  <Action Type ="NpcBaseWaitCollect"></Action>
+  <Action Type ="NpcBaseDoctor"></Action>
+
+  <Action Type ="NpcMedicalDiagnose">
+    <Data Name="Diagnose" WaitAnim="Sleep" WaitTime = "10.0" ></Data>
+  </Action>
+  <Action Type ="NpcMedicalTreat">
+    <Data Name="Treat" WaitAnim="Sleep" WaitTime = "10.0" ></Data>
+  </Action>
+  <Action Type ="NpcInHospital">
+    <Data Name="InHospital" WaitAnim="Sleep" WaitTime = "10.0" ></Data>
+  </Action>
+
+  <Action Type ="NpcBaseInstructor"></Action>
+  <Action Type ="NpcBaseTrainee"></Action>
+  <!-- 基地行为\\\\\\\\\ -->
+  <Action Type="NpcBaseGuard"></Action>
+  <Action Type="NpcBaseWander">
+    <Data Name="wander" wanderTime ="30.0"></Data>
+  </Action>
+  <Action Type="NpcBaseWork"></Action>
+  <Action Type="NpcBaseJobWait">
+    <!-- 
+    Resident,         //居民:1
+    Farmer,           //农民：2
+    Worker,           //工人 ： 3
+    Soldier,          //士兵 ：4
+    Follower,         //随从：5
+    Processor,        //采集者：6
+    Doctor,           //医生 ： 7
+    Trainer           //训练人 ：8
+    -->
+    <Data Name="Wait1"  Jobtype ="1"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+    <Data Name="Wait2"  Jobtype ="2"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+    <Data Name="Wait3"  Jobtype ="3"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+    <Data Name="Wait4"  Jobtype ="4"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+    <Data Name="Wait5"  Jobtype ="5"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+    <Data Name="Wait6"  Jobtype ="6"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+    <Data Name="Wait7"  Jobtype ="7"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+    <Data Name="Wait8"  Jobtype ="8"  WaitTime ="10.0" RadiuMax = "20.0" RadiuMin = "5.0"></Data>
+  </Action>
+  <Action Type="IsWaitJob">
+    <Data Name="Job1"   Jobtype ="1" ></Data>
+    <Data Name="Job2"  Jobtype ="2" ></Data>
+    <Data Name="Job3"  Jobtype ="3" ></Data>
+    <Data Name="Job4"  Jobtype ="4" ></Data>
+    <Data Name="Job5"  Jobtype ="5" ></Data>
+    <Data Name="Job6"  Jobtype ="6" ></Data>
+    <Data Name="Job7"  Jobtype ="7" ></Data>
+    <Data Name="Job8"  Jobtype ="8" ></Data>
+  </Action>
+  
+  <Action Type="NpcBaseSleep">
+    <Data Name="Sleep" minComfort="0" maxComfort="10" minSleepTime="5" maxSleepTime="20" sleepTimeSlots="23.5_6.5" buffId = "30200055" Anim = "Sleep"></Data>
+  </Action>
+  <Action Type="NpcBaseTakeFood">
+    <Data Name="TakeFood" eatAnim="Eat," minHunger="0.3" maxHunger="0.8" minBlood="0.3" maxBlood="0.8" minComfort="0.2" maxComfort="0.8"
+          minEatTime="5" maxEatTime="10" full="500" interval="5" eatTimeSlots="10_10.5,13_13.5,19_19.5"></Data>
+  </Action>
+  <Action Type ="NpcBasePlant">
+    <Data Name="Plant" plantAnim="Gather" plantTime="0.9" plantEndTime="1.9" plantRadius ="0.5" plantWaitTime ="10.0"></Data>
+  </Action>
+  <Action Type ="NpcBasePlantWater">
+    <Data Name="PlantWater" waterAnim="Gather" waterTime="0.9" waterEndTime="1.9" waterRadius ="1.8" waterWaitTime = "10.0"></Data>
+  </Action>
+  <Action Type ="NpcBasePlantClean">
+    <Data Name="PlantClean" cleanAnim="Gather" cleanTime="0.9" cleanEndTime="1.9" cleanRadius ="1.8" cleanWaitTime = "10.0"></Data>
+  </Action>
+  <Action Type ="NpcBasePlantHarvest">
+    <Data Name="Harvest" harvestAnim="Gather" harvestTime="0.9" harvestEndTime="1.9" harvestRadius = "1.8" harvestWaitTime ="10.0"></Data>
+  </Action>
+  <Action Type ="NpcBaseClearPlant">
+    <Data Name="Clear" clearAnim="Gather" clearTime="0.9" clearEndTime="1.9" clearRadius = "1.8" clearWaitTime ="10.0"></Data>
+  </Action>
+  <Action Type ="CheckLine">
+   <Data Name="line1" LineType="1"></Data>
+   <Data Name="line2" LineType="2"></Data>
+   <Data Name="line3" LineType="3"></Data>
+   <Data Name="line4" LineType="4"></Data>
+   <Data Name="line5" LineType="5"></Data>
+  </Action>
+   <Action Type ="CSmoveToPoint"></Action>
+    <Action Type ="SitRest">
+     <Data Name="stand" AnimName="0_Talk0" ></Data>
+      <Data Name="sit" idle="Sitdown" prob="1.0" minTime="20" maxTime="10" relaxProb="0.7" relaxTime="10" relax="SitLeisure1,SitLeisure2,SitLeisure3"></Data>
+    </Action>
+
+  <Action Type ="CsCallBack">
+    <Data Name="CallBack" walkTime="10.0"></Data>
+  </Action>
+  <Action Type ="CanIdle"></Action>
+  <Action Type ="CsMoveAway">
+    <Data Name="data0" awayTime="10.0" ></Data>
+  </Action>
+
+  <Action Type ="CsNoIdleRun">
+    <Data Name="data0" RunRadius="10.0" ></Data>
+  </Action>
+  
+</Tree>

@@ -1,0 +1,110 @@
+<ForceSetting>
+	<Force>
+		<ForceDesc ID="1" Name="Mankind">
+			<Color>237,28,36,255</Color>
+			<Ally>1</Ally>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<PublicInventory>true</PublicInventory>
+			<ItemUseShare>true</ItemUseShare>
+			<ItemShare>true</ItemShare>
+			<InternalConflict>false</InternalConflict>
+			<AllyConflict>true</AllyConflict>
+			<EnemyConflict>true</EnemyConflict>
+		</ForceDesc>
+		<ForceDesc ID="2" Name="Maria Creatures">
+			<Color>63,72,204,255</Color>
+			<Ally>2</Ally><!-- 联盟 --><!-- 多个联盟分开写 -->
+			<JoinablePlayerCount>0</JoinablePlayerCount><!-- 多人可自由加入的玩家数量 -->
+			<PublicInventory>true</PublicInventory><!-- 公共背包 -->
+			<ItemUseShare>true</ItemUseShare><!-- 道具是否共享使用 -->
+			<ItemShare>true</ItemShare><!-- 道具是否共享拾取 -->
+			<InternalConflict>true</InternalConflict><!-- 自身内部 -->
+			<AllyConflict>true</AllyConflict><!-- 同盟 -->
+			<EnemyConflict>true</EnemyConflict><!-- 敌人 -->
+		</ForceDesc>
+		<ForceDesc ID="3" Name="Maria Natives">
+			<Color>112,146,190,255</Color>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<PublicInventory>true</PublicInventory>
+			<ItemUseShare>true</ItemUseShare>
+			<ItemShare>true</ItemShare>
+			<InternalConflict>true</InternalConflict>
+			<AllyConflict>true</AllyConflict>
+			<EnemyConflict>true</EnemyConflict>
+		</ForceDesc>
+		<ForceDesc ID="4" Name="Alien">
+			<Color>34,177,76,255</Color>
+			<Ally>4</Ally>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<PublicInventory>true</PublicInventory>
+			<ItemUseShare>true</ItemUseShare>
+			<ItemShare>true</ItemShare>
+			<InternalConflict>true</InternalConflict>
+			<AllyConflict>true</AllyConflict>
+			<EnemyConflict>true</EnemyConflict>
+		</ForceDesc>
+    	<ForceDesc ID="5" Name="TowerDefence">
+			<Color>34,75,76,255</Color>
+			<Ally>5</Ally>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<PublicInventory>true</PublicInventory>
+			<ItemUseShare>true</ItemUseShare>
+			<ItemShare>true</ItemShare>
+			<InternalConflict>false</InternalConflict>
+			<AllyConflict>false</AllyConflict>
+			<EnemyConflict>true</EnemyConflict>
+		</ForceDesc>
+		<ForceDesc ID="9" Name="Neutral">
+			<Color>192,192,192,255</Color>
+			<Ally>9</Ally>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<PublicInventory>false</PublicInventory>
+			<ItemUseShare>false</ItemUseShare>
+			<ItemShare>false</ItemShare>
+			<InternalConflict>false</InternalConflict>
+			<AllyConflict>false</AllyConflict>
+			<EnemyConflict>false</EnemyConflict>
+		</ForceDesc>
+			<ForceDesc ID="10" Name="Voxel">
+			<Color>192,192,192,255</Color>
+			<Ally>10</Ally>
+			<JoinablePlayerCount>0</JoinablePlayerCount>
+			<PublicInventory>false</PublicInventory>
+			<ItemUseShare>false</ItemUseShare>
+			<ItemShare>false</ItemShare>
+			<InternalConflict>true</InternalConflict>
+			<AllyConflict>true</AllyConflict>
+			<EnemyConflict>true</EnemyConflict>
+		</ForceDesc>
+	</Force>
+	<Player>
+		<PlayerDesc ID="0" Name="Neutral" Force="9" Type="Neutral" />
+		<PlayerDesc ID="1" Name="Player" Force="1" Type="Human" />
+		<PlayerDesc ID="2" Name="Earth NPC" Force="1" Type="Computer" />
+		<PlayerDesc ID="3" Name="Martian NPC" Force="1" Type="Computer" />
+		<PlayerDesc ID="4" Name="Monster" Force="2" Type="Computer" />
+		<PlayerDesc ID="5" Name="Puja" Force="3" Type="Computer" />
+		<PlayerDesc ID="6" Name="Paja" Force="3" Type="Computer" />
+		<PlayerDesc ID="7" Name="Alien" Force="4" Type="Computer" />
+		<PlayerDesc ID="8" Name="TowerDefence" Force="5" Type="Computer" />
+		<PlayerDesc ID="9" Name="PlayerTower" Force="1" Type="Computer" />
+		<PlayerDesc ID="99" Name="Creation" Force="9" Type="Computer" />
+		<PlayerDesc ID="10" Name="Voxel" Force="10" Type="Computer" />
+		
+		<PlayerDesc ID="20" Name="AdPuja0" Force="3" Type="Computer" />
+		<PlayerDesc ID="21" Name="AdPuja1" Force="3" Type="Computer" />
+		<PlayerDesc ID="22" Name="AdPuja2" Force="3" Type="Computer" />
+		<PlayerDesc ID="23" Name="AdPuja3" Force="3" Type="Computer" />
+		<PlayerDesc ID="24" Name="AdPuja4" Force="3" Type="Computer" />
+		<PlayerDesc ID="30" Name="AdPaja0" Force="3" Type="Computer" />
+		<PlayerDesc ID="31" Name="AdPaja1" Force="3" Type="Computer" />
+		<PlayerDesc ID="32" Name="AdPaja2" Force="3" Type="Computer" />
+		<PlayerDesc ID="33" Name="AdPaja3" Force="3" Type="Computer" />
+		<PlayerDesc ID="34" Name="AdPaja4" Force="3" Type="Computer" />
+		<PlayerDesc ID="40" Name="EnemyNPC0" Force="3" Type="Computer" />
+		<PlayerDesc ID="41" Name="EnemyNPC1" Force="3" Type="Computer" />
+		<PlayerDesc ID="42" Name="EnemyNPC2" Force="3" Type="Computer" />
+		<PlayerDesc ID="43" Name="EnemyNPC3" Force="3" Type="Computer" />
+		<PlayerDesc ID="44" Name="EnemyNPC4" Force="3" Type="Computer" />
+	</Player>
+</ForceSetting>

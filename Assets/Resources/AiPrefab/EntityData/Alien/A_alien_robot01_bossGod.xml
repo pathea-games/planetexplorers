@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Monster_Robot" Tree="AlienRobot01">
+<!-- ======================== AutoRobotUnfold_AlienRobot01 ===================== --><!-- //////////////// -->
+	<Action Type="Unfold" />
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================= CombatState_AlienRobot01 ======================= --><!-- ///////////////// -->
+	<Action Type="HasEnemy" />
+	<Action Type="Succeed" />
+	<Action Type="CalculateAttackMode"></Action>
+	
+	<Action Type="IdleAnimation">
+		<Data Name="IA0" prob="0.2" relaxs="fight_leisureidle0,fight_leisureidle1,fight_leisureidle2,fight_leisureidle3" ></Data><!--战斗中休闲动作-->
+	</Action>
+	<Action Type="EnergyShield">
+		<Data Name="attack5" hpPercent="0.2" time="150" animName="attack5" ></Data><!--能源盾-->
+	</Action>
+	<Action Type="MeleeAttack">
+		<Data Name="attack2" prob="0.4" cdTime="10.0" minRange="0.0" maxRange="55" minAngle="0" maxAngle="360" minHpPercent="0" maxHpPercent="0.4" skillStr="30100278" ></Data><!--全范围的四条激光束-->
+		<Data Name="attack3" prob="0.3" cdTime="8.00" minRange="0.0" maxRange="55" minAngle="0" maxAngle="360" skillStr="30100279" ></Data><!--漏电-->
+		<Data Name="attack4" prob="0.4" cdTime="8.00" minRange="0.0" maxRange="55" minAngle="0" maxAngle="360" minHpPercent="0" maxHpPercent="0.6" skillStr="30100280" ></Data><!--地雷信号-->
+
+	</Action>
+	<Action Type="AttackBone">
+		<Data Name="attack0" boneName="body02" prob="0.5" cdTime="0.5" minRange="0.0" maxRange="55" angle="10" skillID="30100276" ></Data><!--头部发射激光（中间一次）-->
+		<Data Name="attack1" boneName="body02" prob="0.5" cdTime="2.0" minRange="0.0" maxRange="55" angle="10" skillID="30100277" ></Data><!--头部散射激光(蓄力稍微长一点)-->
+	</Action>
+	<Action Type="AttackSummon">
+		<Data Name="attack6" anim="attack6" count="3" protoID="96" hpPercent="0.3" delayTime="3.0" center="0,-5,0" extend="10,4,10" ></Data><!--召唤小机器人-->
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>

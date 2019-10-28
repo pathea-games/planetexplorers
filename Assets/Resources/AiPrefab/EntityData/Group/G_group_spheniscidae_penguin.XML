@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Group" Tree="GroupSpheniscidaePenguin">
+<!-- ======================== AutoChangeState_SpheniscidaePenguin ======================== --><!-- ////////////切换空中陆地状态/////////// -->
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+<!-- ======================== AutoSky_SpheniscidaePenguin ======================== --><!-- //////////////////////////// -->
+	<Action Type="FlyAndLandGroup">
+		<Data Name="true"  fly="true"></Data>
+	</Action>
+	<Action Type ="HasEscapeGroup"></Action>
+    <Action Type ="EscapeGroup">
+    	<Data Name="E_Escape" cdTime="0.0"  interval="100" prob="0.0" ></Data> 
+    </Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+<!-- ======================== AutoLand_SpheniscidaePenguin ===================== --><!-- //////////////// -->
+	<Action Type ="PatrolGroup">
+		<Data Name="PatrolGroup" field="3" prob="0.25" minTime="2" maxTime="4" minRadius="2" maxRadius="4" minHeight="2" maxHeight="4" spawnCenter="true"></Data>
+	</Action>
+	<Action Type ="IdleGroup">
+		<Data Name="IdleGroup" prob="1.0" minTime="5" maxTime="10"></Data>
+	</Action>
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->	
+</Tree>
+<!-- ================================================================================================================================================================================ -->

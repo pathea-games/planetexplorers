@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Tree Library="Group" Tree="Group">
+  <Action Type ="SwitchAttackGroup"></Action>
+  <Action Type ="IdleGroup">
+    <Data Name="IdleGroup" prob="0.0" minTime="5" maxTime="10"></Data>
+  </Action>
+  <Action Type ="PatrolGroup">
+    <Data Name="PatrolGroup" field="3" prob="1.0" minTime="60" maxTime="90" minRadius="30" maxRadius="60" minHeight="6" maxHeight="15" spawnCenter="false"></Data>
+  </Action>
+  <Action Type ="HasEnemyGroup"></Action>
+  <Action Type ="AttackGroup"></Action>
+  <Action Type ="EscapeGroup"></Action>
+</Tree>

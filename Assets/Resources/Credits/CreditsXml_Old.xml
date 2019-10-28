@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Title Name="Credits">
+  </Title>
+  <Participant>
+    <Profession Name="Voice Actors">
+      <People EnglishName="Gerdy Hooke" ChineseName="Holly Steveson, Liz Madden">
+      </People>
+      <People EnglishName="Allen Carter" ChineseName="Caz J.D., Ryan Edwards">
+      </People>
+      <People EnglishName="Chen Zhen" ChineseName="Tuong Klein">
+      </People>
+      <People EnglishName="Lao Lei" ChineseName="John Wesley Go, Dominovox">
+      </People>
+      <People EnglishName="Adisa Mostafa" ChineseName="Mega Moeka, Brittany Williams">
+      </People>
+      <People EnglishName="Tariq Bakir" ChineseName="Wo Ko,Dominovox">
+      </People>
+      <People EnglishName="Nan Yang" ChineseName="Nathan Wilson, Michael Johnston">
+      </People>
+      <People EnglishName="Tank Parson" ChineseName="Wo Ko">
+      </People>
+      <People EnglishName="Hitomi Amasawa" ChineseName="Michaela Laws">
+      </People>
+      <People EnglishName="Ava Azniv" ChineseName="Mel Gorsha">
+      </People>
+      <People EnglishName="Vera Novikova" ChineseName="Katabelle">
+      </People>
+      <People EnglishName="Agnes Copperfield" ChineseName="Mel Gorsha">
+      </People>
+      <People EnglishName="Ataro Baatar" ChineseName="Vincent">
+      </People>
+      <People EnglishName="Peter Asimov" ChineseName="Pantone Salmon">
+      </People>
+      <People EnglishName="Moric Gahn" ChineseName="Kevin Stoll">
+      </People>
+      <People EnglishName="Alfonzo Hooke" ChineseName="Omri Rose">
+      </People>
+      <People EnglishName="Dayita Saxena" ChineseName="Caitlin Buckley, Holly Steveson">
+      </People>
+      <People EnglishName="Sara Peterson" ChineseName="Adoxographist, Fio">
+      </People>
+      <People EnglishName="Rol Olumpus" ChineseName="Adoxographist, Aimee Smith">
+      </People>
+      <People EnglishName="Percy Malik" ChineseName="Ben Britton">
+      </People>
+      <People EnglishName="Kayla Anderson" ChineseName="Sara Secora">
+      </People>
+      <People EnglishName="Nanda Yadav" ChineseName="William Turbett">
+      </People>
+      <People EnglishName="Nikka Skyrunner" ChineseName="Caitlin Buckley">
+      </People>
+      <People EnglishName="Hyun-Su Ryong" ChineseName="Elijah Ramsey">
+      </People>
+      <People EnglishName="Lucius Kohler" ChineseName="Brad Smith">
+      </People>
+      <People EnglishName="Tawa Okoro" ChineseName="Felicia Valenti">
+      </People>
+      <People EnglishName="Viola Strand" ChineseName="Sara Secora">
+      </People>
+      <People EnglishName="Koh Ironstand" ChineseName="Calvin Dore">
+      </People>
+      <People EnglishName="Pleiades Zheng" ChineseName="Michaela Laws">
+      </People>
+      <People EnglishName="Jenab Hashtag" ChineseName="Peter Theobalds">
+      </People>
+      <People EnglishName="Todd Jaeger" ChineseName="Travis Lindsey">
+      </People>
+      <People EnglishName="Anjum Nahas" ChineseName="Omri Rose">
+      </People>
+      <People EnglishName="Andre Barros" ChineseName="Anthony LoGatto">
+      </People>
+      <People EnglishName="David Aslanov" ChineseName="Jonathan Knowles">
+      </People>
+      <People EnglishName="Cade Redrim" ChineseName="Omri Rose">
+      </People>
+      <People EnglishName="Aida Acosta" ChineseName="Katabelle">
+      </People>
+      <People EnglishName="Michael Wiles" ChineseName="Connor Ludovice">
+      </People>
+      <People EnglishName="Ben Yin" ChineseName="Kimran Blanc">
+      </People>
+    </Profession>
+    <Profession Name="Director">
+      <People EnglishName="Zifei Wu" ChineseName="吴自非">
+      </People>
+    </Profession>
+    <Profession Name="Lead Designer">
+      <People EnglishName="Xu Zhi" ChineseName="徐植">
+      </People>
+    </Profession>
+    <Profession Name="Designers">
+      <People EnglishName="Yu Danling" ChineseName="余聃龄">
+      </People>
+      <People EnglishName="Yin Ben" ChineseName="尹犇">
+      </People>
+      <People EnglishName="Zhang Bo" ChineseName="张博">
+      </People>
+    </Profession>
+    <Profession Name="Lead Programmer">
+      <People EnglishName="Wang Cheng" ChineseName="王成">
+      </People>
+    </Profession>
+    <Profession Name="Client Programmers">
+      <People EnglishName="Ran Qiyun" ChineseName="冉启云">
+      </People>
+      <People EnglishName="Xie Yixin" ChineseName="谢怡欣">
+      </People>
+      <People EnglishName="Li Lingjun" ChineseName="李灵君">
+      </People>
+      <People EnglishName="Zhou Xun" ChineseName="周讯">
+      </People>
+      <People EnglishName="Wu Yiqiu" ChineseName="吴怡秋">
+      </People>
+      <People EnglishName="Zhu Jiangbo" ChineseName="朱江波">
+      </People>
+      <People EnglishName="Pu Ji" ChineseName="蒲及">
+      </People>
+      <People EnglishName="Xu Xiangtian" ChineseName="徐翔天">
+      </People>
+      <People EnglishName="Lu Wei" ChineseName="陆伟">
+      </People>
+      <People EnglishName="Zhang Shunbo" ChineseName="张顺博">
+      </People>
+      <People EnglishName="Li Zhe" ChineseName="李哲">
+      </People>
+    </Profession>
+    <Profession Name="Network Programmers">
+      <People EnglishName="Yang Ke" ChineseName="杨科">
+      </People>
+      <People EnglishName="Yang Xinhua" ChineseName="杨新华">
+      </People>
+    </Profession>
+    <Profession Name="Concept Artists">
+      <People EnglishName="Zhang Ji" ChineseName="张吉">
+      </People>
+      <People EnglishName="Sun Yanhui" ChineseName="孙艳辉">
+      </People>
+      <People EnglishName="Zhou Wei" ChineseName="周伟">
+      </People>
+      <People EnglishName="Qin Ziqing" ChineseName="秦梓清">
+      </People>
+    </Profession>
+    <Profession Name="Storyboard Artist">
+      <People EnglishName="Wei Guowei" ChineseName="魏国炜">
+      </People>
+    </Profession>
+    <Profession Name="3D Lead Artist">
+      <People EnglishName="Long Dong" ChineseName="隆东">
+      </People>
+    </Profession>
+    <Profession Name="3D Artists">
+      <People EnglishName="Huang Qian" ChineseName="黄茜">
+      </People>
+      <People EnglishName="Sun Qizeng" ChineseName="孙琪曾">
+      </People>
+      <People EnglishName="Wei Yayun" ChineseName="魏雅云">
+      </People>
+      <People EnglishName="Huang Hechuan" ChineseName="黄合串">
+      </People>
+      <People EnglishName="Tan Haiyang" ChineseName="谭海洋">
+      </People>
+    </Profession>
+    <Profession Name="Lead Animator">
+      <People EnglishName="Jiang Zhidan" ChineseName="蒋志丹">
+      </People>
+    </Profession>
+    <Profession Name="Animators">
+      <People EnglishName="Zhong Baiju" ChineseName="钟白驹">
+      </People>
+      <People EnglishName="Shi Tao" ChineseName="石涛">
+      </People>
+      <People EnglishName="Xu Xiang" ChineseName="徐祥">
+      </People>
+      <People EnglishName="Jiang Ye" ChineseName="蒋冶">
+      </People>
+      <People EnglishName="Teng Caixia" ChineseName="滕彩霞">
+      </People>
+      <People EnglishName="Zhang Youyu" ChineseName="张友俞">
+      </People>
+      <People EnglishName="Feng Jiuwei" ChineseName="冯玖威">
+      </People>
+    </Profession>
+    <Profession Name="Music">
+      <People EnglishName="Aakaash Rao" ChineseName="">
+      </People>
+      <People EnglishName="Featuring" ChineseName="">
+      </People>
+      <People EnglishName="Sandro Friedrich" ChineseName="">
+      </People>
+      <People EnglishName="Deryn Cullen" ChineseName="">
+      </People>
+      <People EnglishName="Graham Foote" ChineseName="">
+      </People>
+      <People EnglishName="Zefora Alderman" ChineseName="">
+      </People>
+    </Profession>
+    <Profession Name="Sound Effects">
+      <People EnglishName="BNCMusic Studios" ChineseName="">
+      </People>
+    </Profession>
+    <Profession Name="Effects">
+      <People EnglishName="Deng Shuangzhu" ChineseName="邓霜竹">
+      </People>
+    </Profession>
+    <Profession Name="UI Artist">
+      <People EnglishName="Yan Wei" ChineseName="颜惟">
+      </People>
+    </Profession>
+    <Profession Name="Testers">
+      <People EnglishName="Yang Bin" ChineseName="杨斌">
+      </People>
+      <People EnglishName="Zhan Longyun" ChineseName="詹龙云">
+      </People>
+      <People EnglishName="Wang Haoming" ChineseName="王浩明">
+      </People>
+      <People EnglishName="Hu Yin" ChineseName="胡胤">
+      </People>
+      <People EnglishName="Zeng Weiqiang" ChineseName="曾维强">
+      </People>
+    </Profession>
+    <Profession Name="Promotional">
+      <People EnglishName="Jiang Hanxiao" ChineseName="蒋含箫">
+      </People>
+      <People EnglishName="Tang Xiaoli" ChineseName="唐小力">
+      </People>
+      <People EnglishName="Luminaire Zeal" ChineseName="">
+      </People>
+      <People EnglishName="Aaron Spence" ChineseName="">
+      </People>
+      <People EnglishName="Chase Barch" ChineseName="">
+      </People>
+    </Profession>
+    <Profession Name="Administrative">
+      <People EnglishName="Zhu Renjie" ChineseName="朱仁杰">
+      </People>
+      <People EnglishName="Li Danyan" ChineseName="李丹彦">
+      </People>
+    </Profession>
+    <Profession Name="Kickstarter Backers">
+      <People Name0="" Name1="" Name2="" Name3=""/>
+    </Profession>
+  </Participant>
+  <End Name="">
+  </End>
+</Root>
