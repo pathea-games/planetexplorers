@@ -1,0 +1,5 @@
+1, Attach WaterToolScript to VFEditor->Voxel Terrain
+2, Press [New River] of WaterToolScript
+3, Add/Insert riverNode by pressing [+], delete riverNode by pressing [-]
+4, In SCENE VIEW, press R key to set position of riverNode at mousepoint
+5, To save river, you need to create a prefab and drag river into this prefab.
