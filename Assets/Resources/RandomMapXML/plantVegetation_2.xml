@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<AutoPlantDesc>
+  <Region color="0xff29d321">
+    <Trees startFadeIn="128" start="162" sizeVariate="0.5">
+			  	<Tree index="66" pct="3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Tree index="67" pct="6" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Tree index="68" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Tree index="69" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Tree index="70" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="71" pct="35" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="72" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="73" pct="35" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="74" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="75" pct="44" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="76" pct="47" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="77" pct="50" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="78" pct="53" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+				<Tree index="79" pct="56" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+				<Tree index="80" pct="60" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+				<Tree index="81" pct="63" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+				<Tree index="82" pct="65" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+				<Tree index="83" pct="67" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+				<Tree index="84" pct="69" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+				<Tree index="85" pct="71" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+				<Tree index="86" pct="73" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+				<Tree index="87" pct="88" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+				<Tree index="88" pct="82" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+				<Tree index="89" pct="87" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+				<Tree index="90" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="91" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Tree index="92" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+    </Trees>
+    <Grasses startFadeIn="80" start="100" sizeVariate="0.1">
+		      <Grass index="64" pct="8" wScaleMin="0.9" wScaleMax="1.5" hScaleMin="0.9" hScaleMax="1.5"/>
+		      <Grass index="65" pct="16" wScaleMin="0.9" wScaleMax="1.5" hScaleMin="0.9" hScaleMax="1.5"/>
+			  <Grass index="93" pct="24" wScaleMin="0.9" wScaleMax="1.5" hScaleMin="0.9" hScaleMax="1.5"/>
+			  <Grass index="0" pct="30" wScaleMin="0.9" wScaleMax="1.2" hScaleMin="0.9" hScaleMax="1.2"/>
+			  <Grass index="94" pct="36" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="95" pct="39" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="96" pct="42" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="97" pct="45" wScaleMin="1" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+			  <Grass index="98" pct="48" wScaleMin="1" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+			  <Grass index="99" pct="51" wScaleMin="1" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+			  <Grass index="100" pct="54" wScaleMin="1" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+			  <Grass index="101" pct="57" wScaleMin="1" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+			  <Grass index="102" pct="60" wScaleMin="1" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+			  <Grass index="103" pct="63" wScaleMin="1.2" wScaleMax="1.5" hScaleMin="1.2" hScaleMax="1.5"/>
+			  <Grass index="104" pct="66" wScaleMin="1.2" wScaleMax="1.5" hScaleMin="1.2" hScaleMax="1.5"/>
+			  <Grass index="105" pct="69" wScaleMin="1.2" wScaleMax="1.5" hScaleMin="1.2" hScaleMax="1.5"/>
+			  <Grass index="106" pct="72" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="107" pct="75" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="108" pct="78" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="109" pct="85" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="110" pct="92" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+			  <Grass index="111" pct="100" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+		          <Grass index="16" pct="100"/>
+    </Grasses>
+  </Region>
+</AutoPlantDesc>

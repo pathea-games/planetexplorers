@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAssetBundleDesc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AssetBundleDesc PathName="DynamicAssets/Malti_td_tower_A">
+    <Pos X="3003.74121" Y="1088.13416" Z="2922.28418" RotX="9.893534E-09" RotY="0.891675234" RotZ="-1.94881924E-08" RotW="0.452675879" ScaleX="1" ScaleY="1" ScaleZ="1"/>
+  </AssetBundleDesc>
+</ArrayOfAssetBundleDesc>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<root>
+
+<!--forest biome-->
+
+<!--
+HMWidth and HMHeight are dimension of the map.
+TerrainHeight is the max altitude of the map.
+-->
+
+<BaseData TerrainHeight = "64" 
+   HMWidth = "256" HMHeight = "256"
+   RandomSeed = "4"
+   
+   >
+   <TerrainHMSpec MinHeight="10" MaxHeight="60" NumOfOctaves="5">
+   <!--
+Octave Lengths are the number of noise values at each octave.
+e.g. the value of "4" means there are 4x4 random values in that noise map.
+it should be powers of 2.
+-->
+		<OctaveLengthArray>
+			<OctaveLength value="2" />
+			<OctaveLength value="4" />
+			<OctaveLength value="8" />
+			<OctaveLength value="16" />
+			<OctaveLength value="32" />
+		</OctaveLengthArray>
+		<!--
+Octave Magnitudes are the strength values for each noise map.
+the value of "4" means in that noise map, each noise value has a unit strength of 4.
+adjust the value of a noise map to change the impact of that noise map.
+it follows the same order as the values in octave lengths.
+-->
+		<OctaveMagnitudeArray>
+			<OctaveMagnitude value="8" />
+			<OctaveMagnitude value="4" />
+			<OctaveMagnitude value="2" />
+			<OctaveMagnitude value="1" />
+			<OctaveMagnitude value="0.5" />
+		</OctaveMagnitudeArray>
+
+	</TerrainHMSpec>
+	<CaveGroup>
+		<CaveSpec 
+		CaveWallVType = "40"
+		CaveCeilingVType = "41"
+		CaveFloorVType = "39"
+		Altitude="20"
+		AltitudeVariance="10"
+		MinerSpawnRate="0.08"
+		StopAtNumMiners="50"
+		NumSmoothOps = "3"
+		BelowHeight = "11"
+		AboveHeight = "11"
+		SamplingFactor = "4"
+		bvNumIteration = "6"
+		bvNoiseLength = "4"
+		bvNoiseStrength = "0.5"
+		blNumIteration = "7"
+		blNoiseLength = "4"
+		blNoiseStrength = "0.5"
+		>
+		</CaveSpec>
+	</CaveGroup>
+
+  
+
+</BaseData>
+<HeightDescCollection>
+<!--
+HeightDesc are height values between which the bracketed section describes.
+
+GradientDesc are angle range in which the bracketed section describes.
+
+VoxelRate are the chances at which the describing type of voxel will be generated in the angle range "GradientDesc" in the altitude range "HeightDesc"
+-->
+
+	<HeightDesc start="0" end="64">  
+		<GradientDescArray>
+			<GradientDesc start="0" end="100">
+				<VoxelRateArray>
+		    <VoxelRate type="8" perc="70"/>
+		    <VoxelRate type="9" perc="85"/>
+		    <VoxelRate type="7" perc="100"/>				
+				</VoxelRateArray>
+			</GradientDesc>  
+			<GradientDesc start="101" end="300">
+				<VoxelRateArray>
+		    <VoxelRate type="8" perc="5"/>
+		    <VoxelRate type="9" perc="10"/>
+		    <VoxelRate type="17" perc="35"/>
+			<VoxelRate type="18" perc="80"/>
+		    <VoxelRate type="23" perc="100"/>				
+				</VoxelRateArray>
+			</GradientDesc>
+			<GradientDesc start="300" end="600">
+				<VoxelRateArray>
+		    <VoxelRate type="18" perc="10"/>
+		    <VoxelRate type="23" perc="80"/>
+		    <VoxelRate type="24" perc="90"/>
+		    <VoxelRate type="20" perc="100"/>					
+				</VoxelRateArray>
+			</GradientDesc>
+			<GradientDesc start="600" end="1000">
+				<VoxelRateArray>
+		    <VoxelRate type="8" perc="5"/>
+		    <VoxelRate type="18" perc="10"/>
+			<VoxelRate type="23" perc="40"/>
+		    <VoxelRate type="30" perc="50"/>
+		    <VoxelRate type="31" perc="70"/>
+			<VoxelRate type="32" perc="100"/>			
+				</VoxelRateArray>
+			</GradientDesc>
+			
+		</GradientDescArray>
+	</HeightDesc>
+</HeightDescCollection>
+
+<!--
+the name should be the file name of the model minus the extension.
+scaling down makes models look chubby.
+scaling up is currently very poorly supported. do not use it.
+rotation of angles that are multiples of 90 degrees are okay.
+other angles will change the look of the shapes slightly.
+-->   
+  
+  
+<ArtifactInfo>
+	<ArtifactNameArray>
+		<Artifact name="/RMArtifacts/zj" perc="10"/>
+		<Artifact name="/RMArtifacts/zj1" perc="20"/>
+		<Artifact name="/RMArtifacts/zj2" perc="30"/>
+		<Artifact name="/RMArtifacts/zj3" perc="40"/>
+		<Artifact name="/RMArtifacts/Stone_column" perc="55"/>
+		<Artifact name="/RMArtifacts/Stone_column_2" perc="70"/>
+		<Artifact name="/RMArtifacts/Stonebridge" perc="85"/>
+		<Artifact name="/RMArtifacts/Velod" perc="100"/>
+	</ArtifactNameArray>
+</ArtifactInfo>
+
+<!--
+this section describes the random generation of plateaus
+num field specifies the number of attempts at generating the said type of plateaus.
+radius is the radius of the circle, or ellipse.
+the radius of an ellipse is the sum of the two distances between this "any point", which is produced by an ellipse function , and two focus points.
+focus is the half distance between the two foci for elliptical plateaus.
+so the focus value must satisfy "focus x 2 < radius".
+-->
+<PlateauInfo>
+	<PlateauArray>
+		<Plateau type="circle" num="3" radius="35"/>
+		<Plateau type="ellipse" num="1" radius="90" focus="35"/>
+	</PlateauArray>
+</PlateauInfo>
+</root>

@@ -1,0 +1,2528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoPaintDesc>
+	<!--grassland-->
+		<!--sea-->
+		<!--seasiderocky-->
+		<!--grassland-->
+		<!--hillcountry-->
+		<!--highland-->
+	<!--forest-->
+	<!--desert-->
+	<!--redstone-->
+	<!--mountain-->
+	<!--swamp-->
+	<!--crater-->
+  <RegionArray>
+	<!--grassland-->
+    <Region name="grassland" mineChance="0.10">
+		<Trees startFadeIn="175" start="205" cellSize="14">
+				<PlantHeightDesc start="3" end="15">
+					<PlantGradientDesc start="0" end="160">
+						<Plant index="226" pct="8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="228" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="229" pct="23" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="231" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="55" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="56" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="34" pct="93" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="35" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="36" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="15" end="17">		
+					<PlantGradientDesc start="0" end="160">
+						<Plant index="52" pct="0.6" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="53" pct="1" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="3" pct="26" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="4" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="5" pct="54" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="7" pct="68" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="8" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="9" pct="79" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="23" pct="82" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="49" pct="89" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="50" pct="92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="35" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="36" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="17" end="24">  	
+					<PlantGradientDesc start="0" end="160">
+						<Plant index="51" pct="0.3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="53" pct="1" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="2" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="4" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="5" pct="54" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="6" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="8" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="9" pct="79" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="23" pct="82" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="48" pct="86" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="50" pct="92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="34" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="36" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="24" end="30"> 	
+					<PlantGradientDesc start="0" end="160">
+						<Plant index="2" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="4" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="5" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="6" pct="24" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="8" pct="32" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="12" pct="33.5" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="13" pct="35" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="14" pct="36" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="25" pct="37.5" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="26" pct="39" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="27" pct="41" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="28" pct="43" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="29" pct="44" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="30" pct="45" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="9" pct="51" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="23" pct="55" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="49" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="50" pct="93" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="34" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="36" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="30" end="35">  	
+					<PlantGradientDesc start="0" end="160">
+						<Plant index="2" pct="6" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="3" pct="13" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="4" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="6" pct="26" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="7" pct="32" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="12" pct="33.5" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="13" pct="35" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="14" pct="36" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="25" pct="37.5" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="26" pct="39" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="27" pct="41" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="28" pct="43" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="29" pct="44" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="30" pct="45" wScaleMin=".8" wScaleMax="1.3" hScaleMin=".7" hScaleMax="1.3"/>
+						<Plant index="9" pct="51" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="23" pct="55" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="48" pct="76" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="50" pct="93" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="34" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="35" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="35" end="40">
+					<PlantGradientDesc start="0" end="160">
+						<Plant index="7" pct="4" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="8" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+						<Plant index="9" pct="16" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="48" pct="22" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="49" pct="26" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="50" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="34" pct="32" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="36" pct="36" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="10" pct="52" wScaleMin=".8" wScaleMax="2" hScaleMin=".8" hScaleMax="3"/>
+						<Plant index="11" pct="68" wScaleMin=".8" wScaleMax="2" hScaleMin=".8" hScaleMax="3"/>
+						<Plant index="24" pct="84" wScaleMin=".8" wScaleMax="2" hScaleMin=".8" hScaleMax="3"/>
+						<Plant index="52" pct="91" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="53" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="31" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="32" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						<Plant index="33" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="40" end="1024">
+						<PlantGradientDesc start="0" end="160">
+							<Plant index="6" pct="4" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+							<Plant index="8" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+							<Plant index="9" pct="13" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="23" pct="18" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="48" pct="22" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="49" pct="26" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="50" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="34" pct="33" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="35" pct="36" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="10" pct="52" wScaleMin=".8" wScaleMax="2" hScaleMin=".8" hScaleMax="3"/>
+							<Plant index="11" pct="68" wScaleMin=".8" wScaleMax="2" hScaleMin=".8" hScaleMax="3"/>
+							<Plant index="24" pct="84" wScaleMin=".8" wScaleMax="2" hScaleMin=".8" hScaleMax="3"/>
+							<Plant index="51" pct="88" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="53" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="31" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="32" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+							<Plant index="33" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+						</PlantGradientDesc>
+				</PlantHeightDesc>
+		</Trees>
+		<Grasses startFadeIn="40" start="90" cellSize="3">
+			<PlantHeightDesc start="15" end="1024">  	
+				<PlantGradientDesc start="0" end="300">
+				  <Plant index="37" pct="0.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="39" pct="1.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="0" pct="2.3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="2.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="115" pct="3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="116" pct="3.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			  
+				  <Plant index="37" pct="4" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="38" pct="5.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="5.7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="15" pct="6.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="116" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="117" pct="7.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="40" pct="8.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="41" pct="9.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				  <Plant index="151" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="152" pct="11" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="153" pct="12" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="0" pct="12.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="15" pct="13" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="41" pct="14" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="42" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+		</Grasses>
+		<NewGrasses startFadeIn="30" start="70" cellSize="1">
+			<PlantHeightDesc start="14" end="17">  	
+				<PlantGradientDesc start="0" end="220">
+				  <Plant index="0" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="99.7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="76" pct="99.8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="77" pct="99.9" wScaleMin="1.3" wScaleMax="2" hScaleMin="1.3" hScaleMax="2"/>		
+				  <Plant index="78" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+			<PlantHeightDesc start="17" end="64"> 			
+				<PlantGradientDesc start="0" end="220">
+				  <Plant index="0" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="99.6" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="76" pct="99.7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="77" pct="99.8" wScaleMin="1.3" wScaleMax="2" hScaleMin="1.3" hScaleMax="2"/>		
+				  <Plant index="78" pct="99.9" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="80" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+			<PlantHeightDesc start="64" end="1024">  	
+				<PlantGradientDesc start="0" end="220">
+				  <Plant index="0" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="99.6" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="78" pct="99.7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="80" pct="99.8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="79" pct="99.9" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="64" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			  
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+		</NewGrasses>
+	  <HeightDescArray>
+        <HeightDesc start="0" end="2">
+			<GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="30"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="24" perc="15"/>
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			</GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="2" end="15">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="30"/>
+                <VoxelRate type="11" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="15" end="17">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="10"/>
+                <VoxelRate type="11" perc="30"/>
+                <VoxelRate type="3" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="20"/>
+                <VoxelRate type="3" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="17" end="90">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="80"/>
+                <VoxelRate type="4" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="70"/>
+                <VoxelRate type="4" perc="80"/>
+				<VoxelRate type="17" perc="90"/>
+                <VoxelRate type="68" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="68" perc="70"/>
+                <VoxelRate type="17" perc="75"/>
+                <VoxelRate type="22" perc="85"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="68" perc="10"/>
+                <VoxelRate type="22" perc="30"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="90" end="260">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="70"/>
+                <VoxelRate type="4" perc="85"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="70"/>
+                <VoxelRate type="4" perc="75"/>
+				<VoxelRate type="7" perc="85"/>
+                <VoxelRate type="17" perc="90"/>
+                <VoxelRate type="68" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="17" perc="5"/>
+                <VoxelRate type="68" perc="15"/>
+                <VoxelRate type="22" perc="30"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="260" end="1024">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="50"/>
+                <VoxelRate type="4" perc="65"/>
+                <VoxelRate type="7" perc="80"/>
+                <VoxelRate type="17" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="4"/>
+                <VoxelRate type="4" perc="6"/>
+                <VoxelRate type="24" perc="15"/>
+                <VoxelRate type="17" perc="30"/>
+                <VoxelRate type="68" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="68" perc="10"/>
+                <VoxelRate type="22" perc="20"/>
+                <VoxelRate type="66" perc="100"/><!--90-->
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+	  <TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.50"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.25"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.20"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.20"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.15"/>
+	  </TerrainDescArray>
+	  <MineChanceArrayCLS>
+        <MineChance type="62" perc="20"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="18"/><!--aluminum-->
+        <MineChance type="52" perc="18"/><!--silver-->
+        <MineChance type="49" perc="16"/><!--gold-->
+        <MineChance type="60" perc="15"/><!--oil-->
+        <MineChance type="57" perc="14"/><!--zinc-->
+        <MineChance type="53" perc="14"/><!--lithium-->
+        <MineChance type="59" perc="13"/><!--sulfur-->
+        <MineChance type="54" perc="13"/><!--diamond-->
+        <MineChance type="56" perc="10"/><!--titanium-->
+      </MineChanceArrayCLS>
+	</Region>
+
+    <!--forest-->
+    <Region name="forest" mineChance="0.10">
+		<Trees startFadeIn="125" start="145" cellSize="18">
+				<PlantHeightDesc start="3" end="15">  	
+					<PlantGradientDesc start="0" end="200">
+					<Plant index="227" pct="13" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="228" pct="25" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="229" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="230" pct="55" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="55" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="56" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="34" pct="93" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="35" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="36" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="15" end="17">  	
+					<PlantGradientDesc start="0" end="400">
+					<Plant index="66" pct="1" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="92" pct="10" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="69" pct="27" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="70" pct="46" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="71" pct="76" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="80" pct="81" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="81" pct="82" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="82" pct="83" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="212" pct="89" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="213" pct="93" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="87" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+					<Plant index="88" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+				  </PlantGradientDesc>
+				  </PlantHeightDesc>
+				  <PlantHeightDesc start="17" end="20">  	
+					<PlantGradientDesc start="0" end="400">
+					<Plant index="67" pct="2" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="90" pct="10" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="69" pct="27" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="71" pct="46" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="72" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="75" pct="74" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="78" pct="78" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="82" pct="83" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="83" pct="84" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="211" pct="88" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="212" pct="93" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="87" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+					<Plant index="89" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="20" end="25">  	
+					<PlantGradientDesc start="0" end="400">
+					<Plant index="67" pct="2" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="91" pct="10" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="71" pct="27" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="73" pct="63" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="74" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="76" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="79" pct="80" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="81" pct="83" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="83" pct="87" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="212" pct="89" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="216" pct="93" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="88" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+					<Plant index="89" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+				  </PlantGradientDesc>
+				  </PlantHeightDesc>
+				  <PlantHeightDesc start="25" end="30">  	
+					<PlantGradientDesc start="0" end="400">
+					<Plant index="68" pct="3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="90" pct="8" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="72" pct="27" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="73" pct="63" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="74" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="75" pct="74" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="78" pct="78" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="81" pct="82" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="82" pct="83" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="215" pct="88" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="212" pct="89" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="87" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+					<Plant index="88" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="30" end="40">  	
+					<PlantGradientDesc start="0" end="400">
+					<Plant index="68" pct="3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="72" pct="24" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="70" pct="43" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="71" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="77" pct="76" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="79" pct="80" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="82" pct="86" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="83" pct="87" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="215" pct="89" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="216" pct="91" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="88" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="89" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="40" end="1024">  	
+					<PlantGradientDesc start="0" end="400">
+					<Plant index="66" pct="1" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="72" pct="44" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="73" pct="63" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="74" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="76" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="79" pct="80" wScaleMin="1.5" wScaleMax="2" hScaleMin="1.5" hScaleMax="2"/>
+					<Plant index="83" pct="84" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="81" pct="85" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="214" pct="90" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="215" pct="91" wScaleMin=".8" wScaleMax="1.2" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="87" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="1.5"/>
+					<Plant index="89" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin="1" hScaleMax="2"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>			
+		</Trees>
+		<Grasses startFadeIn="70" start="110" cellSize="3"><!--17-->
+				<PlantHeightDesc start="15" end="1024">  	
+				<PlantGradientDesc start="0" end="300">
+				  <Plant index="37" pct="0.163" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="39" pct="0.490" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="100" pct="2.452" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="101" pct="4.413" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="124" pct="5.394" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="125" pct="6.702" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="121" pct="7.356" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="122" pct="8.010" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="38" pct="8.173" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="126" pct="9.154" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="123" pct="9.808" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="106" pct="10.985" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="108" pct="11.246" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="142" pct="11.410" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="143" pct="11.737" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="102" pct="13.044" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="124" pct="13.698" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="107" pct="14.875" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="144" pct="15.038" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="154" pct="15.365" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="155" pct="16.346" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="156" pct="17" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+				</PlantHeightDesc>			
+		</Grasses>
+		<NewGrasses startFadeIn="70" start="110" cellSize="2">
+			<PlantHeightDesc start="14" end="24">  	
+				<PlantGradientDesc start="0" end="240">
+				  <Plant index="0" pct="12" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="7" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="12" pct="85" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="10" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="81" pct="95.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="82" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="65" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="66" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				  <Plant index="11" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				  
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="24" end="40"> 			
+				<PlantGradientDesc start="0" end="240">
+				  <Plant index="0" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="12" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="7" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="12" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="10" pct="93" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="11" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="67" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="65" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="66" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				  <Plant index="68" pct="99" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="69" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="40" end="1024">  	
+				<PlantGradientDesc start="0" end="240">
+				  <Plant index="0" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="1" pct="6" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="7" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="12" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="10" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="11" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="67" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="65" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+				  <Plant index="66" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				  <Plant index="68" pct="99" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="69" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			  
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+		</NewGrasses>
+		<HeightDescArray>
+			<HeightDesc start="0" end="2">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="30"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="24" perc="15"/>
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="2" end="15">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="30"/>
+					<VoxelRate type="11" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="15" end="17">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="150">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="10"/>
+					<VoxelRate type="11" perc="30"/>
+					<VoxelRate type="8" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="150" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="11" perc="20"/>
+					<VoxelRate type="8" perc="50"/>
+					<VoxelRate type="17" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="17" end="40">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="16" perc="30"/>
+					<VoxelRate type="8" perc="70"/>
+					<VoxelRate type="9" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="8" perc="60"/>
+					<VoxelRate type="9" perc="65"/>
+					<VoxelRate type="16" perc="70"/>				
+					<VoxelRate type="17" perc="80"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="600">
+				  <VoxelRateArray>
+					<VoxelRate type="17" perc="50"/>
+					<VoxelRate type="22" perc="60"/>
+					<VoxelRate type="24" perc="90"/>
+					<VoxelRate type="23" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="600" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="23" perc="10"/>
+					<VoxelRate type="66" perc="90"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="40" end="90">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="120">
+				  <VoxelRateArray>
+					<VoxelRate type="8" perc="60"/>
+					<VoxelRate type="9" perc="80"/>
+					<VoxelRate type="16" perc="95"/>
+					<VoxelRate type="7" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="120" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="8" perc="55"/>
+					<VoxelRate type="9" perc="60"/>
+					<VoxelRate type="16" perc="65"/>				
+					<VoxelRate type="17" perc="75"/>
+					<VoxelRate type="22" perc="80"/>
+					<VoxelRate type="23" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="23" perc="5"/>
+					<VoxelRate type="66" perc="85"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="90" end="180">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="8" perc="60"/>
+					<VoxelRate type="9" perc="80"/>
+					<VoxelRate type="16" perc="90"/>				
+					<VoxelRate type="7" perc="95"/>
+					<VoxelRate type="18" perc="100"/>				
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="8" perc="45"/>
+					<VoxelRate type="9" perc="50"/>
+					<VoxelRate type="22" perc="70"/>
+					<VoxelRate type="23" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="23" perc="5"/>
+					<VoxelRate type="66" perc="90"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="180" end="260">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="8" perc="20"/>
+					<VoxelRate type="7" perc="30"/>
+					<VoxelRate type="32" perc="90"/>
+					<VoxelRate type="31" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="8" perc="35"/>
+					<VoxelRate type="22" perc="40"/>				
+					<VoxelRate type="23" perc="60"/>
+					<VoxelRate type="29" perc="80"/>
+					<VoxelRate type="32" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="29" perc="10"/>
+					<VoxelRate type="22" perc="20"/>				
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="260" end="1024">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="32" perc="98"/>
+					<VoxelRate type="31" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="400">
+				  <VoxelRateArray>
+					<VoxelRate type="29" perc="30"/>
+					<VoxelRate type="30" perc="40"/>
+					<VoxelRate type="32" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="400" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="29" perc="10"/>
+					<VoxelRate type="22" perc="20"/>				
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+		</HeightDescArray>
+		<TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.50"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.25"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.10"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.20"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.15"/>
+		</TerrainDescArray>
+		<MineChanceArrayCLS>
+        <MineChance type="62" perc="22"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="18"/><!--aluminum-->
+        <MineChance type="52" perc="18"/><!--silver-->
+        <MineChance type="49" perc="16"/><!--gold-->
+        <MineChance type="60" perc="15"/><!--oil-->
+        <MineChance type="57" perc="14"/><!--zinc-->
+        <MineChance type="53" perc="14"/><!--lithium-->
+        <MineChance type="59" perc="13"/><!--sulfur-->
+        <MineChance type="54" perc="13"/><!--diamond-->
+        <MineChance type="56" perc="10"/><!--titanium-->
+		</MineChanceArrayCLS>
+    </Region>
+	
+	<!--desert-->
+	<Region name="desert" mineChance="0.10">
+	    <Trees startFadeIn="190" start="200" cellSize="25">
+			<PlantHeightDesc start="3" end="15">  	
+				<PlantGradientDesc start="0" end="160">
+					<Plant index="226" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="227" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="228" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="229" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="230" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="231" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="55" pct="87" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="56" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="15" end="24">  	
+				<PlantGradientDesc start="0" end="200">
+					<Plant index="185" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="186" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="187" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+					<Plant index="188" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="189" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="191" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="192" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="124" pct="92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="125" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="136" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="137" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="24" end="64">  	
+				<PlantGradientDesc start="0" end="200">
+					<Plant index="185" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="187" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+					<Plant index="189" pct="23" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="190" pct="26" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="192" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="193" pct="55" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="125" pct="57" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="126" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="137" pct="63" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="138" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+					<Plant index="194" pct="77" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="195" pct="89" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="196" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>					
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="64" end="1024">  	
+				<PlantGradientDesc start="0" end="200">
+					<Plant index="186" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="187" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+					<Plant index="188" pct="12" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="190" pct="14" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="167" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="168" pct="16" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="169" pct="17" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>					
+					<Plant index="191" pct="27" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+					<Plant index="192" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="193" pct="55" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="136" pct="57" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="138" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+					<Plant index="194" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="195" pct="88" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="196" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			
+				</PlantGradientDesc>
+			</PlantHeightDesc>				
+		</Trees>
+		<Grasses startFadeIn="150" start="170" cellSize="6"><!--8-->
+			<PlantHeightDesc start="17" end="1024">  	
+				<PlantGradientDesc start="0" end="300">
+					<Plant index="197" pct="1" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+					<Plant index="198" pct="1.75" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+					<Plant index="199" pct="2.75" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+					<Plant index="84" pct="3.25" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="85" pct="3.75" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="86" pct="4.25" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="145" pct="4.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="64" pct="4.75" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="65" pct="5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="200" pct="5.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="201" pct="6" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="202" pct="6.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="173" pct="7" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="174" pct="7.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+					<Plant index="175" pct="8" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+		</Grasses>
+		<NewGrasses startFadeIn="180" start="210" cellSize="6">
+			<PlantHeightDesc start="17" end="24">  	
+				<PlantGradientDesc start="0" end="240">
+				  <Plant index="13" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="14" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="70" pct="8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="71" pct="9" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  <Plant index="75" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+			<PlantHeightDesc start="24" end="60"> 			
+			<PlantGradientDesc start="0" end="240">
+			  <Plant index="13" pct="3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="14" pct="4" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="70" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="71" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="75" pct="12" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="73" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			  
+			</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="60" end="1024">  	
+			<PlantGradientDesc start="0" end="240">
+			  <Plant index="13" pct="2" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="14" pct="3" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="70" pct="4" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="71" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="75" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="73" pct="14" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				  
+			</PlantGradientDesc>
+			</PlantHeightDesc>
+		</NewGrasses>
+		<HeightDescArray>
+			<HeightDesc start="0" end="2">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="30"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="24" perc="15"/>
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="2" end="15">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="30"/>
+					<VoxelRate type="11" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="15" end="17">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="150">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="10"/>
+					<VoxelRate type="11" perc="30"/>
+					<VoxelRate type="14" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="150" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="11" perc="20"/>
+					<VoxelRate type="14" perc="50"/>
+					<VoxelRate type="13" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="17" end="90">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="14" perc="90"/>
+					<VoxelRate type="15" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="14" perc="65"/>
+					<VoxelRate type="15" perc="70"/>
+					<VoxelRate type="13" perc="80"/>
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="600">
+				  <VoxelRateArray>
+					<VoxelRate type="13" perc="30"/>
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="600" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="90" end="180">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="120">
+				  <VoxelRateArray>
+					<VoxelRate type="14" perc="80"/>
+					<VoxelRate type="15" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="120" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="14" perc="55"/>
+					<VoxelRate type="15" perc="60"/>
+					<VoxelRate type="13" perc="75"/>
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="600">
+				  <VoxelRateArray>
+					<VoxelRate type="13" perc="20"/>			  
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="600" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>			
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="180" end="260">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="14" perc="80"/>
+					<VoxelRate type="15" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="14" perc="45"/>
+					<VoxelRate type="15" perc="50"/>
+					<VoxelRate type="13" perc="80"/>
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="600">
+				  <VoxelRateArray>
+					<VoxelRate type="13" perc="20"/>			  
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="600" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="12" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>	
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="260" end="1024">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="20"/>
+                <VoxelRate type="15" perc="25"/>
+                <VoxelRate type="32" perc="95"/>
+                <VoxelRate type="28" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="14" perc="35"/>
+                <VoxelRate type="15" perc="40"/>
+                <VoxelRate type="13" perc="60"/>
+                <VoxelRate type="28" perc="90"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="13" perc="20"/>			  
+                <VoxelRate type="12" perc="70"/>
+                <VoxelRate type="28" perc="90"/>	
+                <VoxelRate type="32" perc="90"/>					
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="12" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>	
+          </GradientDescArray>
+        </HeightDesc>
+		</HeightDescArray>
+		<TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.10"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.50"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.30"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.30"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.20"/>
+	  </TerrainDescArray>
+		<MineChanceArrayCLS>
+        <MineChance type="62" perc="20"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="18"/><!--aluminum-->
+        <MineChance type="52" perc="18"/><!--silver-->
+        <MineChance type="49" perc="16"/><!--gold-->
+        <MineChance type="60" perc="20"/><!--oil-->
+        <MineChance type="57" perc="15"/><!--zinc-->
+        <MineChance type="53" perc="15"/><!--lithium-->
+        <MineChance type="59" perc="13"/><!--sulfur-->
+        <MineChance type="54" perc="13"/><!--diamond-->
+        <MineChance type="56" perc="10"/><!--titanium-->
+      </MineChanceArrayCLS>
+    </Region>
+	
+	<!--redstone-->
+	<Region name="redstone" mineChance="0.125">
+		<Trees startFadeIn="175" start="205" cellSize="16">
+			<PlantHeightDesc start="3" end="17">  	
+				<PlantGradientDesc start="0" end="160">
+				<Plant index="226" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="227" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="228" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="229" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="230" pct="25" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="231" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="55" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="56" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  </PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="17" end="24">  	
+				<PlantGradientDesc start="0" end="400">
+				<Plant index="232" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="233" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="235" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="236" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="112" pct="78" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="113" pct="86" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>	
+				<Plant index="93" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="94" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="118" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="119" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="109" pct="99" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="110" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>				
+			  </PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="24" end="64">  	
+				<PlantGradientDesc start="0" end="400">
+				<Plant index="233" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="234" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="236" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="237" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="113" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="114" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>	
+				<Plant index="94" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="95" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="119" pct="82" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="120" pct="84" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="110" pct="86" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="111" pct="88" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="97" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="98" pct="92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>				
+			  </PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="64" end="1024">  	
+					<PlantGradientDesc start="0" end="400">
+					<Plant index="232" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+					<Plant index="234" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+					<Plant index="235" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+					<Plant index="237" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+					<Plant index="93" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+					<Plant index="95" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+					<Plant index="109" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+					<Plant index="111" pct="74" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>		
+				  </PlantGradientDesc>
+				</PlantHeightDesc>			
+		</Trees>
+		<Grasses startFadeIn="80" start="130" cellSize="4"><!--12-->
+			<PlantHeightDesc start="17" end="1024">  	
+				<PlantGradientDesc start="0" end="300">
+				  <Plant index="250" pct="0.6" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="251" pct="1.8" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="247" pct="2.1" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+				  <Plant index="248" pct="2.7" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+				  <Plant index="244" pct="4.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="245" pct="6.3" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="246" pct="8.1" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="238" pct="8.4" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="239" pct="9.9" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="252" pct="10.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				  <Plant index="249" pct="10.8" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>	
+				  <Plant index="240" pct="12" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+		</Grasses>
+		<NewGrasses startFadeIn="80" start="100" cellSize="2">
+			<PlantHeightDesc start="16" end="30">  	
+				<PlantGradientDesc start="0" end="190">
+				  <Plant index="15" pct="30" wScaleMin=".4" wScaleMax=".8" hScaleMin=".4" hScaleMax=".8"/>	
+				  <Plant index="74" pct="40" wScaleMin=".8" wScaleMax="1.4" hScaleMin=".8" hScaleMax="1.4"/>		
+				  <Plant index="0" pct="65" wScaleMin=".8" wScaleMax="1.4" hScaleMin=".8" hScaleMax="1.4"/>				  
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+			<PlantHeightDesc start="30" end="64"> 			
+				<PlantGradientDesc start="0" end="190">
+				  <Plant index="15" pct="20" wScaleMin=".4" wScaleMax=".8" hScaleMin=".4" hScaleMax=".8"/>
+				  <Plant index="74" pct="35" wScaleMin=".8" wScaleMax="1.4" hScaleMin=".8" hScaleMax="1.4"/>	
+				  <Plant index="0" pct="45" wScaleMin=".8" wScaleMax="1.4" hScaleMin=".8" hScaleMax="1.4"/>			  
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="64" end="1024">  	
+			<PlantGradientDesc start="0" end="190">
+			  <Plant index="15" pct="15" wScaleMin=".4" wScaleMax=".8" hScaleMin=".4" hScaleMax=".8"/>
+			  <Plant index="74" pct="25" wScaleMin=".8" wScaleMax="1.4" hScaleMin=".8" hScaleMax="1.4"/>	
+			  <Plant index="0" pct="35" wScaleMin=".8" wScaleMax="1.4" hScaleMin=".8" hScaleMax="1.4"/>			  
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+		</NewGrasses>
+		<HeightDescArray>
+			<HeightDesc start="0" end="2">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="30"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="24" perc="15"/>
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="2" end="15">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="30"/>
+					<VoxelRate type="11" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="15" end="17">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="150">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="10"/>
+					<VoxelRate type="11" perc="30"/>
+					<VoxelRate type="26" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="150" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="11" perc="20"/>
+					<VoxelRate type="26" perc="50"/>
+					<VoxelRate type="27" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="17" end="40">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="90"/>
+					<VoxelRate type="27" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="15"/>
+					<VoxelRate type="27" perc="70"/>
+					<VoxelRate type="25" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="600">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="5"/>
+					<VoxelRate type="27" perc="30"/>
+					<VoxelRate type="25" perc="60"/>
+					<VoxelRate type="65" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="600" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="27" perc="5"/>
+					<VoxelRate type="25" perc="20"/>
+					<VoxelRate type="65" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="40" end="90">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="60"/>
+					<VoxelRate type="27" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="5"/>
+					<VoxelRate type="27" perc="60"/>
+					<VoxelRate type="25" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="25" perc="20"/>
+					<VoxelRate type="65" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="90" end="180">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="40"/>
+					<VoxelRate type="27" perc="90"/>
+					<VoxelRate type="25" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="5"/>
+					<VoxelRate type="27" perc="40"/>
+					<VoxelRate type="25" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="25" perc="20"/>
+					<VoxelRate type="65" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="180" end="260">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="30"/>
+					<VoxelRate type="27" perc="80"/>
+					<VoxelRate type="25" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="27" perc="30"/>
+					<VoxelRate type="25" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="25" perc="10"/>
+					<VoxelRate type="65" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="260" end="1024">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="26" perc="20"/>
+					<VoxelRate type="27" perc="50"/>
+					<VoxelRate type="29" perc="60"/>
+					<VoxelRate type="32" perc="75"/>
+					<VoxelRate type="28" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="27" perc="20"/>
+					<VoxelRate type="25" perc="40"/>
+					<VoxelRate type="28" perc="70"/>
+					<VoxelRate type="32" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="25" perc="30"/>
+					<VoxelRate type="65" perc="90"/>
+					<VoxelRate type="28" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+		</HeightDescArray>
+		<TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.55"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.11"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.02"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.30"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.20"/>
+		</TerrainDescArray>
+		<MineChanceArrayCLS>
+        <MineChance type="62" perc="20"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="18"/><!--aluminum-->
+        <MineChance type="52" perc="18"/><!--silver-->
+        <MineChance type="49" perc="16"/><!--gold-->
+        <MineChance type="60" perc="14"/><!--oil-->
+        <MineChance type="57" perc="18"/><!--zinc-->
+        <MineChance type="53" perc="18"/><!--lithium-->
+        <MineChance type="59" perc="13"/><!--sulfur-->
+        <MineChance type="54" perc="13"/><!--diamond-->
+        <MineChance type="56" perc="10"/><!--titanium-->
+      </MineChanceArrayCLS>
+	</Region>
+	
+    <!--rainforest-->
+    <Region name="forest" mineChance="0.10">
+		<Trees startFadeIn="120" start="145" cellSize="18">
+				<PlantHeightDesc start="3" end="15">  	
+					<PlantGradientDesc start="0" end="200">
+					<Plant index="227" pct="13" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="228" pct="25" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="229" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="230" pct="55" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="55" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="56" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="34" pct="93" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="35" pct="97" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+					<Plant index="36" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="15" end="17">  	
+					<PlantGradientDesc start="0" end="400">
+			  	<Plant index="204" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="205" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="241" pct="34" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="242" pct="38" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+			    <Plant index="170" pct="44" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="171" pct="50" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="161" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="162" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="179" pct="87" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="180" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="44" pct="97" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				<Plant index="45" pct="100" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				  </PlantGradientDesc>
+				  </PlantHeightDesc>
+				  <PlantHeightDesc start="17" end="20">  	
+					<PlantGradientDesc start="0" end="400">
+			  	<Plant index="204" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="206" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="241" pct="35" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="243" pct="40" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="170" pct="50" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="172" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="161" pct="67" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="163" pct="78" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="179" pct="85" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="181" pct="92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="44" pct="96" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				<Plant index="46" pct="100" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="20" end="25">  	
+					<PlantGradientDesc start="0" end="400">
+			  	<Plant index="205" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="206" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="242" pct="24" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="243" pct="28" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+			    <Plant index="171" pct="35" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="172" pct="42" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="162" pct="56" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="163" pct="77" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="180" pct="85" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="181" pct="92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="45" pct="96" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				<Plant index="46" pct="100" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				  </PlantGradientDesc>
+				  </PlantHeightDesc>
+				  <PlantHeightDesc start="25" end="30">  	
+					<PlantGradientDesc start="0" end="400">
+			  	<Plant index="204" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="205" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="241" pct="24" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="242" pct="28" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="170" pct="37" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+			    <Plant index="171" pct="48" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="161" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="162" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="179" pct="87" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="180" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="44" pct="97" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				<Plant index="45" pct="100" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="30" end="40">  	
+					<PlantGradientDesc start="0" end="400">
+			  	<Plant index="204" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="206" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="241" pct="23" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="242" pct="26" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+			    <Plant index="170" pct="38" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="172" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="161" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="163" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="179" pct="87" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="181" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="44" pct="97" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				<Plant index="46" pct="100" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="40" end="1024">  	
+					<PlantGradientDesc start="0" end="400">
+			  	<Plant index="205" pct="8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="206" pct="16" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="242" pct="19" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="243" pct="22" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+			    <Plant index="171" pct="32" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="172" pct="44" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="162" pct="62" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="163" pct="84" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="180" pct="87" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="181" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="45" pct="98" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				<Plant index="46" pct="100" wScaleMin=".8" wScaleMax="1.7" hScaleMin=".8" hScaleMax="1.7"/>
+				  </PlantGradientDesc>
+				</PlantHeightDesc>			
+		</Trees>
+		<Grasses startFadeIn="70" start="110" cellSize="3"><!--17-->
+				<PlantHeightDesc start="15" end="1024">  	
+				<PlantGradientDesc start="0" end="300">
+			  <Plant index="47" pct="1.813" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="260" pct="3.627" wScaleMin="1.2" wScaleMax="1.9" hScaleMin="1.2" hScaleMax="1.9"/>
+			  <Plant index="261" pct="4.76" wScaleMin="1.2" wScaleMax="1.9" hScaleMin="1.2" hScaleMax="1.9"/>
+			  <Plant index="266" pct="7.933" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="267" pct="10.2" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="268" pct="12.013" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="263" pct="12.467" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="264" pct="12.92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="103" pct="13.373" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="104" pct="13.827" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="265" pct="14.28" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="105" pct="14.733" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+			  <Plant index="139" pct="15.413" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="140" pct="15.867" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="127" pct="16.093" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="128" pct="16.547" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="141" pct="16.773" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="129" pct="17" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				</PlantGradientDesc>
+				</PlantHeightDesc>			
+		</Grasses>
+		<NewGrasses startFadeIn="70" start="110" cellSize="2">
+			<PlantHeightDesc start="14" end="24">  	
+				<PlantGradientDesc start="0" end="240">
+			  <Plant index="0" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="1" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="3" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="4" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="6" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="2" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+			  <Plant index="12" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				  
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="24" end="40"> 			
+				<PlantGradientDesc start="0" end="240">
+			  <Plant index="0" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="1" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="3" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="4" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="6" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="2" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+			  <Plant index="12" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+				<PlantHeightDesc start="40" end="1024">  	
+				<PlantGradientDesc start="0" end="240">
+			  <Plant index="0" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="1" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="3" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="4" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="6" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="2" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+			  <Plant index="12" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			  
+				</PlantGradientDesc>
+				</PlantHeightDesc>
+		</NewGrasses>
+		<HeightDescArray>
+			<HeightDesc start="0" end="2">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="30"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="24" perc="15"/>
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="2" end="15">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="30"/>
+					<VoxelRate type="11" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="15" end="17">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="150">
+				  <VoxelRateArray>
+					<VoxelRate type="10" perc="10"/>
+					<VoxelRate type="11" perc="30"/>
+					<VoxelRate type="6" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="150" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="11" perc="20"/>
+					<VoxelRate type="6" perc="50"/>
+					<VoxelRate type="17" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="17" end="60">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="130">
+				  <VoxelRateArray>
+					<VoxelRate type="16" perc="30"/>
+					<VoxelRate type="6" perc="70"/>
+					<VoxelRate type="9" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="130" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="6" perc="60"/>
+					<VoxelRate type="9" perc="65"/>
+					<VoxelRate type="16" perc="70"/>				
+					<VoxelRate type="17" perc="80"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="600">
+				  <VoxelRateArray>
+					<VoxelRate type="17" perc="50"/>
+					<VoxelRate type="22" perc="60"/>
+					<VoxelRate type="24" perc="90"/>
+					<VoxelRate type="23" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="600" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="23" perc="10"/>
+					<VoxelRate type="66" perc="90"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="60" end="90">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="120">
+				  <VoxelRateArray>
+					<VoxelRate type="6" perc="60"/>
+					<VoxelRate type="9" perc="80"/>
+					<VoxelRate type="16" perc="95"/>
+					<VoxelRate type="7" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="120" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="6" perc="55"/>
+					<VoxelRate type="9" perc="60"/>
+					<VoxelRate type="16" perc="65"/>				
+					<VoxelRate type="17" perc="75"/>
+					<VoxelRate type="22" perc="80"/>
+					<VoxelRate type="23" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="23" perc="5"/>
+					<VoxelRate type="66" perc="85"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="90" end="160">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="6" perc="60"/>
+					<VoxelRate type="9" perc="80"/>
+					<VoxelRate type="16" perc="90"/>				
+					<VoxelRate type="7" perc="95"/>
+					<VoxelRate type="18" perc="100"/>				
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="6" perc="45"/>
+					<VoxelRate type="9" perc="50"/>
+					<VoxelRate type="22" perc="70"/>
+					<VoxelRate type="23" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="23" perc="5"/>
+					<VoxelRate type="66" perc="90"/>
+					<VoxelRate type="22" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="160" end="240">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="6" perc="20"/>
+					<VoxelRate type="7" perc="30"/>
+					<VoxelRate type="32" perc="90"/>
+					<VoxelRate type="31" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="6" perc="35"/>
+					<VoxelRate type="22" perc="40"/>				
+					<VoxelRate type="23" perc="60"/>
+					<VoxelRate type="29" perc="80"/>
+					<VoxelRate type="32" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="29" perc="10"/>
+					<VoxelRate type="22" perc="20"/>				
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+			<HeightDesc start="240" end="1024">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="32" perc="98"/>
+					<VoxelRate type="31" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="400">
+				  <VoxelRateArray>
+					<VoxelRate type="29" perc="30"/>
+					<VoxelRate type="30" perc="40"/>
+					<VoxelRate type="32" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="400" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="29" perc="10"/>
+					<VoxelRate type="22" perc="20"/>				
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+		</HeightDescArray>
+		<TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.52"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.20"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.13"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.20"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.15"/>
+		</TerrainDescArray>
+		<MineChanceArrayCLS>
+        <MineChance type="62" perc="22"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="18"/><!--aluminum-->
+        <MineChance type="52" perc="18"/><!--silver-->
+        <MineChance type="49" perc="16"/><!--gold-->
+        <MineChance type="60" perc="15"/><!--oil-->
+        <MineChance type="57" perc="13"/><!--zinc-->
+        <MineChance type="53" perc="13"/><!--lithium-->
+        <MineChance type="59" perc="12"/><!--sulfur-->
+        <MineChance type="54" perc="12"/><!--diamond-->
+        <MineChance type="56" perc="10"/><!--titanium-->
+		</MineChanceArrayCLS>
+    </Region>	
+	<!--mountain-->
+    <Region name="mountain" mineChance="0.125">
+    <Trees startFadeIn="215" start="225" cellSize="7">
+			<PlantHeightDesc start="17" end="24">  	
+				<PlantGradientDesc start="0" end="160">
+				<Plant index="226" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="227" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="228" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="229" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="230" pct="25" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="231" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="55" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="56" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  </PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="24" end="50">  	
+				<PlantGradientDesc start="0" end="400">
+			  	<Plant index="232" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Plant index="233" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Plant index="235" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Plant index="236" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="112" pct="78" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="113" pct="86" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>	
+			    <Plant index="93" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Plant index="94" pct="94" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="118" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="119" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="109" pct="99" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="110" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>				
+			  </PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="50" end="250">  	
+				<PlantGradientDesc start="0" end="400">
+			  	<Plant index="233" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="234" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="236" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="237" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="113" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="114" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>	
+			    <Plant index="94" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Plant index="95" pct="80" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="119" pct="82" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="120" pct="84" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="110" pct="86" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="111" pct="88" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="97" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="98" pct="92" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>		
+				<Plant index="96" pct="96" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="149" pct="98" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>	
+				<Plant index="150" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>				
+			  </PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="250" end="1024">  	
+				<PlantGradientDesc start="0" end="400">
+			  	<Plant index="232" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="234" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="235" pct="45" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="237" pct="60" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="93" pct="65" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Plant index="95" pct="70" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="109" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="111" pct="74" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="96" pct="82" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Plant index="149" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>	
+				<Plant index="150" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>		
+			  </PlantGradientDesc>
+			</PlantHeightDesc>			
+    </Trees>
+	<Grasses startFadeIn="90" start="130" cellSize="4"><!--10-->
+			<PlantHeightDesc start="3" end="1024">  	
+			<PlantGradientDesc start="0" end="300">
+			  <Plant index="250" pct="0.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="251" pct="1.5" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="247" pct="1.75" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+			  <Plant index="248" pct="2.25" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+			  <Plant index="244" pct="3.75" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="245" pct="5.25" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="246" pct="6.75" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="238" pct="7" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="239" pct="8.25" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="252" pct="8.75" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Plant index="249" pct="9" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+			  <Plant index="240" pct="10" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+	</Grasses>
+	<NewGrasses startFadeIn="80" start="100" cellSize="2">
+			<PlantHeightDesc start="16" end="50">  	
+			<PlantGradientDesc start="0" end="190">
+			  <Plant index="15" pct="30" wScaleMin=".2" wScaleMax=".4" hScaleMin=".2" hScaleMax=".4"/>	
+			  <Plant index="74" pct="40" wScaleMin=".8" wScaleMax="1" hScaleMin=".8" hScaleMax="1"/>		
+			  <Plant index="0" pct="65" wScaleMin=".8" wScaleMax="1" hScaleMin=".8" hScaleMax="1"/>				  
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="50" end="100"> 			
+            <PlantGradientDesc start="0" end="190">
+			  <Plant index="15" pct="20" wScaleMin=".2" wScaleMax=".4" hScaleMin=".2" hScaleMax=".4"/>
+			  <Plant index="74" pct="35" wScaleMin=".8" wScaleMax="1" hScaleMin=".8" hScaleMax="1"/>	
+			  <Plant index="0" pct="45" wScaleMin=".8" wScaleMax="1" hScaleMin=".8" hScaleMax="1"/>			  
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="100" end="1024">  	
+			<PlantGradientDesc start="0" end="190">
+			  <Plant index="15" pct="15" wScaleMin=".2" wScaleMax=".4" hScaleMin=".2" hScaleMax=".4"/>
+			  <Plant index="74" pct="25" wScaleMin=".8" wScaleMax="1" hScaleMin=".8" hScaleMax="1"/>	
+			  <Plant index="0" pct="35" wScaleMin=".8" wScaleMax="1" hScaleMin=".8" hScaleMax="1"/>			  
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+	</NewGrasses>
+      <HeightDescArray>
+			<HeightDesc start="0" end="2">
+			  <GradientDescArray>
+				<GradientDesc start="0" end="100">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="90"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="100" end="300">
+				  <VoxelRateArray>
+					<VoxelRate type="1" perc="30"/>
+					<VoxelRate type="24" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+				<GradientDesc start="300" end="1000">
+				  <VoxelRateArray>
+					<VoxelRate type="24" perc="15"/>
+					<VoxelRate type="66" perc="100"/>
+				  </VoxelRateArray>
+				</GradientDesc>
+			  </GradientDescArray>
+			</HeightDesc>
+        <HeightDesc start="2" end="15">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="30"/>
+                <VoxelRate type="11" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="15" end="17">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="10"/>
+                <VoxelRate type="11" perc="30"/>
+                <VoxelRate type="8" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="20"/>
+                <VoxelRate type="8" perc="50"/>
+                <VoxelRate type="17" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="17" end="50">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="16" perc="30"/>
+                <VoxelRate type="8" perc="70"/>
+                <VoxelRate type="9" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="10"/>
+                <VoxelRate type="9" perc="15"/>
+                <VoxelRate type="16" perc="20"/>				
+                <VoxelRate type="17" perc="70"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="17" perc="50"/>
+                <VoxelRate type="22" perc="60"/>
+                <VoxelRate type="24" perc="90"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="23" perc="10"/>
+                <VoxelRate type="66" perc="90"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="50" end="90">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="60"/>
+                <VoxelRate type="9" perc="80"/>
+				<VoxelRate type="16" perc="95"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="5"/>
+                <VoxelRate type="9" perc="10"/>
+                <VoxelRate type="16" perc="15"/>				
+                <VoxelRate type="17" perc="55"/>
+                <VoxelRate type="22" perc="80"/>
+                <VoxelRate type="23" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="23" perc="5"/>
+                <VoxelRate type="66" perc="85"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="90" end="180">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="60"/>
+                <VoxelRate type="9" perc="80"/>
+                <VoxelRate type="16" perc="90"/>				
+                <VoxelRate type="7" perc="95"/>
+                <VoxelRate type="18" perc="100"/>				
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="5"/>
+                <VoxelRate type="9" perc="10"/>
+                <VoxelRate type="22" perc="70"/>
+                <VoxelRate type="23" perc="90"/>
+                <VoxelRate type="24" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="23" perc="5"/>
+                <VoxelRate type="66" perc="90"/>
+                <VoxelRate type="22" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="180" end="260">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="20"/>
+                <VoxelRate type="7" perc="30"/>
+                <VoxelRate type="32" perc="90"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="8" perc="5"/>
+                <VoxelRate type="22" perc="20"/>				
+                <VoxelRate type="23" perc="30"/>
+                <VoxelRate type="29" perc="80"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="29" perc="10"/>
+                <VoxelRate type="22" perc="20"/>				
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="260" end="1024">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="98"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="400">
+              <VoxelRateArray>
+                <VoxelRate type="29" perc="30"/>
+                <VoxelRate type="30" perc="40"/>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="400" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="29" perc="10"/>
+                <VoxelRate type="22" perc="20"/>				
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+	  <TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.45"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.20"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.10"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.10"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.50"/>
+	  </TerrainDescArray>
+	  <MineChanceArrayCLS>
+        <MineChance type="62" perc="20"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="20"/><!--aluminum-->
+        <MineChance type="52" perc="20"/><!--silver-->
+        <MineChance type="49" perc="18"/><!--gold-->
+        <MineChance type="60" perc="16"/><!--oil-->
+        <MineChance type="57" perc="15"/><!--zinc-->
+        <MineChance type="53" perc="15"/><!--lithium-->
+        <MineChance type="59" perc="13"/><!--sulfur-->
+        <MineChance type="54" perc="13"/><!--diamond-->
+        <MineChance type="56" perc="10"/><!--titanium-->
+      </MineChanceArrayCLS>
+	</Region>
+      <!--swamp-->
+    <Region name="swamp" mineChance="0.10">
+    <Trees startFadeIn="190" start="220" cellSize="11">
+			<PlantHeightDesc start="0" end="2">  	
+				<PlantGradientDesc start="0" end="300">
+					<Plant index="290" pct="5" wScaleMin=".5" wScaleMax="1" hScaleMin=".5" hScaleMax="1"/>
+					<Plant index="291" pct="10" wScaleMin=".5" wScaleMax="1" hScaleMin=".5" hScaleMax="1"/>
+					<Plant index="292" pct="15" wScaleMin=".5" wScaleMax="1" hScaleMin=".5" hScaleMax="1"/>		
+					<Plant index="274" pct="18" wScaleMin=".5" wScaleMax="1.2" hScaleMin=".5" hScaleMax="1.2"/>					
+				</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="2" end="1024">  	
+				<PlantGradientDesc start="0" end="300">
+			  	<Plant index="281" pct="7" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="282" pct="14" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="283" pct="21" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				
+			  	<Plant index="284" pct="28" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="285" pct="35" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="286" pct="42" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  	<Plant index="287" pct="48" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="288" pct="56" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="289" pct="66" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			
+			  	<Plant index="275" pct="72" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="276" pct="78" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="277" pct="85" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+			  	<Plant index="278" pct="90" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="279" pct="95" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="280" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>						
+			  </PlantGradientDesc>
+			</PlantHeightDesc>
+    </Trees>
+    <Grasses startFadeIn="70" start="120" cellSize="4"><!--8-->
+			<PlantHeightDesc start="0" end="2">  	
+			<PlantGradientDesc start="0" end="300">
+			  <Plant index="269" pct="2.462" wScaleMin=".5" wScaleMax="1" hScaleMin=".5" hScaleMax="1"/>
+			  <Plant index="270" pct="3.692" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="271" pct="6.769" wScaleMin=".5" wScaleMax="1.5" hScaleMin=".5" hScaleMax="1.5"/>
+			  <Plant index="272" pct="7.384" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="273" pct="8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="2" end="1024"> 			
+            <PlantGradientDesc start="0" end="300">
+			  <Plant index="269" pct="0.667" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="270" pct="1.333" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="271" pct="4" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="272" pct="6.667" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="273" pct="8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+    </Grasses>
+	<NewGrasses startFadeIn="60" start="90" cellSize="3">
+			<PlantHeightDesc start="1" end="15">  	
+			<PlantGradientDesc start="0" end="180">
+			  <Plant index="8" pct="15" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="9" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+			  <Plant index="71" pct="21" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+			  <Plant index="10" pct="22" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				  
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="15" end="1024"> 			
+            <PlantGradientDesc start="0" end="160">
+			  <Plant index="75" pct="25" wScaleMin=".5" wScaleMax="1" hScaleMin=".5" hScaleMax="1"/>
+			  <Plant index="74" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+			  <Plant index="73" pct="35" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>			
+			  <Plant index="71" pct="37" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+			  <Plant index="76" pct="42" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				  
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+	</NewGrasses>		
+      <HeightDescArray>
+        <HeightDesc start="0" end="2">
+          <GradientDescArray>
+            <GradientDesc start="0" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="30"/>
+                <VoxelRate type="11" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="2" end="3">
+          <GradientDescArray>
+            <GradientDesc start="0" end="150">
+              <VoxelRateArray>
+                <VoxelRate type="10" perc="10"/>
+                <VoxelRate type="11" perc="30"/>
+                <VoxelRate type="3" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="150" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="11" perc="20"/>
+                <VoxelRate type="3" perc="50"/>
+                <VoxelRate type="18" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="3" end="100">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="80"/>
+                <VoxelRate type="4" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="10"/>
+                <VoxelRate type="4" perc="15"/>
+                <VoxelRate type="18" perc="60"/>
+				<VoxelRate type="17" perc="70"/>
+                <VoxelRate type="68" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="600">
+              <VoxelRateArray>
+                <VoxelRate type="68" perc="50"/>
+                <VoxelRate type="17" perc="55"/>
+                <VoxelRate type="22" perc="90"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="600" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="68" perc="10"/>
+                <VoxelRate type="22" perc="30"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="100" end="200">
+          <GradientDescArray>
+            <GradientDesc start="0" end="120">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="70"/>
+                <VoxelRate type="4" perc="85"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="120" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="5"/>
+                <VoxelRate type="4" perc="10"/>
+                <VoxelRate type="18" perc="35"/>
+                <VoxelRate type="17" perc="45"/>
+                <VoxelRate type="68" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="17" perc="5"/>
+                <VoxelRate type="68" perc="15"/>
+                <VoxelRate type="22" perc="30"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="200" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="60"/>
+                <VoxelRate type="4" perc="75"/>
+                <VoxelRate type="7" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="3" perc="5"/>
+                <VoxelRate type="4" perc="8"/>
+                <VoxelRate type="18" perc="15"/>
+				<VoxelRate type="24" perc="30"/>
+                <VoxelRate type="17" perc="40"/>
+                <VoxelRate type="68" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="68" perc="10"/>
+                <VoxelRate type="22" perc="30"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="1024">
+          <GradientDescArray>
+            <GradientDesc start="0" end="100">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="100" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="29" perc="10"/>
+                <VoxelRate type="30" perc="30"/>
+                <VoxelRate type="31" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="29" perc="20"/>
+                <VoxelRate type="66" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+	  <TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.50"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.40"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.10"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.20"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.05"/>
+	  </TerrainDescArray>
+	  <MineChanceArrayCLS>
+        <MineChance type="62" perc="20"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="18"/><!--aluminum-->
+        <MineChance type="52" perc="18"/><!--silver-->
+        <MineChance type="49" perc="16"/><!--gold-->
+        <MineChance type="60" perc="20"/><!--oil-->
+        <MineChance type="57" perc="14"/><!--zinc-->
+        <MineChance type="53" perc="14"/><!--lithium-->
+        <MineChance type="59" perc="13"/><!--sulfur-->
+        <MineChance type="54" perc="13"/><!--diamond-->
+        <MineChance type="56" perc="15"/><!--titanium-->
+      </MineChanceArrayCLS>
+	</Region>
+      <!--crater-->
+    <Region name="crater" mineChance="0.125">
+    <Grasses startFadeIn="110" start="140" cellSize="4"><!--10-->
+			<PlantHeightDesc start="3" end="15">  	
+			<PlantGradientDesc start="0" end="300">
+			  <Plant index="37" pct="1.143" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="39" pct="3.429" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="0" pct="4.571" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="1" pct="5.714" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>		
+			  <Plant index="115" pct="6.857" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			  <Plant index="116" pct="8" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>				  
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+			<PlantHeightDesc start="15" end="1024"> 			
+            <PlantGradientDesc start="0" end="300">
+			  	<Plant index="329" pct="1" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="330" pct="2" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="338" pct="2.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="339" pct="3.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="341" pct="4" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="342" pct="4.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="344" pct="5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="345" pct="6" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="346" pct="6.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				<Plant index="332" pct="7.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+			    <Plant index="333" pct="8.5" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+				<Plant index="335" pct="9" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>
+				<Plant index="336" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="1.5"/>	
+ 			</PlantGradientDesc>
+			</PlantHeightDesc>
+	</Grasses>
+      <HeightDescArray>
+        <HeightDesc start="0" end="15">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="19" perc="80"/>
+                <VoxelRate type="59" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="19" perc="5"/>
+                <VoxelRate type="59" perc="20"/>
+                <VoxelRate type="20" perc="60"/>
+                <VoxelRate type="67" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="20" perc="10"/>
+                <VoxelRate type="67" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="15" end="300">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="19" perc="40"/>
+                <VoxelRate type="59" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="19" perc="5"/>
+                <VoxelRate type="59" perc="20"/>
+                <VoxelRate type="20" perc="60"/>
+                <VoxelRate type="67" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="20" perc="10"/>
+                <VoxelRate type="67" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+        <HeightDesc start="300" end="1024">
+          <GradientDescArray>
+            <GradientDesc start="0" end="130">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="130" end="300">
+              <VoxelRateArray>
+                <VoxelRate type="32" perc="40"/>
+                <VoxelRate type="67" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+            <GradientDesc start="300" end="1000">
+              <VoxelRateArray>
+                <VoxelRate type="67" perc="100"/>
+              </VoxelRateArray>
+            </GradientDesc>
+          </GradientDescArray>
+        </HeightDesc>
+      </HeightDescArray>
+	  <TerrainDescArray>
+		  <!--sea-0.15-->
+		  <TerrainDesc terChance = "0.45"/>
+		  <!--seaside-0.16-->
+		  <TerrainDesc terChance = "0.15"/>
+		  <!--plain-0.16-->
+		  <TerrainDesc terChance = "0.10"/>
+		  <!--hill-0.10-->
+		  <TerrainDesc terChance = "0.30"/>
+		  <!--highland-0.08-->
+		  <TerrainDesc terChance = "0.30"/>
+	  </TerrainDescArray>
+	  <MineChanceArrayCLS>
+        <MineChance type="62" perc="20"/><!--coal-->
+        <MineChance type="51" perc="20"/><!--iron-->
+        <MineChance type="50" perc="20"/><!--copper-->
+        <MineChance type="58" perc="18"/><!--aluminum-->
+        <MineChance type="52" perc="18"/><!--silver-->
+        <MineChance type="49" perc="16"/><!--gold-->
+        <MineChance type="60" perc="15"/><!--oil-->
+        <MineChance type="57" perc="14"/><!--zinc-->
+        <MineChance type="53" perc="14"/><!--lithium-->
+        <MineChance type="59" perc="22"/><!--sulfur-->
+        <MineChance type="54" perc="15"/><!--diamond-->
+        <MineChance type="56" perc="10"/><!--titanium-->
+      </MineChanceArrayCLS>
+	</Region>
+    
+  </RegionArray>
+</AutoPaintDesc>

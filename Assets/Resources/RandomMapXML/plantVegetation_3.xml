@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<AutoPlantDesc>
+  <Region color="0xff29d321">
+    <Trees startFadeIn="138" start="172" sizeVariate="0.5">
+    </Trees>
+    <Grasses startFadeIn="100" start="160" sizeVariate="0.1">
+		      <Grass index="170" pct="10" wScaleMin="1" wScaleMax="1" hScaleMin="1" hScaleMax="1"/>
+			  <Grass index="171" pct="20" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="172" pct="30" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="197" pct="40" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="198" pct="50" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="199" pct="60" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="200" pct="70" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="201" pct="80" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="202" pct="90" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+		      <Grass index="203" pct="100" wScaleMin="0.9" wScaleMax="1.2" hScaleMin="0.9" hScaleMax="1.2"/>
+    </Grasses>
+  </Region>
+</AutoPlantDesc>

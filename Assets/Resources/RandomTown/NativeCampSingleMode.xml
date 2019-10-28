@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NativeCampDesc NumMin="1" NumMax="2" DistanceMin="300" DistanceMax="500">
+  <NativeCampArray>
+    <NativeCamp cid="0" CellNumX="3" CellNumZ="3" CellSizeX="20" CellSizeZ="22" weight="50" Level="0">
+      <NativeTower x="1" z="1" rot="0" pathID="206" >     <!--signaltower00--><!-- 0:群组，1：单体   -->
+		<DynamicNative did="109" type="1"/> <!--Puja01近战巡逻-->
+		<DynamicNative did="111" type="1"/> <!--Puja01远程巡逻M-->
+		<DynamicNative did="231" type="1"/> <!--Puja02迫击炮巡逻M-->
+		<DynamicNative did="245" type="0"/> <!--Puja_NormalMortar301-->
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="109" num="1" />        <!--Puja01近战巡逻-->
+        <Native aid="115" num="1" />        <!--Puja02近战巡逻-->
+		<Native aid="111" num="1" />        <!--Puja01远程巡逻M-->
+		<Native aid="229" num="1" />        <!--Puja01迫击炮巡逻M-->
+		<Native aid="233" num="1" />        <!--Puja03迫击炮巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="0" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="0" z="0" rot="2" />
+        <Cell x="2" z="0" rot="2" />
+		<Cell x="0" z="2" rot="0" />
+		<Cell x="2" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+    <NativeCamp cid="1" CellNumX="3" CellNumZ="3" CellSizeX="20" CellSizeZ="22" weight="50" Level="0">
+      <NativeTower x="1" z="1" rot="0" pathID="207" >     <!--signaltower01--><!-- 0:群组，1：单体   -->
+	  	<DynamicNative did="103" type="1"/> <!--Paja01近战巡逻M-->
+		<DynamicNative did="105" type="1"/> <!--Paja01喷火巡逻M-->
+		<DynamicNative did="227" type="1"/> <!--Paja01火箭巡逻M-->
+		<DynamicNative did="240" type="0"/> <!--Paja_NormalBazooka302-->			
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="103" num="2" />        <!--Paja01近战巡逻M-->
+        <Native aid="105" num="1" />        <!--Paja01喷火巡逻M-->
+		<Native aid="227" num="2" />        <!--Paja01火箭巡逻M--> 
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="0" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="1" z="0" rot="2" />
+        <Cell x="0" z="1" rot="3" />
+		<Cell x="2" z="1" rot="1" />
+		<Cell x="1" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+	<NativeCamp cid="2" CellNumX="3" CellNumZ="3" CellSizeX="22" CellSizeZ="18" weight="50" Level="1">
+      <NativeTower x="1" z="1" rot="0" pathID="208" >     <!--signaltower02--><!-- 0:群组，1：单体   -->
+		<DynamicNative did="115" type="1"/> <!--Puja02近战巡逻-->
+		<DynamicNative did="229" type="1"/> <!--Puja01迫击炮巡逻M-->
+		<DynamicNative did="117" type="1"/> <!--Puja02远程巡逻M-->
+		<DynamicNative did="246" type="0"/> <!--Puja_NormalMortar302-->		
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="109" num="1" />        <!--Puja01近战巡逻-->
+		<Native aid="121" num="2" />        <!--Puja03近战巡逻-->
+		<Native aid="111" num="1" />        <!--Puja01远程巡逻M-->
+		<Native aid="123" num="1" />        <!--Puja03远程巡逻M-->
+		<Native aid="231" num="1" />        <!--Puja02迫击炮巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="0" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="2" z="0" rot="1" />
+        <Cell x="2" z="1" rot="1" />
+		<Cell x="0" z="2" rot="0" />
+		<Cell x="1" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+    <NativeCamp cid="3" CellNumX="3" CellNumZ="3" CellSizeX="20" CellSizeZ="22" weight="50" Level="1">
+      <NativeTower x="1" z="1" rot="0" pathID="209" >     <!--signaltower03--><!-- 0:群组，1：单体   -->
+	  	<DynamicNative did="103" type="1"/> <!--Paja01近战巡逻M-->
+		<DynamicNative did="227" type="1"/> <!--Paja01火箭巡逻M-->
+		<DynamicNative did="106" type="1"/> <!--Paja01喷火巡逻S-->
+		<DynamicNative did="145" type="0"/>	<!--Paja_NormalRifle302-->
+		<DynamicNative did="239" type="0"/> <!--Paja_NormalBazooka301-->		
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="103" num="2" />        <!--Paja01近战巡逻M-->
+        <Native aid="105" num="1" />        <!--Paja01喷火巡逻M-->
+		<Native aid="106" num="1" />        <!--Paja01喷火巡逻S-->
+		<Native aid="227" num="2" />        <!--Paja01火箭巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="0" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="0" z="0" rot="2" />
+        <Cell x="2" z="1" rot="1" />
+		<Cell x="1" z="2" rot="0" />
+		<Cell x="2" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+	<NativeCamp cid="4" CellNumX="4" CellNumZ="3" CellSizeX="24" CellSizeZ="20" weight="50" Level="2">
+      <NativeTower x="1" z="1" rot="0" pathID="210" >     <!--signaltower04--><!-- 0:群组，1：单体   -->
+		<DynamicNative did="121" type="1"/> <!--Puja03近战巡逻-->
+		<DynamicNative did="117" type="1"/> <!--Puja02远程巡逻M-->
+		<DynamicNative did="229" type="1"/> <!--Puja01迫击炮巡逻M-->
+		<DynamicNative did="162" type="0"/> <!--Puja_NormalRifle302-->
+		<DynamicNative did="247" type="0"/>	<!--Puja_NormalMortar401-->							
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="109" num="1" />        <!--Puja01近战巡逻-->
+        <Native aid="115" num="1" />        <!--Puja02近战巡逻-->
+		<Native aid="121" num="1" />        <!--Puja03近战巡逻-->
+		<Native aid="111" num="1" />        <!--Puja01远程巡逻M-->
+		<Native aid="123" num="1" />        <!--Puja03远程巡逻M-->
+		<Native aid="229" num="1" />        <!--Puja01迫击炮巡逻M-->
+		<Native aid="231" num="1" />        <!--Puja02迫击炮巡逻M-->
+		<Native aid="233" num="1" />        <!--Puja03迫击炮巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="1" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="1" z="0" rot="2" />
+        <Cell x="2" z="0" rot="2" />
+		<Cell x="0" z="1" rot="3" />
+		<Cell x="1" z="2" rot="0" />
+		<Cell x="2" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+    <NativeCamp cid="5" CellNumX="4" CellNumZ="3" CellSizeX="22" CellSizeZ="24" weight="50" Level="2">
+      <NativeTower x="2" z="1" rot="0" pathID="211" >     <!--signaltower05--><!-- 0:群组，1：单体   -->
+	  	<DynamicNative did="103" type="1"/> <!--Paja01近战巡逻M-->
+		<DynamicNative did="105" type="1"/> <!--Paja01喷火巡逻M-->
+		<DynamicNative did="227" type="1"/> <!--Paja01火箭巡逻M-->
+		<DynamicNative did="138" type="0"/> <!--Paja_Blend401-->
+		<DynamicNative did="141" type="0"/>	<!--Paja_NormalMelee301-->
+		<DynamicNative did="240" type="0"/>	<!--Paja_NormalBazooka302-->				
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="103" num="2" />        <!--Paja01近战巡逻M-->
+        <Native aid="105" num="1" />        <!--Paja01喷火巡逻M-->
+		<Native aid="106" num="2" />        <!--Paja01喷火巡逻S-->
+		<Native aid="227" num="3" />        <!--Paja01火箭巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="1" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="0" z="0" rot="2" />
+        <Cell x="2" z="0" rot="2" />
+		<Cell x="3" z="1" rot="1" />
+		<Cell x="0" z="2" rot="0" />
+		<Cell x="2" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+	<NativeCamp cid="6" CellNumX="4" CellNumZ="3" CellSizeX="26" CellSizeZ="22" weight="50" Level="3">
+      <NativeTower x="2" z="1" rot="0" pathID="212" >     <!--signaltower06--><!-- 0:群组，1：单体   -->
+		<DynamicNative did="109" type="1"/> <!--Puja01近战巡逻-->
+		<DynamicNative did="117" type="1"/> <!--Puja02远程巡逻M-->
+		<DynamicNative did="233" type="1"/> <!--Puja03迫击炮巡逻M-->
+		<DynamicNative did="154" type="0"/> <!--Puja_Blend401-->
+		<DynamicNative did="158" type="0"/> <!--Puja_NormalMelee301-->
+		<DynamicNative did="162" type="0"/> <!--Puja_NormalRifle302-->
+		<DynamicNative did="247" type="0"/>	<!--Puja_NormalMortar401-->							
+	  </NativeTower>	  
+      <NativeArray>
+        <Native aid="109" num="1" />        <!--Puja01近战巡逻-->
+        <Native aid="115" num="1" />        <!--Puja02近战巡逻-->
+		<Native aid="121" num="1" />        <!--Puja03近战巡逻-->
+		<Native aid="111" num="1" />        <!--Puja01远程巡逻M-->
+		<Native aid="117" num="1" />        <!--Puja02远程巡逻M-->
+		<Native aid="123" num="1" />        <!--Puja03远程巡逻M-->
+		<Native aid="229" num="1" />        <!--Puja01迫击炮巡逻M-->
+		<Native aid="231" num="2" />        <!--Puja02迫击炮巡逻M-->
+		<Native aid="233" num="1" />        <!--Puja03迫击炮巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="2" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="1" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="1" z="0" rot="2" />
+        <Cell x="2" z="0" rot="2" />
+		<Cell x="0" z="1" rot="3" />
+		<Cell x="3" z="1" rot="1" />
+		<Cell x="1" z="2" rot="0" />
+		<Cell x="2" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+    <NativeCamp cid="7" CellNumX="4" CellNumZ="3" CellSizeX="24" CellSizeZ="26" weight="50" Level="3">
+      <NativeTower x="2" z="1" rot="0" pathID="213" >     <!--signaltower07--><!-- 0:群组，1：单体   -->
+	  	<DynamicNative did="103" type="1"/> <!--Paja01近战巡逻M-->
+		<DynamicNative did="105" type="1"/> <!--Paja01喷火巡逻M-->
+		<DynamicNative did="227" type="1"/> <!--Paja01火箭巡逻M-->
+		<DynamicNative did="138" type="0"/> <!--Paja_Blend401-->
+		<DynamicNative did="141" type="0"/>	<!--Paja_NormalMelee301-->
+		<DynamicNative did="145" type="0"/>	<!--Paja_NormalRifle302-->		
+		<DynamicNative did="241" type="0"/>	<!--Paja_NormalBazooka401-->			
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="103" num="3" />        <!--Paja01近战巡逻M-->
+        <Native aid="105" num="2" />        <!--Paja01喷火巡逻M-->
+		<Native aid="106" num="2" />        <!--Paja01喷火巡逻S-->
+		<Native aid="227" num="3" />        <!--Paja01火箭巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="2" />    <!--tent04-->
+		<BuildingNum bid="52" num="1" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="0" z="0" rot="3" />
+        <Cell x="3" z="0" rot="1" />
+		<Cell x="0" z="1" rot="3" />
+		<Cell x="3" z="1" rot="1" />
+		<Cell x="1" z="2" rot="0" />
+		<Cell x="2" z="2" rot="0" />
+      </CellArray>
+    </NativeCamp>
+	<NativeCamp cid="8" CellNumX="4" CellNumZ="4" CellSizeX="28" CellSizeZ="26" weight="50" Level="4">
+      <NativeTower x="2" z="2" rot="0" pathID="214" >     <!--signaltower08--><!-- 0:群组，1：单体   -->
+		<DynamicNative did="154" type="0"/> <!--Puja_Blend401-->
+		<DynamicNative did="157" type="0"/> <!--Puja_Blend503-->
+		<DynamicNative did="158" type="0"/> <!--Puja_NormalMelee301-->
+		<DynamicNative did="159" type="0"/>	<!--Puja_NormalMelee401-->
+		<DynamicNative did="161" type="0"/> <!--Puja_NormalRifle301-->
+		<DynamicNative did="162" type="0"/> <!--Puja_NormalRifle302-->
+		<DynamicNative did="163" type="0"/>	<!--Puja_NormalRifle401-->
+		<DynamicNative did="245" type="0"/>	<!--Puja_NormalMortar301-->	
+		<DynamicNative did="246" type="0"/>	<!--Puja_NormalMortar302-->	
+		<DynamicNative did="247" type="0"/>	<!--Puja_NormalMortar401-->			
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="109" num="1" />        <!--Puja01近战巡逻-->
+        <Native aid="115" num="2" />        <!--Puja02近战巡逻-->
+		<Native aid="121" num="1" />        <!--Puja03近战巡逻-->
+		<Native aid="111" num="1" />        <!--Puja01远程巡逻M-->
+		<Native aid="117" num="1" />        <!--Puja02远程巡逻M-->
+		<Native aid="123" num="1" />        <!--Puja03远程巡逻M-->
+		<Native aid="229" num="1" />        <!--Puja01迫击炮巡逻M-->
+		<Native aid="231" num="2" />        <!--Puja02迫击炮巡逻M-->
+		<Native aid="233" num="2" />        <!--Puja03迫击炮巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="1" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="2" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="1" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="2" z="0" rot="2" />
+        <Cell x="1" z="1" rot="2" />
+		<Cell x="0" z="2" rot="3" />
+		<Cell x="3" z="2" rot="1" />
+		<Cell x="2" z="3" rot="0" />
+		<Cell x="3" z="3" rot="0" />
+      </CellArray>
+    </NativeCamp>
+    <NativeCamp cid="9" CellNumX="4" CellNumZ="4" CellSizeX="26" CellSizeZ="28" weight="50" Level="4">
+      <NativeTower x="2" z="2" rot="0" pathID="215" >     <!--signaltower09--><!-- 0:群组，1：单体   -->
+		<DynamicNative did="138" type="0"/> <!--Paja_Blend401-->
+		<DynamicNative did="140" type="0"/> <!--Paja_Blend502-->
+		<DynamicNative did="141" type="0"/>	<!--Paja_NormalMelee301-->
+		<DynamicNative did="142" type="0"/>	<!--Paja_NormalMelee401-->
+		<DynamicNative did="144" type="0"/> <!--Paja_NormalRifle301-->
+		<DynamicNative did="145" type="0"/>	<!--Paja_NormalRifle302-->		
+		<DynamicNative did="146" type="0"/>	<!--Paja_NormalRifle401-->
+		<DynamicNative did="239" type="0"/>	<!--Paja_NormalBazooka301-->
+		<DynamicNative did="240" type="0"/>	<!--Paja_NormalBazooka302-->
+		<DynamicNative did="241" type="0"/>	<!--Paja_NormalBazooka401-->		
+	  </NativeTower>
+      <NativeArray>
+        <Native aid="103" num="4" />        <!--Paja01近战巡逻M-->
+        <Native aid="105" num="2" />        <!--Paja01喷火巡逻M-->
+		<Native aid="106" num="2" />        <!--Paja01喷火巡逻S-->
+		<Native aid="227" num="4" />        <!--Paja01火箭巡逻M-->
+      </NativeArray>
+      <BuildingNumArray>
+        <BuildingNum bid="48" num="2" />    <!--tent01-->
+        <BuildingNum bid="49" num="1" />    <!--tent02-->
+		<BuildingNum bid="50" num="1" />    <!--tent03-->
+		<BuildingNum bid="51" num="1" />    <!--tent04-->
+		<BuildingNum bid="52" num="1" />    <!--watchtower-->
+      </BuildingNumArray>
+      <CellArray>
+        <Cell x="1" z="0" rot="2" />
+        <Cell x="0" z="1" rot="3" />
+		<Cell x="3" z="1" rot="1" />
+		<Cell x="3" z="2" rot="1" />
+		<Cell x="1" z="3" rot="0" />
+		<Cell x="2" z="3" rot="0" />
+      </CellArray>
+    </NativeCamp>
+  </NativeCampArray>
+</NativeCampDesc>

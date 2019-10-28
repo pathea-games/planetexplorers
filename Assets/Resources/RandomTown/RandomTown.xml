@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--城镇间距-->
+<RandomTownDsc TownSize="200" DistanceX="800" DistanceZ="800">
+<StartTown tid="-1" CellNumX="3" CellNumZ="3" CellSizeX="18" CellSizeZ="18" >
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="1" num="1" />  <!--任务npc-->
+<NPC nid="301" num="1" />
+<NPC nid="351" num="1" />
+<NPC nid="401" num="1" />
+<NPC nid="551" num="1" />
+<NPC nid="701" num="1" />
+<NPC nid="751" num="1" />
+<NPC nid="801" num="1" />
+<NPC nid="851" num="1" />
+<NPC nid="901" num="1" />
+<NPC nid="951" num="1" />  <!--仓库npc-->
+      </NPCArray>
+	  <!--cybuild1 以下是建筑ID和数量-->
+      <BuildingNumArray>
+	<BuildingNum bid="45" num="1" />    <!--任务房屋-->
+    <BuildingNum bid="42" num="1" />
+    <BuildingNum bid="43" num="1" />
+	<BuildingNum bid="44" num="1" />
+	<BuildingNum bid="46" num="1" />
+	<BuildingNum bid="47" num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息 布局7_6-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="2" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="2" z="2" rot="0" /> 
+	  </CellArray>
+    </StartTown>
+  <!--城镇信息-->
+  <TownArray>
+    <Town tid="0" CellNumX="2" CellNumZ="6" CellSizeX="20" CellSizeZ="20" weight="50" Level="0">
+      <!--城镇npc信息  cybuild1-->
+	  <NPCArray>
+<NPC nid="301" num="1" />
+<NPC nid="351" num="1" />
+<NPC nid="401" num="1" />
+<NPC nid="551" num="1" />
+<NPC nid="701" num="1" />
+<NPC nid="751" num="1" />
+<NPC nid="801" num="1" />
+<NPC nid="851" num="1" />
+<NPC nid="901" num="1" />
+<NPC nid="951" num="1" /> 
+      </NPCArray>
+	  <!--cybuild1-->
+      <BuildingNumArray>
+       <BuildingNum bid="42" num="2" />
+       <BuildingNum bid="43" num="1" />
+	<BuildingNum bid="44" num="1" />
+	<BuildingNum bid="45" num="1" />
+	<BuildingNum bid="46" num="2" />
+	<BuildingNum bid="47" num="1" />
+
+      </BuildingNumArray>
+      <!--城镇布局信息 布局8-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="0" z="3" rot="2" /> 
+<Cell x="1" z="3" rot="2" /> 
+<Cell x="0" z="5" rot="0" /> 
+<Cell x="1" z="5" rot="0" /> 
+
+	  </CellArray>
+    </Town>
+	
+<Town tid="1" CellNumX="4" CellNumZ="3" CellSizeX="20" CellSizeZ="20" weight="50" Level="0">
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="301" num="1" />
+<NPC nid="351" num="1" />
+<NPC nid="401" num="1" />
+<NPC nid="551" num="1" />
+<NPC nid="701" num="1" />
+<NPC nid="751" num="1" />
+<NPC nid="801" num="1" />
+<NPC nid="851" num="1" />
+<NPC nid="901" num="1" />
+<NPC nid="951" num="1" /> 
+      </NPCArray>
+	   <!--cybuild1-->
+      <BuildingNumArray>
+       <BuildingNum bid="42" num="2" />
+       <BuildingNum bid="43" num="1" />
+	<BuildingNum bid="44" num="1" />
+	<BuildingNum bid="45" num="1" />
+	<BuildingNum bid="46" num="2" />
+	<BuildingNum bid="47" num="1" />
+
+      </BuildingNumArray>
+      <!--城镇布局信息 布局7-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="2" z="0" rot="2" /> 
+<Cell x="3" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="2" z="2" rot="0" /> 
+<Cell x="3" z="2" rot="0" /> 
+
+	  </CellArray>
+    </Town>
+ 
+ <Town tid="2" CellNumX="5" CellNumZ="3" CellSizeX="18" CellSizeZ="20" weight="60" Level="1">
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="302" num="1" />
+<NPC nid="352" num="1" />
+<NPC nid="402" num="1" />
+<NPC nid="502" num="1" />
+<NPC nid="552" num="1" />
+<NPC nid="702" num="1" />
+<NPC nid="752" num="1" />
+<NPC nid="802" num="1" />
+<NPC nid="852" num="1" />
+<NPC nid="902" num="1" />
+<NPC nid="952" num="1" /> 
+      </NPCArray>
+	  
+      <BuildingNumArray>
+	   <!--build_wx3-->
+<BuildingNum  bid="1"  num="2" />
+<BuildingNum  bid="2"  num="2" />
+<BuildingNum  bid="3"  num="1" />
+<BuildingNum  bid="4"  num="1" />
+<BuildingNum  bid="5"  num="1" />
+<BuildingNum  bid="8"  num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="3" z="0" rot="2" /> 
+<Cell x="4" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="3" z="2" rot="0" /> 
+<Cell x="4" z="2" rot="0" /> 
+	  </CellArray>
+    </Town>
+
+   <Town tid="3" CellNumX="5" CellNumZ="3" CellSizeX="18" CellSizeZ="20" weight="50" Level="1">
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="302" num="1" />
+<NPC nid="352" num="1" />
+<NPC nid="402" num="1" />
+<NPC nid="502" num="1" />
+<NPC nid="552" num="1" />
+<NPC nid="702" num="1" />
+<NPC nid="752" num="1" />
+<NPC nid="802" num="1" />
+<NPC nid="852" num="1" />
+<NPC nid="902" num="1" />
+<NPC nid="952" num="1" /> 
+      </NPCArray>
+	  
+      <BuildingNumArray>
+	   <!--cybuild1-->
+<BuildingNum  bid="1"  num="2" />
+<BuildingNum  bid="2"  num="2" />
+<BuildingNum  bid="3"  num="1" />
+<BuildingNum  bid="6"  num="1" />
+<BuildingNum  bid="5"  num="1" />
+<BuildingNum  bid="7"  num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息 布局5-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="3" z="0" rot="2" /> 
+<Cell x="4" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="3" z="2" rot="0" /> 
+<Cell x="4" z="2" rot="0" /> 
+	  </CellArray>
+    </Town>
+	
+    <Town tid="4" CellNumX="5" CellNumZ="3" CellSizeX="18" CellSizeZ="18" weight="60" Level="2">
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="303" num="1" />
+<NPC nid="353" num="1" />
+<NPC nid="403" num="1" />
+<NPC nid="453" num="1" />
+<NPC nid="503" num="1" />
+<NPC nid="603" num="1" />
+<NPC nid="703" num="1" />
+<NPC nid="753" num="1" />
+<NPC nid="803" num="1" />
+<NPC nid="853" num="1" />
+<NPC nid="903" num="1" />
+<NPC nid="953" num="1" /> 
+
+      </NPCArray>
+	  <!--布局4_6  22~27 build_tech-->
+      <BuildingNumArray>
+	      <BuildingNum bid="16" num="1" />
+        <BuildingNum bid="17" num="1" />
+        <BuildingNum bid="18" num="1" />
+	<BuildingNum bid="19" num="1" />
+	<BuildingNum bid="20" num="1" />
+	<BuildingNum bid="21" num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息 布局4-->
+	  <CellArray>
+        <Cell x="0" z="0" rot="3" />
+		<Cell x="0" z="1" rot="3" />
+        <Cell x="4" z="0" rot="1" />
+		<Cell x="4" z="1" rot="1" />
+        <Cell x="1" z="2" rot="0" />
+        <Cell x="2" z="2" rot="0" />
+	  </CellArray>
+    </Town>
+
+<Town tid="5" CellNumX="3" CellNumZ="3" CellSizeX="18" CellSizeZ="18" weight="40" Level="2">
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="303" num="1" />
+<NPC nid="353" num="1" />
+<NPC nid="403" num="1" />
+<NPC nid="453" num="1" />
+<NPC nid="503" num="1" />
+<NPC nid="603" num="1" />
+<NPC nid="703" num="1" />
+<NPC nid="753" num="1" />
+<NPC nid="803" num="1" />
+<NPC nid="853" num="1" />
+<NPC nid="903" num="1" />
+<NPC nid="953" num="1" /> 
+
+      </NPCArray>
+	  <!--布局4_8  22~27 build_tree-->
+      <BuildingNumArray>
+<BuildingNum bid="22" num="3" />
+<BuildingNum bid="23" num="1" />
+<BuildingNum bid="24" num="1" />
+<BuildingNum bid="25" num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="2" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="2" z="2" rot="0" /> 
+	  </CellArray>
+    </Town>
+	
+    <Town tid="6" CellNumX="6" CellNumZ="2" CellSizeX="20" CellSizeZ="20" weight="60" Level="3">
+      <!--城镇npc信息-->
+	  <NPCArray>
+	<NPC nid="304" num="1" />
+<NPC nid="354" num="1" />
+<NPC nid="404" num="1" />
+<NPC nid="454" num="1" />
+<NPC nid="504" num="1" />
+<NPC nid="554" num="1" />
+<NPC nid="604" num="1" />
+<NPC nid="654" num="1" />
+<NPC nid="704" num="1" />
+<NPC nid="754" num="1" />
+<NPC nid="804" num="1" />
+<NPC nid="854" num="1" />
+<NPC nid="904" num="1" />
+<NPC nid="954" num="1" /> 
+
+      </NPCArray>
+	  <!--build_sim01-->
+      <BuildingNumArray>
+	<BuildingNum bid="10" num="2" />
+    <BuildingNum bid="11" num="2" />
+	<BuildingNum bid="12" num="1" />
+	<BuildingNum bid="13" num="1" />
+	<BuildingNum bid="15" num="1" />
+	<BuildingNum bid="16" num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息-->
+	  <CellArray>
+        <Cell x="0" z="0" rot="3" />
+		<Cell x="0" z="1" rot="3" />
+		<Cell x="2" z="0" rot="1" />
+		<Cell x="2" z="1" rot="1" />
+		<Cell x="3" z="0" rot="3" />
+		<Cell x="3" z="1" rot="3" />
+        <Cell x="5" z="0" rot="1" />
+		<Cell x="5" z="1" rot="1" />
+	  </CellArray>
+    </Town>
+	
+	<Town tid="7" CellNumX="3" CellNumZ="3" CellSizeX="18" CellSizeZ="18" weight="60" Level="3">
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="304" num="1" />
+<NPC nid="354" num="1" />
+<NPC nid="404" num="1" />
+<NPC nid="454" num="1" />
+<NPC nid="504" num="1" />
+<NPC nid="554" num="1" />
+<NPC nid="604" num="1" />
+<NPC nid="654" num="1" />
+<NPC nid="704" num="1" />
+<NPC nid="754" num="1" />
+<NPC nid="804" num="1" />
+<NPC nid="854" num="1" />
+<NPC nid="904" num="1" />
+<NPC nid="954" num="1" /> 
+
+      </NPCArray>
+	  <!--build_sim01-->
+      <BuildingNumArray>
+	<BuildingNum bid="10" num="1" />
+    <BuildingNum bid="11" num="1" />
+	<BuildingNum bid="12" num="1" />
+	<BuildingNum bid="13" num="1" />
+	<BuildingNum bid="15" num="1" />
+	<BuildingNum bid="16" num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="2" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="2" z="2" rot="0" /> 
+	  </CellArray>
+    </Town>
+
+<Town tid="8" CellNumX="2" CellNumZ="6" CellSizeX="18" CellSizeZ="18" weight="60" Level="4">
+      <!--城镇npc信息-->
+	  <NPCArray>
+<NPC nid="305" num="1" />
+<NPC nid="355" num="1" />
+<NPC nid="405" num="1" />
+<NPC nid="455" num="1" />
+<NPC nid="505" num="1" />
+<NPC nid="555" num="1" />
+<NPC nid="605" num="1" />
+<NPC nid="655" num="1" />
+<NPC nid="705" num="1" />
+<NPC nid="755" num="1" />
+<NPC nid="805" num="1" />
+<NPC nid="855" num="1" />
+<NPC nid="905" num="1" />
+<NPC nid="905" num="1" />
+<NPC nid="955" num="1" /> 
+
+      </NPCArray>
+	  <!--布局6_16 ctbuild1-->
+      <BuildingNumArray>
+<BuildingNum	 bid="36"	 num="2" />
+<BuildingNum	 bid="37"	 num="2" />
+<BuildingNum	 bid="38"	 num="1" />
+<BuildingNum	 bid="39"	 num="1" />
+<BuildingNum	 bid="40"	 num="1" />
+<BuildingNum	 bid="41"	 num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息 布局8-->
+	  <CellArray>
+<Cell x="0" z="0" rot="2" /> 
+<Cell x="1" z="0" rot="2" /> 
+<Cell x="0" z="2" rot="0" /> 
+<Cell x="1" z="2" rot="0" /> 
+<Cell x="0" z="3" rot="2" /> 
+<Cell x="1" z="3" rot="2" /> 
+<Cell x="0" z="5" rot="0" /> 
+<Cell x="1" z="5" rot="0" /> 
+	  </CellArray>
+    </Town>	
+	
+<Town tid="9" CellNumX="6" CellNumZ="3" CellSizeX="20" CellSizeZ="18" weight="50" Level="4">
+      <!--城镇npc信息-->
+	  <NPCArray>
+	<NPC nid="305" num="1" />
+<NPC nid="355" num="1" />
+<NPC nid="405" num="1" />
+<NPC nid="455" num="1" />
+<NPC nid="505" num="1" />
+<NPC nid="555" num="1" />
+<NPC nid="605" num="1" />
+<NPC nid="655" num="1" />
+<NPC nid="705" num="1" />
+<NPC nid="755" num="1" />
+<NPC nid="805" num="1" />
+<NPC nid="855" num="1" />
+<NPC nid="905" num="1" />
+<NPC nid="955" num="1" /> 
+
+      </NPCArray>
+	  <!--布局1_8 ctbuild1-->
+      <BuildingNumArray>
+<BuildingNum	 bid="36"	 num="2" />
+<BuildingNum	 bid="37"	 num="2" />
+<BuildingNum	 bid="38"	 num="1" />
+<BuildingNum	 bid="39"	 num="1" />
+<BuildingNum	 bid="40"	 num="1" />
+<BuildingNum	 bid="41"	 num="1" />
+      </BuildingNumArray>
+      <!--城镇布局信息-->
+	  <CellArray>
+<Cell x="0" z="0" rot="3" /> 
+<Cell x="0" z="1" rot="3" /> 
+<Cell x="0" z="2" rot="3" /> 
+<Cell x="5" z="0" rot="1" /> 
+<Cell x="5" z="1" rot="1" /> 
+<Cell x="5" z="2" rot="1" /> 
+<Cell x="2" z="1" rot="1" /> 
+<Cell x="3" z="1" rot="3" /> 
+	  </CellArray>
+    </Town>	
+  </TownArray>
+</RandomTownDsc>

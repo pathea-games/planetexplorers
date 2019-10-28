@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VArtifactTownDesc townsize="500" DistanceX="2400" DistanceZ="2400">
+  <VAStartTown tid="-1" Level="0" weight="100">              <!--初始城镇 任务NPC尽量不要动-->
+    <ArtifactUnitArray>
+      <ArtifactUnit id="11" pos="0,0" rot="0" type="0">     <!--地盘ID，其他不用填暂时没用-->
+        <NPCArray>        <!--NPCID取自于F:\PE\Document\GameDesign\★表格\历险模式任务表格AdRandNPCMission.xlsx ID列-->
+<NPC nid="1" num="1" />  <!--任务npc-->
+<NPC nid="301" num="1" />
+<NPC nid="351" num="1" />
+<NPC nid="401" num="1" />
+<NPC nid="551" num="1" />
+<NPC nid="801" num="1" />
+        </NPCArray>
+        <BuildingNumArray>    <!--房屋数据，bid=建筑ID 建筑数量；随机生成在Town_artifacts表格的房屋坐标下-->
+	<BuildingNum bid="20" num="1" />    <!--第一个位置就是任务房子，旅馆-->
+    <BuildingNum bid="19" num="1" />          <!--民居-->
+	<BuildingNum bid="21" num="1" posIndex="0" />          <!--商店-->
+	<BuildingNum bid="22" num="1" posIndex="1" />          <!--公告牌-->
+	<BuildingNum bid="63" num="1" posIndex="4" />          <!--修理机-->	
+	<BuildingNum bid="64" num="1" posIndex="5" />          <!--太阳能-->	
+        </BuildingNumArray>
+      </ArtifactUnit>
+    </ArtifactUnitArray>
+  </VAStartTown>
+  <VATownArray>
+    <VATown tid="0" Level="0" weight="50">               <!--0级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="10" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="301" num="1" />
+<NPC nid="351" num="1" />
+<NPC nid="401" num="1" />
+<NPC nid="551" num="1" />
+<NPC nid="701" num="1" />
+<NPC nid="751" num="1" />
+<NPC nid="801" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+	<BuildingNum bid="20" num="1" />    <!--旅馆-->
+    <BuildingNum bid="19" num="1" />          <!--民居-->
+	<BuildingNum bid="21" num="1" />          <!--商店-->
+	<BuildingNum bid="22" num="1" posIndex="1" />          <!--公告牌-->
+          </BuildingNumArray>
+        </ArtifactUnit>
+      </ArtifactUnitArray>
+    </VATown>
+ <VATown tid="1" Level="1" weight="50">                  <!--1级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="10" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="302" num="1" />
+<NPC nid="352" num="1" />
+<NPC nid="402" num="1" />
+<NPC nid="502" num="1" />
+<NPC nid="552" num="1" />
+<NPC nid="702" num="1" />
+<NPC nid="752" num="1" />
+<NPC nid="802" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+	<BuildingNum bid="1" num="2" />    <!--民居-->
+    <BuildingNum bid="2" num="2" />          <!--商店-->
+	<BuildingNum bid="3" num="1" />          <!--议事厅-->
+	<BuildingNum bid="63" num="1" posIndex="6" />          <!--修理机-->	
+	<BuildingNum bid="64" num="1" posIndex="7" />          <!--太阳能-->	
+          </BuildingNumArray>
+        </ArtifactUnit>
+      </ArtifactUnitArray>
+    </VATown>
+<VATown tid="2" Level="1" weight="60">          <!--1级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="9" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="302" num="1" />
+<NPC nid="352" num="1" />
+<NPC nid="402" num="1" />
+<NPC nid="502" num="1" />
+<NPC nid="552" num="1" />
+<NPC nid="602" num="1" />
+<NPC nid="702" num="1" /> <!--shangren-->
+<NPC nid="752" num="1" />
+<NPC nid="802" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+	<BuildingNum bid="14" num="2" />    <!--民居-->
+    <BuildingNum bid="15" num="1" />          <!--商店-->
+	<BuildingNum bid="16" num="1" />          <!--议事厅-->
+	<BuildingNum bid="63" num="1" posIndex="5" />          <!--修理机-->	
+	<BuildingNum bid="64" num="1" posIndex="6" />          <!--太阳能-->	
+          </BuildingNumArray>
+        </ArtifactUnit>
+      </ArtifactUnitArray>
+    </VATown>
+    <VATown tid="3" Level="2" weight="80"> <!--2级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="1" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="303" num="1" />
+<NPC nid="353" num="1" />
+<NPC nid="403" num="1" />
+<NPC nid="453" num="1" />
+<NPC nid="503" num="1" />
+<NPC nid="603" num="1" />
+<NPC nid="703" num="1" />
+<NPC nid="753" num="1" />
+<NPC nid="803" num="1" />
+<NPC nid="853" num="1" />
+<NPC nid="903" num="1" />
+<NPC nid="953" num="1" /> 
+          </NPCArray>
+          <BuildingNumArray>
+<BuildingNum  bid="1"  num="2" />
+<BuildingNum  bid="2"  num="3" />
+<BuildingNum  bid="3"  num="3" />
+          </BuildingNumArray>
+        </ArtifactUnit>
+      </ArtifactUnitArray>
+    </VATown>
+    <VATown tid="4" Level="2" weight="40"> <!--2级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="2" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="303" num="1" />
+<NPC nid="353" num="1" />
+<NPC nid="403" num="1" />
+<NPC nid="453" num="1" />
+<NPC nid="503" num="1" />
+<NPC nid="603" num="1" />
+<NPC nid="703" num="1" />
+<NPC nid="753" num="1" />
+<NPC nid="803" num="1" />
+<NPC nid="853" num="1" />
+<NPC nid="903" num="1" />
+<NPC nid="953" num="1" /> 
+          </NPCArray>
+          <BuildingNumArray>
+<BuildingNum  bid="14"  num="3" />
+<BuildingNum  bid="15"  num="1" />
+<BuildingNum  bid="16"  num="2" />
+<BuildingNum bid="63" num="1" posIndex="6" />          <!--修理机-->	
+<BuildingNum bid="64" num="1" posIndex="7" />          <!--太阳能-->	
+          </BuildingNumArray>
+        </ArtifactUnit>
+      </ArtifactUnitArray>
+    </VATown>
+ <VATown tid="5" Level="3" weight="100">   <!--3级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="2" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="304" num="1" />
+<NPC nid="404" num="1" />
+<NPC nid="454" num="1" />
+<NPC nid="554" num="1" />
+<NPC nid="604" num="1" />
+<NPC nid="654" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+    <BuildingNum bid="7" num="1" />
+	<BuildingNum bid="8" num="1" />
+	<BuildingNum bid="9" num="1" />
+	<BuildingNum bid="10" num="1" />
+	<BuildingNum bid="12" num="1" />
+	<BuildingNum bid="11" num="1" />
+<BuildingNum bid="63" num="1" posIndex="6" />          <!--修理机-->	
+<BuildingNum bid="64" num="1" posIndex="7" />          <!--太阳能-->	
+          </BuildingNumArray>
+        </ArtifactUnit>
+      </ArtifactUnitArray>
+    </VATown>
+<VATown tid="6" Level="4" weight="20">   <!--4级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="3" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="355" num="1" />
+<NPC nid="405" num="1" />
+<NPC nid="505" num="1" />
+<NPC nid="555" num="1" />
+<NPC nid="605" num="1" />
+<NPC nid="655" num="1" />
+<NPC nid="705" num="1" />
+<NPC nid="755" num="1" />
+<NPC nid="805" num="1" />
+<NPC nid="855" num="1" />
+<NPC nid="905" num="1" />
+<NPC nid="955" num="1" /> 
+          </NPCArray>
+          <BuildingNumArray>
+    <BuildingNum bid="4" num="2" />
+	<BuildingNum bid="5" num="2" />
+	<BuildingNum bid="6" num="2" />
+    <BuildingNum bid="63" num="1" posIndex="8" />          <!--修理机-->	
+    <BuildingNum bid="64" num="1" posIndex="9" />          <!--太阳能-->	
+          </BuildingNumArray>
+		  </ArtifactUnit>
+      </ArtifactUnitArray>
+	  </VATown>
+<VATown tid="7" Level="4" weight="30">   <!--4级城镇-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="2" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="355" num="1" />
+<NPC nid="405" num="1" />
+<NPC nid="505" num="1" />
+<NPC nid="555" num="1" />
+<NPC nid="605" num="1" />
+<NPC nid="655" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+    <BuildingNum bid="7" num="1" />
+	<BuildingNum bid="8" num="1" />
+	<BuildingNum bid="9" num="1" />
+	<BuildingNum bid="10" num="1" />
+	<BuildingNum bid="12" num="1" />
+	<BuildingNum bid="13" num="1" />
+<BuildingNum bid="63" num="1" posIndex="6" />          <!--修理机-->	
+<BuildingNum bid="64" num="1" posIndex="7" />          <!--太阳能-->	
+          </BuildingNumArray>
+		  </ArtifactUnit>
+      </ArtifactUnitArray>
+	  </VATown>
+<VATown tid="10" Level="4" weight="100">   <!--4级城镇 新加入军事-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="2" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="355" num="1" />
+<NPC nid="405" num="1" />
+<NPC nid="505" num="1" />
+<NPC nid="555" num="1" />
+<NPC nid="605" num="1" />
+<NPC nid="655" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+    <BuildingNum bid="23" num="1" />
+	<BuildingNum bid="24" num="1" />
+	<BuildingNum bid="25" num="1" />
+	<BuildingNum bid="26" num="1" />
+<BuildingNum bid="63" num="1" posIndex="6" />          <!--修理机-->	
+<BuildingNum bid="64" num="1" posIndex="7" />          <!--太阳能-->	
+          </BuildingNumArray>
+		  </ArtifactUnit>
+      </ArtifactUnitArray>
+	  </VATown>
+<VATown tid="8" Level="3" weight="5">   <!--3级城镇  装饰 NPC和建筑可以不填写-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="8" pos="0,0" rot="0" type="0">
+          <NPCArray>
+<NPC nid="354" num="1" />
+<NPC nid="404" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+    <BuildingNum bid="4" num="2" />
+	<BuildingNum bid="5" num="2" />
+	<BuildingNum bid="6" num="2" />
+          </BuildingNumArray>
+		  </ArtifactUnit>
+      </ArtifactUnitArray>
+	  </VATown>
+<VATown tid="9" Level="4" weight="7">   <!--4级城镇 装饰 NPC和建筑可以不填写-->
+      <ArtifactUnitArray>
+        <ArtifactUnit id="7" pos="0,0" rot="0" type="0">
+          <NPCArray>
+	<NPC nid="304" num="1" />
+	<NPC nid="355" num="1" />
+          </NPCArray>
+          <BuildingNumArray>
+<BuildingNum	 bid="4"	 num="2" />
+<BuildingNum	 bid="5"	 num="2" />
+<BuildingNum	 bid="6"	 num="1" />
+          </BuildingNumArray>
+		  </ArtifactUnit>
+      </ArtifactUnitArray>
+	  </VATown>
+    </VATownArray>
+</VArtifactTownDesc>

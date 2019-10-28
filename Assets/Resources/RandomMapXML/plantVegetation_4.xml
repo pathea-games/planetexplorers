@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--redstone biome-->
+<AutoPlantDesc>
+  <Region color="0xff29d321">
+    <Trees startFadeIn="175" start="205" sizeVariate="0.5">
+			  	<Tree index="232" pct="10" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Tree index="233" pct="20" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Tree index="234" pct="30" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Tree index="235" pct="50" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+			    <Tree index="236" pct="75" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+				<Tree index="237" pct="100" wScaleMin=".8" wScaleMax="1.5" hScaleMin=".8" hScaleMax="2"/>
+    </Trees>
+    <Grasses startFadeIn="90" start="150" sizeVariate="0.1">
+			  <Grass index="0" pct="10" wScaleMin="1" wScaleMax="1" hScaleMin="1" hScaleMax="1"/>
+			  <Grass index="1" pct="20" wScaleMin="1" wScaleMax="1" hScaleMin="1" hScaleMax="1"/>
+			  <Grass index="238" pct="22" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+			  <Grass index="239" pct="24" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+			  <Grass index="240" pct="26" wScaleMin=".7" wScaleMax="1.5" hScaleMin=".7" hScaleMax="1.5"/>
+			  <Grass index="241" pct="35" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="242" pct="45" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="243" pct="55" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="244" pct="58" wScaleMin="0.7" wScaleMax="1.2" hScaleMin="0.7" hScaleMax="1.2"/>
+			  <Grass index="245" pct="62" wScaleMin="0.7" wScaleMax="1.2" hScaleMin="0.7" hScaleMax="1.2"/>
+			  <Grass index="246" pct="65" wScaleMin="0.7" wScaleMax="1.2" hScaleMin="0.7" hScaleMax="1.2"/>
+			  <Grass index="247" pct="70" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="248" pct="75" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="249" pct="80" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="250" pct="88" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+			  <Grass index="251" pct="94" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+		      <Grass index="252" pct="100" wScaleMin="0.7" wScaleMax="1.5" hScaleMin="0.7" hScaleMax="1.5"/>
+    </Grasses>
+  </Region>
+</AutoPlantDesc>

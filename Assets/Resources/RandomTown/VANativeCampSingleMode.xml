@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VANativeCampDesc NumMin="0" NumMax="2" DistanceMin="500" DistanceMax="1000">  
+	<NativeCampArray>
+		<NativeCamp cid="0" weight="60" Level="0" NativeType="0">             <!--0级营地-->
+			<NativeTower pathID="170" campID="15" damageID="15" >            <!--signaltower00--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="102" type="1"/> <!--士兵短斧puja_type01_solider_shortaxe-->
+				<DynamicNative did="105" type="1"/> <!--士兵来福枪puja_type01_solider_rifle-->
+				<DynamicNative did="109" type="1"/> <!--士兵迫击炮puja_type02_solider_mortar-->
+				<DynamicNative did="51" type="0"/> <!--静态puja_迫击炮301-->
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="103" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="102" num="1" />        <!--士兵短斧puja_type01_solider_shortaxe-->
+						<NPC nid="103" num="1" />        <!--士兵短斧puja_type02_solider_shortaxe-->
+						<NPC nid="105" num="1" />        <!--士兵来福枪puja_type01_solider_rifle-->
+						<NPC nid="108" num="1" />        <!--士兵迫击炮puja_type01_solider_mortar-->
+						<NPC nid="110" num="1" />        <!--士兵迫击炮puja_type03_solider_mortar-->
+					</NPCArray>
+						<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="0" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="1" weight="60" Level="0" NativeType="1">             <!--0级营地-->
+			<NativeTower pathID="171" campID="18" damageID="18" >            <!--signaltower01--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="132" type="1"/> <!--士兵双手重斧paja_type01_solider_graveaxe-->
+				<DynamicNative did="133" type="1"/> <!--士兵喷火枪paja_type01_solider_flame-->
+				<DynamicNative did="134" type="1"/> <!--士兵火箭筒paja_type01_solider_bazooka-->	
+				<DynamicNative did="45" type="0"/> <!--静态paja_火箭301-->
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="103" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="132" num="2" />        <!--士兵双手重斧paja_type01_solider_graveaxe-->
+						<NPC nid="133" num="1" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="134" num="2" />        <!--士兵火箭筒paja_type01_solider_bazooka--> 
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="0" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="2" weight="50" Level="1" NativeType="0">             <!--1级营地-->
+			<NativeTower pathID="172" campID="15" damageID="15" >     <!--signaltower02--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="103" type="1"/> <!--士兵短斧puja_type02_solider_shortaxe-->
+				<DynamicNative did="108" type="1"/> <!--士兵迫击炮puja_type01_solider_mortar-->
+				<DynamicNative did="106" type="1"/> <!--士兵来福枪puja_type02_solider_rifle-->
+				<DynamicNative did="52" type="0"/> <!--静态puja_迫击炮302-->				
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="103" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="102" num="1" />        <!--士兵短斧puja_type01_solider_shortaxe-->			
+						<NPC nid="104" num="2" />        <!--士兵短斧puja_type03_solider_shortaxe-->
+						<NPC nid="105" num="1" />        <!--士兵来福枪puja_type01_solider_rifle-->
+						<NPC nid="107" num="1" />        <!--士兵来福枪puja_type03_solider_rifle-->
+						<NPC nid="110" num="1" />        <!--士兵迫击炮puja_type03_solider_mortar-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="0" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="3" weight="50" Level="1" NativeType="1">             <!--1级营地-->
+			<NativeTower pathID="173" campID="18" damageID="18" >     <!--signaltower03--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="132" type="1"/> <!--士兵双手重斧paja_type01_solider_graveaxe-->
+				<DynamicNative did="134" type="1"/> <!--士兵火箭筒paja_type01_solider_bazooka-->
+				<DynamicNative did="133" type="1"/> <!--士兵喷火枪paja_type01_solider_flame-->
+				<DynamicNative did="36" type="0"/> <!--静态Paja_喷火兵302-->
+				<DynamicNative did="45" type="0"/> <!--静态paja_火箭301-->
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="105" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="132" num="2" />        <!--士兵双手重斧paja_type01_solider_graveaxe-->
+						<NPC nid="133" num="1" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="133" num="1" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="134" num="2" />        <!--士兵火箭筒paja_type01_solider_bazooka-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="0" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>		
+		<NativeCamp cid="4" weight="50" Level="2" NativeType="0">             <!--2级营地-->
+			<NativeTower pathID="174" campID="15" damageID="15" >            <!--signaltower04--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="104" type="1"/> <!--士兵短斧puja_type03_solider_shortaxe-->
+				<DynamicNative did="106" type="1"/> <!--士兵来福枪puja_type02_solider_rifle-->
+				<DynamicNative did="108" type="1"/> <!--士兵迫击炮puja_type01_solider_mortar-->
+				<DynamicNative did="65" type="0"/> <!--静态puja_远程302-->
+				<DynamicNative did="53" type="0"/>	<!--静态puja_迫击炮401-->					
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="105" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="102" num="1" />        <!--士兵短斧puja_type01_solider_shortaxe-->		
+						<NPC nid="103" num="1" />        <!--士兵短斧puja_type02_solider_shortaxe-->		
+						<NPC nid="104" num="1" />        <!--士兵短斧puja_type03_solider_shortaxe-->
+						<NPC nid="105" num="1" />        <!--士兵来福枪puja_type01_solider_rifle-->
+						<NPC nid="107" num="1" />        <!--士兵来福枪puja_type03_solider_rifle-->
+						<NPC nid="108" num="1" />        <!--士兵迫击炮puja_type01_solider_mortar-->
+						<NPC nid="109" num="1" />        <!--士兵迫击炮puja_type02_solider_mortar-->
+						<NPC nid="110" num="1" />        <!--士兵迫击炮puja_type03_solider_mortar-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="1" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="5" weight="50" Level="2" NativeType="1">             <!--2级营地-->
+			<NativeTower pathID="175" campID="18" damageID="18" >            <!--signaltower05--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="132" type="1"/> <!--士兵双手重斧paja_type01_solider_graveaxe-->
+				<DynamicNative did="133" type="1"/> <!--士兵喷火枪paja_type01_solider_flame-->
+				<DynamicNative did="134" type="1"/> <!--士兵火箭筒paja_type01_solider_bazooka-->
+				<DynamicNative did="29" type="0"/> <!--静态Paja_混合401-->
+				<DynamicNative did="32" type="0"/>	<!--静态Paja_近战301-->
+				<DynamicNative did="45" type="0"/>	<!--静态paja_火箭301-->					
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="105" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="132" num="2" />        <!--士兵双手重斧paja_type01_solider_graveaxe-->
+						<NPC nid="133" num="1" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="133" num="2" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="134" num="3" />        <!--士兵火箭筒paja_type01_solider_bazooka-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="1" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="6" weight="50" Level="3" NativeType="0">             <!--3级营地-->
+			<NativeTower pathID="176" campID="15" damageID="15" >             <!--signaltower06--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="102" type="1"/> <!--士兵短斧puja_type01_solider_shortaxe-->
+				<DynamicNative did="106" type="1"/> <!--士兵来福枪puja_type02_solider_rifle-->
+				<DynamicNative did="110" type="1"/> <!--士兵迫击炮puja_type03_solider_mortar-->
+				<DynamicNative did="57" type="0"/> <!--静态Puja_混合401-->
+				<DynamicNative did="61" type="0"/> <!--静态puja_近战301-->
+				<DynamicNative did="65" type="0"/> <!--静态puja_远程302-->
+				<DynamicNative did="53" type="0"/>	<!--静态puja_迫击炮401-->					
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="105" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="102" num="1" />        <!--士兵短斧puja_type01_solider_shortaxe-->		
+						<NPC nid="103" num="1" />        <!--士兵短斧puja_type02_solider_shortaxe-->		
+						<NPC nid="104" num="1" />        <!--士兵短斧puja_type03_solider_shortaxe-->
+						<NPC nid="105" num="1" />        <!--士兵来福枪puja_type01_solider_rifle-->
+						<NPC nid="106" num="1" />        <!--士兵来福枪puja_type02_solider_rifle-->
+						<NPC nid="107" num="1" />        <!--士兵来福枪puja_type03_solider_rifle-->
+						<NPC nid="108" num="1" />        <!--士兵迫击炮puja_type01_solider_mortar-->
+						<NPC nid="109" num="1" />        <!--士兵迫击炮puja_type02_solider_mortar-->
+						<NPC nid="110" num="1" />        <!--士兵迫击炮puja_type03_solider_mortar-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="2" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="1" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="7" weight="50" Level="3" NativeType="1">             <!--3级营地-->
+			<NativeTower pathID="177" campID="18" damageID="18" >             <!--signaltower07--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="132" type="1"/> <!--士兵双手重斧paja_type01_solider_graveaxe-->
+				<DynamicNative did="133" type="1"/> <!--士兵喷火枪paja_type01_solider_flame-->
+				<DynamicNative did="134" type="1"/> <!--士兵火箭筒paja_type01_solider_bazooka-->
+				<DynamicNative did="29" type="0"/> <!--静态Paja_混合401-->
+				<DynamicNative did="32" type="0"/>	<!--静态Paja_近战301-->
+				<DynamicNative did="36" type="0"/>	<!--静态Paja_喷火兵302-->		
+				<DynamicNative did="47" type="0"/>	<!--静态paja_火箭401-->					
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="105" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="132" num="3" />        <!--士兵双手重斧paja_type01_solider_graveaxe-->
+						<NPC nid="133" num="2" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="133" num="2" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="134" num="3" />        <!--士兵火箭筒paja_type01_solider_bazooka-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="2" />    <!--tent04-->
+						<BuildingNum bid="52" num="1" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="8" weight="50" Level="4" NativeType="0">             <!--4级营地-->
+			<NativeTower pathID="178" campID="15" damageID="15" >             <!--signaltower08--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="57" type="0"/> <!--静态Puja_混合401-->
+				<DynamicNative did="60" type="0"/> <!--静态Puja_混合503-->
+				<DynamicNative did="61" type="0"/> <!--静态puja_近战301-->
+				<DynamicNative did="62" type="0"/>	<!--静态puja_近战401-->
+				<DynamicNative did="64" type="0"/> <!--静态puja_远程301-->
+				<DynamicNative did="65" type="0"/> <!--静态puja_远程302-->
+				<DynamicNative did="66" type="0"/>	<!--静态puja_远程401-->
+				<DynamicNative did="51" type="0"/>	<!--静态puja_迫击炮301-->	
+				<DynamicNative did="52" type="0"/>	<!--静态puja_迫击炮302-->	
+				<DynamicNative did="53" type="0"/>	<!--静态puja_迫击炮401-->					
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="105" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="102" num="1" />        <!--士兵短斧puja_type01_solider_shortaxe-->
+						<NPC nid="103" num="2" />        <!--士兵短斧puja_type02_solider_shortaxe-->
+						<NPC nid="104" num="1" />        <!--士兵短斧puja_type03_solider_shortaxe-->
+						<NPC nid="105" num="1" />        <!--士兵来福枪puja_type01_solider_rifle-->
+						<NPC nid="106" num="1" />        <!--士兵来福枪puja_type02_solider_rifle-->
+						<NPC nid="107" num="1" />        <!--士兵来福枪puja_type03_solider_rifle-->
+						<NPC nid="108" num="1" />        <!--士兵迫击炮puja_type01_solider_mortar-->
+						<NPC nid="109" num="2" />        <!--士兵迫击炮puja_type02_solider_mortar-->
+						<NPC nid="110" num="2" />        <!--士兵迫击炮puja_type03_solider_mortar-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="1" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="2" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="1" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+		<NativeCamp cid="9" weight="50" Level="4" NativeType="1">             <!--4级营地-->
+			<NativeTower pathID="179" campID="18" damageID="18" >            <!--signaltower09--><!-- 0:群组，1：单体   -->
+				<DynamicNative did="29" type="0"/> <!--静态Paja_混合401-->
+				<DynamicNative did="31" type="0"/> <!--静态Paja_混合502-->
+				<DynamicNative did="32" type="0"/>	<!--静态Paja_近战301-->
+				<DynamicNative did="33" type="0"/>	<!--静态Paja_近战401-->
+				<DynamicNative did="35" type="0"/> <!--静态Paja_喷火兵301-->
+				<DynamicNative did="36" type="0"/>	<!--静态Paja_喷火兵302-->		
+				<DynamicNative did="37" type="0"/>	<!--静态Paja_喷火兵401-->
+				<DynamicNative did="45" type="0"/>	<!--静态paja_火箭301-->
+				<DynamicNative did="45" type="0"/>	<!--静态paja_火箭301-->
+				<DynamicNative did="47" type="0"/>	<!--静态paja_火箭401-->				
+			</NativeTower>
+			<ArtifactUnitArray>
+				<ArtifactUnit id="105" pos="0,0" rot="0" type="0">
+					<NPCArray>
+						<NPC nid="132" num="4" />        <!--士兵双手重斧paja_type01_solider_graveaxe-->		
+						<NPC nid="133" num="2" />        <!--士兵喷火枪paja_type01_solider_flame-->		
+						<NPC nid="133" num="2" />        <!--士兵喷火枪paja_type01_solider_flame-->
+						<NPC nid="134" num="4" />        <!--士兵火箭筒paja_type01_solider_bazooka-->
+					</NPCArray>
+					<BuildingNumArray>
+						<BuildingNum bid="48" num="2" />    <!--tent01-->
+						<BuildingNum bid="49" num="1" />    <!--tent02-->
+						<BuildingNum bid="50" num="1" />    <!--tent03-->
+						<BuildingNum bid="51" num="1" />    <!--tent04-->
+						<BuildingNum bid="52" num="1" />    <!--watchtower-->
+					</BuildingNumArray>
+				</ArtifactUnit>
+			</ArtifactUnitArray>
+		</NativeCamp>
+	</NativeCampArray>
+</VANativeCampDesc>
