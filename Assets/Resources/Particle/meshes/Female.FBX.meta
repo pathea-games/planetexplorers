@@ -1,0 +1,1371 @@
+fileFormatVersion: 2
+guid: 0c2655988471961499977601414e073c
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: hair_0
+    4300002: eyes_0
+    4300004: hands_0
+    4300006: head_0
+    4300008: torso_0
+    4300010: legs_0
+    4300012: feet_0
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 111
+        second: 605fa900
+    Bip01:
+      data:
+        first: 1
+        second: ca870100
+      data:
+        first: 4
+        second: aa1b0600
+    Bip01 Footsteps:
+      data:
+        first: 1
+        second: c8870100
+      data:
+        first: 4
+        second: a81b0600
+    Bip01 Head:
+      data:
+        first: 1
+        second: 7e870100
+      data:
+        first: 4
+        second: 5e1b0600
+    Bip01 HeadNub:
+      data:
+        first: 1
+        second: 7c870100
+      data:
+        first: 4
+        second: 5c1b0600
+    Bip01 L Calf:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+    Bip01 L Clavicle:
+      data:
+        first: 1
+        second: 12880100
+      data:
+        first: 4
+        second: f21b0600
+    Bip01 L Finger0:
+      data:
+        first: 1
+        second: b8870100
+      data:
+        first: 4
+        second: 981b0600
+    Bip01 L Finger01:
+      data:
+        first: 1
+        second: 0e880100
+      data:
+        first: 4
+        second: ee1b0600
+    Bip01 L Finger02:
+      data:
+        first: 1
+        second: 0c880100
+      data:
+        first: 4
+        second: ec1b0600
+    Bip01 L Finger0Nub:
+      data:
+        first: 1
+        second: 0a880100
+      data:
+        first: 4
+        second: ea1b0600
+    Bip01 L Finger1:
+      data:
+        first: 1
+        second: b6870100
+      data:
+        first: 4
+        second: 961b0600
+    Bip01 L Finger11:
+      data:
+        first: 1
+        second: 08880100
+      data:
+        first: 4
+        second: e81b0600
+    Bip01 L Finger12:
+      data:
+        first: 1
+        second: 06880100
+      data:
+        first: 4
+        second: e61b0600
+    Bip01 L Finger1Nub:
+      data:
+        first: 1
+        second: 04880100
+      data:
+        first: 4
+        second: e41b0600
+    Bip01 L Finger2:
+      data:
+        first: 1
+        second: b4870100
+      data:
+        first: 4
+        second: 941b0600
+    Bip01 L Finger21:
+      data:
+        first: 1
+        second: 02880100
+      data:
+        first: 4
+        second: e21b0600
+    Bip01 L Finger22:
+      data:
+        first: 1
+        second: 00880100
+      data:
+        first: 4
+        second: e01b0600
+    Bip01 L Finger2Nub:
+      data:
+        first: 1
+        second: fe870100
+      data:
+        first: 4
+        second: de1b0600
+    Bip01 L Finger3:
+      data:
+        first: 1
+        second: b2870100
+      data:
+        first: 4
+        second: 921b0600
+    Bip01 L Finger31:
+      data:
+        first: 1
+        second: fc870100
+      data:
+        first: 4
+        second: dc1b0600
+    Bip01 L Finger32:
+      data:
+        first: 1
+        second: fa870100
+      data:
+        first: 4
+        second: da1b0600
+    Bip01 L Finger3Nub:
+      data:
+        first: 1
+        second: f8870100
+      data:
+        first: 4
+        second: d81b0600
+    Bip01 L Finger4:
+      data:
+        first: 1
+        second: b0870100
+      data:
+        first: 4
+        second: 901b0600
+    Bip01 L Finger41:
+      data:
+        first: 1
+        second: f6870100
+      data:
+        first: 4
+        second: d61b0600
+    Bip01 L Finger42:
+      data:
+        first: 1
+        second: f4870100
+      data:
+        first: 4
+        second: d41b0600
+    Bip01 L Finger4Nub:
+      data:
+        first: 1
+        second: f2870100
+      data:
+        first: 4
+        second: d21b0600
+    Bip01 L Foot:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+    Bip01 L Forearm:
+      data:
+        first: 1
+        second: bc870100
+      data:
+        first: 4
+        second: 9c1b0600
+    Bip01 L Hand:
+      data:
+        first: 1
+        second: ba870100
+      data:
+        first: 4
+        second: 9a1b0600
+    Bip01 L Thigh:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+    Bip01 L Toe0:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+    Bip01 L Toe0Nub:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+    Bip01 L UpperArm:
+      data:
+        first: 1
+        second: 10880100
+      data:
+        first: 4
+        second: f01b0600
+    Bip01 Neck:
+      data:
+        first: 1
+        second: be870100
+      data:
+        first: 4
+        second: 9e1b0600
+    Bip01 Pelvis:
+      data:
+        first: 1
+        second: c6870100
+      data:
+        first: 4
+        second: a61b0600
+    Bip01 R Calf:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+    Bip01 R Clavicle:
+      data:
+        first: 1
+        second: f0870100
+      data:
+        first: 4
+        second: d01b0600
+    Bip01 R Finger0:
+      data:
+        first: 1
+        second: 98870100
+      data:
+        first: 4
+        second: 781b0600
+    Bip01 R Finger01:
+      data:
+        first: 1
+        second: ec870100
+      data:
+        first: 4
+        second: cc1b0600
+    Bip01 R Finger02:
+      data:
+        first: 1
+        second: ea870100
+      data:
+        first: 4
+        second: ca1b0600
+    Bip01 R Finger0Nub:
+      data:
+        first: 1
+        second: e8870100
+      data:
+        first: 4
+        second: c81b0600
+    Bip01 R Finger1:
+      data:
+        first: 1
+        second: 96870100
+      data:
+        first: 4
+        second: 761b0600
+    Bip01 R Finger11:
+      data:
+        first: 1
+        second: e6870100
+      data:
+        first: 4
+        second: c61b0600
+    Bip01 R Finger12:
+      data:
+        first: 1
+        second: e4870100
+      data:
+        first: 4
+        second: c41b0600
+    Bip01 R Finger1Nub:
+      data:
+        first: 1
+        second: e2870100
+      data:
+        first: 4
+        second: c21b0600
+    Bip01 R Finger2:
+      data:
+        first: 1
+        second: 94870100
+      data:
+        first: 4
+        second: 741b0600
+    Bip01 R Finger21:
+      data:
+        first: 1
+        second: e0870100
+      data:
+        first: 4
+        second: c01b0600
+    Bip01 R Finger22:
+      data:
+        first: 1
+        second: de870100
+      data:
+        first: 4
+        second: be1b0600
+    Bip01 R Finger2Nub:
+      data:
+        first: 1
+        second: dc870100
+      data:
+        first: 4
+        second: bc1b0600
+    Bip01 R Finger3:
+      data:
+        first: 1
+        second: 92870100
+      data:
+        first: 4
+        second: 721b0600
+    Bip01 R Finger31:
+      data:
+        first: 1
+        second: da870100
+      data:
+        first: 4
+        second: ba1b0600
+    Bip01 R Finger32:
+      data:
+        first: 1
+        second: d8870100
+      data:
+        first: 4
+        second: b81b0600
+    Bip01 R Finger3Nub:
+      data:
+        first: 1
+        second: d6870100
+      data:
+        first: 4
+        second: b61b0600
+    Bip01 R Finger4:
+      data:
+        first: 1
+        second: 90870100
+      data:
+        first: 4
+        second: 701b0600
+    Bip01 R Finger41:
+      data:
+        first: 1
+        second: d4870100
+      data:
+        first: 4
+        second: b41b0600
+    Bip01 R Finger42:
+      data:
+        first: 1
+        second: d2870100
+      data:
+        first: 4
+        second: b21b0600
+    Bip01 R Finger4Nub:
+      data:
+        first: 1
+        second: d0870100
+      data:
+        first: 4
+        second: b01b0600
+    Bip01 R Foot:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+    Bip01 R Forearm:
+      data:
+        first: 1
+        second: 9c870100
+      data:
+        first: 4
+        second: 7c1b0600
+    Bip01 R Hand:
+      data:
+        first: 1
+        second: 9a870100
+      data:
+        first: 4
+        second: 7a1b0600
+    Bip01 R Thigh:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+    Bip01 R Toe0:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+    Bip01 R Toe0Nub:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+    Bip01 R UpperArm:
+      data:
+        first: 1
+        second: ee870100
+      data:
+        first: 4
+        second: ce1b0600
+    Bip01 Spine:
+      data:
+        first: 1
+        second: c4870100
+      data:
+        first: 4
+        second: a41b0600
+    Bip01 Spine1:
+      data:
+        first: 1
+        second: c2870100
+      data:
+        first: 4
+        second: a21b0600
+    Bip01 Spine2:
+      data:
+        first: 1
+        second: c0870100
+      data:
+        first: 4
+        second: a01b0600
+    Bone01:
+      data:
+        first: 1
+        second: 74870100
+      data:
+        first: 4
+        second: 541b0600
+    Bone02:
+      data:
+        first: 1
+        second: 40870100
+      data:
+        first: 4
+        second: 201b0600
+    Bone03:
+      data:
+        first: 1
+        second: 6e870100
+      data:
+        first: 4
+        second: 4e1b0600
+    Bone04:
+      data:
+        first: 1
+        second: 34870100
+      data:
+        first: 4
+        second: 141b0600
+    Bone05:
+      data:
+        first: 1
+        second: 32870100
+      data:
+        first: 4
+        second: 121b0600
+    Bone06:
+      data:
+        first: 1
+        second: 48870100
+      data:
+        first: 4
+        second: 281b0600
+    Bone07:
+      data:
+        first: 1
+        second: 4c870100
+      data:
+        first: 4
+        second: 2c1b0600
+    Bone08:
+      data:
+        first: 1
+        second: 3a870100
+      data:
+        first: 4
+        second: 1a1b0600
+    Bone09:
+      data:
+        first: 1
+        second: 38870100
+      data:
+        first: 4
+        second: 181b0600
+    Bone10:
+      data:
+        first: 1
+        second: 44870100
+      data:
+        first: 4
+        second: 241b0600
+    Bone100:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+    Bone101:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+    Bone102:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+    Bone11:
+      data:
+        first: 1
+        second: 42870100
+      data:
+        first: 4
+        second: 221b0600
+    Bone12:
+      data:
+        first: 1
+        second: 78870100
+      data:
+        first: 4
+        second: 581b0600
+    Bone13:
+      data:
+        first: 1
+        second: 0a870100
+      data:
+        first: 4
+        second: ea1a0600
+    Bone14:
+      data:
+        first: 1
+        second: a0870100
+      data:
+        first: 4
+        second: 801b0600
+    Bone15:
+      data:
+        first: 1
+        second: 30870100
+      data:
+        first: 4
+        second: 101b0600
+    Bone16:
+      data:
+        first: 1
+        second: 22870100
+      data:
+        first: 4
+        second: 021b0600
+    Bone17:
+      data:
+        first: 1
+        second: 62870100
+      data:
+        first: 4
+        second: 421b0600
+    Bone18:
+      data:
+        first: 1
+        second: 28870100
+      data:
+        first: 4
+        second: 081b0600
+    Bone19:
+      data:
+        first: 1
+        second: 3c870100
+      data:
+        first: 4
+        second: 1c1b0600
+    Bone20:
+      data:
+        first: 1
+        second: 3e870100
+      data:
+        first: 4
+        second: 1e1b0600
+    Bone21:
+      data:
+        first: 1
+        second: a6870100
+      data:
+        first: 4
+        second: 861b0600
+    Bone22:
+      data:
+        first: 1
+        second: ac870100
+      data:
+        first: 4
+        second: 8c1b0600
+    Bone23:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+    Bone24:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+    Bone25:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+    Bone26:
+      data:
+        first: 1
+        second: 16870100
+      data:
+        first: 4
+        second: f61a0600
+    Bone27:
+      data:
+        first: 1
+        second: 12870100
+      data:
+        first: 4
+        second: f21a0600
+    Bone28:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+    Bone29:
+      data:
+        first: 1
+        second: 0e870100
+      data:
+        first: 4
+        second: ee1a0600
+    Bone30:
+      data:
+        first: 1
+        second: 1a870100
+      data:
+        first: 4
+        second: fa1a0600
+    Bone33:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+    Bone34:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+    Bone35:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+    Bone36:
+      data:
+        first: 1
+        second: 8c870100
+      data:
+        first: 4
+        second: 6c1b0600
+    Bone37:
+      data:
+        first: 1
+        second: 86870100
+      data:
+        first: 4
+        second: 661b0600
+    Bone38:
+      data:
+        first: 1
+        second: 82870100
+      data:
+        first: 4
+        second: 621b0600
+    Bone39:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+    Bone40:
+      data:
+        first: 1
+        second: 9e870100
+      data:
+        first: 4
+        second: 7e1b0600
+    Bone41:
+      data:
+        first: 1
+        second: 6c870100
+      data:
+        first: 4
+        second: 4c1b0600
+    Bone42:
+      data:
+        first: 1
+        second: 6a870100
+      data:
+        first: 4
+        second: 4a1b0600
+    Bone43:
+      data:
+        first: 1
+        second: 06870100
+      data:
+        first: 4
+        second: e61a0600
+    Bone44:
+      data:
+        first: 1
+        second: 04870100
+      data:
+        first: 4
+        second: e41a0600
+    Bone45:
+      data:
+        first: 1
+        second: 02870100
+      data:
+        first: 4
+        second: e21a0600
+    Bone46:
+      data:
+        first: 1
+        second: 50870100
+      data:
+        first: 4
+        second: 301b0600
+    Bone47:
+      data:
+        first: 1
+        second: 52870100
+      data:
+        first: 4
+        second: 321b0600
+    Bone48:
+      data:
+        first: 1
+        second: 70870100
+      data:
+        first: 4
+        second: 501b0600
+    Bone49:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    Bone50:
+      data:
+        first: 1
+        second: 80870100
+      data:
+        first: 4
+        second: 601b0600
+    Bone51:
+      data:
+        first: 1
+        second: 68870100
+      data:
+        first: 4
+        second: 481b0600
+    Bone52:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+    Bone53:
+      data:
+        first: 1
+        second: 2e870100
+      data:
+        first: 4
+        second: 0e1b0600
+    Bone54:
+      data:
+        first: 1
+        second: 2c870100
+      data:
+        first: 4
+        second: 0c1b0600
+    Bone55:
+      data:
+        first: 1
+        second: 2a870100
+      data:
+        first: 4
+        second: 0a1b0600
+    Bone56:
+      data:
+        first: 1
+        second: 64870100
+      data:
+        first: 4
+        second: 441b0600
+    Bone57:
+      data:
+        first: 1
+        second: 60870100
+      data:
+        first: 4
+        second: 401b0600
+    Bone58:
+      data:
+        first: 1
+        second: 5e870100
+      data:
+        first: 4
+        second: 3e1b0600
+    Bone59:
+      data:
+        first: 1
+        second: 56870100
+      data:
+        first: 4
+        second: 361b0600
+    Bone60:
+      data:
+        first: 1
+        second: 5a870100
+      data:
+        first: 4
+        second: 3a1b0600
+    Bone61:
+      data:
+        first: 1
+        second: 58870100
+      data:
+        first: 4
+        second: 381b0600
+    Bone62:
+      data:
+        first: 1
+        second: 5c870100
+      data:
+        first: 4
+        second: 3c1b0600
+    Bone63:
+      data:
+        first: 1
+        second: 20870100
+      data:
+        first: 4
+        second: 001b0600
+    Bone64:
+      data:
+        first: 1
+        second: 1e870100
+      data:
+        first: 4
+        second: fe1a0600
+    Bone65:
+      data:
+        first: 1
+        second: 1c870100
+      data:
+        first: 4
+        second: fc1a0600
+    Bone66:
+      data:
+        first: 1
+        second: 26870100
+      data:
+        first: 4
+        second: 061b0600
+    Bone66(mirrored):
+      data:
+        first: 1
+        second: ce870100
+      data:
+        first: 4
+        second: ae1b0600
+    Bone67:
+      data:
+        first: 1
+        second: 24870100
+      data:
+        first: 4
+        second: 041b0600
+    Bone67(mirrored):
+      data:
+        first: 1
+        second: cc870100
+      data:
+        first: 4
+        second: ac1b0600
+    Bone71:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+    Bone83:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+    Bone91:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+    Bone92:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+    Bone93:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+    Bone94:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+    Bone95:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+    Bone96:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+    Bone97:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+    Bone98:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+    Bone99:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+    Dummy01:
+      data:
+        first: 1
+        second: 4a870100
+      data:
+        first: 4
+        second: 2a1b0600
+    Dummy02:
+      data:
+        first: 1
+        second: 4e870100
+      data:
+        first: 4
+        second: 2e1b0600
+    Dummy03:
+      data:
+        first: 1
+        second: 7a870100
+      data:
+        first: 4
+        second: 5a1b0600
+    Dummy04:
+      data:
+        first: 1
+        second: 36870100
+      data:
+        first: 4
+        second: 161b0600
+    Dummy05:
+      data:
+        first: 1
+        second: 46870100
+      data:
+        first: 4
+        second: 261b0600
+    Dummy06:
+      data:
+        first: 1
+        second: 66870100
+      data:
+        first: 4
+        second: 461b0600
+    Dummy07:
+      data:
+        first: 1
+        second: 54870100
+      data:
+        first: 4
+        second: 341b0600
+    Dummy08:
+      data:
+        first: 1
+        second: 72870100
+      data:
+        first: 4
+        second: 521b0600
+    Dummy10:
+      data:
+        first: 1
+        second: 76870100
+      data:
+        first: 4
+        second: 561b0600
+    Dummy11:
+      data:
+        first: 1
+        second: a2870100
+      data:
+        first: 4
+        second: 821b0600
+    Dummy12:
+      data:
+        first: 1
+        second: ae870100
+      data:
+        first: 4
+        second: 8e1b0600
+    Dummy13:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+    Dummy14:
+      data:
+        first: 1
+        second: 14870100
+      data:
+        first: 4
+        second: f41a0600
+    Dummy15:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    Dummy16:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+    Dummy17:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+    Dummy18:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+    Dummy19:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+    Dummy20:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    Dummy21:
+      data:
+        first: 1
+        second: a8870100
+      data:
+        first: 4
+        second: 881b0600
+    Dummy22:
+      data:
+        first: 1
+        second: 84870100
+      data:
+        first: 4
+        second: 641b0600
+    Dummy23:
+      data:
+        first: 1
+        second: 88870100
+      data:
+        first: 4
+        second: 681b0600
+    Dummy24:
+      data:
+        first: 1
+        second: 8e870100
+      data:
+        first: 4
+        second: 6e1b0600
+    Dummy25:
+      data:
+        first: 1
+        second: 18870100
+      data:
+        first: 4
+        second: f81a0600
+    Dummy26:
+      data:
+        first: 1
+        second: 0c870100
+      data:
+        first: 4
+        second: ec1a0600
+    Dummy27:
+      data:
+        first: 1
+        second: 10870100
+      data:
+        first: 4
+        second: f01a0600
+    eyes_0:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 137
+        second: aa0bd100
+    feet_0:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 137
+        second: a00bd100
+    hair_0:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 137
+        second: ac0bd100
+    hands_0:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 137
+        second: a80bd100
+    head_0:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 137
+        second: a60bd100
+    legs_0:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 137
+        second: a20bd100
+    mountBack:
+      data:
+        first: 1
+        second: 08870100
+      data:
+        first: 4
+        second: e81a0600
+    mountMain:
+      data:
+        first: 1
+        second: 8a870100
+      data:
+        first: 4
+        second: 6a1b0600
+    mountOff:
+      data:
+        first: 1
+        second: aa870100
+      data:
+        first: 4
+        second: 8a1b0600
+    mountShied:
+      data:
+        first: 1
+        second: a4870100
+      data:
+        first: 4
+        second: 841b0600
+    torso_0:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 137
+        second: a40bd100

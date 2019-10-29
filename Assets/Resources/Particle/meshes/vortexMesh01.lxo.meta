@@ -1,0 +1,73 @@
+fileFormatVersion: 2
+guid: 35243a68220d5234c80c3fcbbd860775
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Texture_Group
+    100002: Camera
+    100004: vortexMesh
+    100006: Render
+    100008: //RootNode
+    100010: Directional_Light
+    100012: vortex01__Image___Texture_
+    400000: Texture_Group
+    400002: Camera
+    400004: vortexMesh
+    400006: Render
+    400008: //RootNode
+    400010: Directional_Light
+    400012: vortex01__Image___Texture_
+    2300000: vortexMesh
+    3300000: vortexMesh
+    4300000: vortexMesh
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

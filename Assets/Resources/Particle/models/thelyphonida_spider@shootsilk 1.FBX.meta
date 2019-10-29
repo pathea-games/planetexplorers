@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: ce9932151eaf34d89a5089da3e32bdb2
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: IK Chain08
+    100002: IK Chain07
+    100004: IK Chain06
+    100006: IK Chain05
+    100008: IK Chain04
+    100010: IK Chain03
+    100012: IK Chain02
+    100014: IK Chain01
+    100016: Bone16
+    100018: Bone15
+    100020: Bone14
+    100022: Bone50
+    100024: Bone49
+    100026: Bone48
+    100028: Bone47
+    100030: Bone46
+    100032: Bone45
+    100034: Bone44
+    100036: Bone43
+    100038: Bone42
+    100040: Bone41
+    100042: Bone40
+    100044: Bone39
+    100046: Bone38
+    100048: Bone37
+    100050: Bone36
+    100052: Bone35
+    100054: Bone34
+    100056: Bone25
+    100058: Bone24
+    100060: Bone23
+    100062: Bone90
+    100064: Bone89
+    100066: Bone88
+    100068: Bone87
+    100070: Bone86
+    100072: Bone85
+    100074: Bone84
+    100076: Bone83
+    100078: Bone82
+    100080: Bone54
+    100082: Bone53
+    100084: Bone52
+    100086: Bone51
+    100088: Bone11
+    100090: Bone55
+    100092: Bone10
+    100094: Bone09
+    100096: Bone81
+    100098: Bone80
+    100100: Bone79
+    100102: Bone78
+    100104: Bone77
+    100106: Bone76
+    100108: Bone75
+    100110: Bone74
+    100112: Bone73
+    100114: Bone72
+    100116: Bone71
+    100118: Bone70
+    100120: Bone69
+    100122: Bone68
+    100124: Bone67
+    100126: Bone66
+    100128: Bone65
+    100130: Bone64
+    100132: Bone63
+    100134: Bone62
+    100136: Bone17
+    100138: Bone08
+    100140: Bone07
+    100142: Bone58
+    100144: Bone57
+    100146: Bone56
+    100148: Bone61
+    100150: Bone60
+    100152: Bone59
+    100154: Bone06
+    100156: Bone05
+    100158: Bone04
+    100160: Bone13
+    100162: Bone12
+    100164: Bone01
+    100166: Bone33
+    100168: Bone32
+    100170: Bone31
+    100172: Bone30
+    100174: Bone29
+    100176: Bone28
+    100178: Bone27
+    100180: Bone26
+    100182: Bone03
+    100184: Bone02
+    100186: //RootNode
+    400000: IK Chain08
+    400002: IK Chain07
+    400004: IK Chain06
+    400006: IK Chain05
+    400008: IK Chain04
+    400010: IK Chain03
+    400012: IK Chain02
+    400014: IK Chain01
+    400016: Bone16
+    400018: Bone15
+    400020: Bone14
+    400022: Bone50
+    400024: Bone49
+    400026: Bone48
+    400028: Bone47
+    400030: Bone46
+    400032: Bone45
+    400034: Bone44
+    400036: Bone43
+    400038: Bone42
+    400040: Bone41
+    400042: Bone40
+    400044: Bone39
+    400046: Bone38
+    400048: Bone37
+    400050: Bone36
+    400052: Bone35
+    400054: Bone34
+    400056: Bone25
+    400058: Bone24
+    400060: Bone23
+    400062: Bone90
+    400064: Bone89
+    400066: Bone88
+    400068: Bone87
+    400070: Bone86
+    400072: Bone85
+    400074: Bone84
+    400076: Bone83
+    400078: Bone82
+    400080: Bone54
+    400082: Bone53
+    400084: Bone52
+    400086: Bone51
+    400088: Bone11
+    400090: Bone55
+    400092: Bone10
+    400094: Bone09
+    400096: Bone81
+    400098: Bone80
+    400100: Bone79
+    400102: Bone78
+    400104: Bone77
+    400106: Bone76
+    400108: Bone75
+    400110: Bone74
+    400112: Bone73
+    400114: Bone72
+    400116: Bone71
+    400118: Bone70
+    400120: Bone69
+    400122: Bone68
+    400124: Bone67
+    400126: Bone66
+    400128: Bone65
+    400130: Bone64
+    400132: Bone63
+    400134: Bone62
+    400136: Bone17
+    400138: Bone08
+    400140: Bone07
+    400142: Bone58
+    400144: Bone57
+    400146: Bone56
+    400148: Bone61
+    400150: Bone60
+    400152: Bone59
+    400154: Bone06
+    400156: Bone05
+    400158: Bone04
+    400160: Bone13
+    400162: Bone12
+    400164: Bone01
+    400166: Bone33
+    400168: Bone32
+    400170: Bone31
+    400172: Bone30
+    400174: Bone29
+    400176: Bone28
+    400178: Bone27
+    400180: Bone26
+    400182: Bone03
+    400184: Bone02
+    400186: //RootNode
+    7400000: Take 001
+    7400006: shootsilk
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: shootsilk
+      takeName: 
+      firstFrame: 180
+      lastFrame: 275
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
