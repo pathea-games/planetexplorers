@@ -16,12 +16,19 @@ Recordings/
 .vs/
 .vscode/
 .idea/
-*.csproj
-*.sln
 *.suo
 *.user
 *.pidb
 *.booproj
+
+# Unity-generated project files (our analyzers/*.csproj is intentional)
+/*.csproj
+/*.sln
+Assembly-CSharp*.csproj
+
+# Build output
+[Bb]in/
+[Oo]bj/
 
 # OS
 .DS_Store
