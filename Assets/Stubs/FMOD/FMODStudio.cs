@@ -248,6 +248,14 @@ namespace FMOD.Studio
             path = "";
             return RESULT.OK;
         }
+
+        // Overload accepting global::System.Guid (used by DebugCMD.cs which declares 'Guid _guid').
+        public RESULT getStringInfo(int index, out global::System.Guid id, out string path)
+        {
+            id = global::System.Guid.Empty;
+            path = "";
+            return RESULT.OK;
+        }
     }
 
     /// <summary>

@@ -17,4 +17,5 @@ public class UISlider : UIProgressBar
     public new static UISlider current;
 
     public Direction direction = Direction.Horizontal;
+    public UnityEngine.Vector2 fullSize { get; set; }
 }

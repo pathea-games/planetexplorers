@@ -5490,7 +5490,7 @@ public class StroyManager : MonoBehaviour
                 GameObject.Destroy(item);
         }
 
-        Bounds bound;
+        Bounds bound = default;
         if (Pathea.PeGameMgr.IsStory)
             bound = LSubTerrainMgr.Instance.GlobalPrototypeBounds[tree.m_protoTypeIdx];
         else if (Pathea.PeGameMgr.IsAdventure)

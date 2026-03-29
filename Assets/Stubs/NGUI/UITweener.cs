@@ -35,7 +35,8 @@ public class UITweener : MonoBehaviour
     public bool ignoreTimeScale = true;
     public bool steeperCurves;
 
-    public List<EventDelegate> onFinished = new List<EventDelegate>();
+    // onFinished: game code assigns void(UITweener) method groups and lambdas directly.
+    public System.Action<UITweener> onFinished;
 
     public float tweenFactor { get; set; }
 
@@ -46,13 +47,11 @@ public class UITweener : MonoBehaviour
         get { return duration > 0f ? 1f / duration : 1000f; }
     }
 
-    public Direction direction { get { return amountPerDelta < 0f ? Direction.Reverse : Direction.Forward; } }
-
-    public enum Direction
+    // direction: returns AnimationOrTween.Direction so comparisons like
+    //   tween.direction == AnimationOrTween.Direction.Reverse compile.
+    public AnimationOrTween.Direction direction
     {
-        Reverse = -1,
-        Toggle = 0,
-        Forward = 1,
+        get { return amountPerDelta < 0f ? AnimationOrTween.Direction.Reverse : AnimationOrTween.Direction.Forward; }
     }
 
     public void PlayForward() { Play(true); }
@@ -72,6 +71,8 @@ public class UITweener : MonoBehaviour
     public void SetStartToCurrentValue() { }
 
     public void SetEndToCurrentValue() { }
+
+    public void Reset() { tweenFactor = 0f; }
 
     public void Sample(float factor, bool isFinished) { }
 

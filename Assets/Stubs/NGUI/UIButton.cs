@@ -37,4 +37,7 @@ public class UIButton : MonoBehaviour
     public UISprite tweenSprite { get { return null; } }
 
     public void SetState(State state, bool immediate) { }
+    public void UpdateColor(bool immediate) { }
+    // UpdateColor(isEnabled, immediate) overload used by BonePanelUI.cs
+    public void UpdateColor(bool isEnabled, bool immediate) { }
 }

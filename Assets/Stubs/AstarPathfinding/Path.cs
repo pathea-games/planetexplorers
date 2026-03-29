@@ -1,4 +1,4 @@
-// Stub: Pathfinding.Path, ABPath, NNConstraint, PathNNConstraint, GraphUpdateObject
+// Stub: Pathfinding.Path, ABPath, NNConstraint, PathNNConstraint, GraphUpdateObject, Int3
 // Path.vectorPath is the primary game code access pattern (List<Vector3> of waypoints).
 
 using System.Collections.Generic;
@@ -6,6 +6,18 @@ using UnityEngine;
 
 namespace Pathfinding
 {
+    /// <summary>
+    /// Integer 3D vector used by A* for node coordinates.
+    /// </summary>
+    public struct Int3
+    {
+        public int x, y, z;
+        public Int3(int x, int y, int z) { this.x = x; this.y = y; this.z = z; }
+        public static readonly Int3 zero = new Int3(0, 0, 0);
+        public static implicit operator UnityEngine.Vector3(Int3 v) => new UnityEngine.Vector3(v.x, v.y, v.z);
+        public static explicit operator Int3(UnityEngine.Vector3 v) => new Int3((int)v.x, (int)v.y, (int)v.z);
+    }
+
     /// <summary>
     /// Base path class. Game code checks .error, reads .vectorPath for waypoints.
     /// </summary>
@@ -17,6 +29,8 @@ namespace Pathfinding
 
         public void Claim(object claimer) { }
         public void Release(object claimer) { }
+        // Error(): abort in-progress path calculation.
+        public void Error() { }
 
         public float GetTotalLength()
         {
@@ -31,6 +45,7 @@ namespace Pathfinding
     {
         public Vector3 startPoint;
         public Vector3 endPoint;
+        public Vector3 originalStartPoint;
 
         public static ABPath Construct(Vector3 start, Vector3 end, OnPathDelegate callback)
         {

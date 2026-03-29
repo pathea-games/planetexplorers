@@ -34,7 +34,20 @@ namespace RootMotion.FinalIK
     }
 
     /// <summary>
-    /// Full body biped IK solver with arm mappings and iteration control.
+    /// Stub effector with position offset and target bone.
+    /// </summary>
+    public class IKEffectorFBBIK
+    {
+        public Vector3 positionOffset;
+        public float positionWeight;
+        public float rotationWeight;
+        public Transform target;
+        public Transform bone;
+    }
+
+    /// <summary>
+    /// Full body biped IK solver with arm mappings, iteration control,
+    /// and effector/root accessors used by game IK code.
     /// </summary>
     public class IKSolverFullBodyBiped : IKSolver
     {
@@ -43,13 +56,17 @@ namespace RootMotion.FinalIK
         public IKMapping rightArmMapping = new IKMapping();
         public int clampSmoothing;
         public float maxFootRotationAngle = 45f;
+
+        public IKEffectorFBBIK GetEffector(FullBodyBipedEffector effector) => new IKEffectorFBBIK();
+        public Transform GetRoot() => null;
     }
 
     /// <summary>
-    /// Aim IK solver with directional axis and target.
+    /// Aim IK solver with directional axis, target, and clamp smoothing.
     /// </summary>
     public class IKSolverAim : IKSolver
     {
+        public int clampSmoothing { get; set; }
     }
 
     /// <summary>
@@ -64,6 +81,7 @@ namespace RootMotion.FinalIK
     /// </summary>
     public class IKMapping
     {
+        public float weight { get; set; }
     }
 
     /// <summary>

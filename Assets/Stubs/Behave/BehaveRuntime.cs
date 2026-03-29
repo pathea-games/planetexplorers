@@ -66,6 +66,25 @@ namespace Behave.Runtime
         public int LastTickedAction { get; set; }
 
         /// <summary>
+        /// The currently active agent being ticked. Used by action implementations
+        /// to access the owning entity without explicit parameter passing.
+        /// </summary>
+        public object ActiveAgent { get; set; }
+
+        /// <summary>
+        /// A string parameter passed to the active action. Used for data lookup keys.
+        /// </summary>
+        public string ActiveStringParameter { get; set; }
+
+        /// <summary>
+        /// Tick the tree without arguments. Used by AiBehave.cs.
+        /// </summary>
+        public BehaveResult Tick()
+        {
+            return BehaveResult.Success;
+        }
+
+        /// <summary>
         /// Tick the tree with an agent and optional data context.
         /// </summary>
         public BehaveResult Tick(IAgent agent, object data)

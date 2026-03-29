@@ -1055,7 +1055,7 @@ public class VCIsoData
 							for ( int i = 0; i < clr_cnt; ++i )
 							{
 								int key = r_unzip.ReadInt32();	// unzip, int
-								Color32 val;
+								Color32 val = default;
 								val.r = r_unzip.ReadByte();	// unzip, byte
 								val.g = r_unzip.ReadByte();	// unzip, byte
 								val.b = r_unzip.ReadByte();	// unzip, byte

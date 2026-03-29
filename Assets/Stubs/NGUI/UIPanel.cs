@@ -63,4 +63,7 @@ public class UIPanel : UIRect
     public bool ConstrainTargetToBounds(Transform target, ref Bounds targetBounds, bool immediate) { return false; }
 
     public void SetActive(bool state) { gameObject.SetActive(state); }
+
+    public bool IsVisible(Vector3 worldPoint) { return true; }
+    public bool IsVisible(UIWidget widget) { return true; }
 }

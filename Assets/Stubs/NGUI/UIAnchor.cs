@@ -25,4 +25,5 @@ public class UIAnchor : MonoBehaviour
     public bool runOnlyOnce = true;
     public Vector2 relativeOffset = Vector2.zero;
     public Vector2 pixelOffset = Vector2.zero;
+    public float depthOffset { get; set; }
 }

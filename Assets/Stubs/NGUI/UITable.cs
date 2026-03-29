@@ -30,10 +30,13 @@ public class UITable : MonoBehaviour
     public bool keepWithinPanel;
     public Vector2 padding = Vector2.zero;
     public bool repositionNow;
-    public bool mVariableHeight;
+    public bool sorted;
+    // mVariableHeight: used as float in arithmetic expressions (e.g. -mVariableHeight).
+    public float mVariableHeight;
 
     public System.Comparison<Transform> onCustomSort;
-    public System.Action<Transform, int> onReposition;
+    // onReposition: game code assigns void() methods — no-arg action.
+    public System.Action onReposition;
 
     public List<Transform> children
     {

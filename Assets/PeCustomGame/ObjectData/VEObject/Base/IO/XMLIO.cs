@@ -602,7 +602,7 @@ public static class XMLIO
 	static Color32 StringToColor32 (string str)
 	{
 		long l = Convert.ToInt64(str, 16);
-		Color32 c32;
+		Color32 c32 = default;
 		c32.b = (byte)(l & 0xff);
 		l = (long)(l >> 8);
 		c32.g = (byte)(l & 0xff);

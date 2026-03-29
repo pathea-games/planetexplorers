@@ -45,6 +45,8 @@ namespace Pathfinding
             return new NNInfo();
         }
 
+        public bool SkipOptScanOnStartUp { get; set; }
+
         public void Scan() { }
 
         public void FloodFill() { }

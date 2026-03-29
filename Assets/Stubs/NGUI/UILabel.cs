@@ -57,7 +57,7 @@ public class UILabel : UIWidget
 
     public int lineCount { get { return 1; } }
 
-    public int lineWidth { get { return 0; } }
+    public int lineWidth { get; set; }
 
     public int lineHeight { get { return fontSize; } }
 

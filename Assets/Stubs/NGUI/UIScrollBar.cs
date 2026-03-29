@@ -7,6 +7,10 @@ using UnityEngine;
 public class UIScrollBar : UISlider
 {
     public float barSize { get; set; }
+    public float scrollValue { get; set; }
 
     public override float alpha { get; set; }
+
+    // onChange on UIScrollBar takes UIScrollBar (not float). Hides base UIProgressBar.onChange.
+    public new System.Action<UIScrollBar> onChange;
 }

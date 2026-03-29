@@ -25,9 +25,13 @@ public class FMODAudioSource : MonoBehaviour
     /// </summary>
     public FMOD.Studio.EventInstance audioInst;
 
+    public string xml { get; set; }
+
     public void Play() { }
 
     public void Stop() { }
+
+    public void SetParam(string name, float value) { }
 
     /// <summary>
     /// Static destroy helper referenced by game code as FMODAudioSource.Destroy(src).

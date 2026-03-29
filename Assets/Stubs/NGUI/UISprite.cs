@@ -9,6 +9,8 @@ public class UISprite : UIBasicSprite
 {
     public string spriteName = "";
     public UIAtlas atlas;
+    // Returns the UISpriteData for the current sprite from the atlas
+    public UISpriteData sprite => GetAtlasSprite() ?? new UISpriteData();
 
     public override void MakePixelPerfect() { }
 

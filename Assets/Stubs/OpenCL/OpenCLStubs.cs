@@ -108,6 +108,8 @@ namespace OpenCLNetWin
         public void SetArg(int index, int value) { }
         public void SetArg(int index, float value) { }
         public void SetArg(int index, UInt4 value) { }
+        // Local memory allocation overload used in oclScanLaucherA.cs
+        public void SetArg(int index, System.IntPtr size, System.IntPtr ptr) { }
         public void Dispose() { }
     }
 
@@ -305,6 +307,8 @@ namespace OpenCLNetMac
         public void SetArg(int index, int value) { }
         public void SetArg(int index, float value) { }
         public void SetArg(int index, UInt4 value) { }
+        // Local memory allocation overload used in oclScanLaucherA.cs
+        public void SetArg(int index, System.IntPtr size, System.IntPtr ptr) { }
         public void Dispose() { }
     }
 

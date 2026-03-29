@@ -8,6 +8,7 @@ public class TweenAlpha : UITweener
 {
     public float from = 1f;
     public float to = 1f;
+    public float alpha { get; set; }
 
     public float value
     {

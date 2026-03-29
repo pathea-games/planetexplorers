@@ -37,11 +37,6 @@ public class EventDelegate
         get { return mCachedCallback != null || (target != null && !string.IsNullOrEmpty(methodName)); }
     }
 
-    public bool IsValid
-    {
-        get { return isValid; }
-    }
-
     public bool Execute()
     {
         if (mCachedCallback != null)

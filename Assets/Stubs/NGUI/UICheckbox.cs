@@ -14,9 +14,13 @@ public class UICheckbox : MonoBehaviour
     public bool startsChecked;
     public int optionGroup;
 
-    public List<EventDelegate> onStateChange = new List<EventDelegate>();
+    // onStateChange: game code uses += with method groups/lambdas taking bool (isChecked).
+    public System.Action<bool> onStateChange;
 
     public bool isChecked { get; set; }
+    public bool IsUseSelfOnClick { get; set; }
+    // radioButtonRoot: game code assigns Transform (not GameObject) to this field.
+    public Transform radioButtonRoot { get; set; }
 
     public bool value
     {

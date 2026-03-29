@@ -23,6 +23,7 @@ public class UIPopupList : MonoBehaviour
     public static UIPopupList current;
 
     public UIAtlas atlas;
+    public UIFont font;
     public UIFont bitmapFont;
     public Font trueTypeFont;
     public int fontSize = 16;
@@ -41,7 +42,9 @@ public class UIPopupList : MonoBehaviour
     public List<string> items = new List<string>();
     public List<object> itemData = new List<object>();
 
-    public List<EventDelegate> onChange = new List<EventDelegate>();
+    // onChange/onSelectionChange: game code uses += or = with method groups/lambdas taking string.
+    public System.Action<string> onChange;
+    public System.Action<string> onSelectionChange;
 
     public string value { get; set; }
 
@@ -59,6 +62,7 @@ public class UIPopupList : MonoBehaviour
     }
 
     public bool isOpen { get; set; }
+    public UIPopupList ChildPopupMenu { get; set; }
 
     public void AddItem(string text) { items.Add(text); }
 

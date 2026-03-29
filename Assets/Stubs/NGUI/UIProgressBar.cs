@@ -24,7 +24,8 @@ public class UIProgressBar : UIWidget
     public int numberOfSteps;
 
     public event System.Action<float> onValueChange;
-    public event System.Action<float> onChange;
+    // onChange as field (not event) so subclasses can shadow with specific types.
+    public System.Action<float> onChange;
 
     public float value { get; set; }
 

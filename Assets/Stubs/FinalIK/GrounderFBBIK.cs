@@ -7,10 +7,13 @@ using UnityEngine;
 namespace RootMotion.FinalIK
 {
     /// <summary>
-    /// Ground alignment stub for FullBodyBipedIK. Game code stores references
-    /// via GetComponent but does not call specific members on this type.
+    /// Ground alignment component for FullBodyBipedIK. Exposes weight, spineBend,
+    /// and a solver property to access maxFootRotationAngle.
     /// </summary>
     public class GrounderFBBIK : MonoBehaviour
     {
+        public float weight { get; set; }
+        public float spineBend { get; set; }
+        public IKSolverFullBodyBiped solver => new IKSolverFullBodyBiped();
     }
 }

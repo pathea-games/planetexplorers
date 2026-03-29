@@ -34,6 +34,7 @@ public class UIWidget : UIRect
     public bool autoResizeBoxCollider;
 
     public override float alpha { get; set; }
+    public float bufferAlpha { get; set; }
 
     public new int width
     {
