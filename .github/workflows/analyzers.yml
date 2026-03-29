@@ -1,0 +1,54 @@
+name: Roslyn Analyzers
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - 'Assets/**/*.cs'
+      - '.editorconfig'
+      - 'analyzers/**'
+      - 'scripts/run-analyzers.sh'
+  push:
+    branches: [master]
+    paths:
+      - 'Assets/**/*.cs'
+      - '.editorconfig'
+      - 'analyzers/**'
+      - 'scripts/run-analyzers.sh'
+
+jobs:
+  analyze:
+    name: Run Roslyn Analyzers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore packages
+        run: dotnet restore analyzers/PlanetExplorers.Analyzers.csproj
+
+      - name: Run analyzers
+        run: bash scripts/run-analyzers.sh
+        continue-on-error: true
+
+      - name: Upload full report
+        uses: actions/upload-artifact@v4
+        with:
+          name: analyzer-report
+          path: |
+            analyzer-report.txt
+            analyzer-summary.txt
+          retention-days: 30
+
+      - name: Post PR comment
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: roslyn-analyzers
+          path: analyzer-summary.txt
