@@ -11,23 +11,24 @@ echo "=== Planet Explorers Rebirth: Roslyn Analyzer Run ==="
 echo "Project: $CSPROJ"
 echo ""
 
-# Build and capture all diagnostics
-dotnet build "$CSPROJ" \
-    -consoleloggerparameters:"NoSummary;ForceNoAlign" \
+# Clean first to force full re-analysis (incremental builds skip unchanged files)
+dotnet clean "$CSPROJ" -v q 2>/dev/null || true
+
+# Build and capture all output
+BUILD_OUTPUT=$(dotnet build "$CSPROJ" \
+    --no-incremental \
     -property:GenerateFullPaths=true \
-    /flp:"logfile=$REPORT_FILE;warningsonly;errorsonly" \
-    2>&1 | tee /tmp/analyzer-build-output.txt
+    2>&1) || true
 
-BUILD_EXIT=$?
+echo "$BUILD_OUTPUT"
 
-if [[ $BUILD_EXIT -ne 0 ]]; then
+# Extract warning lines into report file
+echo "$BUILD_OUTPUT" | grep ": warning " > "$REPORT_FILE" || true
+
+WARN_COUNT=$(wc -l < "$REPORT_FILE")
+
+if [[ "$WARN_COUNT" -eq 0 ]]; then
     echo ""
-    echo "WARNING: Build exited with code $BUILD_EXIT (compilation errors present)"
-    echo "Analyzer diagnostics may be incomplete due to compilation failures."
-    echo ""
-fi
-
-if [[ ! -f "$REPORT_FILE" ]]; then
     echo "No diagnostics found."
     echo "0 total diagnostics" > "$SUMMARY_FILE"
     exit 0
@@ -40,7 +41,7 @@ echo ""
 # Count by category
 declare -A CATEGORIES
 CATEGORIES=(
-    ["Code Quality (CA1xxx)"]="CA1[0-9]"
+    ["Code Quality (CA1xxx)"]="CA1[0-7]"
     ["Performance (CA18xx)"]="CA18"
     ["Security (CA2xxx)"]="CA2[0-9]"
     ["Maintainability (CA15xx)"]="CA15"
@@ -51,37 +52,40 @@ CATEGORIES=(
 )
 
 TOTAL=0
-{
-    echo "| Category | Count | Sample Rule |"
-    echo "|----------|-------|-------------|"
+: > "$SUMMARY_FILE"
 
-    for category in "Code Quality (CA1xxx)" "Performance (CA18xx)" "Security (CA2xxx)" "Maintainability (CA15xx)" "Unity Correctness (UNTxxxx)" "Dead Code (RCS1xxx)" "Roslynator Style (RCS0xxx)" "Compiler Warnings (CS)"; do
-        pattern="${CATEGORIES[$category]}"
-        count=$(grep -cE "$pattern" "$REPORT_FILE" 2>/dev/null || echo "0")
-        sample=$(grep -oE "${pattern}[0-9]*" "$REPORT_FILE" 2>/dev/null | sort | uniq -c | sort -rn | head -1 | awk '{print $2}' || echo "—")
-        TOTAL=$((TOTAL + count))
-        if [[ "$count" -gt 0 ]]; then
-            echo "| $category | $count | $sample |"
-        fi
-    done
-} | tee "$SUMMARY_FILE"
+echo "| Category | Count | Sample Rule |" | tee -a "$SUMMARY_FILE"
+echo "|----------|-------|-------------|" | tee -a "$SUMMARY_FILE"
 
-echo ""
-echo "**Total: $TOTAL diagnostics**"
+for category in "Code Quality (CA1xxx)" "Performance (CA18xx)" "Security (CA2xxx)" "Maintainability (CA15xx)" "Unity Correctness (UNTxxxx)" "Dead Code (RCS1xxx)" "Roslynator Style (RCS0xxx)" "Compiler Warnings (CS)"; do
+    pattern="${CATEGORIES[$category]}"
+    count=$(grep -cE "$pattern" "$REPORT_FILE" 2>/dev/null || true)
+    count=${count:-0}
+    sample=$(grep -oE "${pattern}[0-9]*" "$REPORT_FILE" 2>/dev/null | sort | uniq -c | sort -rn | head -1 | awk '{print $2}' || true)
+    sample=${sample:-—}
+    TOTAL=$((TOTAL + count))
+    if [[ "$count" -gt 0 ]]; then
+        echo "| $category | $count | $sample |" | tee -a "$SUMMARY_FILE"
+    fi
+done
+
+echo "" | tee -a "$SUMMARY_FILE"
+echo "**Total: $TOTAL diagnostics**" | tee -a "$SUMMARY_FILE"
 echo ""
 echo "Full report: $REPORT_FILE"
 echo "Summary: $SUMMARY_FILE"
 
-# Also produce a per-subsystem breakdown
-echo ""
-echo "=== Per-Subsystem Breakdown ==="
-echo ""
+# Per-subsystem breakdown
+echo "" | tee -a "$SUMMARY_FILE"
+echo "=== Per-Subsystem Breakdown ===" | tee -a "$SUMMARY_FILE"
+echo "" | tee -a "$SUMMARY_FILE"
 echo "| Subsystem | Count |" | tee -a "$SUMMARY_FILE"
 echo "|-----------|-------|" | tee -a "$SUMMARY_FILE"
 
 for dir in "$PROJECT_ROOT"/Assets/Scripts/*/; do
     subsystem=$(basename "$dir")
-    count=$(grep -c "Assets/Scripts/$subsystem/" "$REPORT_FILE" 2>/dev/null || echo "0")
+    count=$(grep -c "Assets/Scripts/$subsystem/" "$REPORT_FILE" 2>/dev/null || true)
+    count=${count:-0}
     if [[ "$count" -gt 0 ]]; then
         echo "| $subsystem | $count |" | tee -a "$SUMMARY_FILE"
     fi
