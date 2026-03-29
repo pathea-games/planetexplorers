@@ -1,0 +1,70 @@
+# Top-level EditorConfig
+root = true
+
+# Default settings for all files
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# C# defaults
+[*.cs]
+# --- Formatting ---
+csharp_new_line_before_open_brace = all
+csharp_new_line_before_else = true
+csharp_new_line_before_catch = true
+csharp_new_line_before_finally = true
+csharp_indent_case_contents = true
+csharp_indent_switch_labels = true
+csharp_space_after_cast = false
+csharp_space_after_keywords_in_control_flow_statements = true
+
+# --- Naming ---
+dotnet_naming_rule.public_members_must_be_pascal_case.severity = suggestion
+dotnet_naming_rule.public_members_must_be_pascal_case.symbols = public_symbols
+dotnet_naming_rule.public_members_must_be_pascal_case.style = pascal_case_style
+
+dotnet_naming_symbols.public_symbols.applicable_kinds = method,property,event
+dotnet_naming_symbols.public_symbols.applicable_accessibilities = public
+
+dotnet_naming_style.pascal_case_style.capitalization = pascal_case
+
+# --- All analyzer diagnostics: suggestion for legacy code ---
+dotnet_analyzer_diagnostic.severity = suggestion
+
+# --- Specific high-value rules promoted to warning ---
+# Unity correctness (always important)
+dotnet_diagnostic.UNT0001.severity = warning
+dotnet_diagnostic.UNT0002.severity = warning
+dotnet_diagnostic.UNT0003.severity = warning
+dotnet_diagnostic.UNT0006.severity = warning
+dotnet_diagnostic.UNT0007.severity = warning
+dotnet_diagnostic.UNT0008.severity = warning
+
+# Security (SQL injection via SqliteAccessCS)
+dotnet_diagnostic.CA2100.severity = warning
+
+# Dispose pattern (resource leaks)
+dotnet_diagnostic.CA1816.severity = warning
+dotnet_diagnostic.CA2000.severity = warning
+
+# Performance: avoid allocations in hot paths
+dotnet_diagnostic.CA1829.severity = suggestion
+dotnet_diagnostic.CA1851.severity = suggestion
+
+# Dead code detection
+dotnet_diagnostic.RCS1163.severity = suggestion
+dotnet_diagnostic.RCS1036.severity = suggestion
+
+# Nullable reference types (off for legacy, on for new code)
+dotnet_diagnostic.CS8600.severity = suggestion
+dotnet_diagnostic.CS8601.severity = suggestion
+dotnet_diagnostic.CS8602.severity = suggestion
+dotnet_diagnostic.CS8603.severity = suggestion
+
+# --- New Rebirth code: stricter ---
+[Assets/Scripts/Rebirth/**.cs]
+dotnet_analyzer_diagnostic.severity = warning
